@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .e19c9c80-5277-41f9-af48-11ee72fa7ca1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ff668daa-f7c4-47fa-a4a7-981c99c2d31a" data-name="Twitter">
+    <rect class="e19c9c80-5277-41f9-af48-11ee72fa7ca1" width="30" height="30"/>
+  </g>
+  <g id="a36ee328-dd92-4763-aec7-cf353795bc6e" data-name="LinkedIn">
+    <g>
+      <polygon points="9.27 24.35 4.97 24.35 4.97 10.52 9.27 10.52 9.27 24.35 9.27 24.35"/>
+      <path d="M7.12,8.63A2.49,2.49,0,1,1,9.61,6.14,2.48,2.48,0,0,1,7.12,8.63Z"/>
+      <path d="M25.37,24.35H21.08V17.63C21.08,16,21,14,18.84,14s-2.58,1.75-2.58,3.55v6.84H12V10.52h4.12v1.89h.06a4.53,4.53,0,0,1,4.07-2.23c4.35,0,5.15,2.86,5.15,6.59v7.58Z"/>
+    </g>
+  </g>
+</svg>

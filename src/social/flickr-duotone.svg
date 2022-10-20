@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .b7beae6d-dedf-4ed3-aca0-efb79aa6c049 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="b99df96f-7381-435f-b905-6e0c3cce13f6" data-name="Flickr">
+    <rect width="32" height="32" rx="1.19"/>
+    <g>
+      <path class="b7beae6d-dedf-4ed3-aca0-efb79aa6c049" d="M9.75,21a5,5,0,1,1,5-5,5,5,0,0,1-5,5Z"/>
+      <path class="b7beae6d-dedf-4ed3-aca0-efb79aa6c049" d="M22.25,11.5a4.5,4.5,0,1,1-4.5,4.5,4.51,4.51,0,0,1,4.5-4.5m0-.5a5,5,0,1,0,5,5,5,5,0,0,0-5-5Z"/>
+    </g>
+  </g>
+</svg>

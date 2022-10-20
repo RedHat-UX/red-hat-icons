@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .bfaeb557-4750-4e14-ab8b-3da718e75b79 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="eadb2c31-e09a-4ca1-bc7b-4ad3abff0e88" data-name="RSS">
+    <rect width="32" height="32" rx="1.19"/>
+    <g>
+      <path class="bfaeb557-4750-4e14-ab8b-3da718e75b79" d="M9.09,20.42a2.52,2.52,0,1,0,2.51,2.52,2.52,2.52,0,0,0-2.51-2.52Z"/>
+      <path class="bfaeb557-4750-4e14-ab8b-3da718e75b79" d="M6.58,13V16.6a8.84,8.84,0,0,1,8.82,8.87H19A12.5,12.5,0,0,0,6.58,13Z"/>
+      <path class="bfaeb557-4750-4e14-ab8b-3da718e75b79" d="M6.58,6.53v3.63A15.29,15.29,0,0,1,21.81,25.47h3.63A18.92,18.92,0,0,0,6.58,6.53Z"/>
+    </g>
+  </g>
+</svg>

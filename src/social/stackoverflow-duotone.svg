@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .b358f2da-14fd-4d19-9b31-16242565f496 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="b6aad659-74af-4e88-9c93-81e3a4e6c1ca" data-name="StackOverflow">
+    <g id="b5f3a43d-4f15-4040-990a-81ca7c36668e" data-name="Black and white">
+      <rect width="32" height="32" rx="1.19"/>
+      <g>
+        <polygon class="b358f2da-14fd-4d19-9b31-16242565f496" points="21.29 23.44 21.29 18.82 23.34 18.82 23.34 25.5 7.94 25.5 7.94 18.82 9.99 18.82 9.99 23.44 21.29 23.44"/>
+        <path class="b358f2da-14fd-4d19-9b31-16242565f496" d="M11.53,21.9h8.22V20.36H11.53ZM19,6.5l-1.39,1,5.08,6.83,1.39-1Zm-4.21,4L21.29,16l1.08-1.28L15.85,9.22Zm-2.16,3.8,7.7,3.59L21,16.36l-7.7-3.59Zm7.18,5.53.36-1.51-8.27-1.72-.35,1.7Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

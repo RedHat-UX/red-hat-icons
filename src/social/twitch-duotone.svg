@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .a0e3133d-82f6-4850-838c-ac60148c680c {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="a2b92114-68c8-4ced-ab57-e0ee215b5a92" data-name="Twitch">
+    <g id="af3a6185-0c8a-4980-9fd1-40209a6d72c2" data-name="Black and white">
+      <rect width="32" height="32" rx="1.19"/>
+    </g>
+    <g>
+      <path class="a0e3133d-82f6-4850-838c-ac60148c680c" d="M23.49,15.25l-3,3h-3l-2.62,2.62V18.25H11.51V7h12v8.23ZM10.76,5.52,7,9.26V22.74h4.49v3.74l3.74-3.74h3L25,16V5.52Z"/>
+      <polygon class="a0e3133d-82f6-4850-838c-ac60148c680c" points="19.74 9.64 21.24 9.64 21.24 14.13 19.74 14.13 19.74 9.64 19.74 9.64"/>
+      <polygon class="a0e3133d-82f6-4850-838c-ac60148c680c" points="15.63 9.64 17.12 9.64 17.12 14.13 15.63 14.13 15.63 9.64 15.63 9.64"/>
+    </g>
+  </g>
+</svg>

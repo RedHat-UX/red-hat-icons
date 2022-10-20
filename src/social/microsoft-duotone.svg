@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .bb26f2b4-b50a-491f-a0d8-12df1f357004 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="b79aa772-43b2-43aa-a9ba-9671dc5ed7e2" data-name="Microsoft">
+    <g id="a9733387-4a44-4630-b824-4e83a512fa67" data-name="Black and white">
+      <rect width="32" height="32" rx="1.19"/>
+      <g>
+        <rect class="bb26f2b4-b50a-491f-a0d8-12df1f357004" x="16.47" y="6.5" width="9.03" height="9.03" rx="0.1"/>
+        <rect class="bb26f2b4-b50a-491f-a0d8-12df1f357004" x="16.47" y="16.47" width="9.03" height="9.03" rx="0.1"/>
+        <rect class="bb26f2b4-b50a-491f-a0d8-12df1f357004" x="6.5" y="6.5" width="9.03" height="9.03" rx="0.1"/>
+        <rect class="bb26f2b4-b50a-491f-a0d8-12df1f357004" x="6.5" y="16.47" width="9.03" height="9.03" rx="0.1"/>
+      </g>
+    </g>
+  </g>
+</svg>

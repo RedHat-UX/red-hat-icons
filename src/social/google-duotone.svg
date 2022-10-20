@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .f9bbb938-0e96-406e-a6e0-0a00e9dabbf2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="aefe933a-f4a0-4211-ab88-5be0b75cf08d" data-name="Google">
+    <g id="bc1dff4d-5b82-4fc9-aba0-95faa6ab4fac" data-name="Black and white">
+      <rect width="32" height="32" rx="1.19"/>
+      <path class="f9bbb938-0e96-406e-a6e0-0a00e9dabbf2" d="M16.14,26.05A10.05,10.05,0,1,1,22.9,8.57c-2.1,2-2,2.1-2.86,2.93A5.66,5.66,0,0,0,16.14,10a5.88,5.88,0,0,0-5.87,6,5.88,5.88,0,0,0,5.87,6c3.26,0,4.58-1.4,5.43-4H16.14V14h9.65c.67,4.82-1.35,12-9.65,12Z"/>
+    </g>
+  </g>
+</svg>

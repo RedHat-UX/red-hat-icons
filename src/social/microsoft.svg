@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+  <defs>
+    <style>
+      .b1ed8f29-06e8-452a-84cd-9a0f34d2ad37 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="b4c24729-3f3f-407b-89c6-c0149aa13727" data-name="Microsoft">
+    <g>
+      <rect x="15.48" y="5.45" width="9.08" height="9.08" rx="0.1"/>
+      <rect x="15.48" y="15.47" width="9.08" height="9.08" rx="0.1"/>
+      <rect x="5.45" y="5.45" width="9.08" height="9.08" rx="0.1"/>
+      <rect x="5.45" y="15.47" width="9.08" height="9.08" rx="0.1"/>
+    </g>
+  </g>
+  <g id="fd1a805d-5c2d-4aaf-af43-7163d11c1444" data-name="Twitter">
+    <rect class="b1ed8f29-06e8-452a-84cd-9a0f34d2ad37" width="30" height="30"/>
+  </g>
+</svg>
