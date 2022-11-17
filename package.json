@@ -1,0 +1,39 @@
+{
+  "name": "@rhds/icons",
+  "version": "1.0.0",
+  "description": "Red Hat Icons",
+  "main": "icons.js",
+  "module": "icons.js",
+  "types": "icons.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"no build yet\"",
+    "optimize": "svgo src/**/*.svg",
+    "test": "echo \"no tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RedHat-UX/red-hat-icons.git"
+  },
+  "keywords": [
+    "Red Hat",
+    "Icons",
+    "Brand",
+    "SVG"
+  ],
+  "author": "Red Had Icons Authors",
+  "contributors": [
+    "Libby Levy",
+    "Benny Powers <bennyp@redhat.com>"
+  ],
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/RedHat-UX/red-hat-icons/issues"
+  },
+  "homepage": "https://github.com/RedHat-UX/red-hat-icons#readme",
+  "devDependencies": {
+    "convert-svg-to-png": "^0.6.4",
+    "globby": "^13.1.2",
+    "svgo": "^2.8.0"
+  }
+}
