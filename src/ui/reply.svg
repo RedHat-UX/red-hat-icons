@@ -1,9 +1,4 @@
-<svg id="e731fc80-e018-4e5f-8cac-f66a1c16f23e" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17">
-  <defs>
-    <style>
-      .a89a7f00-0d22-45f7-b220-de3cd2eb8046{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round}
-    </style>
-  </defs>
-  <path class="a89a7f00-0d22-45f7-b220-de3cd2eb8046" d="m6.5 2.5-4 4 4 4"/>
-  <path class="a89a7f00-0d22-45f7-b220-de3cd2eb8046" d="M2.5 6.5h7.241a4.759 4.759 0 0 1 4.759 4.759V14.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17">
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="m6.5 2.5-4 4 4 4"/>
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M2.5 6.5h7.241a4.759 4.759 0 0 1 4.759 4.759V14.5"/>
 </svg>
