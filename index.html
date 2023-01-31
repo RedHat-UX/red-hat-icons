@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Red Hat Icons</title>
+    <style>
+      main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+      }
+      svg {
+        width: var(--rh-size-icon-08, 96px);
+        min-width: var(--rh-size-icon-08, 96px);
+        aspect-ratio: 1;
+        fill: var(--rh-color-brand-red-on-light, #ee0000);
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Red Hat Icons</h1></header>
+    <main>{% for icon in icons | log %}{% include ('./' + icon) %}{% endfor %}</main>
+  </body>
+</html>

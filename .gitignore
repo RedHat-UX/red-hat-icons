@@ -3,3 +3,5 @@ node_modules
 *.eps
 *.webp
 *.jpg
+dist
+_site
