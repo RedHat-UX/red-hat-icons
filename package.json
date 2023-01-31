@@ -7,7 +7,7 @@
   "types": "icons.d.ts",
   "type": "module",
   "scripts": {
-    "build": "node build.js",
+    "build": "eleventy && node build.js",
     "optimize": "svgo src/**/*.svg",
     "test": "echo \"no tests yet\""
   },

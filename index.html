@@ -20,6 +20,6 @@
   </head>
   <body>
     <header><h1>Red Hat Icons</h1></header>
-    <main>{% for icon in icons | log %}{% include ('./' + icon) %}{% endfor %}</main>
+    <main>{% for icon in icons %}{% include icon %}{% endfor %}</main>
   </body>
 </html>

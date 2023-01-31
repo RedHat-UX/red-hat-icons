@@ -11,7 +11,6 @@ const getContent = content =>
 
 for (const path of await globby('src/**/*.svg')) {
   const [filename, category] = path.split(sep).reverse();
-  console.log(filename, category);
   await mkdir(new URL(`dist/${category}`, import.meta.url), { recursive: true });
   await writeFile(
     new URL(`dist/${category}/${filename.replace(/\.svg$/, '.js')}`, import.meta.url),
