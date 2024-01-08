@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "build": "eleventy && node build.js",
+    "rename": "node scripts/rename.js",
     "optimize": "svgo src/**/*.svg",
     "test": "echo \"no tests yet\""
   },
@@ -24,7 +25,10 @@
   "author": "Red Had Icons Authors",
   "contributors": [
     "Libby Levy",
-    "Benny Powers <bennyp@redhat.com>"
+    "Ryan Williams <ryawilli@redhat.com>",
+    "Amanda Pearlswig <apearlsw@redhat.com>",
+    "Benny Powers <bennyp@redhat.com>",
+    "Steven Spriggs <sspriggs@redhat.com>"
   ],
   "license": "CC-BY-4.0",
   "bugs": {
