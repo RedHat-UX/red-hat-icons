@@ -1,0 +1,70 @@
+<svg id="b2efdb33-99e4-4ba2-a46c-685fb0c68f48" data-name="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <title>Management icon - Black</title>
+<desc>gear, arrows, service, manage, control, automate, system, administrator, sysadmin, monitor, software and technologies</desc>
+<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 8.0-c001 1.000000, 0000/00/00-00:00:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cq="http://www.day.com/jcr/cq/1.0"
+            xmlns:tiff="http://ns.adobe.com/tiff/1.0/">
+         <xmp:rhcc-effective-on>2023-12-08T17:43:42.535Z</xmp:rhcc-effective-on>
+         <xmp:rhcc-metadata-complete-moderator>pending</xmp:rhcc-metadata-complete-moderator>
+         <xmp:rhcc-translation-id>TRA2e806018-47f3-4058-acba-e267e759f48c</xmp:rhcc-translation-id>
+         <xmp:brand-content-type>Icon</xmp:brand-content-type>
+         <xmp:CreateDate>2023-12-08T17:43:42.535Z</xmp:CreateDate>
+         <xmp:rhcc-effective-on-set-on-upload>true</xmp:rhcc-effective-on-set-on-upload>
+         <xmp:rhcc-metadata-complete-uploader>pending</xmp:rhcc-metadata-complete-uploader>
+         <xmp:rhcc-file-last-modified>2023-12-08T17:44:10.796Z</xmp:rhcc-file-last-modified>
+         <xmp:rhcc-audience>rhcc-audience:internal</xmp:rhcc-audience>
+         <xmp:rhcc-rights-restricted>no</xmp:rhcc-rights-restricted>
+         <xmp:brand-content-subtype>Icon</xmp:brand-content-subtype>
+         <xmp:rhcc-derivative-id>DER2e806018-47f3-4058-acba-e267e759f48c</xmp:rhcc-derivative-id>
+         <xmp:brand-logo-color>Black</xmp:brand-logo-color>
+         <xmp:rhcc-notify-portal-subscribers-on-change>yes</xmp:rhcc-notify-portal-subscribers-on-change>
+         <dc:format>image/svg+xml</dc:format>
+         <dc:modified>2024-02-09T20:17:29.928Z</dc:modified>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Management icon - Black</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">gear, arrows, service, manage, control, automate, system, administrator, sysadmin, monitor, software and technologies</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <cq:lastReplicationAction_scene7>Activate</cq:lastReplicationAction_scene7>
+         <cq:lastReplicationAction_publish>Activate</cq:lastReplicationAction_publish>
+         <cq:lastReplicated_publish>2024-02-09T21:54:45.589Z</cq:lastReplicated_publish>
+         <cq:lastReplicatedBy>workflow-process-service</cq:lastReplicatedBy>
+         <cq:lastReplicationAction>Activate</cq:lastReplicationAction>
+         <cq:lastReplicatedBy_publish>workflow-process-service</cq:lastReplicatedBy_publish>
+         <cq:isDelivered>true</cq:isDelivered>
+         <cq:lastReplicated>2024-02-09T21:54:45.589Z</cq:lastReplicated>
+         <cq:lastReplicatedBy_scene7>workflow-process-service</cq:lastReplicatedBy_scene7>
+         <cq:lastReplicated_scene7>2024-02-09T21:54:45.589Z</cq:lastReplicated_scene7>
+         <tiff:ImageLength>36</tiff:ImageLength>
+         <tiff:ImageWidth>36</tiff:ImageWidth>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                 
+<?xpacket end="w"?></metadata>
+<g>
+    <path d="M31,8.38H5A.62.62,0,0,0,4.38,9V27a.62.62,0,0,0,.62.62H31a.62.62,0,0,0,.62-.62V9A.62.62,0,0,0,31,8.38Zm-.62,18H5.62V9.62H30.38Z"/>
+    <path d="M19.25,21.12h7.5a.62.62,0,1,0,0-1.24h-.63V15.5a.62.62,0,0,0-1.24,0v4.38H23.62v-2.5a.62.62,0,1,0-1.24,0v2.5H21.12V18.62a.62.62,0,0,0-1.24,0v1.26h-.63a.62.62,0,1,0,0,1.24Z"/>
+    <path d="M12.25,21.62A3.62,3.62,0,1,0,8.62,18,3.63,3.63,0,0,0,12.25,21.62Zm2.28-4.24H12.88V15.72A2.36,2.36,0,0,1,14.53,17.38Zm-2.91-1.66V18a.63.63,0,0,0,.63.62h2.28a2.37,2.37,0,1,1-2.91-2.9Z"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-3edf1206-41b6-44a2-8b34-d129f463b473" data-name="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 8.0-c001 1.000000, 0000/00/00-00:00:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cq="http://www.day.com/jcr/cq/1.0"
+            xmlns:tiff="http://ns.adobe.com/tiff/1.0/">
+         <xmp:rhcc-effective-on>2023-12-08T17:45:17.398Z</xmp:rhcc-effective-on>
+         <xmp:rhcc-metadata-complete-moderator>pending</xmp:rhcc-metadata-complete-moderator>
+         <xmp:rhcc-translation-id>TRAf8e3e6f6-4721-42bd-a76f-0406be91faea</xmp:rhcc-translation-id>
+         <xmp:CreateDate>2023-12-08T17:45:17.398Z</xmp:CreateDate>
+         <xmp:rhcc-effective-on-set-on-upload>true</xmp:rhcc-effective-on-set-on-upload>
+         <xmp:rhcc-metadata-complete-uploader>pending</xmp:rhcc-metadata-complete-uploader>
+         <xmp:rhcc-file-last-modified>2023-12-08T17:45:39.036Z</xmp:rhcc-file-last-modified>
+         <xmp:rhcc-audience>rhcc-audience:internal</xmp:rhcc-audience>
+         <xmp:rhcc-rights-restricted>no</xmp:rhcc-rights-restricted>
+         <xmp:rhcc-derivative-id>DERf8e3e6f6-4721-42bd-a76f-0406be91faea</xmp:rhcc-derivative-id>
+         <xmp:rhcc-notify-portal-subscribers-on-change>yes</xmp:rhcc-notify-portal-subscribers-on-change>
+         <dc:format>image/svg+xml</dc:format>
+         <dc:modified>2024-02-09T20:35:51.661Z</dc:modified>
+         <cq:lastReplicationAction_scene7>Activate</cq:lastReplicationAction_scene7>
+         <cq:lastReplicationAction_publish>Activate</cq:lastReplicationAction_publish>
+         <cq:lastReplicated_publish>2024-02-09T22:23:25.204Z</cq:lastReplicated_publish>
+         <cq:lastReplicatedBy>workflow-process-service</cq:lastReplicatedBy>
+         <cq:lastReplicationAction>Activate</cq:lastReplicationAction>
+         <cq:lastReplicatedBy_publish>workflow-process-service</cq:lastReplicatedBy_publish>
+         <cq:isDelivered>true</cq:isDelivered>
+         <cq:lastReplicated>2024-02-09T22:23:25.204Z</cq:lastReplicated>
+         <cq:lastReplicatedBy_scene7>workflow-process-service</cq:lastReplicatedBy_scene7>
+         <cq:lastReplicated_scene7>2024-02-09T22:23:25.204Z</cq:lastReplicated_scene7>
+         <tiff:ImageLength>36</tiff:ImageLength>
+         <tiff:ImageWidth>36</tiff:ImageWidth>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                 
+<?xpacket end="w"?></metadata>
+<path d="M13,14.62h10c.35,0,.62-.28,.62-.62s-.28-.62-.62-.62H13c-.35,0-.62,.28-.62,.62s.28,.62,.62,.62Z"/>
+  <path d="M28,8.38h-2.25l.69-3.25c.04-.18,0-.38-.13-.52s-.3-.23-.49-.23h-3c-.29,0-.55,.21-.61,.5l-.74,3.5H8c-.35,0-.62,.28-.62,.62s.28,.62,.62,.62h.38v3.38c0,.17,.07,.33,.18,.44l.86,.86,2.97,16.81c.05,.3,.31,.52,.62,.52h10c.3,0,.56-.22,.62-.52l2.97-16.81,.86-.86c.12-.12,.18-.28,.18-.44v-3.38h.38c.35,0,.62-.28,.62-.62s-.28-.62-.62-.62Zm-4.66-2.75h1.72l-.58,2.75h-1.72l.58-2.75Zm3.04,7.12l-.82,.82c-.09,.09-.15,.21-.17,.33l-2.91,16.48H13.52l-2.91-16.48c-.02-.13-.08-.24-.17-.33l-.82-.82v-3.12H26.38v3.12Z"/>
+  <path d="M16,25.38c-.9,0-1.62,.73-1.62,1.62s.73,1.62,1.62,1.62,1.62-.73,1.62-1.62-.73-1.62-1.62-1.62Zm0,2c-.21,0-.38-.17-.38-.38s.17-.38,.38-.38,.38,.17,.38,.38-.17,.38-.38,.38Z"/>
+  <path d="M20,23.38c-.9,0-1.62,.73-1.62,1.62s.73,1.62,1.62,1.62,1.62-.73,1.62-1.62-.73-1.62-1.62-1.62Zm0,2c-.21,0-.38-.17-.38-.38s.17-.38,.38-.38,.38,.17,.38,.38-.17,.38-.38,.38Z"/>
+  <path d="M16,20.38c-.9,0-1.62,.73-1.62,1.62s.73,1.62,1.62,1.62,1.62-.73,1.62-1.62-.73-1.62-1.62-1.62Zm0,2c-.21,0-.38-.17-.38-.38s.17-.38,.38-.38,.38,.17,.38,.38-.17,.38-.38,.38Z"/>
+</svg>

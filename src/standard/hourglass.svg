@@ -1,0 +1,69 @@
+<svg id="e0793ac5-a3c2-489f-b683-1086656c3c80" data-name="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <title>Hourglass icon - Black</title>
+<desc>time, sand, glass, timer, stopwatch, clock, track, count, objects</desc>
+<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 8.0-c001 1.000000, 0000/00/00-00:00:00        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:cq="http://www.day.com/jcr/cq/1.0"
+            xmlns:tiff="http://ns.adobe.com/tiff/1.0/">
+         <xmp:rhcc-effective-on>2023-12-08T17:35:49.830Z</xmp:rhcc-effective-on>
+         <xmp:rhcc-metadata-complete-moderator>pending</xmp:rhcc-metadata-complete-moderator>
+         <xmp:rhcc-translation-id>TRAd3e19cbf-a385-44bb-9161-4620ac9f7b82</xmp:rhcc-translation-id>
+         <xmp:brand-content-type>Icon</xmp:brand-content-type>
+         <xmp:CreateDate>2023-12-08T17:35:49.830Z</xmp:CreateDate>
+         <xmp:rhcc-effective-on-set-on-upload>true</xmp:rhcc-effective-on-set-on-upload>
+         <xmp:rhcc-metadata-complete-uploader>pending</xmp:rhcc-metadata-complete-uploader>
+         <xmp:rhcc-file-last-modified>2023-12-08T17:36:26.901Z</xmp:rhcc-file-last-modified>
+         <xmp:rhcc-audience>rhcc-audience:internal</xmp:rhcc-audience>
+         <xmp:rhcc-rights-restricted>no</xmp:rhcc-rights-restricted>
+         <xmp:brand-content-subtype>Icon</xmp:brand-content-subtype>
+         <xmp:rhcc-derivative-id>DERd3e19cbf-a385-44bb-9161-4620ac9f7b82</xmp:rhcc-derivative-id>
+         <xmp:brand-logo-color>Black</xmp:brand-logo-color>
+         <xmp:rhcc-notify-portal-subscribers-on-change>yes</xmp:rhcc-notify-portal-subscribers-on-change>
+         <dc:format>image/svg+xml</dc:format>
+         <dc:modified>2024-02-09T20:31:10.233Z</dc:modified>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">Hourglass icon - Black</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <dc:description>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">time, sand, glass, timer, stopwatch, clock, track, count, objects</rdf:li>
+            </rdf:Alt>
+         </dc:description>
+         <cq:lastReplicationAction_scene7>Activate</cq:lastReplicationAction_scene7>
+         <cq:lastReplicationAction_publish>Activate</cq:lastReplicationAction_publish>
+         <cq:lastReplicated_publish>2024-02-09T22:18:05.285Z</cq:lastReplicated_publish>
+         <cq:lastReplicatedBy>workflow-process-service</cq:lastReplicatedBy>
+         <cq:lastReplicationAction>Activate</cq:lastReplicationAction>
+         <cq:lastReplicatedBy_publish>workflow-process-service</cq:lastReplicatedBy_publish>
+         <cq:isDelivered>true</cq:isDelivered>
+         <cq:lastReplicated>2024-02-09T22:18:05.285Z</cq:lastReplicated>
+         <cq:lastReplicatedBy_scene7>workflow-process-service</cq:lastReplicatedBy_scene7>
+         <cq:lastReplicated_scene7>2024-02-09T22:18:05.285Z</cq:lastReplicated_scene7>
+         <tiff:ImageLength>36</tiff:ImageLength>
+         <tiff:ImageWidth>36</tiff:ImageWidth>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                 
+<?xpacket end="w"?></metadata>
+<g>
+    <path d="M27,30.38H25.62V26.24a3.62,3.62,0,0,0-1.06-2.56L18.88,18l5.68-5.68a3.62,3.62,0,0,0,1.06-2.56V5.62H27a.62.62,0,1,0,0-1.24H9A.62.62,0,0,0,9,5.62h1.38v4.3a3.63,3.63,0,0,0,1.06,2.4L17.12,18l-5.68,5.68a3.62,3.62,0,0,0-1.06,2.56v4.14H9a.62.62,0,1,0,0,1.24H27a.62.62,0,0,0,0-1.24ZM24.38,5.62V8.38H11.62V5.62ZM12.32,11.44a2.41,2.41,0,0,1-.7-1.68V9.62H24.38v.14s0,.05,0,.08a2.41,2.41,0,0,1-.69,1.6L18,17.12Zm-.7,14.8a2.41,2.41,0,0,1,.7-1.68L18,18.88l5.68,5.68a2.41,2.41,0,0,1,.7,1.68v4.14H11.62Z"/>
+    <path d="M18,22.38a.63.63,0,1,0,.62.62A.62.62,0,0,0,18,22.38Z"/>
+  </g>
+</svg>
