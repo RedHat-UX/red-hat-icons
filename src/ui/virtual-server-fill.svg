@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.uuid-57eb8a4d-c0e5-4bfb-9fee-558693a95a36{fill:none;}.uuid-57eb8a4d-c0e5-4bfb-9fee-558693a95a36,.uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c{stroke-width:0px;}.uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c{fill:#151515;}</style></defs><g id="uuid-14b09a1e-3018-4802-b96b-9036268ace99"><rect class="uuid-57eb8a4d-c0e5-4bfb-9fee-558693a95a36" width="32" height="32"/></g><g id="uuid-e8dc41e2-4373-4638-80fe-1ef66307e438"><path class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" d="M29.5,13.25H2.5c-.6895,0-1.25.5605-1.25,1.25v9c0,.6895.5605,1.25,1.25,1.25h27c.6895,0,1.25-.5605,1.25-1.25v-9c0-.6895-.5605-1.25-1.25-1.25ZM13,20.125h-6c-.6211,0-1.125-.5039-1.125-1.125s.5039-1.125,1.125-1.125h6c.6211,0,1.125.5039,1.125,1.125s-.5039,1.125-1.125,1.125ZM24,20.5001c-.8284,0-1.5-.6716-1.5-1.5s.6716-1.5,1.5-1.5,1.5.6716,1.5,1.5-.6716,1.5-1.5,1.5Z"/><circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="3" cy="9.0099" r="1.5"/><circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="9.5" cy="9" r="1.5"/><circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="16" cy="9" r="1.5"/><circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="22.5" cy="9" r="1.5"/><circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="29" cy="9.0003" r="1.5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c{stroke-width:0;fill:#151515}
+    </style>
+  </defs>
+  <path d="M0 0h32v32H0z" id="uuid-14b09a1e-3018-4802-b96b-9036268ace99" stroke-width="0" fill="none"/>
+  <g id="uuid-e8dc41e2-4373-4638-80fe-1ef66307e438">
+    <path class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" d="M29.5 13.25h-27c-.69 0-1.25.56-1.25 1.25v9c0 .69.56 1.25 1.25 1.25h27c.69 0 1.25-.56 1.25-1.25v-9c0-.69-.56-1.25-1.25-1.25ZM13 20.125H7a1.125 1.125 0 0 1 0-2.25h6a1.125 1.125 0 0 1 0 2.25Zm11 .375a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"/>
+    <circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="3" cy="9.01" r="1.5"/>
+    <circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="9.5" cy="9" r="1.5"/>
+    <circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="16" cy="9" r="1.5"/>
+    <circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="22.5" cy="9" r="1.5"/>
+    <circle class="uuid-ca9be336-fc7e-434a-86ca-b4729c6ce36c" cx="29" cy="9" r="1.5"/>
+  </g>
+</svg>

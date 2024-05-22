@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.uuid-1f90401f-7a28-4062-8d8a-c0173c035a62{fill:none;}.uuid-1f90401f-7a28-4062-8d8a-c0173c035a62,.uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c{stroke-width:0px;}.uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c{fill:#151515;}</style></defs><g id="uuid-42e554ae-914d-4fd1-8782-f29be161ab97"><rect class="uuid-1f90401f-7a28-4062-8d8a-c0173c035a62" x="0" width="32" height="32"/></g><g id="uuid-544f11ea-2e4b-40ea-aaf5-cb088eea7904"><path class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" d="M23.5,6h-3.5V1.5c0-.8271-.6729-1.5-1.5-1.5h-5c-.8271,0-1.5.6729-1.5,1.5v4.5h-3.5c-.8271,0-1.5.6729-1.5,1.5v18c0,.8271.6729,1.5,1.5,1.5h15c.8271,0,1.5-.6729,1.5-1.5V7.5c0-.8271-.6729-1.5-1.5-1.5ZM14,2h4v4h-4V2ZM14.125,21c0,.6211-.5039,1.125-1.125,1.125s-1.125-.5039-1.125-1.125v-9c0-.6211.5039-1.125,1.125-1.125s1.125.5039,1.125,1.125v9ZM20.125,21c0,.6211-.5039,1.125-1.125,1.125s-1.125-.5039-1.125-1.125v-9c0-.6211.5039-1.125,1.125-1.125s1.125.5039,1.125,1.125v9Z"/><circle class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" cx="10" cy="30.0002" r="1.5"/><circle class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" cx="22" cy="30.0002" r="1.5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c{stroke-width:0;fill:#151515}
+    </style>
+  </defs>
+  <path d="M0 0h32v32H0z" id="uuid-42e554ae-914d-4fd1-8782-f29be161ab97" stroke-width="0" fill="none"/>
+  <g id="uuid-544f11ea-2e4b-40ea-aaf5-cb088eea7904">
+    <path class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" d="M23.5 6H20V1.5c0-.827-.673-1.5-1.5-1.5h-5c-.827 0-1.5.673-1.5 1.5V6H8.5C7.673 6 7 6.673 7 7.5v18c0 .827.673 1.5 1.5 1.5h15c.827 0 1.5-.673 1.5-1.5v-18c0-.827-.673-1.5-1.5-1.5ZM14 2h4v4h-4V2Zm.125 19a1.125 1.125 0 0 1-2.25 0v-9a1.125 1.125 0 0 1 2.25 0v9Zm6 0a1.125 1.125 0 0 1-2.25 0v-9a1.125 1.125 0 0 1 2.25 0v9Z"/>
+    <circle class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" cx="10" cy="30" r="1.5"/>
+    <circle class="uuid-85dff1ab-a3b0-4af7-99d9-9d5ee41e608c" cx="22" cy="30" r="1.5"/>
+  </g>
+</svg>

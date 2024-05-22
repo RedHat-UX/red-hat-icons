@@ -1,76 +1,9 @@
-<svg id="a2acd8fc-99da-4d9d-9333-50849948b41d" data-name="Icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-  <title>Control panel icon - Black</title>
-<desc>management, operation, switch, button, knob, lever, level, objects</desc>
-<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 8.0-c001 1.000000, 0000/00/00-00:00:00        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:cq="http://www.day.com/jcr/cq/1.0"
-            xmlns:tiff="http://ns.adobe.com/tiff/1.0/">
-         <xmp:rhcc-effective-on>2023-12-08T17:35:31.727Z</xmp:rhcc-effective-on>
-         <xmp:rhcc-metadata-complete-moderator>pending</xmp:rhcc-metadata-complete-moderator>
-         <xmp:rhcc-translation-id>TRA9a430687-9b55-42ed-9851-e56e0a3ebd6d</xmp:rhcc-translation-id>
-         <xmp:brand-content-type>Icon</xmp:brand-content-type>
-         <xmp:CreateDate>2023-12-08T17:35:31.727Z</xmp:CreateDate>
-         <xmp:rhcc-effective-on-set-on-upload>true</xmp:rhcc-effective-on-set-on-upload>
-         <xmp:rhcc-metadata-complete-uploader>pending</xmp:rhcc-metadata-complete-uploader>
-         <xmp:rhcc-file-last-modified>2023-12-08T17:36:28.700Z</xmp:rhcc-file-last-modified>
-         <xmp:rhcc-audience>rhcc-audience:internal</xmp:rhcc-audience>
-         <xmp:rhcc-rights-restricted>no</xmp:rhcc-rights-restricted>
-         <xmp:brand-content-subtype>Icon</xmp:brand-content-subtype>
-         <xmp:rhcc-derivative-id>DER9a430687-9b55-42ed-9851-e56e0a3ebd6d</xmp:rhcc-derivative-id>
-         <xmp:brand-logo-color>Black</xmp:brand-logo-color>
-         <xmp:rhcc-notify-portal-subscribers-on-change>yes</xmp:rhcc-notify-portal-subscribers-on-change>
-         <dc:format>image/svg+xml</dc:format>
-         <dc:modified>2024-02-09T20:30:03.956Z</dc:modified>
-         <dc:title>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Control panel icon - Black</rdf:li>
-            </rdf:Alt>
-         </dc:title>
-         <dc:description>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">management, operation, switch, button, knob, lever, level, objects</rdf:li>
-            </rdf:Alt>
-         </dc:description>
-         <cq:lastReplicationAction_scene7>Activate</cq:lastReplicationAction_scene7>
-         <cq:lastReplicationAction_publish>Activate</cq:lastReplicationAction_publish>
-         <cq:lastReplicated_publish>2024-02-09T22:16:53.818Z</cq:lastReplicated_publish>
-         <cq:lastReplicatedBy>workflow-process-service</cq:lastReplicatedBy>
-         <cq:lastReplicationAction>Activate</cq:lastReplicationAction>
-         <cq:lastReplicatedBy_publish>workflow-process-service</cq:lastReplicatedBy_publish>
-         <cq:isDelivered>true</cq:isDelivered>
-         <cq:lastReplicated>2024-02-09T22:16:53.818Z</cq:lastReplicated>
-         <cq:lastReplicatedBy_scene7>workflow-process-service</cq:lastReplicatedBy_scene7>
-         <cq:lastReplicated_scene7>2024-02-09T22:16:53.818Z</cq:lastReplicated_scene7>
-         <tiff:ImageLength>36</tiff:ImageLength>
-         <tiff:ImageWidth>36</tiff:ImageWidth>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                 
-<?xpacket end="w"?></metadata>
-<g>
-    <path d="M31,8.38H5A.62.62,0,0,0,4.38,9V27a.62.62,0,0,0,.62.62H31a.62.62,0,0,0,.62-.62V9A.62.62,0,0,0,31,8.38ZM5.62,9.62h4.76V26.38H5.62ZM30.38,26.38H11.62V9.62H30.38Z"/>
-    <path d="M15,14.62h.38V24a.62.62,0,0,0,1.24,0V14.62H17a.62.62,0,0,0,0-1.24h-.38V12a.62.62,0,1,0-1.24,0v1.38H15a.62.62,0,0,0,0,1.24Z"/>
-    <path d="M20,21.62h.38V24a.62.62,0,0,0,1.24,0V21.62H22a.62.62,0,0,0,0-1.24h-.38V12a.62.62,0,0,0-1.24,0v8.38H20a.62.62,0,0,0,0,1.24Z"/>
-    <path d="M25,18.62h.38V24a.62.62,0,0,0,1.24,0V18.62H27a.62.62,0,0,0,0-1.24h-.38V12a.62.62,0,0,0-1.24,0v5.38H25a.62.62,0,0,0,0,1.24Z"/>
-    <circle cx="8" cy="12" r="0.62"/>
-    <circle cx="8" cy="24" r="0.62"/>
-    <circle cx="8" cy="21" r="0.62"/>
-    <circle cx="8" cy="18" r="0.62"/>
-    <circle cx="8" cy="15" r="0.62"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <path d="M31 8.38H5a.62.62 0 0 0-.62.62v18a.62.62 0 0 0 .62.62h26a.62.62 0 0 0 .62-.62V9a.62.62 0 0 0-.62-.62ZM5.62 9.62h4.76v16.76H5.62Zm24.76 16.76H11.62V9.62h18.76Z"/>
+  <path d="M15 14.62h.38V24a.62.62 0 0 0 1.24 0v-9.38H17a.62.62 0 0 0 0-1.24h-.38V12a.62.62 0 1 0-1.24 0v1.38H15a.62.62 0 0 0 0 1.24Zm5 7h.38V24a.62.62 0 0 0 1.24 0v-2.38H22a.62.62 0 0 0 0-1.24h-.38V12a.62.62 0 0 0-1.24 0v8.38H20a.62.62 0 0 0 0 1.24Zm5-3h.38V24a.62.62 0 0 0 1.24 0v-5.38H27a.62.62 0 0 0 0-1.24h-.38V12a.62.62 0 0 0-1.24 0v5.38H25a.62.62 0 0 0 0 1.24Z"/>
+  <circle cx="8" cy="12" r=".62"/>
+  <circle cx="8" cy="24" r=".62"/>
+  <circle cx="8" cy="21" r=".62"/>
+  <circle cx="8" cy="18" r=".62"/>
+  <circle cx="8" cy="15" r=".62"/>
 </svg>

@@ -1,73 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="uuid-e430f33e-7140-422d-b1d3-2ed4a400f7ee" data-name="Training URL" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-  <title>Soup can</title>
-<metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 8.0-c001 1.000000, 0000/00/00-00:00:00        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-      <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:dc="http://purl.org/dc/elements/1.1/"
-            xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/">
-         <xmp:rhcc-effective-on>2024-05-07T17:19:44.242Z</xmp:rhcc-effective-on>
-         <xmp:rhcc-rights-restricted>no</xmp:rhcc-rights-restricted>
-         <xmp:brand-content-subtype>Icon</xmp:brand-content-subtype>
-         <xmp:rhcc-metadata-complete-moderator>pending</xmp:rhcc-metadata-complete-moderator>
-         <xmp:rhcc-translation-id>TRA98217727-5c3f-4ebb-a3b1-251abd9af1db</xmp:rhcc-translation-id>
-         <xmp:brand-content-type>Icon</xmp:brand-content-type>
-         <xmp:CreateDate>2024-05-07T17:19:44.242Z</xmp:CreateDate>
-         <xmp:rhcc-derivative-id>DER98217727-5c3f-4ebb-a3b1-251abd9af1db</xmp:rhcc-derivative-id>
-         <xmp:rhcc-effective-on-set-on-upload>true</xmp:rhcc-effective-on-set-on-upload>
-         <xmp:brand-color-mode>RGB</xmp:brand-color-mode>
-         <xmp:brand-logo-color>Black</xmp:brand-logo-color>
-         <xmp:rhcc-metadata-complete-uploader>pending</xmp:rhcc-metadata-complete-uploader>
-         <xmp:rhcc-file-last-modified>2024-05-07T17:19:53.233Z</xmp:rhcc-file-last-modified>
-         <xmp:rhcc-audience>rhcc-audience:internal</xmp:rhcc-audience>
-         <xmp:rhcc-notify-portal-subscribers-on-change>yes</xmp:rhcc-notify-portal-subscribers-on-change>
-         <dc:format>image/svg+xml</dc:format>
-         <dc:modified>2024-05-07T17:21:12.119Z</dc:modified>
-         <dc:title>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">Soup can</rdf:li>
-            </rdf:Alt>
-         </dc:title>
-         <xmpRights:UsageTerms>
-            <rdf:Alt>
-               <rdf:li xml:lang="x-default">One-color icon in black</rdf:li>
-            </rdf:Alt>
-         </xmpRights:UsageTerms>
-      </rdf:Description>
-   </rdf:RDF>
-</x:xmpmeta>
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                           
-<?xpacket end="w"?></metadata>
-<defs>
+<svg id="uuid-e430f33e-7140-422d-b1d3-2ed4a400f7ee" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+  <defs>
     <style>
-      .uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed {
-        fill: #231f20;
-        stroke-width: 0px;
-      }
+      .uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed{fill:#231f20;stroke-width:0}
     </style>
   </defs>
-  <path class="uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed" d="M31.26,10.24s-.02-.04-.03-.06c-.08-.2-.18-.4-.29-.59-1.06-1.95-3.29-3.34-6.04-4.19-2.02-.65-4.37-1.03-6.91-1.03s-4.89.38-6.9,1.03c-2.74.84-4.98,2.24-6.04,4.19-.11.2-.21.4-.29.6,0,.01-.01.03-.02.04-.23.57-.37,1.16-.37,1.77v12c0,4.28,5.98,7.62,13.62,7.62s13.62-3.35,13.62-7.62v-12c0-.61-.13-1.2-.37-1.76ZM30.38,12c0,3.46-5.67,6.38-12.38,6.38s-12.38-2.92-12.38-6.38,5.67-6.38,12.38-6.38,12.38,2.92,12.38,6.38ZM30.38,16v8c0,3.46-5.67,6.38-12.38,6.38s-12.38-2.92-12.38-6.38v-.77c2.14,2.62,6.81,4.4,12.38,4.4.82,0,.81-1.25,0-1.25-6.71,0-12.38-2.92-12.38-6.38v-.77c2.14,2.62,6.81,4.4,12.38,4.4.82,0,.82-1.25,0-1.25-6.71,0-12.38-2.92-12.38-6.38v-.77c2.14,2.62,6.81,4.4,12.38,4.4s10.24-1.78,12.38-4.4v.77Z"/>
-  <path class="uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed" d="M18,9.62c.35,0,.62-.28.62-.62s-.28-.62-.62-.62c-12.81.03-12.81,7.22,0,7.25.82,0,.82-1.25,0-1.25-5.11,0-8.38-1.41-8.38-2.38s3.26-2.38,8.38-2.38Z"/>
+  <path class="uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed" d="m31.26 10.24-.03-.06c-.08-.2-.18-.4-.29-.59-1.06-1.95-3.29-3.34-6.04-4.19-2.02-.65-4.37-1.03-6.91-1.03s-4.89.38-6.9 1.03c-2.74.84-4.98 2.24-6.04 4.19-.11.2-.21.4-.29.6 0 .01-.01.03-.02.04-.23.57-.37 1.16-.37 1.77v12c0 4.28 5.98 7.62 13.62 7.62S31.61 28.27 31.61 24V12c0-.61-.13-1.2-.37-1.76ZM30.38 12c0 3.46-5.67 6.38-12.38 6.38S5.62 15.46 5.62 12 11.29 5.62 18 5.62 30.38 8.54 30.38 12Zm0 4v8c0 3.46-5.67 6.38-12.38 6.38S5.62 27.46 5.62 24v-.77c2.14 2.62 6.81 4.4 12.38 4.4.82 0 .81-1.25 0-1.25-6.71 0-12.38-2.92-12.38-6.38v-.77c2.14 2.62 6.81 4.4 12.38 4.4.82 0 .82-1.25 0-1.25-6.71 0-12.38-2.92-12.38-6.38v-.77c2.14 2.62 6.81 4.4 12.38 4.4s10.24-1.78 12.38-4.4V16Z"/>
+  <path class="uuid-e6a6bf4b-8c27-43ff-a911-45c50cbcb9ed" d="M18 9.62c.35 0 .62-.28.62-.62s-.28-.62-.62-.62c-12.81.03-12.81 7.22 0 7.25.82 0 .82-1.25 0-1.25-5.11 0-8.38-1.41-8.38-2.38S12.88 9.62 18 9.62Z"/>
 </svg>

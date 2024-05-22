@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.uuid-ed4a08bd-b7da-4cea-89cc-2036733c9d3e{fill:none;}.uuid-ed4a08bd-b7da-4cea-89cc-2036733c9d3e,.uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a{stroke-width:0px;}.uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a{fill:#151515;}</style></defs><g id="uuid-2175bc14-715b-4f9f-aee9-71395ad082b6"><rect class="uuid-ed4a08bd-b7da-4cea-89cc-2036733c9d3e" x="0" width="32" height="32"/></g><g id="uuid-577615ba-1fd3-4a10-9a0c-82172542a180"><path class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" d="M16,25.5c-6.1002,0-11.2952-1.9636-14-4.9208v2.8486c0,4.1819,6.2681,7.5721,14,7.5721s14-3.3902,14-7.5721v-2.8486c-2.7048,2.9572-7.8998,4.9207-14,4.9207Z"/><path class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" d="M16,18.1442c-6.1002,0-11.2952-1.9465-14-4.8779v2.5775c0,4.2284,6.2681,7.6562,14,7.6562s14-3.4279,14-7.6562v-2.5774c-2.7048,2.9315-7.8998,4.8779-14,4.8779Z"/><ellipse class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" cx="16" cy="8.5721" rx="14" ry="7.5721"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a{stroke-width:0;fill:#151515}
+    </style>
+  </defs>
+  <path d="M0 0h32v32H0z" id="uuid-2175bc14-715b-4f9f-aee9-71395ad082b6" stroke-width="0" fill="none"/>
+  <g id="uuid-577615ba-1fd3-4a10-9a0c-82172542a180">
+    <path class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" d="M16 25.5c-6.1 0-11.295-1.964-14-4.92v2.848C2 27.61 8.268 31 16 31s14-3.39 14-7.572v-2.849c-2.705 2.957-7.9 4.92-14 4.92Z"/>
+    <path class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" d="M16 18.144c-6.1 0-11.295-1.946-14-4.878v2.578C2 20.072 8.268 23.5 16 23.5s14-3.428 14-7.656v-2.578c-2.705 2.932-7.9 4.878-14 4.878Z"/>
+    <ellipse class="uuid-aac4e86d-87d2-463a-8c0d-bdf245ed0b3a" cx="16" cy="8.572" rx="14" ry="7.572"/>
+  </g>
+</svg>

@@ -1,1 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.uuid-3f46fb2a-2069-4333-a8aa-769cc81bd6b0{fill:none;}.uuid-3f46fb2a-2069-4333-a8aa-769cc81bd6b0,.uuid-9a652210-b694-44e7-9f86-04813989ffc8{stroke-width:0px;}.uuid-9a652210-b694-44e7-9f86-04813989ffc8{fill:#151515;}</style></defs><g id="uuid-21b4ea19-c8fe-42fe-a581-e34e3b947481"><rect class="uuid-3f46fb2a-2069-4333-a8aa-769cc81bd6b0" x="0" width="32" height="32"/></g><g id="uuid-aff0f06c-bcdb-4f1f-8598-6edbd1460df4"><circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="16" r="4"/><circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="28" r="4"/><circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="4" r="4"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-9a652210-b694-44e7-9f86-04813989ffc8{stroke-width:0;fill:#151515}
+    </style>
+  </defs>
+  <path d="M0 0h32v32H0z" id="uuid-21b4ea19-c8fe-42fe-a581-e34e3b947481" stroke-width="0" fill="none"/>
+  <g id="uuid-aff0f06c-bcdb-4f1f-8598-6edbd1460df4">
+    <circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="16" r="4"/>
+    <circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="28" r="4"/>
+    <circle class="uuid-9a652210-b694-44e7-9f86-04813989ffc8" cx="16" cy="4" r="4"/>
+  </g>
+</svg>

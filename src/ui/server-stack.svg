@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><style>.uuid-148e03e1-106d-434b-bc27-70dc74fbe30c{fill:none;}.uuid-148e03e1-106d-434b-bc27-70dc74fbe30c,.uuid-a99d8d0a-28e2-4514-80e4-c30462a58158{stroke-width:0px;}.uuid-a99d8d0a-28e2-4514-80e4-c30462a58158{fill:#151515;}</style></defs><g id="uuid-14bd693b-179a-41da-9f8e-5872757c7a05"><rect class="uuid-148e03e1-106d-434b-bc27-70dc74fbe30c" width="32" height="32"/></g><g id="uuid-e6cac1e6-694b-45ee-bd44-d9d2c54aa7bb"><path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M29.5,0H2.5c-.8271,0-1.5.6729-1.5,1.5v29c0,.8271.6729,1.5,1.5,1.5h27c.8271,0,1.5-.6729,1.5-1.5V1.5c0-.8271-.6729-1.5-1.5-1.5ZM3,12h26v8H3v-8ZM29,2v8H3V2h26ZM3,30v-8h26v8H3Z"/><path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M7,7h5c.5527,0,1-.4478,1-1s-.4473-1-1-1h-5c-.5527,0-1,.4478-1,1s.4473,1,1,1Z"/><path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M12,15h-5c-.5527,0-1,.4478-1,1s.4473,1,1,1h5c.5527,0,1-.4478,1-1s-.4473-1-1-1Z"/><path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M12,25h-5c-.5527,0-1,.4478-1,1s.4473,1,1,1h5c.5527,0,1-.4478,1-1s-.4473-1-1-1Z"/><circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="6.0099" r="1.5"/><circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="16.0099" r="1.5"/><circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="26.0099" r="1.5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .uuid-a99d8d0a-28e2-4514-80e4-c30462a58158{stroke-width:0;fill:#151515}
+    </style>
+  </defs>
+  <path d="M0 0h32v32H0z" id="uuid-14bd693b-179a-41da-9f8e-5872757c7a05" stroke-width="0" fill="none"/>
+  <g id="uuid-e6cac1e6-694b-45ee-bd44-d9d2c54aa7bb">
+    <path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M29.5 0h-27C1.673 0 1 .673 1 1.5v29c0 .827.673 1.5 1.5 1.5h27c.827 0 1.5-.673 1.5-1.5v-29c0-.827-.673-1.5-1.5-1.5ZM3 12h26v8H3v-8ZM29 2v8H3V2h26ZM3 30v-8h26v8H3Z"/>
+    <path class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" d="M7 7h5a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2Zm5 8H7a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2Zm0 10H7a1 1 0 1 0 0 2h5a1 1 0 1 0 0-2Z"/>
+    <circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="6.01" r="1.5"/>
+    <circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="16.01" r="1.5"/>
+    <circle class="uuid-a99d8d0a-28e2-4514-80e4-c30462a58158" cx="25" cy="26.01" r="1.5"/>
+  </g>
+</svg>
