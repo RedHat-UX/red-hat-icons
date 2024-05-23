@@ -1,13 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-c4866c17-3667-4663-b528-9a35fc5ac344{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-070e25d6-42e7-4f47-bdd3-5590a50a5758" stroke-width="0" fill="none"/>
-  <g id="uuid-c5f14bf5-5e38-4a16-b09a-3e311ea294d4">
-    <path class="uuid-c4866c17-3667-4663-b528-9a35fc5ac344" d="M16 15a1 1 0 0 0-1 1v7a1 1 0 1 0 2 0v-7a1 1 0 0 0-1-1Z"/>
-    <path class="uuid-c4866c17-3667-4663-b528-9a35fc5ac344" d="M16 0C7.178 0 0 7.178 0 16s7.178 16 16 16 16-7.178 16-16S24.822 0 16 0Zm0 30C8.28 30 2 23.72 2 16S8.28 2 16 2s14 6.28 14 14-6.28 14-14 14Z"/>
-    <circle class="uuid-c4866c17-3667-4663-b528-9a35fc5ac344" cx="16" cy="10" r="1.5"/>
-  </g>
+  <path d="M16 15a1 1 0 0 0-1 1v7a1 1 0 1 0 2 0v-7a1 1 0 0 0-1-1Z"/>
+  <path d="M16 0C7.178 0 0 7.178 0 16s7.178 16 16 16 16-7.178 16-16S24.822 0 16 0Zm0 30C8.28 30 2 23.72 2 16S8.28 2 16 2s14 6.28 14 14-6.28 14-14 14Z"/>
+  <circle cx="16" cy="10" r="1.5"/>
 </svg>

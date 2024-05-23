@@ -1,14 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-1aa449be-1900-436b-9d5d-0f86db6b23bd{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-35eb4c23-4798-4599-a572-b974b830f64c" stroke-width="0" fill="none"/>
-  <g id="uuid-4768fadf-1fd3-4070-9fdb-b673d8923308">
-    <path class="uuid-1aa449be-1900-436b-9d5d-0f86db6b23bd" d="M29.5 1h-21C7.673 1 7 1.673 7 2.5v21c0 .827.673 1.5 1.5 1.5h21c.827 0 1.5-.673 1.5-1.5v-21c0-.827-.673-1.5-1.5-1.5ZM29 23H9V3h20v20Z"/>
-    <path class="uuid-1aa449be-1900-436b-9d5d-0f86db6b23bd" d="M25 29H3V7a1 1 0 1 0-2 0v22.5c0 .827.673 1.5 1.5 1.5H25a1 1 0 1 0 0-2Z"/>
-    <circle class="uuid-1aa449be-1900-436b-9d5d-0f86db6b23bd" cx="24" cy="8" r="1.5"/>
-    <circle class="uuid-1aa449be-1900-436b-9d5d-0f86db6b23bd" cx="19" cy="8" r="1.5"/>
-  </g>
+  <path d="M29.5 1h-21C7.673 1 7 1.673 7 2.5v21c0 .827.673 1.5 1.5 1.5h21c.827 0 1.5-.673 1.5-1.5v-21c0-.827-.673-1.5-1.5-1.5ZM29 23H9V3h20v20Z"/>
+  <path d="M25 29H3V7a1 1 0 1 0-2 0v22.5c0 .827.673 1.5 1.5 1.5H25a1 1 0 1 0 0-2Z"/>
+  <circle cx="24" cy="8" r="1.5"/>
+  <circle cx="19" cy="8" r="1.5"/>
 </svg>

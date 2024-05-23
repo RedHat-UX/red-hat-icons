@@ -1,19 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-be341c6e-deb9-4763-a836-388b7d2c4978{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-4743fb17-3dbb-4c0a-8da3-f40eda3ff77c" stroke-width="0" fill="none"/>
-  <g id="uuid-5eea8997-21d8-426a-ad9d-af77b6980623">
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="3" cy="3.001" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="16" cy="3.002" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="29" cy="3.002" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="3" cy="16" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="16" cy="16" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="29" cy="16" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="3" cy="29.002" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="16" cy="29.002" r="1.75"/>
-    <circle class="uuid-be341c6e-deb9-4763-a836-388b7d2c4978" cx="29" cy="29.002" r="1.75"/>
-  </g>
+  <circle cx="3" cy="3.001" r="1.75"/>
+  <circle cx="16" cy="3.002" r="1.75"/>
+  <circle cx="29" cy="3.002" r="1.75"/>
+  <circle cx="3" cy="16" r="1.75"/>
+  <circle cx="16" cy="16" r="1.75"/>
+  <circle cx="29" cy="16" r="1.75"/>
+  <circle cx="3" cy="29.002" r="1.75"/>
+  <circle cx="16" cy="29.002" r="1.75"/>
+  <circle cx="29" cy="29.002" r="1.75"/>
 </svg>

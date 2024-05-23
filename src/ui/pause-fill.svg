@@ -1,12 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-608d983d-88fd-4e3b-b739-e1916618b259{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-b745e751-2cef-4a2e-838c-0746d08cf885" stroke-width="0" fill="none"/>
-  <g id="uuid-824914bf-9f38-4471-ab85-e2b23d18fdd5">
-    <rect class="uuid-608d983d-88fd-4e3b-b739-e1916618b259" x="4" y="1" width="10" height="30" rx="1.5" ry="1.5"/>
-    <rect class="uuid-608d983d-88fd-4e3b-b739-e1916618b259" x="18" y="1" width="10" height="30" rx="1.5" ry="1.5"/>
-  </g>
+  <rect x="4" y="1" width="10" height="30" rx="1.5" ry="1.5"/>
+  <rect x="18" y="1" width="10" height="30" rx="1.5" ry="1.5"/>
 </svg>

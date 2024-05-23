@@ -1,16 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-fd74c796-e6b7-4652-8fd3-0985cf997f92" stroke-width="0" fill="none"/>
-  <g id="uuid-bc080662-3f39-4cd4-8327-efa9cb00176b">
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" y="6" width="8" height="8" rx="1.5" ry="1.5"/>
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" x="24" y="6" width="8" height="8" rx="1.5" ry="1.5"/>
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" x="12" y="6" width="8" height="8" rx="1.5" ry="1.5"/>
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" y="18" width="8" height="8" rx="1.5" ry="1.5"/>
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" x="24" y="18" width="8" height="8" rx="1.5" ry="1.5"/>
-    <rect class="uuid-a95dc588-b47b-4c88-b04b-c12f38d7c6be" x="12" y="18" width="8" height="8" rx="1.5" ry="1.5"/>
-  </g>
+  <rect y="6" width="8" height="8" rx="1.5" ry="1.5"/>
+  <rect x="24" y="6" width="8" height="8" rx="1.5" ry="1.5"/>
+  <rect x="12" y="6" width="8" height="8" rx="1.5" ry="1.5"/>
+  <rect y="18" width="8" height="8" rx="1.5" ry="1.5"/>
+  <rect x="24" y="18" width="8" height="8" rx="1.5" ry="1.5"/>
+  <rect x="12" y="18" width="8" height="8" rx="1.5" ry="1.5"/>
 </svg>

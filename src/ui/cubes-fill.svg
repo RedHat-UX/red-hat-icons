@@ -1,14 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-6395bcac-4722-4a92-9f0f-59942b0d6bef{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-fd8835a6-b60c-455b-af2b-cdc02475de83" stroke-width="0" fill="none"/>
-  <g id="uuid-85438a34-b6f0-402b-ad0f-90efe7c97fbd">
-    <path class="uuid-6395bcac-4722-4a92-9f0f-59942b0d6bef" d="M30 29H2a1 1 0 1 0 0 2h28a1 1 0 1 0 0-2Z"/>
-    <rect class="uuid-6395bcac-4722-4a92-9f0f-59942b0d6bef" x="4" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
-    <rect class="uuid-6395bcac-4722-4a92-9f0f-59942b0d6bef" x="18" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
-    <rect class="uuid-6395bcac-4722-4a92-9f0f-59942b0d6bef" x="11" y="1" width="10" height="10" rx="1.5" ry="1.5"/>
-  </g>
+  <path d="M30 29H2a1 1 0 1 0 0 2h28a1 1 0 1 0 0-2Z"/>
+  <rect x="4" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
+  <rect x="18" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
+  <rect x="11" y="1" width="10" height="10" rx="1.5" ry="1.5"/>
 </svg>

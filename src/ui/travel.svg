@@ -1,14 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-cb4547de-e7a8-4ef6-aa39-1eb781efb73d{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-696af1ef-427c-4b8d-a105-2508eb14c2de" stroke-width="0" fill="none"/>
-  <g id="uuid-5362f147-fe5b-4651-913c-579751bfe20a">
-    <path class="uuid-cb4547de-e7a8-4ef6-aa39-1eb781efb73d" d="M23.5 6H20V1.5c0-.827-.673-1.5-1.5-1.5h-5c-.827 0-1.5.673-1.5 1.5V6H8.5C7.673 6 7 6.673 7 7.5v18c0 .827.673 1.5 1.5 1.5h15c.827 0 1.5-.673 1.5-1.5v-18c0-.827-.673-1.5-1.5-1.5ZM14 2h4v4h-4V2Zm9 23H9V8h14v17Z"/>
-    <path class="uuid-cb4547de-e7a8-4ef6-aa39-1eb781efb73d" d="M13 11a1 1 0 0 0-1 1v9a1 1 0 1 0 2 0v-9a1 1 0 0 0-1-1Zm5 1v9a1 1 0 1 0 2 0v-9a1 1 0 1 0-2 0Z"/>
-    <circle class="uuid-cb4547de-e7a8-4ef6-aa39-1eb781efb73d" cx="10" cy="30" r="1.5"/>
-    <circle class="uuid-cb4547de-e7a8-4ef6-aa39-1eb781efb73d" cx="22" cy="30" r="1.5"/>
-  </g>
+  <path d="M23.5 6H20V1.5c0-.827-.673-1.5-1.5-1.5h-5c-.827 0-1.5.673-1.5 1.5V6H8.5C7.673 6 7 6.673 7 7.5v18c0 .827.673 1.5 1.5 1.5h15c.827 0 1.5-.673 1.5-1.5v-18c0-.827-.673-1.5-1.5-1.5ZM14 2h4v4h-4V2Zm9 23H9V8h14v17Z"/>
+  <path d="M13 11a1 1 0 0 0-1 1v9a1 1 0 1 0 2 0v-9a1 1 0 0 0-1-1Zm5 1v9a1 1 0 1 0 2 0v-9a1 1 0 1 0-2 0Z"/>
+  <circle cx="10" cy="30" r="1.5"/>
+  <circle cx="22" cy="30" r="1.5"/>
 </svg>

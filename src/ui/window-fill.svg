@@ -1,14 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <style>
-      .uuid-90b50dea-4816-4ff6-9a12-f857caaf1be8{stroke-width:0;fill:#151515}
-    </style>
-  </defs>
-  <path d="M0 0h32v32H0z" id="uuid-115afac8-def0-4e49-96a3-ae8f5b9e03af" stroke-width="0" fill="none"/>
-  <g id="uuid-b620a0da-e349-4167-8106-bddb94322bc9">
-    <rect class="uuid-90b50dea-4816-4ff6-9a12-f857caaf1be8" x="1.25" y="4.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
-    <rect class="uuid-90b50dea-4816-4ff6-9a12-f857caaf1be8" x="18.25" y="4.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
-    <rect class="uuid-90b50dea-4816-4ff6-9a12-f857caaf1be8" x="1.25" y="18.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
-    <rect class="uuid-90b50dea-4816-4ff6-9a12-f857caaf1be8" x="18.25" y="18.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
-  </g>
+  <rect x="1.25" y="4.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
+  <rect x="18.25" y="4.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
+  <rect x="1.25" y="18.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
+  <rect x="18.25" y="18.25" width="12.5" height="9.5" rx="1.25" ry="1.25"/>
 </svg>
