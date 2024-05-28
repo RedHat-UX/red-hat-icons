@@ -5,22 +5,61 @@
     <meta name="viewport" content="width=device-width">
     <title>Red Hat Icons</title>
     <style>
-      main {
+      section {
+        --rh-tooltip-max-width: 50em;
         display: flex;
         flex-wrap: wrap;
         gap: 1em;
-      }
-      svg {
-        width: var(--rh-size-icon-08, 96px);
-        min-width: var(--rh-size-icon-08, 96px);
-        aspect-ratio: 1;
-        fill: var(--rh-color-brand-red-on-light, #ee0000);
+        & h2 {
+          width: 100%;
+          text-transform: capitalize;
+        }
+        & svg {
+          width: var(--rh-size-icon-08, 96px);
+          min-width: var(--rh-size-icon-08, 96px);
+          aspect-ratio: 1;
+          fill: var(--rh-color-brand-red-on-light, #ee0000);
+        }
       }
     </style>
+     <script type="importmap">
+    {
+      "imports": {
+        "@rhds/elements/rh-tooltip/rh-tooltip.js": "https://ga.jspm.io/npm:@rhds/elements@1.4.1/elements/rh-tooltip/rh-tooltip.js"
+      },
+      "scopes": {
+        "https://ga.jspm.io/": {
+          "@floating-ui/core": "https://ga.jspm.io/npm:@floating-ui/core@1.6.2/dist/floating-ui.core.mjs",
+          "@floating-ui/dom": "https://ga.jspm.io/npm:@floating-ui/dom@1.6.5/dist/floating-ui.dom.mjs",
+          "@floating-ui/utils": "https://ga.jspm.io/npm:@floating-ui/utils@0.2.2/dist/floating-ui.utils.mjs",
+          "@floating-ui/utils/dom": "https://ga.jspm.io/npm:@floating-ui/utils@0.2.2/dist/floating-ui.utils.dom.mjs",
+          "@lit/reactive-element": "https://ga.jspm.io/npm:@lit/reactive-element@2.0.4/development/reactive-element.js",
+          "@lit/reactive-element/decorators/": "https://ga.jspm.io/npm:@lit/reactive-element@2.0.4/development/decorators/",
+          "@patternfly/pfe-core/controllers/": "https://ga.jspm.io/npm:@patternfly/pfe-core@3.0.0/controllers/",
+          "lit": "https://ga.jspm.io/npm:lit@3.1.3/index.js",
+          "lit-element/lit-element.js": "https://ga.jspm.io/npm:lit-element@4.0.5/development/lit-element.js",
+          "lit-html": "https://ga.jspm.io/npm:lit-html@3.1.3/development/lit-html.js",
+          "lit-html/": "https://ga.jspm.io/npm:lit-html@3.1.3/development/",
+          "lit/": "https://ga.jspm.io/npm:lit@3.1.3/",
+          "tslib": "https://ga.jspm.io/npm:tslib@2.6.2/tslib.es6.mjs"
+        }
+      }
+    }
+    </script>
+    <script type="module">
+    import '@rhds/elements/rh-tooltip/rh-tooltip.js';
+    </script>
   </head>
   <body>
     <header><h1>Red Hat Icons</h1></header>
-    <main>{% for icon in icons %}{% include icon %}{% endfor %}</main>
+    <main>{% for set in iconSets %}
+      <section>
+        <h2>{{ set.set }}</h2>
+        {% for icon in set.icons %}
+        <rh-tooltip><pre slot="content"><code>&lt;rh-icon set="{{ set.set }}" icon="{{ icon }}"&gt;&lt;/rh-icon&gt;</code></pre>{% include set.dir + '/' + icon + '.svg' %}</rh-tooltip>
+        {% endfor %}
+      </section>{% endfor %}
+    </main>
     <footer><small>© Red Hat 2023</small></footer>
   </body>
 </html>
