@@ -44,7 +44,12 @@ export default {
     'convertStyleToAttrs',
     'removeDimensions',
     { name: 'removeAttrs', params: { attrs: '(data-(\\w*))' } },
+    { name: "removeUselessStrokeAndFill", params: { stroke: true, fill: true, removeNone: true } },
     'removeScriptElement',
     'reusePaths',
+    { name: "removeAttrs", params: { attrs: "fill", elemSeparator: ":", preserveCurrentColor: false } },
+    "removeStyleElement",
+    { name: "removeAttrs", params: { attrs: "class", elemSeparator: ":", preserveCurrentColor: false } },
+    "removeUselessDefs",
   ]
 }

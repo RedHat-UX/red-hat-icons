@@ -1,7 +1,16 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addGlobalData('icons', async function() {
+  eleventyConfig.addGlobalData('iconSets', async function() {
     const { globby } = await import('globby');
-    return (await globby('src/**/*.svg')).map(x => `./${x}`);
+    const sets = await globby('./*', {cwd: 'src', onlyDirectories:true});
+    return Promise.all(sets.map(async set => {
+      const dir =  `src/${set}`;
+      const paths = await globby(`src/${set}/*.svg`);
+      return {
+        set,
+        dir,
+        icons: paths.map(x => x.replace(new RegExp(`src/${set}/(.*).svg`), '$1')),
+      }
+    }));
   })
   return {
     dir: {
