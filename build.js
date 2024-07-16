@@ -8,7 +8,7 @@ const minifyOptions = {
   collapseWhitespace: true
 }
 
-const license = 'Red Hat, Inc. Creative Commons 4.0';
+const license = 'Red Hat, Inc. CC-BY-4.0';
 const getSVG = (svg) => 
   htmlMinify.minify(`<!-- © ${license} licensed -->${svg}`, minifyOptions);
 
