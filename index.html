@@ -39,6 +39,9 @@
       }
 
       figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         width: 8rem;
         margin: 0;
         padding: var(--rh-space-lg, 16px);
@@ -175,7 +178,7 @@
       {% else %}
         {% set section = set.set | capitalize %}
       {% endif %}
-      
+
       <section class="{{ set.set }}" aria-labelledby="{{ id }}">
         <h2 id="{{ id }}">{{ section }}</h2>
         {% for icon in set.icons %}
