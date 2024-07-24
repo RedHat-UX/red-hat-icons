@@ -33,7 +33,7 @@
     "Benny Powers <bennyp@redhat.com>",
     "Steven Spriggs <steven.spriggs@redhat.com>"
   ],
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RedHat-UX/red-hat-icons/issues"
   },
