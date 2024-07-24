@@ -4,4 +4,4 @@
 
 ✨ Added Official Red Hat Brand Icons
 
-848 icons, in 4 sets.  Microns, Social, Standard, and UI.
+848 icons, in 4 sets:  Microns, Social, Standard, and UI.
