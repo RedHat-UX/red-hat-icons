@@ -47,7 +47,11 @@ To add new icons, first obtain approval from [brand-design@redhat.com](mailto:br
 
 ## Commit Changes 
 1. Commit your changes using [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/#summary) style.
-2. Open a new PR and request team members for review.
+2. Add a [changeset](https://github.com/changesets/changesets) 
+  ```bash
+  npx changeset
+  ```
+3. Open a new PR and request team members for review.
 
 
 
