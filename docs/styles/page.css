@@ -31,7 +31,7 @@ figure {
   display: flex;
   flex-direction: column;
   place-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 8rem;
   margin: 0;
   padding: var(--rh-space-lg, 16px);
