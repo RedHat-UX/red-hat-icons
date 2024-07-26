@@ -1,5 +1,20 @@
 # Red Hat Icons
+
 Official Red Hat Brand Icons
+
+## Quickstart
+
+```bash
+npm install @rhds/icons
+```
+
+## Contributing
+
+Please read the [contributing guide](./CONTRIBUTING.md) for more information.
+
+## Demo
+
+[Demo](https://red-hat-icons.netlify.app/)
 
 
 ## Licensing
