@@ -7,7 +7,7 @@ To contribute new icons or request new icons please reach out to [brand-design@r
 ## Documentation
 To work on this project's documentation first install the project on your local machine:
 
-1. [Install Node Version Manager](Install Node Version Manager) for your system.
+1. [Node Version Manager's](https://github.com/nvm-sh/nvm) for your system.
 2. Navigate to your project folder
   ```bash
   cd red-hat-icons
