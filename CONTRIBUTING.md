@@ -51,6 +51,7 @@ To add new icons, first obtain approval from [brand-design@redhat.com](mailto:br
   ```bash
   npx changeset
   ```
+  For more information about changesets and how to use them please read the [changeset documentation](https://github.com/changesets/changesets?tab=readme-ov-file#documentation). 
 3. Open a new PR and request team members for review.
 
 
