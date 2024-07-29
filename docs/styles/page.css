@@ -1,0 +1,68 @@
+body {
+  padding: var(--rh-space-2xl, 32px);
+}
+
+header,
+main {
+  margin: 0 auto;
+  max-width: 1330px;
+}
+
+section {
+  --rh-tooltip-max-width: 50em;
+  --rh-tooltip-content-padding-block-start: 0;
+  --rh-tooltip-content-padding-block-end: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--rh-space-lg, 16px);
+  margin-bottom: var(--rh-space-2xl, 32px);
+}
+
+h1 {
+  margin-block-end: var(--rh-space-2xl, 32px);
+}
+
+/* full row width in flex */
+h2 {
+  min-width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  justify-content: space-between;
+  width: 12rem;
+  margin: 0;
+  padding: var(--rh-space-lg, 16px);
+  border: var(--rh-border-width-sm, 1px) solid var(--rh-color-border-subtle-on-light, #c7c7c7);
+  border-radius: var(--rh-border-radius-default, 3px);
+  text-align: center;
+  
+}
+
+figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: var(--rh-space-lg, 16px);
+  margin-block-start: var(--rh-space-lg, 16px);
+}
+
+figure svg {
+  width: var(--rh-size-icon-03, 32px);
+  aspect-ratio: 1;
+  fill: var(--rh-color-brand-red-on-light, #ee0000);
+  margin: var(--rh-space-lg, 16px);
+}
+
+.microns figure svg {
+  width: var(--rh-size-icon-01, 16px);
+}
+
+.standard figure svg {
+  width: var(--rh-size-icon-06, 64px);
+}
+
+footer {
+  padding: var(--rh-space-2xl, 32px) 0;
+}

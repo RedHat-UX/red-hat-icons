@@ -1,4 +1,7 @@
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./docs/styles/");
+  eleventyConfig.addPassthroughCopy("./docs/fonts/");
+  eleventyConfig.addPassthroughCopy("./docs/javascript/");
   eleventyConfig.addGlobalData('iconSets', async function() {
     const { globby } = await import('globby');
     const sets = await globby('./*', {cwd: 'src', onlyDirectories:true});
@@ -14,7 +17,7 @@ module.exports = function(eleventyConfig) {
   })
   return {
     dir: {
-      input: '.',
+      input: './docs',
     },
     markdownTemplateEngine: 'njk',
     htmlTemplateEngine: 'njk',

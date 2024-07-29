@@ -7,10 +7,16 @@
   "types": "icons.d.ts",
   "type": "module",
   "scripts": {
-    "build": "eleventy && node build.js",
-    "optimize": "svgo src/**/*.svg",
+    "build": "wireit",
+    "serve": "wireit",
+    "optimize": "wireit",
     "test": "echo \"no tests yet\""
   },
+  "files": [
+    "./dist/**/*.js",
+    "./dist/**/*.svg",
+    "!scripts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/RedHat-UX/red-hat-icons.git"
@@ -24,17 +30,52 @@
   "author": "Red Had Icons Authors",
   "contributors": [
     "Libby Levy",
-    "Benny Powers <bennyp@redhat.com>"
+    "Benny Powers <bennyp@redhat.com>",
+    "Steven Spriggs <steven.spriggs@redhat.com>"
   ],
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RedHat-UX/red-hat-icons/issues"
   },
   "homepage": "https://github.com/RedHat-UX/red-hat-icons#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-beta.3",
+    "@changesets/cli": "^2.27.7",
     "convert-svg-to-png": "^0.6.4",
     "globby": "^13.1.2",
-    "svgo": "^2.8.0"
+    "html-minifier": "^4.0.0",
+    "svgo": "^2.8.0",
+    "wireit": "^0.14.5"
+  },
+  "wireit": {
+    "build": {
+      "command": "node build.js",
+      "dependencies": [
+        "optimize",
+        "eleventy"
+      ],
+      "output": [
+        "dist/**/*.{svg,js}"
+      ]
+    },
+    "optimize": {
+      "command": "svgo ./src/**/*.svg",
+      "files": [
+        "src/**/*.svg"
+      ]
+    },
+    "eleventy": {
+      "command": "eleventy",
+      "files": [
+        "index.html"
+      ],
+      "output": [
+        "_site"
+      ]
+    },
+    "serve": {
+      "service": true,
+      "command": "eleventy --serve"
+    }
   }
 }
