@@ -8,3 +8,9 @@ _site
 .DS_Store
 
 .wireit
+
+# icon folders
+microns
+standard
+social
+ui

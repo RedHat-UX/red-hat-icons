@@ -13,8 +13,10 @@
     "test": "echo \"no tests yet\""
   },
   "files": [
-    "./dist/**/*.js",
-    "./dist/**/*.svg",
+    "./microns/**/*",
+    "./standard/**/*",
+    "./social/**/*",
+    "./ui/**/*",
     "!scripts"
   ],
   "repository": {
