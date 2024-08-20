@@ -17,11 +17,11 @@ const getContent = content =>
 
 for (const path of await globby('src/**/*.svg')) {
   const [filename, category] = path.split(sep).reverse();
-  await mkdir(new URL(`dist/${category}`, import.meta.url), { recursive: true });
+  await mkdir(new URL(`${category}`, import.meta.url), { recursive: true });
   const svg = await readFile(new URL(path, import.meta.url), 'utf8');
-  await writeFile(new URL(`dist/${category}/${filename}`, import.meta.url), getSVG(svg), 'utf8');
+  await writeFile(new URL(`${category}/${filename}`, import.meta.url), getSVG(svg), 'utf8');
   await writeFile(
-    new URL(`dist/${category}/${filename.replace(/\.svg$/, '.js')}`, import.meta.url),
+    new URL(`${category}/${filename.replace(/\.svg$/, '.js')}`, import.meta.url),
     getContent(svg),
     'utf8'
   );
