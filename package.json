@@ -5,6 +5,7 @@
   "main": "icons.js",
   "module": "icons.js",
   "types": "icons.d.ts",
+  "exports": "./icons.js",
   "type": "module",
   "scripts": {
     "build": "wireit",
@@ -17,6 +18,9 @@
     "./standard/**/*",
     "./social/**/*",
     "./ui/**/*",
+    "icons.js",
+    "icons.d.ts",
+    "icons.js.map",
     "!scripts"
   ],
   "repository": {
@@ -38,7 +42,7 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
-  },  
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RedHat-UX/red-hat-icons/issues"
@@ -47,21 +51,20 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-beta.3",
     "@changesets/cli": "^2.27.7",
+    "@types/html-minifier": "^4.0.5",
+    "@types/node": "^22.4.1",
     "convert-svg-to-png": "^0.6.4",
     "globby": "^13.1.2",
     "html-minifier": "^4.0.0",
     "svgo": "^2.8.0",
+    "typescript": "^5.5.4",
     "wireit": "^0.14.5"
   },
   "wireit": {
     "build": {
-      "command": "node build.js",
       "dependencies": [
-        "optimize",
+        "compile",
         "eleventy"
-      ],
-      "output": [
-        "dist/**/*.{svg,js}"
       ]
     },
     "optimize": {
@@ -77,6 +80,33 @@
       ],
       "output": [
         "_site"
+      ]
+    },
+    "write": {
+      "command": "node --experimental-strip-types scripts/build.ts",
+      "dependencies": [
+        "optimize"
+      ],
+      "files": [
+        "src/**/*.svg",
+        "scripts/build.ts"
+      ],
+      "output": [
+        "dist/**/*.{svg,js}"
+      ]
+    },
+    "compile": {
+      "command": "tsc",
+      "dependencies": [
+        "write"
+      ],
+      "files": [
+        "icons.ts"
+      ],
+      "output": [
+        "icons.js",
+        "icons.js.map",
+        "icons.d.ts"
       ]
     },
     "serve": {

@@ -8,12 +8,7 @@
      <script type="importmap">
     {
       "imports": {
-        "@patternfly/icons/far/copy.js": "https://ga.jspm.io/npm:@patternfly/icons@1.0.2/far/copy.js",
-        "@patternfly/elements/pf-icon/pf-icon.js": "https://ga.jspm.io/npm:@patternfly/elements@3.0.2/pf-icon/pf-icon.js",
-        "@rhds/elements/rh-button/rh-button.js": "https://ga.jspm.io/npm:@rhds/elements@1.4.5/elements/rh-button/rh-button.js",
-        "@rhds/elements/rh-tooltip/rh-tooltip.js": "https://ga.jspm.io/npm:@rhds/elements@1.4.5/elements/rh-tooltip/rh-tooltip.js",
-        "@rhds/elements/rh-alert/rh-alert.js": "https://ga.jspm.io/npm:@rhds/elements@1.4.5/elements/rh-alert/rh-alert.js",
-        "@rhds/elements/rh-surface/rh-surface.js": "https://ga.jspm.io/npm:@rhds/elements@1.4.5/elements/rh-surface/rh-surface.js"
+        "@rhds/elements/": "https://ga.jspm.io/npm:@rhds/elements@1.4.5/elements/"
       },
       "scopes": {
         "https://ga.jspm.io/": {
@@ -35,58 +30,52 @@
     }
     </script>
     <script type="module">
-      import '@patternfly/elements/pf-icon/pf-icon.js';
       import '@rhds/elements/rh-tooltip/rh-tooltip.js';
       import '@rhds/elements/rh-surface/rh-surface.js';
-      import '@rhds/elements/rh-button/rh-button.js';
       import '@rhds/elements/rh-alert/rh-alert.js';
-    </script>
-
-    <script type="module">
+      import { RhButton } from '@rhds/elements/rh-button/rh-button.js';
       import Toast from './javascript/toast.js';
-      
-      async function copy(html) {
-        await navigator.clipboard.writeText(html)
-      }
-
-      const tooltips = document.querySelectorAll('rh-tooltip');
-      tooltips.forEach(tip => {
-        const tipButton = tip.querySelector('rh-button');
-        tipButton.addEventListener('click', async (event) => {
+      document.addEventListener('click', async function() {
+        if (event.target instanceof RhButton) {
+          const tip = event.target.closest('rh-tooltip')
           const { html, icon } = event.target.dataset;
-          console.log(event.target.dataset);
-          copy(html); 
+          await navigator.clipboard.writeText(html)
           await Toast(`Copied ${icon}`);
-        });
-      })
-    </script>    
+        }
+      });
+    </script>
   </head>
   <body>
     <header><h1>Red Hat Icons</h1></header>
     <main>
-      {% for set in iconSets %}
-      {% set id = set.set | lower %}
+      {% for id, set in iconSets %}
 
-      {% if set.set === "ui" %}
-        {% set section = set.set | upper %} 
+      {% if id === "ui" %}
+        {% set section = id | upper %} 
       {% else %}
-        {% set section = set.set | capitalize %}
+        {% set section = id | capitalize %}
       {% endif %}
 
-      <section class="{{ set.set }}" aria-labelledby="{{ id }}">
+      <section class="{{ id }}" aria-labelledby="{{ id }}">
         <h2 id="{{ id }}">{{ section }}</h2>
-        {% for icon in set.icons %}
+        {% for icon, svg in set.entries() %}
         <figure>
-          {% include set.dir + '/' + icon + '.svg' %}
+          {{ svg | safe }}
           <figcaption>
             {{ icon }}
-             <rh-tooltip position="bottom">
-              <rh-button name="toast" variant="link" data-html='<rh-icon set="{{ set.set }}" icon="{{ icon }}"></rh-icon>' data-icon="{{icon}}">
-                <pf-icon set="far" icon="copy" size="md" loading="eager"></pf-icon>
+            <rh-tooltip position="bottom">
+              <rh-button name="toast"
+                         variant="link"
+                         data-html='<rh-icon set="{{ id }}" icon="{{ icon }}"></rh-icon>'
+                         data-icon="{{icon}}">
+                <span class="copy-icon">{{ iconSets.ui.get('copy') | safe }}</span>
+                {#
+                <rh-icon set="ui" icon="copy" size="sm"></rh-icon>
+                #}
                 Copy <span class="sr-only">{{icon}}</span>
               </rh-button>
-              <pre slot="content"><code>&lt;rh-icon set="{{ set.set }}" icon="{{ icon }}"&gt;&lt;/rh-icon&gt;</code></pre>
-             </rh-tooltip>  
+              <pre slot="content"><code>&lt;rh-icon set="{{ id }}" icon="{{ icon }}"&gt;&lt;/rh-icon&gt;</code></pre>
+            </rh-tooltip>
           </figcaption>
         </figure>
         {% endfor %}

@@ -1,20 +1,29 @@
+// minimal DOM
+class MiniHTMLTemplateElement {
+  tagName;
+  #innerHTML
+  content = {};
+  set innerHTML(html) {
+    this.#innerHTML = html;
+  };
+  constructor(tagName) {
+    this.tagName = tagName
+    this.content.cloneNode = () => this.#innerHTML;
+  }
+}
+
+class MiniDocument {
+  createElement(tagName) {
+    return new MiniHTMLTemplateElement(tagName)
+  }
+}
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./docs/styles/");
   eleventyConfig.addPassthroughCopy("./docs/fonts/");
   eleventyConfig.addPassthroughCopy("./docs/javascript/");
-  eleventyConfig.addGlobalData('iconSets', async function() {
-    const { globby } = await import('globby');
-    const sets = await globby('./*', {cwd: 'src', onlyDirectories:true});
-    return Promise.all(sets.map(async set => {
-      const dir =  `src/${set}`;
-      const paths = await globby(`src/${set}/*.svg`);
-      return {
-        set,
-        dir,
-        icons: paths.map(x => x.replace(new RegExp(`src/${set}/(.*).svg`), '$1')),
-      }
-    }));
-  })
+  globalThis.document = new MiniDocument();
+  eleventyConfig.addGlobalData('iconSets', () => import('./icons.js'));
   return {
     dir: {
       input: './docs',

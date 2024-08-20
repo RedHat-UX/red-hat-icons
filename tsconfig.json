@@ -1,0 +1,13 @@
+{
+  "files": [
+    "icons.ts"
+  ],
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "declaration": true,
+    "sourceMap": true,
+    "isolatedDeclarations": true,
+    "skipLibCheck": true
+  }
+}

@@ -106,7 +106,7 @@
   rh-tooltip {
     cursor: pointer;
   }
-  
+
   rh-button::part(button) {
     display: flex;
     flex-direction: row;

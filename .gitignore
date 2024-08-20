@@ -14,3 +14,7 @@ microns
 standard
 social
 ui
+icons.ts
+icons.d.ts
+icons.js
+icons.js.map
