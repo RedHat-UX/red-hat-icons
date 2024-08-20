@@ -7,7 +7,7 @@ Adds JavaScript module, which exports each icon set as a map of icon names to SV
 import * as Icons from '@rhds/icons';
 
 document.body.append(Icons.social.get('rss'));
-document.body.append(Icons.standard.get('rss'));
+document.body.append(Icons.standard.get('api'));
 ```
 
 **⚠️ WARNING**: The JavaScript module loads *every* available icon. Importing it
