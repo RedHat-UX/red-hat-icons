@@ -74,6 +74,9 @@
       ]
     },
     "eleventy": {
+      "dependencies": [
+        "compile"
+      ],
       "command": "eleventy",
       "files": [
         "index.html"
