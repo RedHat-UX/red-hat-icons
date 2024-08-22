@@ -5,7 +5,10 @@
   "main": "icons.js",
   "module": "icons.js",
   "types": "icons.d.ts",
-  "exports": "./icons.js",
+  "exports": {
+    ".": "./icons.js",
+    "./*": "./*"
+  },
   "type": "module",
   "scripts": {
     "build": "wireit",
