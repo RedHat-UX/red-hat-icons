@@ -1,5 +1,11 @@
 # @rhds/icons
 
+## 1.1.1
+
+### Patch Changes
+
+- 75be1a6: Fixed package exports
+
 ## 1.1.0
 
 ### Minor Changes
