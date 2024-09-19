@@ -1,5 +1,11 @@
 # @rhds/icons
 
+## 1.1.2
+
+### Patch Changes
+
+- 9d88cea: Work better with JSPM generator (hopefully)
+
 ## 1.1.1
 
 ### Patch Changes
