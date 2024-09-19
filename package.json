@@ -7,7 +7,11 @@
   "types": "icons.d.ts",
   "exports": {
     ".": "./icons.js",
-    "./*": "./*"
+    "./*": "./*",
+    "./standard/*": "./standard/*",
+    "./social/*": "./social/*",
+    "./ui/*": "./ui/*",
+    "./microns/*": "./microns/*"
   },
   "type": "module",
   "scripts": {
