@@ -3,9 +3,18 @@ body {
 }
 
 header,
-main {
+main,
+footer {
   margin: 0 auto;
   max-width: 1330px;
+}
+
+header {
+  padding-block-end: var(--rh-space-2xl, 32px);
+}
+
+footer {
+  text-align: center;
 }
 
 section {
@@ -48,7 +57,7 @@ figcaption {
 }
 
 figure svg {
-  width: var(--rh-size-icon-03, 32px);
+  width: var(--rh-size-icon-01, 16px);
   aspect-ratio: 1;
   fill: currentcolor;
   margin: var(--rh-space-lg, 16px);
@@ -58,11 +67,16 @@ figure svg {
   color: var(--rh-color-interactive-blue-darker, #0066cc);
 }
 
-.microns figure svg {
-  width: var(--rh-size-icon-01, 16px);
+.copy-icon > svg {
+  margin: 0 4px 0 0;
 }
 
-.standard figure svg {
+.ui figure > svg,
+.social figure > svg {
+  width: var(--rh-size-icon-03, 32px);
+}
+
+.standard figure > svg {
   width: var(--rh-size-icon-06, 64px);
 }
 

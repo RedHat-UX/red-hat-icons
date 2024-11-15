@@ -121,7 +121,10 @@
     },
     "serve": {
       "service": true,
-      "command": "eleventy --serve"
+      "command": "eleventy --serve",
+      "dependencies": [
+        "compile"
+      ]
     }
   }
 }
