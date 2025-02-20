@@ -1,5 +1,26 @@
 # @rhds/icons
 
+## 1.2.0
+
+### Minor Changes
+
+- 437d11a: ✨ Added standard icons:
+  - `import`
+  - `webhooks`
+  - `run-pipeline`
+  - `deployed-model`
+  - `model-registry`
+  - `storage-classes`
+  - `data-connections`
+  - `registered-model`
+- 49e058f: ✨ Added ui icons:
+  - `auto-light-dark-mode-fill`
+  - `auto-light-dark-mode`
+  - `dark-mode-fill`
+  - `dark-mode`
+  - `light-mode-fill`
+  - `light-mode`
+
 ## 1.1.2
 
 ### Patch Changes
