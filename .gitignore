@@ -14,6 +14,7 @@ microns
 standard
 social
 ui
+!src/**/*
 icons.ts
 icons.d.ts
 icons.js
