@@ -74,3 +74,13 @@ export const ${setName}: IconSet<${Array.from(icons, k => `"${k}"`).join(' | ')}
 `.trim(),
   'utf8');
 
+await writeFile(join(process.cwd(), 'metadata.ts'), typescript`
+import type { IconSetName, IconNameFor } from './icons.js';
+
+export const icons: Map<IconSetName, Set<string>> = new Map([${Array.from(sets.entries(), ([k, v]) => `
+  ['${k}' as const, new Set(${JSON.stringify(Array.from(v))})]`
+  )}
+]);
+`.trim(),
+  'utf8');
+
