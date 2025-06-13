@@ -1,5 +1,11 @@
 # @rhds/icons
 
+## 1.3.0
+
+### Minor Changes
+
+- 01df6ec: Added `metadata.js` file, which exports a map of icon set names to set of icon names. Useful in SSR scenarios.
+
 ## 1.2.0
 
 ### Minor Changes
