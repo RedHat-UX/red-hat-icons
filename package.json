@@ -7,6 +7,7 @@
   "types": "icons.d.ts",
   "exports": {
     ".": "./icons.js",
+    "./metadata.js": "./metadata.js",
     "./*": "./*",
     "./standard/*": "./standard/*",
     "./social/*": "./social/*",
@@ -57,15 +58,15 @@
   "homepage": "https://github.com/RedHat-UX/red-hat-icons#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-beta.3",
-    "@changesets/cli": "^2.27.7",
+    "@changesets/cli": "^2.29.4",
     "@types/html-minifier": "^4.0.5",
-    "@types/node": "^22.4.1",
+    "@types/node": "^22.15.19",
     "convert-svg-to-png": "^0.6.4",
     "globby": "^13.1.2",
     "html-minifier": "^4.0.0",
     "svgo": "^2.8.0",
-    "typescript": "^5.5.4",
-    "wireit": "^0.14.5"
+    "typescript": "^5.8.3",
+    "wireit": "^0.14.12"
   },
   "wireit": {
     "build": {
