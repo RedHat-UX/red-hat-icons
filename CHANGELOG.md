@@ -1,5 +1,11 @@
 # @rhds/icons
 
+## 1.3.1
+
+### Patch Changes
+
+- e2ee1fe: Added metadata.js to files list
+
 ## 1.3.0
 
 ### Minor Changes
