@@ -29,6 +29,9 @@
     "icons.js",
     "icons.d.ts",
     "icons.js.map",
+    "metadata.js",
+    "metadata.d.ts",
+    "metadata.js.map",
     "!scripts"
   ],
   "repository": {
