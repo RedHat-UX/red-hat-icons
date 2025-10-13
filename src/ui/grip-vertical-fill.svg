@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect x="18" width="8" height="8" rx="1.5" ry="1.5"/>
-  <rect x="18" y="24" width="8" height="8" rx="1.5" ry="1.5"/>
-  <rect x="18" y="12" width="8" height="8" rx="1.5" ry="1.5"/>
-  <rect x="6" width="8" height="8" rx="1.5" ry="1.5"/>
-  <rect x="6" y="24" width="8" height="8" rx="1.5" ry="1.5"/>
-  <rect x="6" y="12" width="8" height="8" rx="1.5" ry="1.5"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.uuid-d3dd94d0-5df6-436f-9a1a-552978ee9693{fill:none;}.uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2{fill:#151515;}</style></defs><g id="uuid-88a2b8af-be72-48ff-91f3-3db1b799d520"><rect class="uuid-d3dd94d0-5df6-436f-9a1a-552978ee9693" width="32" height="32"/></g><g id="uuid-538a4336-a6f8-4623-a31f-a510d0dcc3a8"><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="6.25" y="1.25" width="7.5" height="7.5" rx="1" ry="1"/><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="18.25" y="1.25" width="7.5" height="7.5" rx="1" ry="1"/><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="6.25" y="12.25" width="7.5" height="7.5" rx="1" ry="1"/><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="18.25" y="12.25" width="7.5" height="7.5" rx="1" ry="1"/><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="6.25" y="23.25" width="7.5" height="7.5" rx="1" ry="1"/><rect class="uuid-81919c11-e010-4d02-86b1-d103f9d5bfb2" x="18.25" y="23.25" width="7.5" height="7.5" rx="1" ry="1"/></g></svg>

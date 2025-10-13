@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <path d="M30 29H2a1 1 0 1 0 0 2h28a1 1 0 1 0 0-2Z"/>
-  <rect x="4" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
-  <rect x="18" y="15" width="10" height="10" rx="1.5" ry="1.5"/>
-  <rect x="11" y="1" width="10" height="10" rx="1.5" ry="1.5"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.uuid-48865632-2e9e-4003-9c15-a7f98687965a{fill:none;}.uuid-cf25d585-8761-4464-ab92-5cb157bce5c4{fill:#151515;}</style></defs><g id="uuid-a190a694-98fd-4cfe-b97b-c5f185643e53"><rect class="uuid-48865632-2e9e-4003-9c15-a7f98687965a" width="32" height="32"/></g><g id="uuid-101d4b2a-f064-494a-a0fb-4dd42f991f02"><rect class="uuid-cf25d585-8761-4464-ab92-5cb157bce5c4" x="11" y="2" width="10" height="10" rx="1.25" ry="1.25"/><rect class="uuid-cf25d585-8761-4464-ab92-5cb157bce5c4" x="4" y="15" width="10" height="10" rx="1.25" ry="1.25"/><path class="uuid-cf25d585-8761-4464-ab92-5cb157bce5c4" d="M29,28H3c-.55225,0-1,.44775-1,1s.44775,1,1,1h26c.55225,0,1-.44775,1-1s-.44775-1-1-1Z"/><rect class="uuid-cf25d585-8761-4464-ab92-5cb157bce5c4" x="18" y="15" width="10" height="10" rx="1.25" ry="1.25"/></g></svg>

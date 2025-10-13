@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <path d="M29.5 13h-27c-.827 0-1.5.673-1.5 1.5v9c0 .827.673 1.5 1.5 1.5h27c.827 0 1.5-.673 1.5-1.5v-9c0-.827-.673-1.5-1.5-1.5ZM29 23H3v-8h26v8Z"/>
-  <path d="M7 20h6a1 1 0 1 0 0-2H7a1 1 0 1 0 0 2Z"/>
-  <circle cx="24" cy="19" r="1.5"/>
-  <circle cx="29" cy="9" r="1.5"/>
-  <circle cx="22.5" cy="9" r="1.5"/>
-  <circle cx="16" cy="9" r="1.5"/>
-  <circle cx="9.5" cy="9" r="1.5"/>
-  <circle cx="3" cy="9.01" r="1.5"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.uuid-62fce5d7-0c98-4c21-b353-1f0b13c69ee2{fill:none;}.uuid-829ec854-cb5d-4e91-8456-5980ad2201b4{fill:#151515;}</style></defs><g id="uuid-b3a56e79-941c-499a-9d6a-909ae7f3c321"><rect class="uuid-62fce5d7-0c98-4c21-b353-1f0b13c69ee2" width="32" height="32"/></g><g id="uuid-83ecd457-4098-4a47-8ced-c86660d03f1c"><path class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" d="M29.5,9H2.5c-.82715,0-1.5.67285-1.5,1.5v11c0,.82715.67285,1.5,1.5,1.5h27c.82715,0,1.5-.67285,1.5-1.5v-11c0-.82715-.67285-1.5-1.5-1.5ZM29,21H3v-10h26v10Z"/><path class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" d="M8,17h5c.55225,0,1-.44775,1-1s-.44775-1-1-1h-5c-.55225,0-1,.44775-1,1s.44775,1,1,1Z"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="23.00488" cy="16.01489" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="4.00488" cy="4.00098" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="10" cy="4.00098" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="15.99512" cy="4.00098" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="22" cy="4.00391" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="28" cy="4.00391" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="4.00488" cy="28.00195" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="10" cy="28.00195" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="15.99512" cy="28.00195" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="22" cy="28.00488" r="1.625"/><circle class="uuid-829ec854-cb5d-4e91-8456-5980ad2201b4" cx="28" cy="28.00488" r="1.625"/></g></svg>

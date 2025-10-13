@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect x="9" y="9" width="5" height="14" rx=".5" ry=".5"/>
-  <rect x="18" y="9" width="5" height="14" rx=".5" ry=".5"/>
-  <path d="M16 0C7.178 0 0 7.178 0 16s7.178 16 16 16 16-7.178 16-16S24.822 0 16 0Zm0 30C8.28 30 2 23.72 2 16S8.28 2 16 2s14 6.28 14 14-6.28 14-14 14Z"/>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.uuid-aec5f8b9-b107-4c93-867d-0b29b3270566{fill:none;}.uuid-c778c6c6-97e0-49e7-bf50-58bdca43f2b7{fill:#151515;}</style></defs><g id="uuid-315b5895-5d97-4071-9fee-db841a447e97"><rect class="uuid-aec5f8b9-b107-4c93-867d-0b29b3270566" width="32" height="32"/></g><g id="uuid-8b603db8-a628-41ce-bc84-9de4b6236eb7"><path class="uuid-c778c6c6-97e0-49e7-bf50-58bdca43f2b7" d="M16,1C7.72852,1,1,7.729,1,16s6.72852,15,15,15,15-6.729,15-15S24.27148,1,16,1ZM16,29c-7.16797,0-13-5.83154-13-13S8.83203,3,16,3s13,5.83154,13,13-5.83203,13-13,13Z"/><rect class="uuid-c778c6c6-97e0-49e7-bf50-58bdca43f2b7" x="9.5" y="9.5" width="5" height="13" rx=".75" ry=".75"/><rect class="uuid-c778c6c6-97e0-49e7-bf50-58bdca43f2b7" x="17.5" y="9.5" width="5" height="13" rx=".75" ry=".75"/></g></svg>
