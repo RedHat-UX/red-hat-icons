@@ -217,4 +217,4 @@
 
 #### ⚠️ Deprecating the following icons:
 
-- connected
+- connected-fill
