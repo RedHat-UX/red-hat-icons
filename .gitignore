@@ -6,7 +6,7 @@ node_modules
 dist
 _site
 .DS_Store
-rm src/.DS_Store
+src/.DS_Store
 .vscode
 
 .wireit
