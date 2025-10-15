@@ -196,7 +196,7 @@
 - zoom-in
 - zoom-out
 
-#### 🎨 Updated/improved the design of the following icons:
+#### 🎨 Updated/improved the design of the following UI icons:
 
 - auto-light-dark-mode
 - blueprint
@@ -215,6 +215,6 @@
 - new
 - new-fill
 
-#### ⚠️ Deprecating the following icons:
+#### ⚠️ Deprecating the following UI icons:
 
 - connected-fill
