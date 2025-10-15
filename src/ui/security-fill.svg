@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><defs><style>.uuid-c4bee6dd-58ca-4b0f-872d-03b8f4de8972{fill:none;}.uuid-59a12c3d-b270-4d9a-bd6f-22dece85cd3e{fill:#151515;}</style></defs><g id="uuid-5f1b0f14-c054-4b77-8f83-fd78df247447"><rect class="uuid-c4bee6dd-58ca-4b0f-872d-03b8f4de8972" width="32" height="32"/></g><g id="uuid-9d88ad58-0c16-4cce-8a30-7ee007a34210"><path class="uuid-59a12c3d-b270-4d9a-bd6f-22dece85cd3e" d="M28.2085,3.58203l-12-2.56006c-.1377-.0293-.2793-.0293-.41699,0L3.7915,3.58203c-.46143.09863-.7915.50635-.7915.97803v13.43994c0,7.16846,5.83154,13,13,13s13-5.83154,13-13V4.56006c0-.47168-.33008-.87939-.7915-.97803Z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <path d="M29 4.56V18c0 7.168-5.832 13-13 13S3 25.168 3 18V4.56a1 1 0 0 1 .792-.978l12-2.56a1.01 1.01 0 0 1 .417 0l12 2.56c.461.099.792.506.792.978Z"/>
+</svg>
