@@ -4,7 +4,8 @@
 
 ### Major Changes
 
-- 102f634: ### ⛔️ Breaking changes
+- 102f634:
+  #### ⛔️ Breaking changes
 
   - Removed `auto-light-dark-mode-fill` UI icon. Please use `auto-light-dark-mode` instead.
 
@@ -20,9 +21,9 @@
   <rh-icon set="ui" icon="auto-light-dark-mode"></rh-icon>
   ```
 
-  ### ⚠️ Potentially breaking changes
+  #### ⚠️ Potentially breaking changes
 
-  #### ✨ AI Experiences
+  ##### ✨ AI Experiences
 
   The `new` and `new-fill` UI icons have been updated and are no longer using the "sparkle" metaphor. Therefore, this may potentially break implementations and/or uses of `new` or `new-fill` to symbolize AI experiences.
 
@@ -47,7 +48,8 @@
 
 ### Minor Changes
 
-- 102f634: ### ✨ Added 191 new UI icons, including new `fill` variations:
+- 102f634:
+  #### ✨ Added 191 new UI icons, including new `fill` variations:
 
   - add-square
   - ai-experience
@@ -241,7 +243,7 @@
   - zoom-in
   - zoom-out
 
-  ### 🎨 Updated/improved the design of the following UI icons:
+  #### 🎨 Updated/improved the design of the following UI icons:
 
   - auto-light-dark-mode
   - blueprint
@@ -260,7 +262,7 @@
   - new
   - new-fill
 
-  ### ⚠️ Deprecating the following UI icons:
+  #### ⚠️ Deprecating the following UI icons:
 
   - connected-fill
 
