@@ -7,7 +7,7 @@
 - 102f634:
   #### ⛔️ Breaking changes
 
-  - Removed `auto-light-dark-mode-fill` UI icon. Please use `auto-light-dark-mode` instead.
+  Removed `auto-light-dark-mode-fill` UI icon. Please use `auto-light-dark-mode` instead.
 
   **Before**
 
