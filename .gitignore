@@ -7,6 +7,7 @@ dist
 _site
 .DS_Store
 src/.DS_Store
+src/ui/.DS_Store
 .vscode
 
 .wireit
