@@ -1,10 +1,18 @@
 # @rhds/icons
 
+## 2.1.0
+
+### Minor Changes
+
+- d7fec61: Added 29 new icons, including several AI icons, and updated the `ai-experience` and `ai-experience-fill` icons.
+- d4bcb41: Added 53 new Standard icons, including several new AI icons, and updated the `standup` icon.
+
 ## 2.0.0
 
 ### Major Changes
 
 - 102f634:
+
   #### ⛔️ Breaking changes
 
   Removed `auto-light-dark-mode-fill` UI icon. Please use `auto-light-dark-mode` instead.
@@ -49,6 +57,7 @@
 ### Minor Changes
 
 - 102f634:
+
   #### ✨ Added 191 new UI icons, including new `fill` variations:
 
   - add-square
