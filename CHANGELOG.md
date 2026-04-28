@@ -4,7 +4,9 @@
 
 ### Minor Changes
 
-- 8db4b53: ### New Micron icons
+- 8db4b53: Adding and updating several new icons
+
+  ### New Micron icons
 
   - `double-caret-down`
   - `double-caret-left`
