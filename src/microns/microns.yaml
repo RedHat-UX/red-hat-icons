@@ -1,11 +1,8 @@
-# RHDS icon metadata index (starts with Microns)
-# Root-level source of truth for AI icon selection (issue #25).
+# Microns icon metadata
+# Per-icon source of truth for AI selection within the microns set (issue #25).
 #
-# This file lives at the repository root as the index for icon metadata.
-# Microns are first; additional sets can be added here as the index grows.
-#
-# Microns are UI icons optimized for very small sizes. Prefer this set over
-# larger UI icons when the control must stay legible at micron scale.
+# Linked from the root index at /icons.yaml. Prefer this set over UI icons only
+# when the control must stay legible at micron scale (spaces 12px or smaller).
 #
 # Seeded from Figma (2026-07-06), curated against glyph meaning and RHDS
 # icon guidelines (familiar meanings; close ≠ delete).
@@ -17,7 +14,6 @@
 #   accepted_metaphors: concepts this icon IS appropriate for
 #   rejected_metaphors: concepts this icon should NOT be used for
 
-category: microns
 set: microns
 source:
   type: figma

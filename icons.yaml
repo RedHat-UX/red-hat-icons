@@ -1,0 +1,59 @@
+# RHDS icon metadata index
+# Root-level entry point for AI icon selection (issue #25).
+#
+# This file describes each icon set and points to that set's per-icon manifest.
+# Set manifests live beside the SVG sources under src/<set>/.
+#
+# Skills and MCP tools should start here, then load the set manifest for
+# icon-level descriptions and accepted/rejected metaphors.
+#
+# Size ranges align with RHDS <rh-icon> guidance:
+# https://ux.redhat.com/elements/icon/style/
+
+sets:
+  - id: microns
+    name: Microns
+    manifest: src/microns/microns.yaml
+    size_range:
+      min_px: 8
+      max_px: 12
+    use_case: >
+      Extremely small, utilitarian interactive controls (close, expand,
+      search, carets) in spaces 12px or smaller. Prefer a UI icon when
+      there is enough room; never use microns for decoration or artwork.
+    status: curated
+
+  - id: ui
+    name: UI icons
+    manifest: src/ui/ui.yaml
+    size_range:
+      min_px: 14
+      max_px: 24
+    use_case: >
+      Utilitarian icons that convey information and facilitate navigation
+      in product interfaces and web properties. Not for artwork or
+      decorative use; choose standard icons or illustrations instead.
+    status: pending
+
+  - id: standard
+    name: Standard icons
+    manifest: src/standard/standard.yaml
+    size_range:
+      min_px: 24
+      max_px: 100
+    use_case: >
+      General technology and brand concepts for presentations, web content,
+      infographics, diagrams, and other marketing materials. Default set
+      for <rh-icon>. Prefer illustrations above ~100px.
+    status: pending
+
+  - id: social
+    name: Social media
+    manifest: src/social/social.yaml
+    size_range:
+      min_px: 14
+      max_px: 24
+    use_case: >
+      Social platform brand marks for linking to or identifying social
+      media destinations. Not a general metaphor set.
+    status: pending
