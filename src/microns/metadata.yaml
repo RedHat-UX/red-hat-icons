@@ -1,5 +1,5 @@
 # Microns icon metadata
-# Per-icon source of truth for AI selection within the microns set (issue #25).
+# Per-icon source of truth for AI selection within the microns set.
 #
 # Linked from the root index at /icon-sets.yaml. Prefer this set over UI icons only
 # when the control must stay legible at micron scale (spaces 12px or smaller).
