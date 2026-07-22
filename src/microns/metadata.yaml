@@ -542,7 +542,7 @@ icons:
   # the control's arrow affordance; do not pick by ascending/descending alone.
   - name: rh-micron-sort-up-small-to-large
     icon: sort-up-small-to-large
-    description: "Sort control with up arrow; order small→large (A→Z, low→high)."
+    description: "Sort control with up arrow; order small to large (A to Z, low to high)."
     accepted_metaphors:
       - sort ascending with up arrow
       - A to Z with up arrow
