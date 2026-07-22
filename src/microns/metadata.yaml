@@ -557,7 +557,7 @@ icons:
 
   - name: rh-micron-sort-up-large-to-small
     icon: sort-up-large-to-small
-    description: "Sort control with up arrow; order large→small (Z→A, high→low)."
+    description: "Sort control with up arrow; order large to small (Z to A, high to low)."
     accepted_metaphors:
       - sort descending with up arrow
       - Z to A with up arrow
