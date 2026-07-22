@@ -1,18 +1,16 @@
-# Microns icon metadata
-# Per-icon source of truth for AI selection within the microns set.
+# Microns — icon documentation
+# Per-icon descriptions, accepted uses, and rejected uses for the microns set.
+# Linked from /icon-sets.yaml.
 #
-# Linked from the root index at /icon-sets.yaml. Prefer this set over UI icons only
-# when the control must stay legible at micron scale (spaces 12px or smaller).
-#
-# Seeded from Figma (2026-07-06), curated against glyph meaning and RHDS
+# Sourced from Figma (2026-07-06), curated against glyph meaning and RHDS
 # icon guidelines (familiar meanings; close ≠ delete).
 #
-# Schema per icon:
+# Schema:
 #   name: Figma component name (rh-micron-*)
 #   icon: @rhds/icons / <rh-icon> icon id (set="microns")
 #   description: what the glyph depicts and when to use it
-#   accepted_metaphors: concepts this icon IS appropriate for
-#   rejected_metaphors: concepts this icon should NOT be used for
+#   accepted_metaphors: concepts this icon is appropriate for
+#   rejected_metaphors: concepts this icon should not be used for
 
 set: microns
 source:

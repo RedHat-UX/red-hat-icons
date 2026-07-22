@@ -1,11 +1,6 @@
-# RHDS icon metadata index
-# Root-level entry point for programmatic icon set discovery and consumption.
-#
-# This file describes each icon set and points to that set's per-icon manifest.
-# Set manifests live beside the SVG sources under src/<set>/.
-#
-# Skills and MCP tools should start here, then load the set manifest for
-# icon-level descriptions and accepted/rejected metaphors.
+# Red Hat Icons — set index
+# Documents each icon set: use case, size range, and path to that set's icon manifest.
+# Set manifests live beside the SVG sources at src/<set>/metadata.yaml.
 #
 # Size ranges align with RHDS <rh-icon> guidance:
 # https://ux.redhat.com/elements/icon/style/
@@ -25,7 +20,7 @@ sets:
 
   - id: ui
     name: UI icons
-    manifest: src/ui/ui.yaml
+    manifest: src/ui/metadata.yaml
     size_range:
       min_px: 14
       max_px: 24
@@ -37,7 +32,7 @@ sets:
 
   - id: standard
     name: Standard icons
-    manifest: src/standard/standard.yaml
+    manifest: src/standard/metadata.yaml
     size_range:
       min_px: 24
       max_px: 100
@@ -49,7 +44,7 @@ sets:
 
   - id: social
     name: Social media
-    manifest: src/social/social.yaml
+    manifest: src/social/metadata.yaml
     size_range:
       min_px: 14
       max_px: 24
