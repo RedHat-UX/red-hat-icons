@@ -25,7 +25,7 @@ sets:
       min_px: 14
       max_px: 24
     use_case: >
-      Utilitarian icons that convey information and facilitate navigation
+      Utilitarian icons that convey information and facilitate interaction
       in product interfaces and web properties. Not for artwork or
       decorative use; choose standard icons or illustrations instead.
     status: pending
