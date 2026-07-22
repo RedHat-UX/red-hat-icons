@@ -23,7 +23,7 @@ source:
 icons:
   - name: rh-micron-close
     icon: close
-    description: "An X for dismissing or closing UI chrome (dialogs, drawers, banners, chips)."
+    description: "An X for dismissing or closing UI chrome (dialogs, drawers, banners, chips, etc.)."
     accepted_metaphors:
       - close
       - dismiss
