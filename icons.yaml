@@ -1,5 +1,5 @@
 # RHDS icon metadata index
-# Root-level entry point for AI icon selection (issue #25).
+# Root-level entry point for programmatic icon set discovery and consumption.
 #
 # This file describes each icon set and points to that set's per-icon manifest.
 # Set manifests live beside the SVG sources under src/<set>/.
