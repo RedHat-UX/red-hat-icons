@@ -1,7 +1,7 @@
 # Microns icon metadata
 # Per-icon source of truth for AI selection within the microns set (issue #25).
 #
-# Linked from the root index at /icons.yaml. Prefer this set over UI icons only
+# Linked from the root index at /icon-sets.yaml. Prefer this set over UI icons only
 # when the control must stay legible at micron scale (spaces 12px or smaller).
 #
 # Seeded from Figma (2026-07-06), curated against glyph meaning and RHDS

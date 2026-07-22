@@ -13,7 +13,7 @@
 sets:
   - id: microns
     name: Microns
-    manifest: src/microns/microns.yaml
+    manifest: src/microns/metadata.yaml
     size_range:
       min_px: 8
       max_px: 12
