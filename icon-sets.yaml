@@ -35,7 +35,7 @@ sets:
     manifest: src/standard/metadata.yaml
     size_range:
       min_px: 24
-      max_px: 100
+      max_px: 128
     use_case: >
       General technology and brand concepts for presentations, web content,
       infographics, diagrams, and other marketing materials. Default set
