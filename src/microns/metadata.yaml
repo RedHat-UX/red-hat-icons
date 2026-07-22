@@ -525,7 +525,7 @@ icons:
 
   - name: rh-micron-swap-up-down
     icon: swap-up-down
-    description: "Opposite vertical arrows — swap or reorder up ↔ down."
+    description: "Opposite vertical arrows — swap or reorder up to down."
     accepted_metaphors:
       - swap vertically
       - exchange
