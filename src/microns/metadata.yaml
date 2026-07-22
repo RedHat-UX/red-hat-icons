@@ -119,7 +119,7 @@ icons:
 
   - name: rh-micron-external-link
     icon: external-link
-    description: "Box with outbound arrow — leaves the current page or app (new window/tab)."
+    description: "Box with outbound arrow — leaves the current page or app (opens in new window/tab)."
     accepted_metaphors:
       - external link
       - opens in new window
