@@ -509,7 +509,7 @@ icons:
 
   - name: rh-micron-swap-right-left
     icon: swap-right-left
-    description: "Opposite horizontal arrows — swap or transfer left ↔ right."
+    description: "Opposite horizontal arrows — swap or transfer left to right."
     accepted_metaphors:
       - swap horizontally
       - exchange
