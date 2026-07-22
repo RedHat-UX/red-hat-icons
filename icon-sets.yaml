@@ -14,7 +14,7 @@ sets:
       max_px: 12
     use_case: >
       Extremely small, utilitarian interactive controls (close, expand,
-      search, carets) in spaces 12px or smaller. Prefer a UI icon when
+      search, carets, etc.) in spaces 12px or smaller. Prefer a UI icon when
       there is enough room; never use microns for decoration or artwork.
     status: curated
 
