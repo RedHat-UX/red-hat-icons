@@ -151,7 +151,7 @@ icons:
 
   - name: rh-micron-error-fill
     icon: error-fill
-    description: "Filled circle with exclamation mark — emphasized error or critical alert."
+    description: "Filled circle with exclamation point — emphasized error or critical alert."
     accepted_metaphors:
       - error
       - alert
