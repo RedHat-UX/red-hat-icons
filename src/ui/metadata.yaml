@@ -432,3 +432,196 @@ icons:
       - generic server (use server)
       - general API or integration (use plug or network)
       - AI model itself (use ai-model)
+
+  # ── Harvey balls ───────────────────────────────────────────────────────────
+  # Harvey balls are circle-fill completion indicators used in roadmaps,
+  # scorecards, and status tables. Pick the icon matching the exact percentage.
+  # For binary done/not-done states, use check-circle or not-started instead.
+  - name: rh-ui-icon-harvey-ball-0
+    icon: harvey-ball-0
+    description: "Empty circle — 0% complete or not yet started."
+    accepted_metaphors:
+      - 0% completion
+      - not started
+      - no progress
+      - empty capacity
+    rejected_metaphors:
+      - binary not-started status (use not-started)
+      - pie chart data (use pie-chart)
+      - off state (use off)
+
+  - name: rh-ui-icon-harvey-ball-10
+    icon: harvey-ball-10
+    description: "Circle 10% filled — 10% complete or 10% capacity used."
+    accepted_metaphors:
+      - 10% completion
+      - 10% progress
+      - 10% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-20
+    icon: harvey-ball-20
+    description: "Circle 20% filled — 20% complete or 20% capacity used."
+    accepted_metaphors:
+      - 20% completion
+      - 20% progress
+      - 20% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-25
+    icon: harvey-ball-25
+    description: "Circle 25% filled — one quarter complete or one quarter capacity used."
+    accepted_metaphors:
+      - 25% completion
+      - one quarter progress
+      - Q1 of 4
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-30
+    icon: harvey-ball-30
+    description: "Circle 30% filled — 30% complete or 30% capacity used."
+    accepted_metaphors:
+      - 30% completion
+      - 30% progress
+      - 30% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-33
+    icon: harvey-ball-33
+    description: "Circle one-third filled — one third complete or one third capacity used."
+    accepted_metaphors:
+      - 33% completion
+      - one third progress
+      - 1 of 3
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-40
+    icon: harvey-ball-40
+    description: "Circle 40% filled — 40% complete or 40% capacity used."
+    accepted_metaphors:
+      - 40% completion
+      - 40% progress
+      - 40% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-50
+    icon: harvey-ball-50
+    description: "Circle half filled — 50% complete or half capacity used."
+    accepted_metaphors:
+      - 50% completion
+      - half complete
+      - half capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+      - directional half (use harvey-ball-lower-50 or harvey-ball-upper-50)
+
+  - name: rh-ui-icon-harvey-ball-lower-50
+    icon: harvey-ball-lower-50
+    description: "Circle with lower half filled — 50% complete, filling from the bottom."
+    accepted_metaphors:
+      - 50% completion (bottom-up fill orientation)
+      - half capacity (lower fill)
+    rejected_metaphors:
+      - standard 50% (use harvey-ball-50)
+      - pie chart data (use pie-chart)
+
+  - name: rh-ui-icon-harvey-ball-upper-50
+    icon: harvey-ball-upper-50
+    description: "Circle with upper half filled — 50% complete, filling from the top."
+    accepted_metaphors:
+      - 50% completion (top-down fill orientation)
+      - half capacity (upper fill)
+    rejected_metaphors:
+      - standard 50% (use harvey-ball-50)
+      - pie chart data (use pie-chart)
+
+  - name: rh-ui-icon-harvey-ball-60
+    icon: harvey-ball-60
+    description: "Circle 60% filled — 60% complete or 60% capacity used."
+    accepted_metaphors:
+      - 60% completion
+      - 60% progress
+      - 60% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-66
+    icon: harvey-ball-66
+    description: "Circle two-thirds filled — two thirds complete or two thirds capacity used."
+    accepted_metaphors:
+      - 66% completion
+      - two thirds progress
+      - 2 of 3
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-70
+    icon: harvey-ball-70
+    description: "Circle 70% filled — 70% complete or 70% capacity used."
+    accepted_metaphors:
+      - 70% completion
+      - 70% progress
+      - 70% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-75
+    icon: harvey-ball-75
+    description: "Circle 75% filled — three quarters complete or three quarters capacity used."
+    accepted_metaphors:
+      - 75% completion
+      - three quarters progress
+      - Q3 of 4
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-80
+    icon: harvey-ball-80
+    description: "Circle 80% filled — 80% complete or 80% capacity used."
+    accepted_metaphors:
+      - 80% completion
+      - 80% progress
+      - 80% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-90
+    icon: harvey-ball-90
+    description: "Circle 90% filled — 90% complete or 90% capacity used."
+    accepted_metaphors:
+      - 90% completion
+      - 90% progress
+      - 90% capacity
+    rejected_metaphors:
+      - pie chart data (use pie-chart)
+      - star rating (use star)
+
+  - name: rh-ui-icon-harvey-ball-100
+    icon: harvey-ball-100
+    description: "Fully filled circle — 100% complete or fully at capacity."
+    accepted_metaphors:
+      - 100% completion
+      - fully complete
+      - full capacity
+    rejected_metaphors:
+      - binary done state (use check-circle)
+      - pie chart data (use pie-chart)
+      - fully filled indicator unrelated to completion
