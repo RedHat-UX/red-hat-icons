@@ -1251,3 +1251,925 @@ icons:
     rejected_metaphors:
       - single window (use window)
       - column layout (use columns)
+
+  # ── Framework / navigation ─────────────────────────────────────────────────
+  # Common UI building blocks: navigation controls, menus, time, communication,
+  # file system, and system chrome. Used throughout shell layouts and page
+  # headers, not just in specific features.
+
+  # — Appearance / theme ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-auto-light-dark-mode
+    icon: auto-light-dark-mode
+    description: "Sun and moon together — automatically adapts between light and dark mode based on system preference."
+    accepted_metaphors:
+      - auto color scheme
+      - system color mode
+      - adaptive theme (follows OS setting)
+    rejected_metaphors:
+      - manually set dark mode (use dark-mode)
+      - manually set light mode (use light-mode)
+
+  - name: rh-ui-icon-dark-mode
+    icon: dark-mode
+    description: "Moon — enable or indicate dark mode."
+    accepted_metaphors:
+      - dark mode
+      - dark color scheme
+      - dark theme toggle
+      - night mode
+    rejected_metaphors:
+      - light mode (use light-mode)
+      - auto mode (use auto-light-dark-mode)
+      - sleep or time-based (use clock or calendar)
+
+  - name: rh-ui-icon-dark-mode-fill
+    icon: dark-mode-fill
+    description: "Filled moon — dark mode is active."
+    accepted_metaphors:
+      - dark mode active
+      - dark theme
+    rejected_metaphors:
+      - light mode (use light-mode)
+
+  - name: rh-ui-icon-light-mode
+    icon: light-mode
+    description: "Sun — enable or indicate light mode."
+    accepted_metaphors:
+      - light mode
+      - light color scheme
+      - light theme toggle
+      - day mode
+    rejected_metaphors:
+      - dark mode (use dark-mode)
+      - auto mode (use auto-light-dark-mode)
+      - brightness control (hardware context — prefer a display or monitor icon)
+
+  - name: rh-ui-icon-light-mode-fill
+    icon: light-mode-fill
+    description: "Filled sun — light mode is active."
+    accepted_metaphors:
+      - light mode active
+      - light theme
+    rejected_metaphors:
+      - dark mode (use dark-mode)
+
+  # — Carets and double carets ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-caret-down
+    icon: caret-down
+    description: "Downward-pointing chevron — expand, open, or navigate down."
+    accepted_metaphors:
+      - expand accordion or disclosure
+      - open dropdown
+      - navigate down
+      - descending sort indicator
+      - scroll down
+    rejected_metaphors:
+      - close or delete (use close)
+      - large directional arrow (use arrow-down or long-arrow-down)
+      - skip to bottom (use double-caret-down)
+
+  - name: rh-ui-icon-caret-down-fill
+    icon: caret-down-fill
+    description: "Filled downward-pointing chevron — expand or open (filled/active variant)."
+    accepted_metaphors:
+      - expand (active or emphasized)
+      - open dropdown
+      - descending sort (active)
+    rejected_metaphors:
+      - large directional arrow (use arrow-down)
+      - skip to bottom (use double-caret-down)
+
+  - name: rh-ui-icon-caret-left
+    icon: caret-left
+    description: "Leftward-pointing chevron — go back, collapse, or navigate left."
+    accepted_metaphors:
+      - go back
+      - previous page or item
+      - collapse panel leftward
+      - navigate left
+    rejected_metaphors:
+      - large directional arrow (use arrow-left or long-arrow-left)
+      - skip to first (use double-caret-left)
+      - close dialog (use close)
+
+  - name: rh-ui-icon-caret-left-fill
+    icon: caret-left-fill
+    description: "Filled leftward-pointing chevron — go back or collapse (filled variant)."
+    accepted_metaphors:
+      - go back (emphasized)
+      - collapse panel (active state)
+    rejected_metaphors:
+      - large directional arrow (use arrow-left)
+      - skip to first (use double-caret-left)
+
+  - name: rh-ui-icon-caret-right
+    icon: caret-right
+    description: "Rightward-pointing chevron — go forward, expand, or navigate right."
+    accepted_metaphors:
+      - go forward
+      - next page or item
+      - expand panel rightward
+      - tree node expand
+    rejected_metaphors:
+      - large directional arrow (use arrow-right or long-arrow-right)
+      - skip to last (use double-caret-right)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-caret-right-fill
+    icon: caret-right-fill
+    description: "Filled rightward-pointing chevron — go forward or expand (filled variant)."
+    accepted_metaphors:
+      - go forward (emphasized)
+      - expand (active state)
+    rejected_metaphors:
+      - large directional arrow (use arrow-right)
+      - skip to last (use double-caret-right)
+
+  - name: rh-ui-icon-caret-up
+    icon: caret-up
+    description: "Upward-pointing chevron — collapse, close, or navigate up."
+    accepted_metaphors:
+      - collapse accordion or disclosure
+      - navigate up
+      - ascending sort indicator
+      - scroll up
+    rejected_metaphors:
+      - large directional arrow (use arrow-up or long-arrow-up)
+      - skip to top (use double-caret-up)
+
+  - name: rh-ui-icon-caret-up-fill
+    icon: caret-up-fill
+    description: "Filled upward-pointing chevron — collapse or ascend (filled variant)."
+    accepted_metaphors:
+      - collapse (active or emphasized)
+      - ascending sort (active)
+    rejected_metaphors:
+      - large directional arrow (use arrow-up)
+      - skip to top (use double-caret-up)
+
+  - name: rh-ui-icon-double-caret-down
+    icon: double-caret-down
+    description: "Two stacked downward chevrons — skip to the end of a list or jump to bottom."
+    accepted_metaphors:
+      - skip to bottom
+      - jump to last item
+      - lowest priority
+      - fast-scroll down
+    rejected_metaphors:
+      - single expand or collapse (use caret-down)
+      - large directional arrow (use arrow-down)
+
+  - name: rh-ui-icon-double-caret-down-fill
+    icon: double-caret-down-fill
+    description: "Filled two stacked downward chevrons — skip to bottom (filled variant)."
+    accepted_metaphors:
+      - skip to bottom (emphasized)
+      - jump to last item
+    rejected_metaphors:
+      - single expand (use caret-down)
+
+  - name: rh-ui-icon-double-caret-left
+    icon: double-caret-left
+    description: "Two leftward chevrons — skip to the first page or jump to the beginning."
+    accepted_metaphors:
+      - first page
+      - skip to start
+      - rewind to beginning
+      - collapse panel fully left
+    rejected_metaphors:
+      - single step back (use caret-left)
+      - large directional arrow (use arrow-left)
+
+  - name: rh-ui-icon-double-caret-left-fill
+    icon: double-caret-left-fill
+    description: "Filled two leftward chevrons — skip to first page (filled variant)."
+    accepted_metaphors:
+      - first page (emphasized)
+      - skip to start
+    rejected_metaphors:
+      - single step back (use caret-left)
+
+  - name: rh-ui-icon-double-caret-right
+    icon: double-caret-right
+    description: "Two rightward chevrons — skip to the last page or jump to the end."
+    accepted_metaphors:
+      - last page
+      - skip to end
+      - fast-forward to end
+      - expand panel fully right
+    rejected_metaphors:
+      - single step forward (use caret-right)
+      - large directional arrow (use arrow-right)
+
+  - name: rh-ui-icon-double-caret-right-fill
+    icon: double-caret-right-fill
+    description: "Filled two rightward chevrons — skip to last page (filled variant)."
+    accepted_metaphors:
+      - last page (emphasized)
+      - skip to end
+    rejected_metaphors:
+      - single step forward (use caret-right)
+
+  - name: rh-ui-icon-double-caret-up
+    icon: double-caret-up
+    description: "Two stacked upward chevrons — skip to the top of a list or jump to beginning."
+    accepted_metaphors:
+      - skip to top
+      - jump to first item
+      - highest priority
+      - fast-scroll up
+    rejected_metaphors:
+      - single collapse (use caret-up)
+      - large directional arrow (use arrow-up)
+
+  - name: rh-ui-icon-double-caret-up-fill
+    icon: double-caret-up-fill
+    description: "Filled two stacked upward chevrons — skip to top (filled variant)."
+    accepted_metaphors:
+      - skip to top (emphasized)
+      - jump to first item
+    rejected_metaphors:
+      - single collapse (use caret-up)
+
+  # — Time ————————————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-calendar
+    icon: calendar
+    description: "Calendar grid — a date, event, schedule, or time-based context."
+    accepted_metaphors:
+      - date picker
+      - scheduled event
+      - appointment or booking
+      - deadline or due date
+      - availability view
+    rejected_metaphors:
+      - clock or time of day (use clock)
+      - task or to-do (use task)
+      - timeline (use topology or tree-view)
+
+  - name: rh-ui-icon-calendar-fill
+    icon: calendar-fill
+    description: "Filled calendar grid — date or event (filled variant)."
+    accepted_metaphors:
+      - date picker (filled state)
+      - scheduled event
+      - booking
+    rejected_metaphors:
+      - clock or time of day (use clock)
+      - task or to-do (use task)
+
+  - name: rh-ui-icon-clock
+    icon: clock
+    description: "Clock face — time, duration, timestamp, or a time-related setting."
+    accepted_metaphors:
+      - time or timestamp
+      - duration or countdown
+      - timezone setting
+      - scheduled time
+      - history or recent activity
+    rejected_metaphors:
+      - calendar date (use calendar)
+      - deadline with a specific date (use calendar)
+      - stopwatch (specific — prefer a dedicated icon if available)
+
+  - name: rh-ui-icon-clock-fill
+    icon: clock-fill
+    description: "Filled clock face — time or timestamp (filled variant)."
+    accepted_metaphors:
+      - time (filled state)
+      - recent activity
+      - countdown
+    rejected_metaphors:
+      - calendar date (use calendar)
+
+  # — Communication ———————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-comment
+    icon: comment
+    description: "Single speech bubble — a comment, annotation, or discussion thread."
+    accepted_metaphors:
+      - comment or annotation
+      - discussion
+      - feedback
+      - reply or response
+      - inline note
+    rejected_metaphors:
+      - multiple comments or threads (use comments)
+      - direct message or email (use mail)
+      - live chat (use ai-chat or ai-chatbot)
+
+  - name: rh-ui-icon-comment-fill
+    icon: comment-fill
+    description: "Filled single speech bubble — comment or annotation (filled variant)."
+    accepted_metaphors:
+      - comment (active or filled)
+      - annotation
+    rejected_metaphors:
+      - multiple comments (use comments)
+      - email (use mail)
+
+  - name: rh-ui-icon-comments
+    icon: comments
+    description: "Two speech bubbles — a conversation, thread, or multi-party discussion."
+    accepted_metaphors:
+      - conversation thread
+      - discussion forum
+      - multiple comments
+      - collaborative feedback
+      - chat exchange
+    rejected_metaphors:
+      - single comment or annotation (use comment)
+      - email (use mail)
+      - notification (use notification)
+
+  - name: rh-ui-icon-comments-fill
+    icon: comments-fill
+    description: "Filled two speech bubbles — conversation or discussion (filled variant)."
+    accepted_metaphors:
+      - conversation (active or filled)
+      - discussion thread
+    rejected_metaphors:
+      - single comment (use comment)
+      - email (use mail)
+
+  - name: rh-ui-icon-mail
+    icon: mail
+    description: "Envelope — email, message, or mail-related action or status."
+    accepted_metaphors:
+      - email
+      - message or inbox
+      - send or compose
+      - unread indicator (alongside badge)
+      - newsletter or mailing list
+    rejected_metaphors:
+      - chat comment (use comment or comments)
+      - notification (use notification)
+      - RSS feed (use rss)
+
+  - name: rh-ui-icon-mail-fill
+    icon: mail-fill
+    description: "Filled envelope — email or message (filled variant)."
+    accepted_metaphors:
+      - email (active or filled)
+      - inbox
+    rejected_metaphors:
+      - chat comment (use comment)
+      - notification (use notification)
+
+  - name: rh-ui-icon-notification
+    icon: notification
+    description: "Bell — a notification, alert, or reminder."
+    accepted_metaphors:
+      - notification bell
+      - alert or reminder
+      - push notification
+      - unread badge (with badge overlay)
+    rejected_metaphors:
+      - notification with new activity (use notification-active)
+      - email (use mail)
+      - warning or error (use warning or error)
+      - alarm (hardware context — prefer a dedicated icon)
+
+  - name: rh-ui-icon-notification-fill
+    icon: notification-fill
+    description: "Filled bell — notification or alert (filled variant)."
+    accepted_metaphors:
+      - notification (active or filled)
+      - alert
+    rejected_metaphors:
+      - notification with new activity (use notification-active)
+      - email (use mail)
+
+  - name: rh-ui-icon-notification-active
+    icon: notification-active
+    description: "Bell with a dot — there are new or unread notifications."
+    accepted_metaphors:
+      - new notifications
+      - unread activity
+      - alert with pending items
+    rejected_metaphors:
+      - idle notifications (use notification)
+      - email (use mail)
+      - error alert (use error or warning)
+
+  - name: rh-ui-icon-notification-active-fill
+    icon: notification-active-fill
+    description: "Filled bell with a dot — new notifications (filled variant)."
+    accepted_metaphors:
+      - new notifications (filled state)
+      - unread activity
+    rejected_metaphors:
+      - idle notifications (use notification)
+
+  - name: rh-ui-icon-notification-active-alt
+    icon: notification-active-alt
+    description: "Bell with an indicator (alternate style) — new or unread notifications, alternative badge treatment."
+    accepted_metaphors:
+      - new notifications (alternate badge)
+      - unread activity
+    rejected_metaphors:
+      - idle notifications (use notification)
+      - primary notification-active variant (use notification-active)
+
+  - name: rh-ui-icon-notification-active-alt-fill
+    icon: notification-active-alt-fill
+    description: "Filled bell with an indicator (alternate style) — new notifications, alternate filled variant."
+    accepted_metaphors:
+      - new notifications (alternate filled)
+    rejected_metaphors:
+      - idle notifications (use notification)
+
+  - name: rh-ui-icon-rss
+    icon: rss
+    description: "RSS signal waves — a content feed, syndication, or subscription channel."
+    accepted_metaphors:
+      - RSS feed
+      - content subscription
+      - news feed or blog feed
+      - syndication
+      - podcast feed
+    rejected_metaphors:
+      - email subscription (use mail)
+      - notification (use notification)
+      - wireless or Wi-Fi signal (hardware context)
+
+  - name: rh-ui-icon-rss-fill
+    icon: rss-fill
+    description: "Filled RSS signal waves — content feed or subscription (filled variant)."
+    accepted_metaphors:
+      - RSS feed (active or filled)
+      - content subscription
+    rejected_metaphors:
+      - email subscription (use mail)
+
+  # — Files and content ———————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-document
+    icon: document
+    description: "Single page with a folded corner — a file, document, or page."
+    accepted_metaphors:
+      - document or file
+      - page or record
+      - report or artifact
+      - text file
+      - template
+    rejected_metaphors:
+      - folder or directory (use folder)
+      - multiple files (use folders)
+      - task or to-do (use task)
+
+  - name: rh-ui-icon-document-fill
+    icon: document-fill
+    description: "Filled single page — document or file (filled variant)."
+    accepted_metaphors:
+      - document (filled state)
+      - file or page
+    rejected_metaphors:
+      - folder (use folder)
+      - task (use task)
+
+  - name: rh-ui-icon-folder
+    icon: folder
+    description: "Closed folder — a directory, collection, or grouped set of files."
+    accepted_metaphors:
+      - directory or folder
+      - project or workspace
+      - grouped collection
+      - file category
+    rejected_metaphors:
+      - open or active folder (use folder-open)
+      - multiple folder collections (use folders)
+      - document (use document)
+
+  - name: rh-ui-icon-folder-fill
+    icon: folder-fill
+    description: "Filled closed folder — directory or collection (filled variant)."
+    accepted_metaphors:
+      - directory (filled state)
+      - project
+    rejected_metaphors:
+      - open folder (use folder-open)
+      - multiple folders (use folders)
+
+  - name: rh-ui-icon-folder-open
+    icon: folder-open
+    description: "Open folder — an active or expanded directory, currently being browsed."
+    accepted_metaphors:
+      - open or active directory
+      - browsing files
+      - expanded folder state
+    rejected_metaphors:
+      - closed folder (use folder)
+      - multiple folders (use folders)
+
+  - name: rh-ui-icon-folder-open-fill
+    icon: folder-open-fill
+    description: "Filled open folder — active directory (filled variant)."
+    accepted_metaphors:
+      - open directory (filled state)
+      - browsing files
+    rejected_metaphors:
+      - closed folder (use folder)
+
+  - name: rh-ui-icon-folders
+    icon: folders
+    description: "Two stacked folders — multiple directories, a project collection, or nested workspaces."
+    accepted_metaphors:
+      - multiple folders or directories
+      - project collection
+      - nested workspaces
+      - file system root
+    rejected_metaphors:
+      - single folder (use folder)
+      - document (use document)
+
+  - name: rh-ui-icon-folders-fill
+    icon: folders-fill
+    description: "Filled two stacked folders — multiple directories (filled variant)."
+    accepted_metaphors:
+      - multiple folders (filled state)
+      - project collection
+    rejected_metaphors:
+      - single folder (use folder)
+
+  # — Drag handles ————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-grip-horizontal
+    icon: grip-horizontal
+    description: "Horizontal dotted handle — drag to reorder rows or resize a horizontal splitter."
+    accepted_metaphors:
+      - drag handle (horizontal)
+      - reorder rows
+      - resize splitter (horizontal)
+      - grab handle
+    rejected_metaphors:
+      - vertical drag or reorder (use grip-vertical)
+      - overflow menu (use ellipsis-horizontal)
+
+  - name: rh-ui-icon-grip-horizontal-fill
+    icon: grip-horizontal-fill
+    description: "Filled horizontal dotted handle — horizontal drag handle (filled variant)."
+    accepted_metaphors:
+      - horizontal drag handle (filled)
+    rejected_metaphors:
+      - vertical drag (use grip-vertical)
+      - overflow menu (use ellipsis-horizontal)
+
+  - name: rh-ui-icon-grip-vertical
+    icon: grip-vertical
+    description: "Vertical dotted handle — drag to reorder columns or resize a vertical splitter."
+    accepted_metaphors:
+      - drag handle (vertical)
+      - reorder columns
+      - resize splitter (vertical)
+      - grab handle
+    rejected_metaphors:
+      - horizontal drag or reorder (use grip-horizontal)
+      - overflow menu (use ellipsis-vertical)
+
+  - name: rh-ui-icon-grip-vertical-fill
+    icon: grip-vertical-fill
+    description: "Filled vertical dotted handle — vertical drag handle (filled variant)."
+    accepted_metaphors:
+      - vertical drag handle (filled)
+    rejected_metaphors:
+      - horizontal drag (use grip-horizontal)
+      - overflow menu (use ellipsis-vertical)
+
+  # — Overflow menus ——————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-ellipsis-horizontal
+    icon: ellipsis-horizontal
+    description: "Three horizontal dots (meatball menu) — overflow actions or additional options in a row."
+    accepted_metaphors:
+      - overflow menu (horizontal)
+      - more actions
+      - additional options
+      - meatball menu
+      - contextual actions
+    rejected_metaphors:
+      - vertical overflow menu (use ellipsis-vertical)
+      - drag handle (use grip-horizontal)
+      - loading indicator (use a spinner component)
+
+  - name: rh-ui-icon-ellipsis-horizontal-fill
+    icon: ellipsis-horizontal-fill
+    description: "Filled three horizontal dots — horizontal overflow menu (filled variant)."
+    accepted_metaphors:
+      - overflow menu (horizontal, active)
+      - more actions
+    rejected_metaphors:
+      - vertical overflow menu (use ellipsis-vertical)
+      - drag handle (use grip-horizontal)
+
+  - name: rh-ui-icon-ellipsis-vertical
+    icon: ellipsis-vertical
+    description: "Three vertical dots (kebab menu) — overflow actions or additional options in a column."
+    accepted_metaphors:
+      - overflow menu (vertical)
+      - more actions
+      - kebab menu
+      - contextual actions (vertical placement)
+    rejected_metaphors:
+      - horizontal overflow menu (use ellipsis-horizontal)
+      - drag handle (use grip-vertical)
+
+  - name: rh-ui-icon-ellipsis-vertical-fill
+    icon: ellipsis-vertical-fill
+    description: "Filled three vertical dots — vertical overflow menu (filled variant)."
+    accepted_metaphors:
+      - overflow menu (vertical, active)
+      - more actions
+    rejected_metaphors:
+      - horizontal overflow menu (use ellipsis-horizontal)
+      - drag handle (use grip-vertical)
+
+  # — Navigation chrome ———————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-home
+    icon: home
+    description: "House — the application home page, dashboard, or root landing page."
+    accepted_metaphors:
+      - home page
+      - dashboard or main screen
+      - root or landing page
+      - return to start
+    rejected_metaphors:
+      - settings (use settings)
+      - profile (use profile)
+      - physical building (use building or server)
+
+  - name: rh-ui-icon-home-fill
+    icon: home-fill
+    description: "Filled house — home or dashboard (filled variant)."
+    accepted_metaphors:
+      - home page (active or filled)
+      - dashboard
+    rejected_metaphors:
+      - settings (use settings)
+
+  - name: rh-ui-icon-language
+    icon: language
+    description: "Globe with a grid — language selection or localization settings."
+    accepted_metaphors:
+      - language switcher
+      - localization setting
+      - regional or locale preference
+      - internationalization
+    rejected_metaphors:
+      - global infrastructure or network (use network or cloud)
+      - translation action specifically (prefer a speech bubble with letters if available)
+
+  - name: rh-ui-icon-language-fill
+    icon: language-fill
+    description: "Filled globe — language or localization (filled variant)."
+    accepted_metaphors:
+      - language switcher (active or filled)
+      - localization setting
+    rejected_metaphors:
+      - global network (use network or cloud)
+
+  - name: rh-ui-icon-location
+    icon: location
+    description: "Map pin — a geographic location, address, or position on a map."
+    accepted_metaphors:
+      - location or address
+      - GPS pin
+      - map marker
+      - destination or waypoint
+      - region or site
+    rejected_metaphors:
+      - language or locale (use language)
+      - cloud region (describe in text; use cloud for cloud context)
+
+  - name: rh-ui-icon-location-fill
+    icon: location-fill
+    description: "Filled map pin — location or address (filled variant)."
+    accepted_metaphors:
+      - location (active or filled)
+      - GPS pin
+      - destination
+    rejected_metaphors:
+      - language or locale (use language)
+
+  - name: rh-ui-icon-menu-bars
+    icon: menu-bars
+    description: "Three horizontal lines (hamburger) — open the main navigation menu or drawer."
+    accepted_metaphors:
+      - main navigation menu
+      - hamburger menu
+      - navigation drawer trigger
+      - mobile menu toggle
+    rejected_metaphors:
+      - list view (use list)
+      - overflow actions (use ellipsis-horizontal)
+      - app or product switcher (use menu-switcher)
+
+  - name: rh-ui-icon-menu-switcher
+    icon: menu-switcher
+    description: "Grid of dots (candy box / bento box) — open an application or product switcher."
+    accepted_metaphors:
+      - application switcher
+      - product switcher
+      - bento box or candy box menu
+      - waffle menu
+      - multi-app launcher
+    rejected_metaphors:
+      - main navigation menu (use menu-bars)
+      - overflow actions (use ellipsis-horizontal)
+      - dashboard view (use home)
+
+  # — User and account ————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-profile
+    icon: profile
+    description: "Silhouette of a person — user account, profile, or identity."
+    accepted_metaphors:
+      - user account
+      - profile or avatar
+      - identity or persona
+      - account settings entry point
+      - member
+    rejected_metaphors:
+      - settings page (use settings)
+      - home (use home)
+      - group of users (prefer a group/team icon if available)
+
+  - name: rh-ui-icon-profile-fill
+    icon: profile-fill
+    description: "Filled silhouette of a person — user profile (filled variant)."
+    accepted_metaphors:
+      - user account (active or filled)
+      - profile
+    rejected_metaphors:
+      - settings (use settings)
+
+  # — System chrome ———————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-insight
+    icon: insight
+    description: "Lightbulb — analytics, data insights, or a recommendation."
+    accepted_metaphors:
+      - insight or analytics
+      - data recommendation
+      - dashboard KPI or metric
+      - intelligence or discovery
+      - idea or suggestion (in data context)
+    rejected_metaphors:
+      - speedometer for performance (use speedometer)
+      - generic idea (in non-data context — the lightbulb meaning applies broadly, but prefer task-specific icons)
+
+  - name: rh-ui-icon-insight-fill
+    icon: insight-fill
+    description: "Filled lightbulb — insight or analytics (filled variant)."
+    accepted_metaphors:
+      - insight (active or filled)
+      - data recommendation
+    rejected_metaphors:
+      - performance gauge (use speedometer)
+
+  - name: rh-ui-icon-question-mark
+    icon: question-mark
+    description: "Question mark — inline help hint or tooltip trigger."
+    accepted_metaphors:
+      - help hint
+      - tooltip trigger
+      - unknown or uncertain state
+    rejected_metaphors:
+      - full help or documentation (use question-mark-circle)
+      - FAQ page (use question-mark-circle)
+
+  - name: rh-ui-icon-question-mark-circle
+    icon: question-mark-circle
+    description: "Question mark in a circle — help, FAQ, documentation, or support."
+    accepted_metaphors:
+      - help button
+      - FAQ or support link
+      - documentation entry point
+      - tooltip or explainer
+    rejected_metaphors:
+      - bare inline hint (use question-mark)
+      - error or warning (use error or warning)
+
+  - name: rh-ui-icon-question-mark-circle-fill
+    icon: question-mark-circle-fill
+    description: "Filled question mark in a circle — help or support (filled variant)."
+    accepted_metaphors:
+      - help (active or filled)
+      - FAQ or support
+    rejected_metaphors:
+      - bare inline hint (use question-mark)
+      - error (use error)
+
+  - name: rh-ui-icon-settings
+    icon: settings
+    description: "Gear — application settings, configuration, or preferences."
+    accepted_metaphors:
+      - settings
+      - configuration
+      - preferences
+      - system properties
+      - admin panel entry
+    rejected_metaphors:
+      - user profile (use profile)
+      - automation or build (context-dependent — prefer a specific icon)
+      - speedometer or performance (use speedometer)
+
+  - name: rh-ui-icon-settings-fill
+    icon: settings-fill
+    description: "Filled gear — settings or configuration (filled variant)."
+    accepted_metaphors:
+      - settings (active or filled)
+      - configuration
+    rejected_metaphors:
+      - user profile (use profile)
+
+  - name: rh-ui-icon-task
+    icon: task
+    description: "Checkbox or checklist — a to-do item, task, or checklist entry."
+    accepted_metaphors:
+      - task or to-do item
+      - checklist
+      - action item
+      - assignment
+      - sprint or work item
+    rejected_metaphors:
+      - calendar event (use calendar)
+      - completed state indicator (use check or success)
+      - document (use document)
+
+  - name: rh-ui-icon-task-fill
+    icon: task-fill
+    description: "Filled checklist — task or to-do (filled variant)."
+    accepted_metaphors:
+      - task (active or filled)
+      - to-do item
+    rejected_metaphors:
+      - calendar event (use calendar)
+      - document (use document)
+
+  - name: rh-ui-icon-thumbtack
+    icon: thumbtack
+    description: "Pushpin — pin an item to keep it visible or anchored in a list or board."
+    accepted_metaphors:
+      - pin item
+      - bookmark or anchor to top
+      - keep visible
+      - sticky note (with memo context)
+    rejected_metaphors:
+      - location pin (use location)
+      - bookmark as saved link (use bookmark if available)
+
+  - name: rh-ui-icon-thumbtack-fill
+    icon: thumbtack-fill
+    description: "Filled pushpin — item is pinned (filled/active variant)."
+    accepted_metaphors:
+      - pinned (active state)
+      - item anchored to top
+    rejected_metaphors:
+      - location pin (use location)
+
+  - name: rh-ui-icon-view
+    icon: view
+    description: "Eye — show hidden content, reveal a password, or toggle visibility on."
+    accepted_metaphors:
+      - show or reveal
+      - toggle visibility on
+      - reveal password
+      - preview
+      - inspect or observe
+    rejected_metaphors:
+      - hide or mask (use view-off)
+      - insight or analytics (use insight)
+
+  - name: rh-ui-icon-view-fill
+    icon: view-fill
+    description: "Filled eye — visibility shown (filled variant)."
+    accepted_metaphors:
+      - visibility on (filled state)
+      - show content
+    rejected_metaphors:
+      - hide (use view-off)
+
+  - name: rh-ui-icon-view-off
+    icon: view-off
+    description: "Eye with a slash — hide content, mask a password, or toggle visibility off."
+    accepted_metaphors:
+      - hide or mask
+      - toggle visibility off
+      - hide password
+      - private or invisible state
+    rejected_metaphors:
+      - show or reveal (use view)
+      - block or ban (use ban if available)
+
+  - name: rh-ui-icon-view-off-fill
+    icon: view-off-fill
+    description: "Filled eye with a slash — visibility hidden (filled variant)."
+    accepted_metaphors:
+      - visibility off (filled state)
+      - hidden
+    rejected_metaphors:
+      - show (use view)
