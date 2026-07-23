@@ -4037,3 +4037,1535 @@ icons:
     rejected_metaphors:
       - link or URL (use external-link or a link icon)
       - thumbtack pin (use thumbtack)
+
+  # ── Actions ────────────────────────────────────────────────────────────────
+  # Action icons represent things a user can do — create, edit, delete, share,
+  # navigate, and more. Use them on buttons, toolbars, and contextual menus.
+
+  # — Create and add ——————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-add
+    icon: add
+    description: "Plus sign — add or create something."
+    accepted_metaphors:
+      - add item
+      - create new
+      - insert
+      - increase count
+    rejected_metaphors:
+      - add in a circle (use add-circle)
+      - add in a square (use add-square)
+      - expand panel (use expand)
+
+  - name: rh-ui-icon-add-circle
+    icon: add-circle
+    description: "Plus sign in a circle — add or create, emphasized with a circular container."
+    accepted_metaphors:
+      - add (circular button)
+      - create new
+      - insert (prominent)
+    rejected_metaphors:
+      - plain add (use add)
+      - add in a square (use add-square)
+
+  - name: rh-ui-icon-add-circle-fill
+    icon: add-circle-fill
+    description: "Filled plus circle — add or create (filled variant)."
+    accepted_metaphors:
+      - add (filled circle)
+    rejected_metaphors:
+      - plain add (use add)
+
+  - name: rh-ui-icon-add-square
+    icon: add-square
+    description: "Plus sign in a square — add or create, in a square container."
+    accepted_metaphors:
+      - add (square button)
+      - create new
+      - insert (square context)
+    rejected_metaphors:
+      - add in a circle (use add-circle)
+      - plain add (use add)
+
+  - name: rh-ui-icon-add-square-fill
+    icon: add-square-fill
+    description: "Filled plus square — add or create (filled square variant)."
+    accepted_metaphors:
+      - add (filled square)
+    rejected_metaphors:
+      - plain add (use add)
+
+  - name: rh-ui-icon-duplicate
+    icon: duplicate
+    description: "Two overlapping documents — duplicate or clone an item."
+    accepted_metaphors:
+      - duplicate
+      - clone
+      - copy as new
+      - replicate
+    rejected_metaphors:
+      - copy to clipboard (use copy)
+      - export (use export)
+      - save as (use save)
+
+  - name: rh-ui-icon-duplicate-fill
+    icon: duplicate-fill
+    description: "Filled overlapping documents — duplicate (filled variant)."
+    accepted_metaphors:
+      - duplicate (filled)
+    rejected_metaphors:
+      - copy to clipboard (use copy)
+
+  # — Delete and remove ———————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-close
+    icon: close
+    description: "X mark — dismiss, close, or remove something."
+    accepted_metaphors:
+      - close dialog or modal
+      - dismiss notification
+      - remove tag or chip
+      - cancel action
+      - clear input
+    rejected_metaphors:
+      - delete to trash (use trash)
+      - error state (use error)
+      - ban or block (use ban)
+      - minus or subtract (use minus)
+
+  - name: rh-ui-icon-close-circle
+    icon: close-circle
+    description: "X in a circle — close or remove, in a circular container."
+    accepted_metaphors:
+      - close (circular)
+      - remove tag
+      - dismiss (prominent)
+    rejected_metaphors:
+      - plain close (use close)
+      - error (use error)
+
+  - name: rh-ui-icon-close-circle-fill
+    icon: close-circle-fill
+    description: "Filled X circle — close or remove (filled variant)."
+    accepted_metaphors:
+      - close (filled circle)
+      - remove
+    rejected_metaphors:
+      - error (use error)
+
+  - name: rh-ui-icon-trash
+    icon: trash
+    description: "Trash bin — delete or permanently remove an item."
+    accepted_metaphors:
+      - delete
+      - remove permanently
+      - discard
+      - send to trash
+    rejected_metaphors:
+      - close or dismiss (use close)
+      - archive (use backup or folder)
+      - clean up (use clean-up)
+
+  - name: rh-ui-icon-trash-fill
+    icon: trash-fill
+    description: "Filled trash bin — delete (filled variant)."
+    accepted_metaphors:
+      - delete (filled)
+    rejected_metaphors:
+      - close (use close)
+
+  - name: rh-ui-icon-minus
+    icon: minus
+    description: "Minus sign — subtract, decrease, or remove a count."
+    accepted_metaphors:
+      - subtract or decrement
+      - remove item from a count
+      - collapse or minimize (inline)
+    rejected_metaphors:
+      - delete to trash (use trash)
+      - close (use close)
+      - minus in a circle (use minus-circle)
+
+  - name: rh-ui-icon-minus-circle
+    icon: minus-circle
+    description: "Minus in a circle — subtract or remove, in a circular container."
+    accepted_metaphors:
+      - remove (circular)
+      - decrement (prominent)
+    rejected_metaphors:
+      - plain minus (use minus)
+      - error or blocking (use error)
+
+  - name: rh-ui-icon-minus-circle-fill
+    icon: minus-circle-fill
+    description: "Filled minus circle — subtract or remove (filled variant)."
+    accepted_metaphors:
+      - remove (filled circle)
+    rejected_metaphors:
+      - error (use error)
+      - close (use close)
+
+  - name: rh-ui-icon-clean-up
+    icon: clean-up
+    description: "Broom or sweep symbol — clean up, purge, or tidy a resource or environment."
+    accepted_metaphors:
+      - clean up
+      - purge or sweep
+      - tidy environment
+      - remove clutter
+    rejected_metaphors:
+      - delete specific item (use trash)
+      - close (use close)
+      - optimize (use optimize)
+
+  - name: rh-ui-icon-clean-up-fill
+    icon: clean-up-fill
+    description: "Filled broom — clean up (filled variant)."
+    accepted_metaphors:
+      - clean up (filled)
+    rejected_metaphors:
+      - delete (use trash)
+
+  # — Edit and modify ————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-edit
+    icon: edit
+    description: "Pencil — edit or modify content."
+    accepted_metaphors:
+      - edit or modify
+      - rename
+      - update a field
+      - write or compose
+    rejected_metaphors:
+      - draw freehand (use draw)
+      - optimize or improve (use optimize)
+      - AI edit (use ai-edit)
+
+  - name: rh-ui-icon-edit-fill
+    icon: edit-fill
+    description: "Filled pencil — edit (filled variant)."
+    accepted_metaphors:
+      - edit (filled)
+    rejected_metaphors:
+      - draw freehand (use draw)
+
+  - name: rh-ui-icon-draw
+    icon: draw
+    description: "Pen with a stroke — freehand drawing, sketching, or vector illustration."
+    accepted_metaphors:
+      - draw or sketch
+      - freehand tool
+      - stylus input
+      - illustration or signature
+    rejected_metaphors:
+      - edit text (use edit)
+      - optimize (use optimize)
+
+  - name: rh-ui-icon-draw-fill
+    icon: draw-fill
+    description: "Filled pen — draw or sketch (filled variant)."
+    accepted_metaphors:
+      - draw (filled)
+    rejected_metaphors:
+      - edit text (use edit)
+
+  - name: rh-ui-icon-optimize
+    icon: optimize
+    description: "Pencil with a sparkle — optimize, improve, or refine something."
+    accepted_metaphors:
+      - optimize
+      - improve or refine
+      - tune or enhance
+      - polish
+    rejected_metaphors:
+      - edit text (use edit)
+      - AI enhance (use ai-enhance)
+      - clean up environment (use clean-up)
+
+  - name: rh-ui-icon-optimize-fill
+    icon: optimize-fill
+    description: "Filled pencil with sparkle — optimize (filled variant)."
+    accepted_metaphors:
+      - optimize (filled)
+    rejected_metaphors:
+      - edit (use edit)
+      - AI enhance (use ai-enhance)
+
+  - name: rh-ui-icon-controls
+    icon: controls
+    description: "Sliders or dials — adjust settings, preferences, or controls."
+    accepted_metaphors:
+      - adjust controls
+      - settings sliders
+      - preferences panel
+      - configuration dials
+    rejected_metaphors:
+      - settings gear (use settings)
+      - filter (use filter)
+      - admin gear group (use gear-group)
+
+  - name: rh-ui-icon-controls-fill
+    icon: controls-fill
+    description: "Filled sliders — adjust controls (filled variant)."
+    accepted_metaphors:
+      - controls (filled)
+    rejected_metaphors:
+      - settings gear (use settings)
+      - filter (use filter)
+
+  - name: rh-ui-icon-check
+    icon: check
+    description: "Check mark — confirm, agree, or mark as done."
+    accepted_metaphors:
+      - confirm or approve
+      - mark complete
+      - agree or accept
+      - yes
+    rejected_metaphors:
+      - check in a circle (use check-circle)
+      - clipboard check (use check-clipboard)
+      - success status (use check-circle)
+
+  - name: rh-ui-icon-undo
+    icon: undo
+    description: "Counter-clockwise arrow — undo the last action."
+    accepted_metaphors:
+      - undo
+      - revert last change
+      - step back
+    rejected_metaphors:
+      - redo (use redo)
+      - history log (use history)
+      - rollback deployment (use history or migrate)
+
+  - name: rh-ui-icon-redo
+    icon: redo
+    description: "Clockwise arrow — redo a previously undone action."
+    accepted_metaphors:
+      - redo
+      - re-apply last change
+      - step forward
+    rejected_metaphors:
+      - undo (use undo)
+      - refresh or reload (use refresh)
+      - sync (use sync)
+
+  # — File and data operations ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-copy
+    icon: copy
+    description: "Two overlapping pages — copy to clipboard."
+    accepted_metaphors:
+      - copy to clipboard
+      - copy text or value
+    rejected_metaphors:
+      - duplicate item (use duplicate)
+      - export (use export)
+      - save (use save)
+
+  - name: rh-ui-icon-copy-fill
+    icon: copy-fill
+    description: "Filled overlapping pages — copy to clipboard (filled variant)."
+    accepted_metaphors:
+      - copy (filled)
+    rejected_metaphors:
+      - duplicate (use duplicate)
+
+  - name: rh-ui-icon-save
+    icon: save
+    description: "Floppy disk — save or persist changes."
+    accepted_metaphors:
+      - save
+      - save changes
+      - write to disk
+      - commit or apply
+    rejected_metaphors:
+      - export or download (use export or download)
+      - backup (use backup)
+      - copy (use copy)
+
+  - name: rh-ui-icon-save-fill
+    icon: save-fill
+    description: "Filled floppy disk — save (filled variant)."
+    accepted_metaphors:
+      - save (filled)
+    rejected_metaphors:
+      - export (use export)
+
+  - name: rh-ui-icon-move-file
+    icon: move-file
+    description: "File with a directional arrow — move a file or resource to a different location."
+    accepted_metaphors:
+      - move file
+      - relocate or transfer file
+      - drag file to folder
+    rejected_metaphors:
+      - copy file (use copy or duplicate)
+      - export file (use export)
+      - import file (use import)
+
+  - name: rh-ui-icon-move-file-fill
+    icon: move-file-fill
+    description: "Filled file with arrow — move file (filled variant)."
+    accepted_metaphors:
+      - move file (filled)
+    rejected_metaphors:
+      - copy (use copy)
+
+  - name: rh-ui-icon-export
+    icon: export
+    description: "Arrow pointing out of a box — export or extract data from the system."
+    accepted_metaphors:
+      - export
+      - extract or download file
+      - save as
+      - push out
+    rejected_metaphors:
+      - import (use import)
+      - upload (use upload)
+      - share (use share)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-export-fill
+    icon: export-fill
+    description: "Filled export — export or extract (filled variant)."
+    accepted_metaphors:
+      - export (filled)
+    rejected_metaphors:
+      - import (use import)
+
+  - name: rh-ui-icon-import
+    icon: import
+    description: "Arrow pointing into a box — import or bring data into the system."
+    accepted_metaphors:
+      - import
+      - ingest or load file
+      - bring in data
+    rejected_metaphors:
+      - export (use export)
+      - upload (use upload)
+      - download (use download)
+
+  - name: rh-ui-icon-import-alt
+    icon: import-alt
+    description: "Alternate import arrow — import (alternate visual style)."
+    accepted_metaphors:
+      - import (alternate)
+      - ingest data
+    rejected_metaphors:
+      - export (use export)
+      - primary import style (use import)
+
+  - name: rh-ui-icon-import-alt-fill
+    icon: import-alt-fill
+    description: "Filled alternate import arrow — import alt (filled variant)."
+    accepted_metaphors:
+      - import alt (filled)
+    rejected_metaphors:
+      - export (use export)
+
+  - name: rh-ui-icon-upload
+    icon: upload
+    description: "Arrow pointing up from a surface — upload a file or data to a server or service."
+    accepted_metaphors:
+      - upload
+      - push to server
+      - submit file
+    rejected_metaphors:
+      - download (use download)
+      - import (use import)
+      - export (use export)
+
+  - name: rh-ui-icon-download
+    icon: download
+    description: "Arrow pointing down to a surface — download a file or data to local storage."
+    accepted_metaphors:
+      - download
+      - save to device
+      - pull file
+    rejected_metaphors:
+      - upload (use upload)
+      - export (use export)
+      - cloud download specifically (use cloud-download)
+
+  - name: rh-ui-icon-backup
+    icon: backup
+    description: "Archive or cloud save symbol — back up data to a safe or redundant location."
+    accepted_metaphors:
+      - backup
+      - archive or preserve
+      - create a copy for recovery
+      - mirror data
+    rejected_metaphors:
+      - save in-place (use save)
+      - export (use export)
+      - history or audit log (use history)
+
+  - name: rh-ui-icon-publish
+    icon: publish
+    description: "Upload arrow with a broadcast indicator — publish or release content publicly."
+    accepted_metaphors:
+      - publish
+      - go live
+      - release to production
+      - make public
+      - broadcast or post
+    rejected_metaphors:
+      - deploy pipeline step (use build)
+      - export (use export)
+      - upload to server (use upload or server-upload)
+
+  - name: rh-ui-icon-print
+    icon: print
+    description: "Printer — print or generate a hard copy or PDF."
+    accepted_metaphors:
+      - print
+      - generate PDF or hard copy
+      - output to printer
+    rejected_metaphors:
+      - export or download (use export or download)
+      - save (use save)
+
+  - name: rh-ui-icon-print-fill
+    icon: print-fill
+    description: "Filled printer — print (filled variant)."
+    accepted_metaphors:
+      - print (filled)
+    rejected_metaphors:
+      - export (use export)
+
+  # — Navigation and links ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-external-link
+    icon: external-link
+    description: "Box with an arrow pointing out — open a link in a new tab or navigate to an external site."
+    accepted_metaphors:
+      - open in new tab
+      - external link
+      - go to external site
+      - navigate outbound
+    rejected_metaphors:
+      - export file (use export)
+      - share (use share)
+      - forward in history (use forward or caret-right)
+
+  - name: rh-ui-icon-external-link-fill
+    icon: external-link-fill
+    description: "Filled external link — open external (filled variant)."
+    accepted_metaphors:
+      - external link (filled)
+    rejected_metaphors:
+      - export (use export)
+
+  - name: rh-ui-icon-link
+    icon: link
+    description: "Chain links — copy or represent a URL or hyperlink."
+    accepted_metaphors:
+      - link or URL
+      - copy link
+      - hyperlink
+      - connected reference
+    rejected_metaphors:
+      - broken link (use link-broken)
+      - external link to another site (use external-link)
+      - integration connector (use plug)
+
+  - name: rh-ui-icon-link-broken
+    icon: link-broken
+    description: "Broken chain links — a broken or invalid link."
+    accepted_metaphors:
+      - broken link
+      - unlink
+      - sever connection
+      - invalid URL
+    rejected_metaphors:
+      - active link (use link)
+      - disconnected state (use disconnected)
+
+  - name: rh-ui-icon-forward
+    icon: forward
+    description: "Right-pointing arrow — go forward, send, or advance to the next step."
+    accepted_metaphors:
+      - go forward
+      - next step
+      - advance
+      - forward message or thread
+    rejected_metaphors:
+      - navigate back (use backwards)
+      - large directional arrow (use arrow-right or long-arrow-right)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-backwards
+    icon: backwards
+    description: "Left-pointing arrow with a tail — go back, rewind, or return to a previous state."
+    accepted_metaphors:
+      - go back
+      - rewind
+      - return to previous
+      - back in history
+    rejected_metaphors:
+      - go forward (use forward)
+      - undo (use undo)
+      - caret for navigation (use caret-left)
+
+  - name: rh-ui-icon-install
+    icon: install
+    description: "Arrow or indicator pointing inward — install software, a package, or an add-on."
+    accepted_metaphors:
+      - install
+      - set up or deploy locally
+      - add package
+    rejected_metaphors:
+      - upload (use upload)
+      - import (use import)
+      - download (use download)
+
+  - name: rh-ui-icon-install-fill
+    icon: install-fill
+    description: "Filled install indicator — install (filled variant)."
+    accepted_metaphors:
+      - install (filled)
+    rejected_metaphors:
+      - upload (use upload)
+
+  # — Search and zoom ————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-search
+    icon: search
+    description: "Magnifying glass — search or find content."
+    accepted_metaphors:
+      - search
+      - find or locate
+      - query
+      - look up
+    rejected_metaphors:
+      - zoom in (use zoom-in)
+      - filter (use filter)
+      - analyze (use analyze)
+
+  - name: rh-ui-icon-zoom-in
+    icon: zoom-in
+    description: "Magnifying glass with a plus — zoom in or enlarge a view."
+    accepted_metaphors:
+      - zoom in
+      - enlarge view
+      - scale up
+      - increase magnification
+    rejected_metaphors:
+      - search (use search)
+      - zoom out (use zoom-out)
+      - expand panel (use expand)
+
+  - name: rh-ui-icon-zoom-out
+    icon: zoom-out
+    description: "Magnifying glass with a minus — zoom out or reduce a view."
+    accepted_metaphors:
+      - zoom out
+      - reduce view
+      - scale down
+      - decrease magnification
+    rejected_metaphors:
+      - search (use search)
+      - zoom in (use zoom-in)
+      - compress or collapse (use compress)
+
+  - name: rh-ui-icon-analyze
+    icon: analyze
+    description: "Chart or scan symbol — analyze data, inspect trends, or run a diagnostic."
+    accepted_metaphors:
+      - analyze data
+      - inspect or scan
+      - run analytics
+      - evaluate metrics
+    rejected_metaphors:
+      - search (use search)
+      - insight (use insight)
+      - checkup health scan (use checkup)
+
+  - name: rh-ui-icon-analyze-fill
+    icon: analyze-fill
+    description: "Filled analysis symbol — analyze (filled variant)."
+    accepted_metaphors:
+      - analyze (filled)
+    rejected_metaphors:
+      - search (use search)
+
+  - name: rh-ui-icon-compare
+    icon: compare
+    description: "Side-by-side panels — compare two items, configurations, or values."
+    accepted_metaphors:
+      - compare
+      - side-by-side comparison
+      - diff or contrast
+      - evaluate options
+    rejected_metaphors:
+      - scale-balanced equity (use scale-balanced)
+      - filter (use filter)
+      - analyze (use analyze)
+
+  - name: rh-ui-icon-compare-fill
+    icon: compare-fill
+    description: "Filled side-by-side panels — compare (filled variant)."
+    accepted_metaphors:
+      - compare (filled)
+    rejected_metaphors:
+      - scale-balanced (use scale-balanced)
+
+  # — Sorting and filtering ———————————————————————————————————————————————————
+
+  - name: rh-ui-icon-filter
+    icon: filter
+    description: "Funnel — filter or narrow a list of results."
+    accepted_metaphors:
+      - filter
+      - narrow results
+      - apply criteria
+      - refine view
+    rejected_metaphors:
+      - sort (use sort-* icons)
+      - search (use search)
+      - controls/settings (use controls)
+
+  - name: rh-ui-icon-filter-fill
+    icon: filter-fill
+    description: "Filled funnel — filter (filled variant)."
+    accepted_metaphors:
+      - filter (filled)
+    rejected_metaphors:
+      - search (use search)
+
+  - name: rh-ui-icon-sort-down-large-to-small
+    icon: sort-down-large-to-small
+    description: "Descending bars with down arrow — sort from large to small, high to low, or Z to A."
+    accepted_metaphors:
+      - sort descending (large to small)
+      - high to low
+      - Z to A
+      - newest first
+    rejected_metaphors:
+      - sort ascending (use sort-up-small-to-large)
+      - filter (use filter)
+
+  - name: rh-ui-icon-sort-down-small-to-large
+    icon: sort-down-small-to-large
+    description: "Ascending bars with down arrow — sort from small to large, low to high, or A to Z (downward list direction)."
+    accepted_metaphors:
+      - sort ascending downward
+      - A to Z
+      - low to high
+      - oldest first
+    rejected_metaphors:
+      - sort descending (use sort-down-large-to-small)
+      - filter (use filter)
+
+  - name: rh-ui-icon-sort-up-large-to-small
+    icon: sort-up-large-to-small
+    description: "Descending bars with up arrow — sort from large to small (upward list direction)."
+    accepted_metaphors:
+      - sort descending upward
+      - high to low (upward)
+    rejected_metaphors:
+      - sort descending downward (use sort-down-large-to-small)
+      - filter (use filter)
+
+  - name: rh-ui-icon-sort-up-small-to-large
+    icon: sort-up-small-to-large
+    description: "Ascending bars with up arrow — sort from small to large (upward list direction)."
+    accepted_metaphors:
+      - sort ascending upward
+      - low to high (upward)
+    rejected_metaphors:
+      - sort ascending downward (use sort-down-small-to-large)
+      - filter (use filter)
+
+  - name: rh-ui-icon-distribute
+    icon: distribute
+    description: "Lines spread with equal spacing — distribute items evenly or allocate resources across targets."
+    accepted_metaphors:
+      - distribute evenly
+      - spread or allocate
+      - equal spacing or partition
+      - scatter to multiple targets
+    rejected_metaphors:
+      - filter (use filter)
+      - sort (use sort-* icons)
+      - share (use share)
+
+  # — Process and workflow ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-refresh
+    icon: refresh
+    description: "Circular arrows — reload or refresh the current view or data."
+    accepted_metaphors:
+      - refresh or reload
+      - re-fetch data
+      - browser refresh
+      - reset view
+    rejected_metaphors:
+      - sync with another system (use sync)
+      - redo last action (use redo)
+      - loop process (use loop)
+
+  - name: rh-ui-icon-sync
+    icon: sync
+    description: "Circular arrows with a checkmark or equal indicator — synchronize data between systems."
+    accepted_metaphors:
+      - sync
+      - synchronize
+      - keep in sync
+      - replicate state
+    rejected_metaphors:
+      - refresh view (use refresh)
+      - backup (use backup)
+      - loop (use loop)
+
+  - name: rh-ui-icon-sync-alt
+    icon: sync-alt
+    description: "Alternate sync arrows — synchronize (alternate visual style)."
+    accepted_metaphors:
+      - sync (alternate)
+      - synchronize
+    rejected_metaphors:
+      - refresh (use refresh)
+      - primary sync (use sync)
+
+  - name: rh-ui-icon-power
+    icon: power
+    description: "Power symbol — toggle a system, service, or device on or off."
+    accepted_metaphors:
+      - power on or off
+      - toggle system
+      - start or shut down
+      - enable or disable
+    rejected_metaphors:
+      - off status (use off)
+      - sleep state (use asleep)
+      - stop a running process (use stop)
+
+  - name: rh-ui-icon-condition-node
+    icon: condition-node
+    description: "Diamond or branching node — a conditional decision point in a workflow or automation."
+    accepted_metaphors:
+      - condition or decision node
+      - if/else branch
+      - workflow conditional
+      - automation rule trigger
+    rejected_metaphors:
+      - loop node (use loop-node)
+      - merge node (use merge-nodes)
+      - generic branch (use branch)
+
+  - name: rh-ui-icon-merge-nodes
+    icon: merge-nodes
+    description: "Converging arrows into a single node — merge or join multiple workflow paths."
+    accepted_metaphors:
+      - merge nodes
+      - converge workflow paths
+      - join or consolidate branches
+    rejected_metaphors:
+      - combine items (use combine)
+      - condition node (use condition-node)
+      - loop node (use loop-node)
+
+  - name: rh-ui-icon-combine
+    icon: combine
+    description: "Two items merging — combine, merge, or aggregate content or resources."
+    accepted_metaphors:
+      - combine or merge
+      - aggregate
+      - join or unite
+      - consolidate
+    rejected_metaphors:
+      - merge workflow nodes (use merge-nodes)
+      - link or connect (use link)
+      - import (use import)
+
+  - name: rh-ui-icon-combine-fill
+    icon: combine-fill
+    description: "Filled combine — merge or aggregate (filled variant)."
+    accepted_metaphors:
+      - combine (filled)
+    rejected_metaphors:
+      - merge nodes (use merge-nodes)
+
+  # — Lock and access ————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-lock
+    icon: lock
+    description: "Closed padlock — lock or restrict access to a resource."
+    accepted_metaphors:
+      - lock
+      - restrict access
+      - make private
+      - protect or secure (action)
+    rejected_metaphors:
+      - secured state (use secured)
+      - key credential (use key)
+      - unlock (use unlock)
+
+  - name: rh-ui-icon-lock-fill
+    icon: lock-fill
+    description: "Filled padlock — lock (filled variant)."
+    accepted_metaphors:
+      - lock (filled)
+    rejected_metaphors:
+      - unlock (use unlock)
+
+  - name: rh-ui-icon-unlock
+    icon: unlock
+    description: "Open padlock — unlock or grant access to a resource."
+    accepted_metaphors:
+      - unlock
+      - grant access
+      - make public or open
+      - remove restriction
+    rejected_metaphors:
+      - lock (use lock)
+      - unsecured state (use unsecured)
+
+  - name: rh-ui-icon-unlock-fill
+    icon: unlock-fill
+    description: "Filled open padlock — unlock (filled variant)."
+    accepted_metaphors:
+      - unlock (filled)
+    rejected_metaphors:
+      - lock (use lock)
+
+  # — Media playback ——————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-play
+    icon: play
+    description: "Triangle pointing right — start or resume playback or a process."
+    accepted_metaphors:
+      - play or start
+      - resume playback
+      - begin a process
+      - run
+    rejected_metaphors:
+      - play in a circle (use play-circle)
+      - stop (use stop)
+      - pause (use pause)
+
+  - name: rh-ui-icon-play-fill
+    icon: play-fill
+    description: "Filled triangle — play (filled variant)."
+    accepted_metaphors:
+      - play (filled)
+    rejected_metaphors:
+      - stop (use stop)
+
+  - name: rh-ui-icon-play-circle
+    icon: play-circle
+    description: "Triangle in a circle — play in a circular container."
+    accepted_metaphors:
+      - play (circular button)
+      - start media
+    rejected_metaphors:
+      - plain play (use play)
+      - stop-circle (use stop-circle)
+
+  - name: rh-ui-icon-play-circle-fill
+    icon: play-circle-fill
+    description: "Filled play circle — play (filled circle variant)."
+    accepted_metaphors:
+      - play (filled circle)
+    rejected_metaphors:
+      - stop-circle (use stop-circle)
+
+  - name: rh-ui-icon-pause
+    icon: pause
+    description: "Two vertical bars — pause playback or a running process."
+    accepted_metaphors:
+      - pause
+      - hold
+      - suspend temporarily
+    rejected_metaphors:
+      - stop permanently (use stop)
+      - pause in a circle (use pause-circle)
+
+  - name: rh-ui-icon-pause-fill
+    icon: pause-fill
+    description: "Filled pause bars — pause (filled variant)."
+    accepted_metaphors:
+      - pause (filled)
+    rejected_metaphors:
+      - stop (use stop)
+
+  - name: rh-ui-icon-pause-circle
+    icon: pause-circle
+    description: "Two bars in a circle — pause in a circular container."
+    accepted_metaphors:
+      - pause (circular button)
+    rejected_metaphors:
+      - plain pause (use pause)
+      - play-circle (use play-circle)
+
+  - name: rh-ui-icon-pause-circle-fill
+    icon: pause-circle-fill
+    description: "Filled pause circle — pause (filled circle variant)."
+    accepted_metaphors:
+      - pause (filled circle)
+    rejected_metaphors:
+      - play-circle (use play-circle)
+
+  - name: rh-ui-icon-stop
+    icon: stop
+    description: "Square — stop and end playback or a process permanently."
+    accepted_metaphors:
+      - stop
+      - end or terminate
+      - halt permanently
+    rejected_metaphors:
+      - pause temporarily (use pause)
+      - stop in a circle (use stop-circle)
+      - power off (use power or off)
+
+  - name: rh-ui-icon-stop-fill
+    icon: stop-fill
+    description: "Filled square — stop (filled variant)."
+    accepted_metaphors:
+      - stop (filled)
+    rejected_metaphors:
+      - pause (use pause)
+
+  - name: rh-ui-icon-stop-circle
+    icon: stop-circle
+    description: "Square in a circle — stop in a circular container."
+    accepted_metaphors:
+      - stop (circular button)
+      - end media
+    rejected_metaphors:
+      - plain stop (use stop)
+      - pause-circle (use pause-circle)
+
+  - name: rh-ui-icon-stop-circle-fill
+    icon: stop-circle-fill
+    description: "Filled stop circle — stop (filled circle variant)."
+    accepted_metaphors:
+      - stop (filled circle)
+    rejected_metaphors:
+      - pause-circle (use pause-circle)
+
+  - name: rh-ui-icon-volume-up
+    icon: volume-up
+    description: "Speaker with sound waves — increase or indicate a high audio volume."
+    accepted_metaphors:
+      - volume up
+      - increase volume
+      - louder
+      - audio on
+    rejected_metaphors:
+      - volume down (use volume-down)
+      - mute (use mute)
+
+  - name: rh-ui-icon-volume-up-fill
+    icon: volume-up-fill
+    description: "Filled speaker with waves — volume up (filled variant)."
+    accepted_metaphors:
+      - volume up (filled)
+    rejected_metaphors:
+      - mute (use mute)
+
+  - name: rh-ui-icon-volume-down
+    icon: volume-down
+    description: "Speaker with fewer waves — decrease or indicate a low audio volume."
+    accepted_metaphors:
+      - volume down
+      - decrease volume
+      - quieter
+    rejected_metaphors:
+      - volume up (use volume-up)
+      - mute (use mute)
+
+  - name: rh-ui-icon-volume-down-fill
+    icon: volume-down-fill
+    description: "Filled speaker with fewer waves — volume down (filled variant)."
+    accepted_metaphors:
+      - volume down (filled)
+    rejected_metaphors:
+      - mute (use mute)
+
+  - name: rh-ui-icon-mute
+    icon: mute
+    description: "Speaker with an X or slash — mute audio or silence notifications."
+    accepted_metaphors:
+      - mute
+      - silence
+      - audio off
+      - no sound
+    rejected_metaphors:
+      - volume down (use volume-down)
+      - notification silence (contextual — pair with a label)
+
+  - name: rh-ui-icon-mute-fill
+    icon: mute-fill
+    description: "Filled muted speaker — mute (filled variant)."
+    accepted_metaphors:
+      - mute (filled)
+    rejected_metaphors:
+      - volume down (use volume-down)
+
+  # — Share and communicate ———————————————————————————————————————————————————
+
+  - name: rh-ui-icon-share
+    icon: share
+    description: "Node with outward arrows — share content with others or to other systems."
+    accepted_metaphors:
+      - share
+      - send to others
+      - post or distribute
+      - broadcast
+    rejected_metaphors:
+      - alternate share icon (use share-alt)
+      - export file (use export)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-share-fill
+    icon: share-fill
+    description: "Filled share — share (filled variant)."
+    accepted_metaphors:
+      - share (filled)
+    rejected_metaphors:
+      - export (use export)
+
+  - name: rh-ui-icon-share-alt
+    icon: share-alt
+    description: "Alternate share symbol — share (alternate visual style)."
+    accepted_metaphors:
+      - share (alternate)
+      - send or distribute
+    rejected_metaphors:
+      - primary share (use share)
+      - export (use export)
+
+  - name: rh-ui-icon-share-alt-fill
+    icon: share-alt-fill
+    description: "Filled alternate share — share alt (filled variant)."
+    accepted_metaphors:
+      - share alt (filled)
+    rejected_metaphors:
+      - primary share (use share)
+
+  - name: rh-ui-icon-embed
+    icon: embed
+    description: "Code brackets with an inward arrow — embed content inline or within another context."
+    accepted_metaphors:
+      - embed
+      - insert inline
+      - add iframe or widget
+      - inject code snippet
+    rejected_metaphors:
+      - export (use export)
+      - share (use share)
+      - link (use link)
+
+  - name: rh-ui-icon-embed-fill
+    icon: embed-fill
+    description: "Filled embed — embed (filled variant)."
+    accepted_metaphors:
+      - embed (filled)
+    rejected_metaphors:
+      - share (use share)
+
+  # — Panel and layout ————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-panel-open
+    icon: panel-open
+    description: "Panel sliding open — reveal or expand a side panel or drawer."
+    accepted_metaphors:
+      - open panel
+      - reveal side panel
+      - expand content panel
+    rejected_metaphors:
+      - close panel (use panel-close)
+      - navigation sidebar (use sidebar)
+      - open drawer left or right (use open-drawer-left or open-drawer-right)
+
+  - name: rh-ui-icon-panel-open-fill
+    icon: panel-open-fill
+    description: "Filled open panel — reveal panel (filled variant)."
+    accepted_metaphors:
+      - open panel (filled)
+    rejected_metaphors:
+      - close panel (use panel-close)
+
+  - name: rh-ui-icon-panel-close
+    icon: panel-close
+    description: "Panel sliding closed — hide or collapse a side panel or drawer."
+    accepted_metaphors:
+      - close panel
+      - hide side panel
+      - collapse content panel
+    rejected_metaphors:
+      - open panel (use panel-open)
+      - close dialog (use close)
+      - sidebar toggle (use sidebar)
+
+  - name: rh-ui-icon-panel-close-fill
+    icon: panel-close-fill
+    description: "Filled close panel — hide panel (filled variant)."
+    accepted_metaphors:
+      - close panel (filled)
+    rejected_metaphors:
+      - open panel (use panel-open)
+
+  - name: rh-ui-icon-open-drawer-left
+    icon: open-drawer-left
+    description: "Arrow pulling a left drawer open — open or reveal the left navigation drawer."
+    accepted_metaphors:
+      - open left drawer
+      - reveal left navigation
+      - left flyout or rail
+    rejected_metaphors:
+      - open right drawer (use open-drawer-right)
+      - navigation sidebar toggle (use sidebar)
+      - panel open (use panel-open)
+
+  - name: rh-ui-icon-open-drawer-left-fill
+    icon: open-drawer-left-fill
+    description: "Filled left drawer open — open left drawer (filled variant)."
+    accepted_metaphors:
+      - open left drawer (filled)
+    rejected_metaphors:
+      - open right drawer (use open-drawer-right)
+
+  - name: rh-ui-icon-open-drawer-right
+    icon: open-drawer-right
+    description: "Arrow pulling a right drawer open — open or reveal the right navigation or content drawer."
+    accepted_metaphors:
+      - open right drawer
+      - reveal right panel
+      - right flyout
+    rejected_metaphors:
+      - open left drawer (use open-drawer-left)
+      - panel open (use panel-open)
+
+  - name: rh-ui-icon-open-drawer-right-fill
+    icon: open-drawer-right-fill
+    description: "Filled right drawer open — open right drawer (filled variant)."
+    accepted_metaphors:
+      - open right drawer (filled)
+    rejected_metaphors:
+      - open left drawer (use open-drawer-left)
+
+  - name: rh-ui-icon-expand
+    icon: expand
+    description: "Outward arrows — expand or maximize a panel, card, or section."
+    accepted_metaphors:
+      - expand
+      - maximize section
+      - show more
+      - full screen panel
+    rejected_metaphors:
+      - expand arrows (four-directional) (use expand-arrows)
+      - compress (use compress)
+      - open panel (use panel-open)
+
+  - name: rh-ui-icon-expand-arrows
+    icon: expand-arrows
+    description: "Four outward diagonal arrows — expand or maximize in all directions."
+    accepted_metaphors:
+      - expand full screen
+      - maximize in all directions
+      - enlarge viewport
+    rejected_metaphors:
+      - single-direction expand (use expand)
+      - compress (use compress or compress-arrows)
+
+  - name: rh-ui-icon-compress
+    icon: compress
+    description: "Inward arrows — compress or minimize a panel or section."
+    accepted_metaphors:
+      - compress or collapse
+      - minimize section
+      - reduce view
+    rejected_metaphors:
+      - compress arrows (four-directional) (use compress-arrows)
+      - expand (use expand)
+      - zoom out (use zoom-out)
+
+  - name: rh-ui-icon-compress-arrows
+    icon: compress-arrows
+    description: "Four inward diagonal arrows — compress or minimize in all directions."
+    accepted_metaphors:
+      - compress full screen
+      - minimize from all directions
+      - exit full screen
+    rejected_metaphors:
+      - single-direction compress (use compress)
+      - expand-arrows (use expand-arrows)
+
+  - name: rh-ui-icon-restore-window
+    icon: restore-window
+    description: "Window resize symbol — restore a window to its previous size."
+    accepted_metaphors:
+      - restore window
+      - un-maximize
+      - resize window
+      - windowed mode
+    rejected_metaphors:
+      - expand or maximize (use expand)
+      - compress or minimize (use compress)
+
+  - name: rh-ui-icon-restore-window-fill
+    icon: restore-window-fill
+    description: "Filled window resize — restore window (filled variant)."
+    accepted_metaphors:
+      - restore window (filled)
+    rejected_metaphors:
+      - expand (use expand)
+
+  # — Screen and display ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-brightness-up
+    icon: brightness-up
+    description: "Sun with up indicator — increase screen brightness."
+    accepted_metaphors:
+      - increase brightness
+      - brighter display
+    rejected_metaphors:
+      - brightness down (use brightness-down)
+      - light mode theme (use light-mode)
+
+  - name: rh-ui-icon-brightness-up-fill
+    icon: brightness-up-fill
+    description: "Filled sun — increase brightness (filled variant)."
+    accepted_metaphors:
+      - brightness up (filled)
+    rejected_metaphors:
+      - brightness down (use brightness-down)
+
+  - name: rh-ui-icon-brightness-down
+    icon: brightness-down
+    description: "Sun with down indicator — decrease screen brightness."
+    accepted_metaphors:
+      - decrease brightness
+      - dimmer display
+    rejected_metaphors:
+      - brightness up (use brightness-up)
+      - dark mode theme (use dark-mode)
+
+  - name: rh-ui-icon-brightness-down-fill
+    icon: brightness-down-fill
+    description: "Filled dim sun — decrease brightness (filled variant)."
+    accepted_metaphors:
+      - brightness down (filled)
+    rejected_metaphors:
+      - brightness up (use brightness-up)
+
+  # — Communication ———————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-call
+    icon: call
+    description: "Phone handset — initiate or indicate a voice call."
+    accepted_metaphors:
+      - phone call
+      - dial or call
+      - voice communication
+      - contact by phone
+    rejected_metaphors:
+      - mail or email (use mail)
+      - chat comment (use comment)
+      - microphone input (use microphone)
+
+  - name: rh-ui-icon-call-fill
+    icon: call-fill
+    description: "Filled phone handset — voice call (filled variant)."
+    accepted_metaphors:
+      - call (filled)
+    rejected_metaphors:
+      - mail (use mail)
+
+  # — Social and feedback ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-like
+    icon: like
+    description: "Thumbs up — rate positively, approve, or upvote."
+    accepted_metaphors:
+      - like or approve
+      - upvote
+      - positive feedback
+      - recommend
+    rejected_metaphors:
+      - dislike (use dislike)
+      - star or favorite (use star)
+      - bookmark (use bookmark)
+
+  - name: rh-ui-icon-like-fill
+    icon: like-fill
+    description: "Filled thumbs up — like (filled variant)."
+    accepted_metaphors:
+      - like (filled)
+    rejected_metaphors:
+      - dislike (use dislike)
+
+  - name: rh-ui-icon-dislike
+    icon: dislike
+    description: "Thumbs down — rate negatively, reject, or downvote."
+    accepted_metaphors:
+      - dislike or reject
+      - downvote
+      - negative feedback
+      - unhelpful
+    rejected_metaphors:
+      - like (use like)
+      - error or failure (use error)
+
+  - name: rh-ui-icon-dislike-fill
+    icon: dislike-fill
+    description: "Filled thumbs down — dislike (filled variant)."
+    accepted_metaphors:
+      - dislike (filled)
+    rejected_metaphors:
+      - like (use like)
+
+  - name: rh-ui-icon-star
+    icon: star
+    description: "Star — mark as a favorite or rate highly."
+    accepted_metaphors:
+      - favorite
+      - star rating
+      - mark as important
+      - highlight
+    rejected_metaphors:
+      - bookmark (use bookmark)
+      - like or upvote (use like)
+      - flag for review (use flag)
+
+  - name: rh-ui-icon-star-fill
+    icon: star-fill
+    description: "Filled star — favorited (filled variant)."
+    accepted_metaphors:
+      - favorited (filled)
+      - star rating (active)
+    rejected_metaphors:
+      - flag (use flag)
+
+  - name: rh-ui-icon-bookmark
+    icon: bookmark
+    description: "Ribbon bookmark — save an item for later reference."
+    accepted_metaphors:
+      - bookmark
+      - save for later
+      - mark reading position
+      - add to reading list
+    rejected_metaphors:
+      - favorite star (use star)
+      - pin to top (use thumbtack)
+      - flag for review (use flag)
+
+  - name: rh-ui-icon-bookmark-fill
+    icon: bookmark-fill
+    description: "Filled ribbon bookmark — bookmarked (filled variant)."
+    accepted_metaphors:
+      - bookmarked (filled)
+    rejected_metaphors:
+      - pinned (use thumbtack)
+      - flagged (use flag)
+
+  - name: rh-ui-icon-flag
+    icon: flag
+    description: "Flag — flag an item for review, report, or attention."
+    accepted_metaphors:
+      - flag for review
+      - report or escalate
+      - mark for attention
+      - priority flag
+    rejected_metaphors:
+      - bookmark (use bookmark)
+      - star or favorite (use star)
+      - warning (use warning)
+
+  - name: rh-ui-icon-flag-fill
+    icon: flag-fill
+    description: "Filled flag — flagged (filled variant)."
+    accepted_metaphors:
+      - flagged (filled)
+    rejected_metaphors:
+      - bookmarked (use bookmark)
+
+  # — Text and formatting ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-wrap-text
+    icon: wrap-text
+    description: "Text wrapping around a line break — enable text wrap in a text area or cell."
+    accepted_metaphors:
+      - text wrap
+      - word wrap
+      - multiline text
+      - line break in cell
+    rejected_metaphors:
+      - clip text (use clip-text)
+      - overflow text (use overflow-text)
+      - edit text (use edit)
+
+  - name: rh-ui-icon-clip-text
+    icon: clip-text
+    description: "Text clipped at a boundary — clip or truncate overflow text within a cell or container."
+    accepted_metaphors:
+      - clip text
+      - truncate overflow
+      - text clipped to bounds
+    rejected_metaphors:
+      - wrap text (use wrap-text)
+      - overflow text visible (use overflow-text)
+
+  - name: rh-ui-icon-overflow-text
+    icon: overflow-text
+    description: "Text spilling beyond a boundary — show overflowed text beyond the container edge."
+    accepted_metaphors:
+      - text overflow
+      - show overflowed content
+      - text beyond boundary
+    rejected_metaphors:
+      - wrap text (use wrap-text)
+      - clip text (use clip-text)
+
+  # — Swap ————————————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-swap-right-left
+    icon: swap-right-left
+    description: "Two horizontal arrows pointing opposite directions — swap or switch two items horizontally."
+    accepted_metaphors:
+      - swap horizontal
+      - switch or exchange
+      - toggle between two options
+      - reverse order
+    rejected_metaphors:
+      - swap vertical (use swap-up-down)
+      - sort (use sort-* icons)
+      - arrow left or right navigation (use arrow-left or arrow-right)
+
+  - name: rh-ui-icon-swap-up-down
+    icon: swap-up-down
+    description: "Two vertical arrows pointing opposite directions — swap or switch two items vertically."
+    accepted_metaphors:
+      - swap vertical
+      - switch or exchange (vertical)
+      - toggle between two values
+    rejected_metaphors:
+      - swap horizontal (use swap-right-left)
+      - sort (use sort-* icons)
+      - arrow up or down navigation (use arrow-up or arrow-down)
+
+  # — Playground ——————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-playground
+    icon: playground
+    description: "Sandbox or playground symbol — an interactive sandbox, demo, or experimental environment."
+    accepted_metaphors:
+      - interactive playground
+      - sandbox environment
+      - demo or trial mode
+      - experimental workspace
+    rejected_metaphors:
+      - production environment (use server or build)
+      - test (use checkup or check-clipboard)
+
+  - name: rh-ui-icon-playground-fill
+    icon: playground-fill
+    description: "Filled playground — interactive sandbox (filled variant)."
+    accepted_metaphors:
+      - playground (filled)
+    rejected_metaphors:
+      - production environment (use server)
