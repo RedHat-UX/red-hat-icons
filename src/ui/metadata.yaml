@@ -2,13 +2,211 @@
 # Descriptions, accepted use cases, and rejected use cases for the UI set of icons designed by the Brand team.
 # Linked from /icon-sets.yaml.
 #
+# Sourced by auditing the Brand team's Figma icon library, curated against industry icon
+# meanings, and RHDS icon guidelines.
+#
+# Sections follow the Figma page organization.
+#
 # Schema:
-#   name: Icon name (rh-icon-*)
+#   name: Icon name (rh-ui-icon-*)
 #   icon: @rhds/icons / <rh-icon> icon id (set="ui")
 #   description: what the icon depicts and when to use it
 #   accepted_metaphors: use cases this icon is appropriate for
 #   rejected_metaphors: use cases this icon should not be used for
 
 set: ui
+source:
+  type: figma
+  library: Red Hat Icon Library
+  page: UI icons
+  retrieved: 2026-07-06
+  curated: 2026-07-23
 
-icons: [] # pending curation
+icons:
+  # ── Cloud ──────────────────────────────────────────────────────────────────
+  - name: rh-ui-icon-cloud
+    icon: cloud
+    description: "Cloud shape — represents cloud computing, remote infrastructure, and hosted services."
+    accepted_metaphors:
+      - cloud computing
+      - cloud services
+      - hosted infrastructure
+      - SaaS
+      - remote storage
+      - deployment environment
+      - online services
+    rejected_metaphors:
+      - weather
+      - physical on-premises storage (use storage icon)
+      - local disk
+
+  - name: rh-ui-icon-cloud-fill
+    icon: cloud-fill
+    description: "Filled cloud shape — emphasized cloud computing, remote infrastructure, or hosted services."
+    accepted_metaphors:
+      - cloud computing
+      - cloud services
+      - hosted infrastructure
+      - SaaS
+      - remote storage
+      - deployment environment
+      - online services
+    rejected_metaphors:
+      - weather
+      - physical on-premises storage (use storage icon)
+      - local disk
+
+  - name: rh-ui-icon-cloud-download
+    icon: cloud-download
+    description: "Cloud with downward arrow — download or retrieve data from a cloud service."
+    accepted_metaphors:
+      - download from cloud
+      - retrieve from remote storage
+      - pull from cloud
+      - restore from cloud backup
+      - cloud fetch
+    rejected_metaphors:
+      - upload to cloud (use cloud-upload)
+      - save to local disk (use save)
+      - general download not involving cloud (use download)
+
+  - name: rh-ui-icon-cloud-download-fill
+    icon: cloud-download-fill
+    description: "Filled cloud with downward arrow — emphasized download or retrieval from a cloud service."
+    accepted_metaphors:
+      - download from cloud
+      - retrieve from remote storage
+      - pull from cloud
+      - restore from cloud backup
+    rejected_metaphors:
+      - upload to cloud (use cloud-upload)
+      - save to local disk (use save)
+      - general download not involving cloud (use download)
+
+  - name: rh-ui-icon-cloud-upload
+    icon: cloud-upload
+    description: "Cloud with upward arrow — upload or push data to a cloud service."
+    accepted_metaphors:
+      - upload to cloud
+      - push to remote storage
+      - backup to cloud
+      - deploy to cloud
+      - sync to cloud storage
+    rejected_metaphors:
+      - download from cloud (use cloud-download)
+      - general upload not involving cloud (use upload)
+      - save locally (use save)
+
+  - name: rh-ui-icon-cloud-upload-fill
+    icon: cloud-upload-fill
+    description: "Filled cloud with upward arrow — emphasized upload or push to a cloud service."
+    accepted_metaphors:
+      - upload to cloud
+      - push to remote storage
+      - backup to cloud
+      - deploy to cloud
+      - sync to cloud storage
+    rejected_metaphors:
+      - download from cloud (use cloud-download)
+      - general upload not involving cloud (use upload)
+      - save locally (use save)
+
+  - name: rh-ui-icon-cloud-edge
+    icon: cloud-edge
+    description: "Cloud with an edge node — edge computing infrastructure that processes data close to the source."
+    accepted_metaphors:
+      - edge computing
+      - edge node
+      - point of presence (POP)
+      - low-latency processing
+      - regional infrastructure
+      - edge network
+    rejected_metaphors:
+      - cloud security (use cloud-security)
+      - general networking (use network)
+      - CDN broadly
+
+  - name: rh-ui-icon-cloud-edge-fill
+    icon: cloud-edge-fill
+    description: "Filled cloud with an edge node — emphasized edge computing infrastructure."
+    accepted_metaphors:
+      - edge computing
+      - edge node
+      - point of presence (POP)
+      - low-latency processing
+      - regional infrastructure
+    rejected_metaphors:
+      - cloud security (use cloud-security)
+      - general networking (use network)
+
+  - name: rh-ui-icon-cloud-security
+    icon: cloud-security
+    description: "Cloud with a shield — security controls and protection applied to cloud services."
+    accepted_metaphors:
+      - cloud security
+      - cloud compliance
+      - IAM
+      - cloud access control
+      - cloud governance
+      - cloud threat protection
+      - cloud firewall
+    rejected_metaphors:
+      - general security (use security icon)
+      - authentication or lock (use lock or key)
+      - on-premises security
+
+  - name: rh-ui-icon-cloud-security-fill
+    icon: cloud-security-fill
+    description: "Filled cloud with a shield — emphasized cloud security or protection status."
+    accepted_metaphors:
+      - cloud security
+      - cloud compliance
+      - IAM
+      - cloud access control
+      - cloud governance
+    rejected_metaphors:
+      - general security (use security icon)
+      - authentication or lock (use lock or key)
+      - on-premises security
+
+  - name: rh-ui-icon-cloud-tenant
+    icon: cloud-tenant
+    description: "Cloud with an organizational marker — a tenant or isolated workspace in a cloud environment."
+    accepted_metaphors:
+      - cloud tenant
+      - multi-tenant environment
+      - SaaS customer workspace
+      - organizational partition
+      - cloud account
+      - cloud workspace
+    rejected_metaphors:
+      - generic cloud (use cloud)
+      - user profile (use profile)
+      - organization chart
+
+  - name: rh-ui-icon-hybrid-cloud
+    icon: hybrid-cloud
+    description: "Two overlapping clouds — hybrid or multi-cloud infrastructure combining on-premises and cloud environments."
+    accepted_metaphors:
+      - hybrid cloud
+      - multi-cloud
+      - on-premises and cloud combined
+      - private and public cloud
+      - cloud bridge
+    rejected_metaphors:
+      - single cloud service (use cloud)
+      - cloud migration (use migrate)
+      - general network connection
+
+  - name: rh-ui-icon-hybrid-cloud-fill
+    icon: hybrid-cloud-fill
+    description: "Filled overlapping clouds — emphasized hybrid or multi-cloud infrastructure."
+    accepted_metaphors:
+      - hybrid cloud
+      - multi-cloud
+      - on-premises and cloud combined
+      - private and public cloud
+    rejected_metaphors:
+      - single cloud service (use cloud)
+      - cloud migration (use migrate)
+      - general network connection
