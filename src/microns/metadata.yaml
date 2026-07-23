@@ -11,6 +11,9 @@
 #   description: what the icon depicts and when to use it
 #   accepted_metaphors: use cases this icon is appropriate for
 #   rejected_metaphors: use cases this icon should not be used for
+#   deprecated: (optional) true — icon is deprecated, prefer alias_of
+#   alias_of: (optional) canonical icon name this is an alias for
+#   availability: (optional) "shipped" (default) | "figma-only" — where the icon is currently available
 
 set: microns
 source:
@@ -233,11 +236,10 @@ icons:
       - warning
       - support ticket
 
-  # Present on the Figma Microns page; not yet shipped in @rhds/icons set="microns".
-  # Until published there, implement with set="ui" icon="lock" / "lock-fill".
   - name: rh-micron-lock
     icon: lock
-    description: "Padlock — locked, private, restricted, or secure. Figma micron; use UI set in code until microns publish lock."
+    availability: figma-only
+    description: "Padlock — locked, private, restricted, or secure. Not yet shipped in @rhds/icons set=\"microns\"; use set=\"ui\" icon=\"lock\" until then."
     accepted_metaphors:
       - locked
       - private
@@ -253,7 +255,8 @@ icons:
 
   - name: rh-micron-lock-fill
     icon: lock-fill
-    description: "Filled padlock — emphasized locked/private/secure state. Figma micron; use UI set in code until microns publish lock-fill."
+    availability: figma-only
+    description: "Filled padlock — emphasized locked/private/secure state. Not yet shipped in @rhds/icons set=\"microns\"; use set=\"ui\" icon=\"lock-fill\" until then."
     accepted_metaphors:
       - locked
       - private

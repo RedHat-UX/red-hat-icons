@@ -4,6 +4,12 @@
 #
 # Size ranges align with RHDS <rh-icon> guidance:
 # https://ux.redhat.com/elements/icon/style/
+#
+# status — curation stage of the set's metadata.yaml manifest:
+#   curated    — icons reviewed, descriptions and metaphors written and verified
+#   pending    — icons ship in @rhds/icons but metadata has not been curated yet
+#   draft      — metadata is in progress, may be incomplete or inaccurate
+#   deprecated — set is deprecated and should not be used for new work
 
 sets:
   - id: microns
