@@ -5569,3 +5569,679 @@ icons:
       - playground (filled)
     rejected_metaphors:
       - production environment (use server)
+
+  # ── Concepts ───────────────────────────────────────────────────────────────
+  # Concept icons represent abstract ideas, domain areas, and architectural
+  # patterns — things that are difficult to depict literally. Use them in
+  # navigation, empty states, category headings, and documentation.
+
+  # — Automation and orchestration ————————————————————————————————————————————
+
+  - name: rh-ui-icon-automation
+    icon: automation
+    description: "Möbius loop — an automated, self-running process or workflow."
+    accepted_metaphors:
+      - automation
+      - automated workflow
+      - recurring or self-running process
+      - trigger-based automation
+    rejected_metaphors:
+      - process automation with gear (use process-automation)
+      - CI/CD pipeline step (use build)
+      - loop node (use loop-node)
+
+  - name: rh-ui-icon-process-automation
+    icon: process-automation
+    description: "Gear with a workflow indicator — a structured automated process, RPA, or job runner."
+    accepted_metaphors:
+      - process automation
+      - RPA or job runner
+      - scheduled workflow
+      - background process orchestration
+    rejected_metaphors:
+      - simple loop (use automation)
+      - CI/CD build (use build)
+      - Kubernetes operator (use operator)
+
+  - name: rh-ui-icon-process-automation-fill
+    icon: process-automation-fill
+    description: "Filled process automation — automated process (filled variant)."
+    accepted_metaphors:
+      - process automation (filled)
+    rejected_metaphors:
+      - simple automation (use automation)
+
+  - name: rh-ui-icon-operator
+    icon: operator
+    description: "Squiggle or controller symbol — a Kubernetes Operator or automated lifecycle controller."
+    accepted_metaphors:
+      - Kubernetes Operator
+      - lifecycle controller
+      - CRD-based automation
+      - self-healing or reconciling agent
+    rejected_metaphors:
+      - generic automation (use automation)
+      - process automation (use process-automation)
+      - cluster (use cluster)
+
+  # — Infrastructure and cloud ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-cluster
+    icon: cluster
+    description: "Group of nodes — a compute cluster, Kubernetes cluster, or grouped infrastructure."
+    accepted_metaphors:
+      - cluster (Kubernetes, compute, or database)
+      - grouped nodes
+      - orchestration environment
+    rejected_metaphors:
+      - single server (use server)
+      - network topology (use network or topology)
+      - regions (use regions)
+
+  - name: rh-ui-icon-cluster-fill
+    icon: cluster-fill
+    description: "Filled cluster — compute or Kubernetes cluster (filled variant)."
+    accepted_metaphors:
+      - cluster (filled)
+    rejected_metaphors:
+      - single server (use server)
+
+  - name: rh-ui-icon-infrastructure
+    icon: infrastructure
+    description: "Layered or stacked architecture symbol — the overall infrastructure of a system."
+    accepted_metaphors:
+      - infrastructure
+      - system architecture
+      - cloud or on-prem foundation
+      - backend stack
+    rejected_metaphors:
+      - single server (use server)
+      - cluster (use cluster)
+      - platform (use platform)
+
+  - name: rh-ui-icon-infrastructure-fill
+    icon: infrastructure-fill
+    description: "Filled infrastructure — system architecture (filled variant)."
+    accepted_metaphors:
+      - infrastructure (filled)
+    rejected_metaphors:
+      - cluster (use cluster)
+
+  - name: rh-ui-icon-network
+    icon: network
+    description: "Interconnected nodes — a network, mesh, or connected system."
+    accepted_metaphors:
+      - network
+      - mesh or interconnected system
+      - VPC or subnet concept
+      - distributed architecture
+    rejected_metaphors:
+      - topology view type (use topology)
+      - cluster of nodes (use cluster)
+      - hub or central node (use hub)
+
+  - name: rh-ui-icon-network-fill
+    icon: network-fill
+    description: "Filled network nodes — network (filled variant)."
+    accepted_metaphors:
+      - network (filled)
+    rejected_metaphors:
+      - topology (use topology)
+
+  - name: rh-ui-icon-hub
+    icon: hub
+    description: "Central node with spokes — a hub, central gateway, or aggregation point."
+    accepted_metaphors:
+      - hub or gateway
+      - central aggregation point
+      - portal or landing station
+      - crossroads or nexus
+    rejected_metaphors:
+      - full network (use network)
+      - cluster (use cluster)
+      - router or single server (use server)
+
+  - name: rh-ui-icon-hub-fill
+    icon: hub-fill
+    description: "Filled hub — central gateway (filled variant)."
+    accepted_metaphors:
+      - hub (filled)
+    rejected_metaphors:
+      - network (use network)
+
+  - name: rh-ui-icon-regions
+    icon: regions
+    description: "Geographic zones — cloud regions, availability zones, or geographic distribution."
+    accepted_metaphors:
+      - cloud regions
+      - availability zones
+      - geographic distribution
+      - datacenter locations
+    rejected_metaphors:
+      - single location (use location)
+      - cluster (use cluster)
+      - zone (use zone for a single bounded area)
+
+  - name: rh-ui-icon-regions-fill
+    icon: regions-fill
+    description: "Filled regions — cloud or availability zones (filled variant)."
+    accepted_metaphors:
+      - regions (filled)
+    rejected_metaphors:
+      - single location (use location)
+
+  - name: rh-ui-icon-zone
+    icon: zone
+    description: "Bounded perimeter — a single network zone, security boundary, or availability zone."
+    accepted_metaphors:
+      - zone or boundary
+      - network zone
+      - security perimeter
+      - availability zone (single)
+    rejected_metaphors:
+      - multiple regions (use regions)
+      - cluster (use cluster)
+      - tenant isolation (use tenant)
+
+  - name: rh-ui-icon-tenant
+    icon: tenant
+    description: "Isolated workspace symbol — a tenant in a multi-tenant system."
+    accepted_metaphors:
+      - tenant (multi-tenant SaaS)
+      - isolated workspace or account
+      - customer or organization partition
+    rejected_metaphors:
+      - zone or security perimeter (use zone)
+      - cluster (use cluster)
+      - user profile (use profile)
+
+  - name: rh-ui-icon-tenant-fill
+    icon: tenant-fill
+    description: "Filled tenant — multi-tenant isolation (filled variant)."
+    accepted_metaphors:
+      - tenant (filled)
+    rejected_metaphors:
+      - zone (use zone)
+
+  - name: rh-ui-icon-kubernetes-service
+    icon: kubernetes-service
+    description: "Service mesh arrows — a Kubernetes Service, load balancer, or traffic routing abstraction."
+    accepted_metaphors:
+      - Kubernetes Service
+      - load balancer
+      - traffic routing
+      - cluster-internal networking
+    rejected_metaphors:
+      - Kubernetes Operator (use operator)
+      - cluster (use cluster)
+      - network topology (use network)
+
+  - name: rh-ui-icon-virtual-machine-center
+    icon: virtual-machine-center
+    description: "Central VM management console — a virtualization management platform such as vCenter."
+    accepted_metaphors:
+      - vCenter or VM management
+      - hypervisor control plane
+      - virtualization console
+      - orchestrate VMs
+    rejected_metaphors:
+      - single virtual machine (use virtual-server)
+      - cluster (use cluster)
+      - physical server rack (use server-stack)
+
+  - name: rh-ui-icon-virtual-machine-center-fill
+    icon: virtual-machine-center-fill
+    description: "Filled VM management console — virtualization platform (filled variant)."
+    accepted_metaphors:
+      - VM management (filled)
+    rejected_metaphors:
+      - single VM (use virtual-server)
+
+  # — Data and pipelines ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-registry
+    icon: registry
+    description: "Indexed ledger — a container registry, package registry, or configuration store."
+    accepted_metaphors:
+      - container or package registry
+      - artifact repository
+      - configuration store
+      - Docker or npm registry
+    rejected_metaphors:
+      - catalog (use catalog)
+      - folder directory (use folder)
+      - storage volume (use storage)
+
+  - name: rh-ui-icon-registry-fill
+    icon: registry-fill
+    description: "Filled registry — container or package registry (filled variant)."
+    accepted_metaphors:
+      - registry (filled)
+    rejected_metaphors:
+      - catalog (use catalog)
+
+  - name: rh-ui-icon-replicator
+    icon: replicator
+    description: "Mirrored or branching arrows — data replication, sync, or redundancy."
+    accepted_metaphors:
+      - replication or mirroring
+      - data sync across nodes
+      - high availability failover
+      - distributed data redundancy
+    rejected_metaphors:
+      - sync action (use sync)
+      - backup (use backup)
+      - clone/duplicate (use duplicate)
+
+  - name: rh-ui-icon-replicator-fill
+    icon: replicator-fill
+    description: "Filled replicator — data replication (filled variant)."
+    accepted_metaphors:
+      - replication (filled)
+    rejected_metaphors:
+      - sync action (use sync)
+
+  - name: rh-ui-icon-monitoring
+    icon: monitoring
+    description: "Eye or surveillance symbol — observability, monitoring, or telemetry."
+    accepted_metaphors:
+      - monitoring or observability
+      - telemetry or metrics collection
+      - health monitoring
+      - surveillance or audit
+    rejected_metaphors:
+      - show/hide toggle (use view or view-off)
+      - checkup health diagnostic (use checkup)
+      - security shield (use security)
+
+  - name: rh-ui-icon-monitoring-fill
+    icon: monitoring-fill
+    description: "Filled monitoring symbol — observability (filled variant)."
+    accepted_metaphors:
+      - monitoring (filled)
+    rejected_metaphors:
+      - show/hide (use view)
+
+  - name: rh-ui-icon-path
+    icon: path
+    description: "Segmented route line — a file path, URL route, or journey through steps."
+    accepted_metaphors:
+      - file path or directory path
+      - URL or URI route
+      - breadcrumb trail
+      - sequential journey or flow
+    rejected_metaphors:
+      - routing concept (use route)
+      - network topology (use network)
+      - location pin (use location)
+
+  - name: rh-ui-icon-path-fill
+    icon: path-fill
+    description: "Filled route line — path or URL (filled variant)."
+    accepted_metaphors:
+      - path (filled)
+    rejected_metaphors:
+      - route (use route)
+
+  - name: rh-ui-icon-route
+    icon: route
+    description: "Arrow through a gateway — an API route, network route, or traffic redirect."
+    accepted_metaphors:
+      - API or network route
+      - traffic routing or redirect
+      - gateway mapping
+      - ingress or proxy rule
+    rejected_metaphors:
+      - file path (use path)
+      - location or GPS (use location)
+      - navigation breadcrumb (use path)
+
+  - name: rh-ui-icon-port
+    icon: port
+    description: "Socket or connector — a network port, hardware port, or service endpoint."
+    accepted_metaphors:
+      - network or service port
+      - hardware socket or slot
+      - endpoint or listener
+      - port forwarding
+    rejected_metaphors:
+      - ethernet cable (use ethernet)
+      - plug integration (use plug)
+      - path or route (use path or route)
+
+  - name: rh-ui-icon-template
+    icon: template
+    description: "Pre-filled layout — a template, IaC config, or reusable scaffold."
+    accepted_metaphors:
+      - template or blueprint (reusable)
+      - IaC (Terraform, CloudFormation)
+      - preset or archetype
+      - boilerplate scaffold
+    rejected_metaphors:
+      - blueprint architecture drawing (use blueprint)
+      - document (use document)
+      - module (use module)
+
+  - name: rh-ui-icon-template-fill
+    icon: template-fill
+    description: "Filled template — reusable scaffold (filled variant)."
+    accepted_metaphors:
+      - template (filled)
+    rejected_metaphors:
+      - blueprint (use blueprint)
+
+  - name: rh-ui-icon-module
+    icon: module
+    description: "Segmented block — a modular component, microservice chunk, or reusable unit."
+    accepted_metaphors:
+      - module or component
+      - microservice or chunk
+      - reusable code block
+      - plugin or add-on unit
+    rejected_metaphors:
+      - template (use template)
+      - package bundle (use package)
+      - puzzle piece plugin (use puzzle-piece)
+
+  - name: rh-ui-icon-module-fill
+    icon: module-fill
+    description: "Filled module — modular component (filled variant)."
+    accepted_metaphors:
+      - module (filled)
+    rejected_metaphors:
+      - template (use template)
+
+  # — Security ————————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-security
+    icon: security
+    description: "Shield — security, cybersecurity, or protection."
+    accepted_metaphors:
+      - security or cybersecurity
+      - protection or defense
+      - firewall or access control
+      - zero-trust or IAM concept
+    rejected_metaphors:
+      - security advisory (use security-advisory)
+      - secured connection status (use secured)
+      - lock action (use lock)
+
+  - name: rh-ui-icon-security-fill
+    icon: security-fill
+    description: "Filled shield — security (filled variant)."
+    accepted_metaphors:
+      - security (filled)
+    rejected_metaphors:
+      - security advisory (use security-advisory)
+      - lock (use lock)
+
+  # — Industry and domain ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-enterprise
+    icon: enterprise
+    description: "Building or organization symbol — an enterprise, organization, or company."
+    accepted_metaphors:
+      - enterprise or organization
+      - company or corporate entity
+      - institutional customer
+    rejected_metaphors:
+      - government (use government)
+      - manufacturing (use manufacturing)
+      - users or team (use users)
+
+  - name: rh-ui-icon-enterprise-fill
+    icon: enterprise-fill
+    description: "Filled enterprise — organization (filled variant)."
+    accepted_metaphors:
+      - enterprise (filled)
+    rejected_metaphors:
+      - government (use government)
+
+  - name: rh-ui-icon-government
+    icon: government
+    description: "Pillared building — government, public sector, or civic institution."
+    accepted_metaphors:
+      - government or public sector
+      - civic institution
+      - compliance or regulatory context
+      - federal or state agency
+    rejected_metaphors:
+      - enterprise or corporation (use enterprise)
+      - manufacturing (use manufacturing)
+
+  - name: rh-ui-icon-government-fill
+    icon: government-fill
+    description: "Filled government building — public sector (filled variant)."
+    accepted_metaphors:
+      - government (filled)
+    rejected_metaphors:
+      - enterprise (use enterprise)
+
+  - name: rh-ui-icon-manufacturing
+    icon: manufacturing
+    description: "Factory or assembly line — manufacturing, industrial, or production operations."
+    accepted_metaphors:
+      - manufacturing or factory
+      - industrial operations
+      - assembly line
+      - production or fabrication
+    rejected_metaphors:
+      - enterprise office (use enterprise)
+      - robotics (use robot)
+      - construction (use construction)
+
+  - name: rh-ui-icon-manufacturing-fill
+    icon: manufacturing-fill
+    description: "Filled factory — manufacturing or industrial (filled variant)."
+    accepted_metaphors:
+      - manufacturing (filled)
+    rejected_metaphors:
+      - enterprise (use enterprise)
+
+  - name: rh-ui-icon-travel
+    icon: travel
+    description: "Luggage or suitcase — travel, business trips, or corporate travel management."
+    accepted_metaphors:
+      - travel or trip
+      - business travel
+      - logistics or journey
+      - travel expense management
+    rejected_metaphors:
+      - truck or freight (use truck)
+      - car or vehicle (use car)
+      - route or path (use route or path)
+
+  - name: rh-ui-icon-travel-fill
+    icon: travel-fill
+    description: "Filled luggage — travel or trip (filled variant)."
+    accepted_metaphors:
+      - travel (filled)
+    rejected_metaphors:
+      - freight (use truck)
+
+  # — Collections and content ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-collection
+    icon: collection
+    description: "Stacked cards or tiles — a curated collection, gallery, or saved set."
+    accepted_metaphors:
+      - collection or gallery
+      - saved set or compilation
+      - batch or bundle of items
+      - portfolio or archive
+    rejected_metaphors:
+      - folder directory (use folder)
+      - catalog listing (use catalog)
+      - library of packages (use registry)
+
+  - name: rh-ui-icon-collection-fill
+    icon: collection-fill
+    description: "Filled collection — gallery or saved set (filled variant)."
+    accepted_metaphors:
+      - collection (filled)
+    rejected_metaphors:
+      - folder (use folder)
+
+  # — Education and learning ——————————————————————————————————————————————————
+
+  - name: rh-ui-icon-learn
+    icon: learn
+    description: "Book with a graduation cap — a learning resource, tutorial, or training content."
+    accepted_metaphors:
+      - learning resource
+      - tutorial or training
+      - documentation course
+      - onboarding content
+    rejected_metaphors:
+      - learning (alternate style) (use learning)
+      - graduation milestone (use graduation)
+      - insight (use insight)
+
+  - name: rh-ui-icon-learn-fill
+    icon: learn-fill
+    description: "Filled learning book — tutorial or training (filled variant)."
+    accepted_metaphors:
+      - learn (filled)
+    rejected_metaphors:
+      - graduation (use graduation)
+
+  - name: rh-ui-icon-learning
+    icon: learning
+    description: "Open book or brain — a broader learning or education concept."
+    accepted_metaphors:
+      - learning or education
+      - knowledge or training concept
+      - study or classroom
+    rejected_metaphors:
+      - learn (specific tutorial style) (use learn)
+      - graduation event (use graduation)
+      - documentation help (use question-mark-circle)
+
+  - name: rh-ui-icon-learning-fill
+    icon: learning-fill
+    description: "Filled learning symbol — education (filled variant)."
+    accepted_metaphors:
+      - learning (filled)
+    rejected_metaphors:
+      - learn (use learn)
+
+  - name: rh-ui-icon-graduation
+    icon: graduation
+    description: "Mortarboard cap — course completion, certification, or achievement milestone."
+    accepted_metaphors:
+      - graduation or course completion
+      - certification
+      - achievement milestone
+      - onboarding completion
+    rejected_metaphors:
+      - learning in progress (use learn or learning)
+      - insight or idea (use insight)
+
+  - name: rh-ui-icon-graduation-fill
+    icon: graduation-fill
+    description: "Filled mortarboard — graduation or certification (filled variant)."
+    accepted_metaphors:
+      - graduation (filled)
+    rejected_metaphors:
+      - learning (use learning)
+
+  # — Science and experimentation ————————————————————————————————————————————
+
+  - name: rh-ui-icon-lab
+    icon: lab
+    description: "Erlenmeyer flask — a lab, experimentation environment, or ML/AI workspace."
+    accepted_metaphors:
+      - lab or experiment
+      - ML or AI sandbox
+      - beta or preview feature
+      - research environment
+    rejected_metaphors:
+      - experimental (use experimental for feature-flag context)
+      - playground (use playground)
+      - analytics (use analyze or insight)
+
+  - name: rh-ui-icon-lab-fill
+    icon: lab-fill
+    description: "Filled flask — lab or experiment (filled variant)."
+    accepted_metaphors:
+      - lab (filled)
+    rejected_metaphors:
+      - playground (use playground)
+
+  - name: rh-ui-icon-experimental
+    icon: experimental
+    description: "Test tube or atom — a feature in an experimental, alpha, or preview state."
+    accepted_metaphors:
+      - experimental feature
+      - alpha or preview
+      - feature flag
+      - unstable or canary release
+    rejected_metaphors:
+      - lab research environment (use lab)
+      - playground or sandbox (use playground)
+
+  # — Construction and design ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-construction
+    icon: construction
+    description: "Crane or construction symbol — work in progress, staging, or an environment under construction."
+    accepted_metaphors:
+      - under construction or maintenance
+      - staging environment
+      - setup or initial build
+      - work in progress
+    rejected_metaphors:
+      - blueprint plan (use blueprint)
+      - new process (use new-process)
+      - build pipeline (use build)
+
+  - name: rh-ui-icon-construction-fill
+    icon: construction-fill
+    description: "Filled construction — staging or WIP (filled variant)."
+    accepted_metaphors:
+      - construction (filled)
+    rejected_metaphors:
+      - blueprint (use blueprint)
+
+  # — Physical and energy ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-electricity
+    icon: electricity
+    description: "Lightning bolt — electrical power, energy, or a fast or high-performance concept."
+    accepted_metaphors:
+      - electricity or power
+      - energy or charging
+      - high performance or fast
+      - lightning or voltage
+    rejected_metaphors:
+      - brightness or screen display (use brightness-up)
+      - flash photography (use image)
+      - power button toggle (use power)
+
+  - name: rh-ui-icon-electricity-fill
+    icon: electricity-fill
+    description: "Filled lightning bolt — electricity or energy (filled variant)."
+    accepted_metaphors:
+      - electricity (filled)
+    rejected_metaphors:
+      - power button (use power)
+
+  - name: rh-ui-icon-liquid
+    icon: liquid
+    description: "Droplet or fluid shape — fluid layout, responsive design, or a liquid or adaptive concept."
+    accepted_metaphors:
+      - fluid or responsive layout
+      - liquid or adaptive design
+      - droplet or water concept
+      - dynamic or flowing content
+    rejected_metaphors:
+      - networking or topology (use network)
+      - gradients or blends (describe in text)
+
+  - name: rh-ui-icon-liquid-fill
+    icon: liquid-fill
+    description: "Filled droplet — liquid or fluid (filled variant)."
+    accepted_metaphors:
+      - liquid (filled)
+    rejected_metaphors:
+      - network (use network)
