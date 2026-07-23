@@ -2940,3 +2940,1100 @@ icons:
     rejected_metaphors:
       - help (use question-mark-circle)
       - undefined severity (use severity-undefined-fill)
+
+  # ── Objects ────────────────────────────────────────────────────────────────
+  # Object icons represent things — software, hardware, data, documents, and
+  # real-world entities. Use them to label, identify, or categorize resources
+  # in lists, detail pages, navigation, and empty states.
+
+  # — Applications and software ———————————————————————————————————————————————
+
+  - name: rh-ui-icon-application
+    icon: application
+    description: "Single window with a toolbar — a software application or app."
+    accepted_metaphors:
+      - application or app
+      - software program
+      - executable or client
+      - deployed workload
+    rejected_metaphors:
+      - multiple applications (use applications)
+      - platform or ecosystem (use platform)
+      - container or pod (use container)
+
+  - name: rh-ui-icon-application-fill
+    icon: application-fill
+    description: "Filled application window — app or software (filled variant)."
+    accepted_metaphors:
+      - application (filled)
+    rejected_metaphors:
+      - multiple applications (use applications)
+
+  - name: rh-ui-icon-applications
+    icon: applications
+    description: "Multiple windows — a collection of software applications."
+    accepted_metaphors:
+      - multiple applications
+      - application catalog or suite
+      - app library
+    rejected_metaphors:
+      - single application (use application)
+      - platform (use platform)
+
+  - name: rh-ui-icon-applications-fill
+    icon: applications-fill
+    description: "Filled multiple windows — application collection (filled variant)."
+    accepted_metaphors:
+      - multiple applications (filled)
+    rejected_metaphors:
+      - single application (use application)
+
+  - name: rh-ui-icon-code
+    icon: code
+    description: "Angle brackets — source code, programming, or a code snippet."
+    accepted_metaphors:
+      - source code
+      - code snippet or script
+      - developer or programming context
+      - markup or syntax
+    rejected_metaphors:
+      - code file (use file-code)
+      - terminal command (use a terminal icon if available)
+      - branch or version control (use branch)
+
+  - name: rh-ui-icon-file-code
+    icon: file-code
+    description: "File with code brackets — a source code file or code asset."
+    accepted_metaphors:
+      - code file
+      - source file (HTML, CSS, JS, YAML, etc.)
+      - script file
+      - manifest or template file
+    rejected_metaphors:
+      - inline code (use code)
+      - generic document (use document)
+      - package or bundle (use package)
+
+  - name: rh-ui-icon-file-code-fill
+    icon: file-code-fill
+    description: "Filled code file — source file (filled variant)."
+    accepted_metaphors:
+      - code file (filled)
+    rejected_metaphors:
+      - inline code (use code)
+      - generic document (use document)
+
+  - name: rh-ui-icon-platform
+    icon: platform
+    description: "Layered stack — a software platform, ecosystem, or foundational environment."
+    accepted_metaphors:
+      - platform or ecosystem
+      - tech stack
+      - foundation or base environment
+      - gateway or portal
+    rejected_metaphors:
+      - single application (use application)
+      - cloud infrastructure (use cloud or server)
+      - container (use container)
+
+  - name: rh-ui-icon-platform-fill
+    icon: platform-fill
+    description: "Filled layered stack — platform or ecosystem (filled variant)."
+    accepted_metaphors:
+      - platform (filled)
+    rejected_metaphors:
+      - single application (use application)
+
+  # — Infrastructure and hardware ————————————————————————————————————————————
+
+  - name: rh-ui-icon-server
+    icon: server
+    description: "Server unit — a physical or bare-metal server."
+    accepted_metaphors:
+      - physical server
+      - bare-metal host
+      - computing node
+      - on-premises server
+    rejected_metaphors:
+      - server stack or rack (use server-stack)
+      - virtual machine (use virtual-server)
+      - cloud compute (use cloud)
+      - container workload (use container)
+
+  - name: rh-ui-icon-server-fill
+    icon: server-fill
+    description: "Filled server unit — physical server (filled variant)."
+    accepted_metaphors:
+      - physical server (filled)
+    rejected_metaphors:
+      - server rack (use server-stack)
+      - virtual server (use virtual-server)
+
+  - name: rh-ui-icon-server-stack
+    icon: server-stack
+    description: "Stacked server units — a server rack, data center, or cluster of physical machines."
+    accepted_metaphors:
+      - server rack
+      - data center hardware
+      - cluster of servers
+      - mainframe or blade chassis
+    rejected_metaphors:
+      - single server (use server)
+      - virtual machines (use virtual-server)
+      - cloud (use cloud)
+
+  - name: rh-ui-icon-server-stack-fill
+    icon: server-stack-fill
+    description: "Filled server rack — data center hardware (filled variant)."
+    accepted_metaphors:
+      - server rack (filled)
+    rejected_metaphors:
+      - single server (use server)
+
+  - name: rh-ui-icon-server-upload
+    icon: server-upload
+    description: "Server with an upward arrow — uploading to a server or pushing a deployment."
+    accepted_metaphors:
+      - upload to server
+      - push deployment
+      - server provisioning
+      - send to host
+    rejected_metaphors:
+      - server with no transfer (use server)
+      - cloud upload (use cloud-upload if available)
+      - build or pipeline step (use build)
+
+  - name: rh-ui-icon-server-upload-fill
+    icon: server-upload-fill
+    description: "Filled server with upload arrow — upload to server (filled variant)."
+    accepted_metaphors:
+      - upload to server (filled)
+    rejected_metaphors:
+      - server without transfer (use server)
+
+  - name: rh-ui-icon-virtual-server
+    icon: virtual-server
+    description: "Windowed server — a virtual machine, cloud instance, or VPS."
+    accepted_metaphors:
+      - virtual machine (VM)
+      - cloud instance
+      - VPS or EC2
+      - hypervisor guest
+    rejected_metaphors:
+      - physical server (use server)
+      - container (use container)
+      - cloud service (use cloud)
+
+  - name: rh-ui-icon-virtual-server-fill
+    icon: virtual-server-fill
+    description: "Filled virtual server — VM or cloud instance (filled variant)."
+    accepted_metaphors:
+      - virtual machine (filled)
+    rejected_metaphors:
+      - physical server (use server)
+      - container (use container)
+
+  - name: rh-ui-icon-desktop
+    icon: desktop
+    description: "Desktop monitor — a desktop computer, workstation, or desktop OS."
+    accepted_metaphors:
+      - desktop computer
+      - workstation
+      - desktop OS or interface
+    rejected_metaphors:
+      - laptop (use laptop)
+      - mobile phone (use mobile-phone)
+      - server (use server)
+      - window view type (use window)
+
+  - name: rh-ui-icon-desktop-fill
+    icon: desktop-fill
+    description: "Filled desktop monitor — desktop computer (filled variant)."
+    accepted_metaphors:
+      - desktop computer (filled)
+    rejected_metaphors:
+      - laptop (use laptop)
+      - server (use server)
+
+  - name: rh-ui-icon-laptop
+    icon: laptop
+    description: "Laptop — a portable computer, notebook, or endpoint device."
+    accepted_metaphors:
+      - laptop or notebook
+      - portable computer
+      - endpoint device
+      - client machine
+    rejected_metaphors:
+      - desktop (use desktop)
+      - mobile phone or tablet (use mobile-phone or tablet)
+      - server (use server)
+
+  - name: rh-ui-icon-laptop-fill
+    icon: laptop-fill
+    description: "Filled laptop — portable computer (filled variant)."
+    accepted_metaphors:
+      - laptop (filled)
+    rejected_metaphors:
+      - desktop (use desktop)
+      - tablet (use tablet)
+
+  - name: rh-ui-icon-mobile-phone
+    icon: mobile-phone
+    description: "Mobile phone — a smartphone, mobile device, or mobile app context."
+    accepted_metaphors:
+      - mobile phone or smartphone
+      - mobile app
+      - responsive design context
+      - mobile device management
+    rejected_metaphors:
+      - tablet (use tablet)
+      - laptop (use laptop)
+      - desktop (use desktop)
+
+  - name: rh-ui-icon-mobile-phone-fill
+    icon: mobile-phone-fill
+    description: "Filled mobile phone — smartphone or mobile device (filled variant)."
+    accepted_metaphors:
+      - mobile phone (filled)
+    rejected_metaphors:
+      - tablet (use tablet)
+      - desktop (use desktop)
+
+  - name: rh-ui-icon-tablet
+    icon: tablet
+    description: "Tablet device — a tablet computer, kiosk, or large mobile screen."
+    accepted_metaphors:
+      - tablet
+      - kiosk device
+      - large-screen mobile device
+      - mobile device management (tablet)
+    rejected_metaphors:
+      - mobile phone (use mobile-phone)
+      - laptop (use laptop)
+      - desktop (use desktop)
+
+  - name: rh-ui-icon-tablet-fill
+    icon: tablet-fill
+    description: "Filled tablet — tablet device (filled variant)."
+    accepted_metaphors:
+      - tablet (filled)
+    rejected_metaphors:
+      - mobile phone (use mobile-phone)
+
+  - name: rh-ui-icon-memory
+    icon: memory
+    description: "RAM stick — system memory, a memory module, or RAM capacity."
+    accepted_metaphors:
+      - RAM or memory module
+      - system memory
+      - memory capacity
+    rejected_metaphors:
+      - storage or disk (use storage or hard-drive)
+      - data (use data)
+
+  - name: rh-ui-icon-memory-fill
+    icon: memory-fill
+    description: "Filled RAM stick — memory module (filled variant)."
+    accepted_metaphors:
+      - memory module (filled)
+    rejected_metaphors:
+      - storage (use storage)
+
+  - name: rh-ui-icon-hard-drive
+    icon: hard-drive
+    description: "Hard drive unit — a physical disk drive, HDD, or SSD."
+    accepted_metaphors:
+      - hard drive or disk
+      - HDD or SSD
+      - physical storage device
+      - disk capacity
+    rejected_metaphors:
+      - cloud or object storage (use storage)
+      - RAM (use memory)
+      - data in general (use data)
+
+  - name: rh-ui-icon-hard-drive-fill
+    icon: hard-drive-fill
+    description: "Filled hard drive — disk drive (filled variant)."
+    accepted_metaphors:
+      - hard drive (filled)
+    rejected_metaphors:
+      - cloud storage (use storage)
+      - RAM (use memory)
+
+  - name: rh-ui-icon-storage
+    icon: storage
+    description: "Cylindrical stack — cloud or object storage, a data volume, or a repository."
+    accepted_metaphors:
+      - storage volume
+      - object or block storage
+      - S3 bucket or repository
+      - NAS or disk array
+      - data archive
+    rejected_metaphors:
+      - physical disk drive (use hard-drive)
+      - RAM (use memory)
+      - server (use server)
+      - storage domain (use storage-domain)
+
+  - name: rh-ui-icon-storage-fill
+    icon: storage-fill
+    description: "Filled storage cylinders — storage volume (filled variant)."
+    accepted_metaphors:
+      - storage (filled)
+    rejected_metaphors:
+      - hard drive (use hard-drive)
+      - storage domain (use storage-domain)
+
+  - name: rh-ui-icon-storage-domain
+    icon: storage-domain
+    description: "Storage domain — a named storage domain or managed storage pool."
+    accepted_metaphors:
+      - storage domain
+      - managed storage pool
+      - named storage group
+    rejected_metaphors:
+      - generic storage (use storage)
+      - hard drive (use hard-drive)
+
+  - name: rh-ui-icon-storage-domain-fill
+    icon: storage-domain-fill
+    description: "Filled storage domain — managed storage pool (filled variant)."
+    accepted_metaphors:
+      - storage domain (filled)
+    rejected_metaphors:
+      - generic storage (use storage)
+
+  - name: rh-ui-icon-circuit
+    icon: circuit
+    description: "Circuit board traces — hardware circuitry, a processor, or a microchip."
+    accepted_metaphors:
+      - circuit or circuit board
+      - microchip or processor
+      - hardware electronics
+      - CPU or silicon
+    rejected_metaphors:
+      - memory module (use memory)
+      - server (use server)
+      - data or binary (use data)
+
+  - name: rh-ui-icon-circuit-fill
+    icon: circuit-fill
+    description: "Filled circuit board — hardware circuitry (filled variant)."
+    accepted_metaphors:
+      - circuit board (filled)
+    rejected_metaphors:
+      - memory (use memory)
+
+  - name: rh-ui-icon-ethernet
+    icon: ethernet
+    description: "Ethernet plug — a wired network connection or LAN port."
+    accepted_metaphors:
+      - ethernet port or cable
+      - wired network connection
+      - LAN connectivity
+      - physical network interface
+    rejected_metaphors:
+      - wireless connection (use connected or wifi-connected)
+      - plug or API integration (use plug)
+      - disconnected state (use disconnected)
+
+  - name: rh-ui-icon-ethernet-fill
+    icon: ethernet-fill
+    description: "Filled ethernet plug — wired network connection (filled variant)."
+    accepted_metaphors:
+      - ethernet (filled)
+    rejected_metaphors:
+      - integration plug (use plug)
+
+  # — Cloud and data ——————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-container
+    icon: container
+    description: "Container box — a software container such as a Docker image or OCI container."
+    accepted_metaphors:
+      - container (Docker, OCI)
+      - containerized application
+      - container image
+      - isolated runtime environment
+    rejected_metaphors:
+      - pod (no longer shipped; use container as the closest equivalent)
+      - virtual machine (use virtual-server)
+      - package or bundle (use package)
+
+  - name: rh-ui-icon-container-fill
+    icon: container-fill
+    description: "Filled container box — software container (filled variant)."
+    accepted_metaphors:
+      - container (filled)
+    rejected_metaphors:
+      - virtual machine (use virtual-server)
+
+  - name: rh-ui-icon-data
+    icon: data
+    description: "Binary or stacked data symbol — raw data, a dataset, or a data layer."
+    accepted_metaphors:
+      - data or dataset
+      - binary data
+      - raw data layer
+      - data record
+    rejected_metaphors:
+      - storage volume (use storage)
+      - database server (use server or server-stack)
+      - data source specifically (use data-source)
+      - data sink specifically (use data-sink)
+
+  - name: rh-ui-icon-data-source
+    icon: data-source
+    description: "Data symbol with an outward indicator — the origin or source of a data stream."
+    accepted_metaphors:
+      - data source
+      - data origin or producer
+      - data ingestion point
+      - input data
+    rejected_metaphors:
+      - data sink (use data-sink)
+      - data processor (use data-processor)
+      - generic data (use data)
+
+  - name: rh-ui-icon-data-source-fill
+    icon: data-source-fill
+    description: "Filled data source — origin of a data stream (filled variant)."
+    accepted_metaphors:
+      - data source (filled)
+    rejected_metaphors:
+      - data sink (use data-sink)
+
+  - name: rh-ui-icon-data-sink
+    icon: data-sink
+    description: "Data symbol with an inward indicator — the destination or consumer of a data stream."
+    accepted_metaphors:
+      - data sink
+      - data destination or consumer
+      - data output point
+    rejected_metaphors:
+      - data source (use data-source)
+      - data processor (use data-processor)
+      - generic data (use data)
+
+  - name: rh-ui-icon-data-sink-fill
+    icon: data-sink-fill
+    description: "Filled data sink — data destination (filled variant)."
+    accepted_metaphors:
+      - data sink (filled)
+    rejected_metaphors:
+      - data source (use data-source)
+
+  - name: rh-ui-icon-data-processor
+    icon: data-processor
+    description: "Data symbol with a processing indicator — a component that transforms or processes data."
+    accepted_metaphors:
+      - data processor
+      - data transform or ETL step
+      - stream processing
+      - pipeline stage
+    rejected_metaphors:
+      - data source (use data-source)
+      - data sink (use data-sink)
+      - generic data (use data)
+
+  - name: rh-ui-icon-data-processor-fill
+    icon: data-processor-fill
+    description: "Filled data processor — data transformation (filled variant)."
+    accepted_metaphors:
+      - data processor (filled)
+    rejected_metaphors:
+      - data source (use data-source)
+      - data sink (use data-sink)
+
+  - name: rh-ui-icon-cubes
+    icon: cubes
+    description: "Stacked 3D cubes — multidimensional data, OLAP, or a data warehouse model."
+    accepted_metaphors:
+      - data cubes or OLAP
+      - data warehouse dimensions
+      - multidimensional analytics
+      - BI or reporting model
+    rejected_metaphors:
+      - storage volume (use storage)
+      - container (use container)
+      - data in general (use data)
+
+  - name: rh-ui-icon-cubes-fill
+    icon: cubes-fill
+    description: "Filled stacked cubes — data warehouse or OLAP model (filled variant)."
+    accepted_metaphors:
+      - data cubes (filled)
+    rejected_metaphors:
+      - storage (use storage)
+      - container (use container)
+
+  # — DevOps and pipelines ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-branch
+    icon: branch
+    description: "Forked line — a Git branch, version control branch, or pipeline fork."
+    accepted_metaphors:
+      - Git branch
+      - version control fork
+      - pipeline branch or split
+      - workflow conditional path
+    rejected_metaphors:
+      - tree-view hierarchy (use tree-view)
+      - topology node (use topology)
+      - loop (use loop)
+
+  - name: rh-ui-icon-branch-fill
+    icon: branch-fill
+    description: "Filled branch — Git branch or pipeline fork (filled variant)."
+    accepted_metaphors:
+      - branch (filled)
+    rejected_metaphors:
+      - tree-view (use tree-view)
+
+  - name: rh-ui-icon-loop
+    icon: loop
+    description: "Circular arrow — a loop, cycle, or repeating process in a workflow."
+    accepted_metaphors:
+      - loop or cycle
+      - iteration
+      - recurring process
+      - repeat or retry step
+    rejected_metaphors:
+      - loop node in a pipeline (use loop-node)
+      - branch or fork (use branch)
+      - refresh or reload action (use a refresh action icon)
+
+  - name: rh-ui-icon-loop-node
+    icon: loop-node
+    description: "Loop with a node dot — a specific loop node in a pipeline or workflow diagram."
+    accepted_metaphors:
+      - loop node (pipeline or workflow)
+      - repeating step with an anchor
+    rejected_metaphors:
+      - generic loop (use loop)
+      - branch (use branch)
+
+  - name: rh-ui-icon-package
+    icon: package
+    description: "Box or bundle — a software package, npm module, library, or deployment artifact."
+    accepted_metaphors:
+      - software package
+      - npm or library bundle
+      - deployment artifact
+      - release archive
+    rejected_metaphors:
+      - container image (use container)
+      - folder of files (use folder)
+      - shipping (use truck)
+
+  - name: rh-ui-icon-package-fill
+    icon: package-fill
+    description: "Filled package — software bundle (filled variant)."
+    accepted_metaphors:
+      - package (filled)
+    rejected_metaphors:
+      - container (use container)
+      - folder (use folder)
+
+  - name: rh-ui-icon-gear-group
+    icon: gear-group
+    description: "Multiple interlocking gears — an administration panel, automation system, or operational engine."
+    accepted_metaphors:
+      - administration or operations
+      - automation system
+      - multiple settings or processes
+      - engine or backend machinery
+    rejected_metaphors:
+      - single settings gear (use settings)
+      - build or CI/CD (use build)
+      - new process (use new-process)
+
+  - name: rh-ui-icon-gear-group-fill
+    icon: gear-group-fill
+    description: "Filled interlocking gears — administration or automation (filled variant)."
+    accepted_metaphors:
+      - administration (filled)
+    rejected_metaphors:
+      - single settings gear (use settings)
+
+  # — Data and analytics ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-pie-chart
+    icon: pie-chart
+    description: "Pie chart — a proportional data visualization or percentage breakdown."
+    accepted_metaphors:
+      - pie chart
+      - proportional breakdown
+      - percentage distribution
+      - data visualization (proportional)
+    rejected_metaphors:
+      - gauge or utilization (use speedometer)
+      - trend over time (use trend-up or trend-down)
+      - dashboard in general (use home or insight)
+
+  - name: rh-ui-icon-pie-chart-fill
+    icon: pie-chart-fill
+    description: "Filled pie chart — proportional data visualization (filled variant)."
+    accepted_metaphors:
+      - pie chart (filled)
+    rejected_metaphors:
+      - gauge (use speedometer)
+
+  - name: rh-ui-icon-assessment
+    icon: assessment
+    description: "Checklist with ratings — an evaluation, audit, or scored assessment."
+    accepted_metaphors:
+      - assessment or evaluation
+      - audit or review
+      - scorecard or report
+      - diagnostic summary
+    rejected_metaphors:
+      - checkup or health scan (use checkup)
+      - simple checklist (use check-clipboard)
+      - task list (use clipboard)
+
+  - name: rh-ui-icon-assessment-fill
+    icon: assessment-fill
+    description: "Filled assessment — evaluation or audit (filled variant)."
+    accepted_metaphors:
+      - assessment (filled)
+    rejected_metaphors:
+      - health check (use checkup)
+
+  - name: rh-ui-icon-blueprint
+    icon: blueprint
+    description: "Grid plan with lines — an architecture blueprint, schema, or system design."
+    accepted_metaphors:
+      - blueprint or schema
+      - system architecture plan
+      - design or wireframe
+      - technical specification
+    rejected_metaphors:
+      - topology diagram (use topology)
+      - code file (use file-code)
+      - template document (use document)
+
+  - name: rh-ui-icon-blueprint-fill
+    icon: blueprint-fill
+    description: "Filled blueprint — architecture plan (filled variant)."
+    accepted_metaphors:
+      - blueprint (filled)
+    rejected_metaphors:
+      - topology (use topology)
+
+  # — Integration and connectivity ————————————————————————————————————————————
+
+  - name: rh-ui-icon-plug
+    icon: plug
+    description: "Two-prong plug — an integration, API connection, or plugin hook."
+    accepted_metaphors:
+      - integration or API connection
+      - plugin or add-on hook
+      - webhook or bridge
+      - connector
+    rejected_metaphors:
+      - ethernet cable (use ethernet)
+      - connected state (use connected)
+      - puzzle-piece plugin (use puzzle-piece)
+
+  - name: rh-ui-icon-plug-fill
+    icon: plug-fill
+    description: "Filled plug — integration or API connection (filled variant)."
+    accepted_metaphors:
+      - integration (filled)
+    rejected_metaphors:
+      - ethernet (use ethernet)
+
+  - name: rh-ui-icon-puzzle-piece
+    icon: puzzle-piece
+    description: "Jigsaw puzzle piece — a plugin, extension, or modular add-on."
+    accepted_metaphors:
+      - plugin or extension
+      - add-on or module
+      - connector or integration piece
+    rejected_metaphors:
+      - API or webhook (use plug)
+      - package (use package)
+
+  - name: rh-ui-icon-puzzle-piece-fill
+    icon: puzzle-piece-fill
+    description: "Filled puzzle piece — plugin or extension (filled variant)."
+    accepted_metaphors:
+      - plugin (filled)
+    rejected_metaphors:
+      - API connection (use plug)
+
+  # — Documents and content ———————————————————————————————————————————————————
+
+  - name: rh-ui-icon-catalog
+    icon: catalog
+    description: "Hand-held catalog or listing — a product catalog, service directory, or index."
+    accepted_metaphors:
+      - product or service catalog
+      - directory or registry
+      - item inventory
+      - browsable listing
+    rejected_metaphors:
+      - catalog (book style) (use catalog-alt)
+      - folder directory (use folder)
+      - simple list (use list)
+
+  - name: rh-ui-icon-catalog-fill
+    icon: catalog-fill
+    description: "Filled catalog — product catalog or directory (filled variant)."
+    accepted_metaphors:
+      - catalog (filled)
+    rejected_metaphors:
+      - catalog-alt (use catalog-alt)
+
+  - name: rh-ui-icon-catalog-alt
+    icon: catalog-alt
+    description: "Book-style catalog — an alternate catalog representation, documentation set, or knowledge base."
+    accepted_metaphors:
+      - catalog (book style)
+      - documentation set
+      - knowledge base
+      - reference guide
+    rejected_metaphors:
+      - catalog (hand style) (use catalog)
+      - generic document (use document)
+      - folder (use folder)
+
+  - name: rh-ui-icon-catalog-alt-fill
+    icon: catalog-alt-fill
+    description: "Filled book catalog — documentation or knowledge base (filled variant)."
+    accepted_metaphors:
+      - catalog alt (filled)
+    rejected_metaphors:
+      - catalog (hand style) (use catalog)
+
+  - name: rh-ui-icon-clipboard
+    icon: clipboard
+    description: "Blank clipboard — a task list, project plan, or general to-do board."
+    accepted_metaphors:
+      - task list or project list
+      - to-do or agenda
+      - blank record or log
+    rejected_metaphors:
+      - clipboard with a check (use check-clipboard)
+      - assessment or scored audit (use assessment)
+      - document (use document)
+
+  - name: rh-ui-icon-clipboard-fill
+    icon: clipboard-fill
+    description: "Filled clipboard — task list (filled variant)."
+    accepted_metaphors:
+      - clipboard (filled)
+    rejected_metaphors:
+      - check-clipboard (use check-clipboard)
+
+  - name: rh-ui-icon-check-clipboard
+    icon: check-clipboard
+    description: "Clipboard with a check — a completed checklist, passed test, or approved review."
+    accepted_metaphors:
+      - completed checklist
+      - passed test or audit
+      - approved review
+      - signed off tasks
+    rejected_metaphors:
+      - blank clipboard (use clipboard)
+      - assessment (use assessment)
+      - check-circle status (use check-circle)
+
+  - name: rh-ui-icon-check-clipboard-fill
+    icon: check-clipboard-fill
+    description: "Filled clipboard with check — completed checklist (filled variant)."
+    accepted_metaphors:
+      - completed checklist (filled)
+    rejected_metaphors:
+      - blank clipboard (use clipboard)
+
+  - name: rh-ui-icon-resource
+    icon: resource
+    description: "Document with a label — a named resource, content item, or record."
+    accepted_metaphors:
+      - resource or record
+      - content item
+      - named document or entry
+      - catalog item
+    rejected_metaphors:
+      - generic document (use document)
+      - resources capacity (use resources-*)
+      - blueprint (use blueprint)
+
+  - name: rh-ui-icon-resource-fill
+    icon: resource-fill
+    description: "Filled resource — named record or content item (filled variant)."
+    accepted_metaphors:
+      - resource (filled)
+    rejected_metaphors:
+      - generic document (use document)
+
+  - name: rh-ui-icon-tag
+    icon: tag
+    description: "Price tag — a label, category tag, or metadata attribute."
+    accepted_metaphors:
+      - tag or label
+      - category or keyword
+      - metadata attribute
+      - classification or filter tag
+    rejected_metaphors:
+      - thumbtack or pin (use thumbtack)
+      - bookmark (use thumbtack)
+      - folder category (use folder)
+
+  - name: rh-ui-icon-tag-fill
+    icon: tag-fill
+    description: "Filled price tag — label or metadata tag (filled variant)."
+    accepted_metaphors:
+      - tag (filled)
+    rejected_metaphors:
+      - thumbtack (use thumbtack)
+
+  # — Identity and security ———————————————————————————————————————————————————
+
+  - name: rh-ui-icon-key
+    icon: key
+    description: "Key — an access credential, API key, or encryption key."
+    accepted_metaphors:
+      - access key or credential
+      - API key or token
+      - encryption key
+      - SSH key
+    rejected_metaphors:
+      - lock state (use secured or unsecured)
+      - password concept (use secured)
+      - fingerprint auth (use fingerprint)
+
+  - name: rh-ui-icon-key-fill
+    icon: key-fill
+    description: "Filled key — access credential (filled variant)."
+    accepted_metaphors:
+      - key (filled)
+    rejected_metaphors:
+      - lock state (use secured)
+
+  - name: rh-ui-icon-fingerprint
+    icon: fingerprint
+    description: "Fingerprint — biometric authentication or identity verification."
+    accepted_metaphors:
+      - biometric authentication
+      - fingerprint scan
+      - identity verification
+      - touch or biometric login
+    rejected_metaphors:
+      - key or credential (use key)
+      - general security (use secured)
+      - user profile (use profile)
+
+  - name: rh-ui-icon-users
+    icon: users
+    description: "Group of people — user management, a team, or identity/access roles."
+    accepted_metaphors:
+      - users or team
+      - user group or role
+      - IAM or RBAC group
+      - directory members
+    rejected_metaphors:
+      - single user (use profile)
+      - verified user (use user-check)
+
+  - name: rh-ui-icon-users-fill
+    icon: users-fill
+    description: "Filled group of people — users or team (filled variant)."
+    accepted_metaphors:
+      - users (filled)
+    rejected_metaphors:
+      - single user (use profile)
+
+  - name: rh-ui-icon-user-check
+    icon: user-check
+    description: "Person with a check — a verified user, approved identity, or authenticated account."
+    accepted_metaphors:
+      - verified user
+      - approved account
+      - authenticated identity
+      - access approved
+      - MFA or background check passed
+    rejected_metaphors:
+      - user group (use users)
+      - single unverified user (use profile)
+      - check-circle for non-user context (use check-circle)
+
+  - name: rh-ui-icon-user-check-fill
+    icon: user-check-fill
+    description: "Filled verified user — authenticated account (filled variant)."
+    accepted_metaphors:
+      - verified user (filled)
+    rejected_metaphors:
+      - user group (use users)
+
+  # — Real-world and physical objects ————————————————————————————————————————
+
+  - name: rh-ui-icon-car
+    icon: car
+    description: "Automobile — automotive, vehicle, or transportation context."
+    accepted_metaphors:
+      - car or vehicle
+      - automotive industry
+      - transportation or fleet
+      - edge or in-vehicle computing context
+    rejected_metaphors:
+      - truck or freight (use truck)
+
+  - name: rh-ui-icon-car-fill
+    icon: car-fill
+    description: "Filled automobile — car or vehicle (filled variant)."
+    accepted_metaphors:
+      - car (filled)
+    rejected_metaphors:
+      - truck (use truck)
+
+  - name: rh-ui-icon-card-payment
+    icon: card-payment
+    description: "Credit card — a payment, transaction, or financial commerce action."
+    accepted_metaphors:
+      - credit or payment card
+      - checkout or transaction
+      - contactless payment
+      - billing or commerce
+    rejected_metaphors:
+      - generic finance (use an appropriate finance icon)
+      - tag or price (use tag)
+
+  - name: rh-ui-icon-card-payment-fill
+    icon: card-payment-fill
+    description: "Filled credit card — payment or transaction (filled variant)."
+    accepted_metaphors:
+      - payment card (filled)
+    rejected_metaphors:
+      - tag (use tag)
+
+  - name: rh-ui-icon-truck
+    icon: truck
+    description: "Truck — shipping, delivery, logistics, or supply chain."
+    accepted_metaphors:
+      - shipping or delivery
+      - logistics or freight
+      - supply chain
+      - fleet management
+    rejected_metaphors:
+      - car or personal vehicle (use car)
+      - package delivery specifically (use package with context)
+
+  - name: rh-ui-icon-truck-fill
+    icon: truck-fill
+    description: "Filled truck — shipping or logistics (filled variant)."
+    accepted_metaphors:
+      - truck (filled)
+    rejected_metaphors:
+      - car (use car)
+
+  - name: rh-ui-icon-robot
+    icon: robot
+    description: "Robot figure — robotics, automation hardware, or autonomous systems."
+    accepted_metaphors:
+      - robot or robotics
+      - automation hardware
+      - autonomous system
+      - IoT or smart device
+    rejected_metaphors:
+      - AI software (use ai-model or ai-chatbot)
+      - bot process (use new-process or in-progress)
+
+  - name: rh-ui-icon-robot-fill
+    icon: robot-fill
+    description: "Filled robot — robotics or automation hardware (filled variant)."
+    accepted_metaphors:
+      - robot (filled)
+    rejected_metaphors:
+      - AI software (use ai-model)
+
+  - name: rh-ui-icon-rocket
+    icon: rocket
+    description: "Rocket — a product launch, deployment release, or fast acceleration."
+    accepted_metaphors:
+      - product launch
+      - release or deployment milestone
+      - fast startup or acceleration
+      - onboarding or achievement
+    rejected_metaphors:
+      - build or pipeline (use build)
+      - running process (use running)
+
+  - name: rh-ui-icon-rocket-fill
+    icon: rocket-fill
+    description: "Filled rocket — launch or release milestone (filled variant)."
+    accepted_metaphors:
+      - launch (filled)
+    rejected_metaphors:
+      - build (use build)
+
+  - name: rh-ui-icon-hourglass
+    icon: hourglass
+    description: "Hourglass — a waiting, loading, or time-elapsed state."
+    accepted_metaphors:
+      - waiting or loading
+      - time elapsed
+      - pending or buffering
+      - timeout
+    rejected_metaphors:
+      - pending status (use pending)
+      - clock or time setting (use clock)
+      - in-progress spinner (use in-progress)
+
+  - name: rh-ui-icon-image
+    icon: image
+    description: "Image placeholder — a photo, graphic, picture file, or media asset."
+    accepted_metaphors:
+      - image or photo
+      - graphic or illustration
+      - media asset
+      - picture file
+    rejected_metaphors:
+      - thumbnail view (use thumbnail-view-large or thumbnail-view-small)
+      - container image (use container)
+      - screenshot (use a screenshot action)
+
+  - name: rh-ui-icon-image-fill
+    icon: image-fill
+    description: "Filled image placeholder — photo or media asset (filled variant)."
+    accepted_metaphors:
+      - image (filled)
+    rejected_metaphors:
+      - container image (use container)
+
+  - name: rh-ui-icon-microphone
+    icon: microphone
+    description: "Microphone — voice input, audio recording, or speech-to-text."
+    accepted_metaphors:
+      - microphone or voice input
+      - audio recording
+      - speech-to-text
+      - voice command
+      - podcast or call
+    rejected_metaphors:
+      - muted microphone (context-dependent; use with a slash overlay)
+      - AI voice chat (use ai-chat)
+
+  - name: rh-ui-icon-microphone-fill
+    icon: microphone-fill
+    description: "Filled microphone — voice input or audio (filled variant)."
+    accepted_metaphors:
+      - microphone (filled)
+      - recording active
+    rejected_metaphors:
+      - AI chat (use ai-chat)
+
+  - name: rh-ui-icon-paper-clip
+    icon: paper-clip
+    description: "Paper clip — attach a file or add an attachment to a message or record."
+    accepted_metaphors:
+      - file attachment
+      - attach or clip
+      - upload attachment
+      - add file to a message
+    rejected_metaphors:
+      - link or URL (use external-link or a link icon)
+      - thumbtack pin (use thumbtack)
