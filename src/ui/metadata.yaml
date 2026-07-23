@@ -625,3 +625,372 @@ icons:
       - binary done state (use check-circle)
       - pie chart data (use pie-chart)
       - fully filled indicator unrelated to completion
+
+  # ── Arrows ─────────────────────────────────────────────────────────────────
+  # Three arrow weights: plain (bare arrowhead), circle (arrowhead in a ring —
+  # higher visual weight, suits primary CTAs), and long (elongated shaft —
+  # stronger directional emphasis). Use the weight that matches the UI context.
+  # Carets (single-step, chevron-style navigation) are in the Framework section.
+
+  - name: rh-ui-icon-arrow-down
+    icon: arrow-down
+    description: "Downward arrowhead — move, scroll, or navigate down."
+    accepted_metaphors:
+      - move down
+      - scroll down
+      - navigate down
+      - collapse (paired with arrow-up)
+      - sort descending
+    rejected_metaphors:
+      - download (use download or cloud-download)
+      - dropdown expand (use caret-down)
+      - decrease in value (use decreasing or trend-down)
+
+  - name: rh-ui-icon-arrow-up
+    icon: arrow-up
+    description: "Upward arrowhead — move, scroll, or navigate up."
+    accepted_metaphors:
+      - move up
+      - scroll up
+      - navigate up
+      - expand (paired with arrow-down)
+      - sort ascending
+    rejected_metaphors:
+      - upload (use upload or cloud-upload)
+      - dropdown collapse (use caret-up)
+      - increase in value (use increasing or trend-up)
+
+  - name: rh-ui-icon-arrow-left
+    icon: arrow-left
+    description: "Leftward arrowhead — move, navigate, or go back."
+    accepted_metaphors:
+      - navigate back
+      - go left
+      - previous step
+      - move left
+    rejected_metaphors:
+      - undo (use undo)
+      - collapse panel (use caret-left or panel-close)
+      - previous page pagination (use long-arrow-left for stronger emphasis)
+
+  - name: rh-ui-icon-arrow-right
+    icon: arrow-right
+    description: "Rightward arrowhead — move, navigate, or proceed forward."
+    accepted_metaphors:
+      - navigate forward
+      - go right
+      - next step
+      - proceed
+      - submit or continue
+    rejected_metaphors:
+      - redo (use redo)
+      - expand panel (use caret-right or panel-open)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-arrow-up-down
+    icon: arrow-up-down
+    description: "Bidirectional vertical arrows — resize vertically, reorder, or indicate a sortable column."
+    accepted_metaphors:
+      - vertical resize
+      - drag to reorder
+      - sortable column
+      - height adjustment
+      - swap vertically
+    rejected_metaphors:
+      - sort ascending or descending specifically (use sort-up-* or sort-down-*)
+      - scroll (use arrow-up / arrow-down)
+
+  - name: rh-ui-icon-arrow-left-right
+    icon: arrow-left-right
+    description: "Bidirectional horizontal arrows — resize horizontally, compare, or indicate a draggable boundary."
+    accepted_metaphors:
+      - horizontal resize
+      - drag to resize
+      - width adjustment
+      - compare left and right
+      - draggable divider
+    rejected_metaphors:
+      - swap or transfer (use swap-right-left)
+      - scroll left or right
+
+  - name: rh-ui-icon-arrow-up-left
+    icon: arrow-up-left
+    description: "Diagonal arrowhead pointing up-left."
+    accepted_metaphors:
+      - move up and left
+      - navigate to upper-left corner
+      - diagonal up-left direction
+    rejected_metaphors:
+      - back navigation (use arrow-left)
+      - collapse (use compress or arrow-down-left-up-right-to-center)
+
+  - name: rh-ui-icon-arrow-up-right
+    icon: arrow-up-right
+    description: "Diagonal arrowhead pointing up-right."
+    accepted_metaphors:
+      - move up and right
+      - navigate to upper-right corner
+      - diagonal up-right direction
+    rejected_metaphors:
+      - external link (use external-link)
+      - expand (use arrow-up-right-down-left-from-center)
+
+  - name: rh-ui-icon-arrow-down-left
+    icon: arrow-down-left
+    description: "Diagonal arrowhead pointing down-left."
+    accepted_metaphors:
+      - move down and left
+      - navigate to lower-left corner
+      - diagonal down-left direction
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+      - back navigation (use arrow-left)
+
+  - name: rh-ui-icon-arrow-down-right
+    icon: arrow-down-right
+    description: "Diagonal arrowhead pointing down-right."
+    accepted_metaphors:
+      - move down and right
+      - navigate to lower-right corner
+      - diagonal down-right direction
+    rejected_metaphors:
+      - expand (use arrow-up-right-down-left-from-center)
+      - external link (use external-link)
+
+  - name: rh-ui-icon-arrow-down-left-up-right-to-center
+    icon: arrow-down-left-up-right-to-center
+    description: "Two diagonal arrows pointing inward — collapse, minimize, or shrink to center."
+    accepted_metaphors:
+      - collapse to center
+      - minimize
+      - shrink
+      - exit fullscreen
+      - condense view
+    rejected_metaphors:
+      - expand (use arrow-up-right-down-left-from-center)
+      - compress content (use compress or compress-arrows)
+
+  - name: rh-ui-icon-arrow-up-right-down-left-from-center
+    icon: arrow-up-right-down-left-from-center
+    description: "Two diagonal arrows pointing outward — expand, maximize, or grow from center."
+    accepted_metaphors:
+      - expand from center
+      - maximize
+      - enter fullscreen
+      - grow view
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+      - expand content (use expand or expand-arrows)
+
+  - name: rh-ui-icon-arrow-circle-down
+    icon: arrow-circle-down
+    description: "Downward arrow in a circle — download, move down, or a primary downward action."
+    accepted_metaphors:
+      - download
+      - move down (primary action)
+      - scroll to bottom
+      - save or receive
+    rejected_metaphors:
+      - cloud download (use cloud-download)
+      - collapse disclosure (use caret-down)
+      - sort descending
+
+  - name: rh-ui-icon-arrow-circle-down-fill
+    icon: arrow-circle-down-fill
+    description: "Filled downward arrow in a circle — emphasized download or primary downward action."
+    accepted_metaphors:
+      - download
+      - move down (emphasized)
+      - save or receive
+    rejected_metaphors:
+      - cloud download (use cloud-download)
+      - collapse disclosure (use caret-down)
+
+  - name: rh-ui-icon-arrow-circle-up
+    icon: arrow-circle-up
+    description: "Upward arrow in a circle — upload, move up, or a primary upward action."
+    accepted_metaphors:
+      - upload
+      - move up (primary action)
+      - scroll to top
+      - send or submit
+    rejected_metaphors:
+      - cloud upload (use cloud-upload)
+      - collapse disclosure (use caret-up)
+      - sort ascending
+
+  - name: rh-ui-icon-arrow-circle-up-fill
+    icon: arrow-circle-up-fill
+    description: "Filled upward arrow in a circle — emphasized upload or primary upward action."
+    accepted_metaphors:
+      - upload
+      - move up (emphasized)
+      - send or submit
+    rejected_metaphors:
+      - cloud upload (use cloud-upload)
+      - collapse disclosure (use caret-up)
+
+  - name: rh-ui-icon-arrow-circle-left
+    icon: arrow-circle-left
+    description: "Leftward arrow in a circle — go back or a primary leftward navigation action."
+    accepted_metaphors:
+      - go back (primary action)
+      - previous
+      - navigate left
+    rejected_metaphors:
+      - undo (use undo)
+      - collapse panel (use caret-left)
+
+  - name: rh-ui-icon-arrow-circle-left-fill
+    icon: arrow-circle-left-fill
+    description: "Filled leftward arrow in a circle — emphasized back or primary leftward action."
+    accepted_metaphors:
+      - go back (emphasized)
+      - previous
+    rejected_metaphors:
+      - undo (use undo)
+      - collapse panel (use caret-left)
+
+  - name: rh-ui-icon-arrow-circle-right
+    icon: arrow-circle-right
+    description: "Rightward arrow in a circle — go forward or a primary rightward navigation action."
+    accepted_metaphors:
+      - go forward (primary action)
+      - next
+      - proceed
+      - continue
+    rejected_metaphors:
+      - external link (use external-link)
+      - expand panel (use caret-right)
+      - submit (prefer arrow-right for inline use)
+
+  - name: rh-ui-icon-arrow-circle-right-fill
+    icon: arrow-circle-right-fill
+    description: "Filled rightward arrow in a circle — emphasized forward or primary rightward action."
+    accepted_metaphors:
+      - go forward (emphasized)
+      - next
+      - proceed
+    rejected_metaphors:
+      - external link (use external-link)
+      - expand panel (use caret-right)
+
+  - name: rh-ui-icon-arrow-circle-up-left
+    icon: arrow-circle-up-left
+    description: "Diagonal up-left arrow in a circle — primary action moving up and to the left."
+    accepted_metaphors:
+      - move up-left (primary action)
+      - navigate to upper-left
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+
+  - name: rh-ui-icon-arrow-circle-up-left-fill
+    icon: arrow-circle-up-left-fill
+    description: "Filled diagonal up-left arrow in a circle — emphasized up-left directional action."
+    accepted_metaphors:
+      - move up-left (emphasized)
+      - navigate to upper-left
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+
+  - name: rh-ui-icon-arrow-circle-up-right
+    icon: arrow-circle-up-right
+    description: "Diagonal up-right arrow in a circle — primary action moving up and to the right."
+    accepted_metaphors:
+      - move up-right (primary action)
+      - navigate to upper-right
+      - open externally (as a circle button)
+    rejected_metaphors:
+      - external link inline (use external-link)
+      - expand (use arrow-up-right-down-left-from-center)
+
+  - name: rh-ui-icon-arrow-circle-up-right-fill
+    icon: arrow-circle-up-right-fill
+    description: "Filled diagonal up-right arrow in a circle — emphasized up-right directional action."
+    accepted_metaphors:
+      - move up-right (emphasized)
+      - navigate to upper-right
+    rejected_metaphors:
+      - external link inline (use external-link)
+
+  - name: rh-ui-icon-arrow-circle-down-left
+    icon: arrow-circle-down-left
+    description: "Diagonal down-left arrow in a circle — primary action moving down and to the left."
+    accepted_metaphors:
+      - move down-left (primary action)
+      - navigate to lower-left
+      - incoming or receive (diagonal)
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+
+  - name: rh-ui-icon-arrow-circle-down-left-fill
+    icon: arrow-circle-down-left-fill
+    description: "Filled diagonal down-left arrow in a circle — emphasized down-left directional action."
+    accepted_metaphors:
+      - move down-left (emphasized)
+      - navigate to lower-left
+    rejected_metaphors:
+      - collapse (use arrow-down-left-up-right-to-center)
+
+  - name: rh-ui-icon-arrow-circle-down-right
+    icon: arrow-circle-down-right
+    description: "Diagonal down-right arrow in a circle — primary action moving down and to the right."
+    accepted_metaphors:
+      - move down-right (primary action)
+      - navigate to lower-right
+    rejected_metaphors:
+      - expand (use arrow-up-right-down-left-from-center)
+
+  - name: rh-ui-icon-arrow-circle-down-right-fill
+    icon: arrow-circle-down-right-fill
+    description: "Filled diagonal down-right arrow in a circle — emphasized down-right directional action."
+    accepted_metaphors:
+      - move down-right (emphasized)
+      - navigate to lower-right
+    rejected_metaphors:
+      - expand (use arrow-up-right-down-left-from-center)
+
+  - name: rh-ui-icon-long-arrow-down
+    icon: long-arrow-down
+    description: "Long downward arrow — strong downward directional indicator or scroll anchor."
+    accepted_metaphors:
+      - scroll down (prominent)
+      - move down (strong emphasis)
+      - below or beneath indicator
+    rejected_metaphors:
+      - download (use download)
+      - dropdown (use caret-down)
+
+  - name: rh-ui-icon-long-arrow-up
+    icon: long-arrow-up
+    description: "Long upward arrow — strong upward directional indicator or scroll-to-top anchor."
+    accepted_metaphors:
+      - scroll to top (prominent)
+      - move up (strong emphasis)
+      - above or top indicator
+    rejected_metaphors:
+      - upload (use upload)
+      - collapse (use caret-up)
+
+  - name: rh-ui-icon-long-arrow-left
+    icon: long-arrow-left
+    description: "Long leftward arrow — strong back navigation or leftward directional indicator."
+    accepted_metaphors:
+      - go back (prominent)
+      - navigate left (strong emphasis)
+      - previous page
+    rejected_metaphors:
+      - undo (use undo)
+      - collapse panel (use caret-left)
+
+  - name: rh-ui-icon-long-arrow-right
+    icon: long-arrow-right
+    description: "Long rightward arrow — strong forward navigation or rightward directional indicator."
+    accepted_metaphors:
+      - go forward (prominent)
+      - navigate right (strong emphasis)
+      - next page
+      - proceed (strong CTA)
+    rejected_metaphors:
+      - external link (use external-link)
+      - expand panel (use caret-right)
