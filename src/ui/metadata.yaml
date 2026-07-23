@@ -403,7 +403,7 @@ icons:
       - develop and train AI
     rejected_metaphors:
       - general development (use code or build)
-      - deploying a model (use deploy or publish)
+      - deploying a model (use build or publish)
       - AI model artifact (use ai-model)
 
   - name: rh-ui-icon-mcp-server
@@ -1899,7 +1899,7 @@ icons:
     rejected_metaphors:
       - settings (use settings)
       - profile (use profile)
-      - physical building (use building or server)
+      - physical building (use server or server-stack)
 
   - name: rh-ui-icon-home-fill
     icon: home-fill
@@ -2311,7 +2311,7 @@ icons:
     rejected_metaphors:
       - disconnected (use disconnected)
       - secured connection (use secured)
-      - wireless specifically (use wifi-connected if available)
+      - wireless signal specifically (wifi-connected is not currently in the icon set)
 
   - name: rh-ui-icon-disconnected
     icon: disconnected
@@ -2908,7 +2908,7 @@ icons:
     rejected_metaphors:
       - new process or workflow (use new-process)
       - enhancement (use enhancement)
-      - add action button (use plus or add icons if available)
+      - add action button (use add or add-circle)
 
   - name: rh-ui-icon-new-fill
     icon: new-fill
