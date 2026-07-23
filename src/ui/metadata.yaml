@@ -2173,3 +2173,770 @@ icons:
       - hidden
     rejected_metaphors:
       - show (use view)
+
+  # ── Status ─────────────────────────────────────────────────────────────────
+  # Status icons communicate the current state of a system, process, resource,
+  # or connection. Use them consistently so users can identify states at a
+  # glance without reading labels. Pair with color tokens and accessible labels.
+
+  # — System power and process state ——————————————————————————————————————————
+
+  - name: rh-ui-icon-asleep
+    icon: asleep
+    description: "Moon with Zzz — a system, device, or service is in a sleep or standby state."
+    accepted_metaphors:
+      - sleep or standby
+      - hibernating
+      - idle low-power state
+      - suspended service
+    rejected_metaphors:
+      - powered off (use off)
+      - dark mode (use dark-mode)
+      - paused process (use pending or not-started)
+
+  - name: rh-ui-icon-asleep-fill
+    icon: asleep-fill
+    description: "Filled moon with Zzz — sleep or standby state (filled variant)."
+    accepted_metaphors:
+      - sleep or standby (filled)
+    rejected_metaphors:
+      - powered off (use off)
+      - dark mode (use dark-mode)
+
+  - name: rh-ui-icon-in-progress
+    icon: in-progress
+    description: "Spinning or partial circle — a task or process is actively running."
+    accepted_metaphors:
+      - in progress
+      - loading or processing
+      - running task
+      - pending execution
+    rejected_metaphors:
+      - in-progress with passing check (use in-progress-check)
+      - not yet started (use not-started)
+      - complete (use check-circle)
+
+  - name: rh-ui-icon-in-progress-check
+    icon: in-progress-check
+    description: "Partial circle with a check — a process is running and passing its health checks."
+    accepted_metaphors:
+      - running and healthy
+      - in-progress and validated
+      - active and passing
+    rejected_metaphors:
+      - simple in-progress without validation (use in-progress)
+      - complete (use check-circle)
+      - error while running (use error)
+
+  - name: rh-ui-icon-not-started
+    icon: not-started
+    description: "Empty circle — a task or item that has not yet begun."
+    accepted_metaphors:
+      - not started
+      - backlog or queued
+      - pending (not yet active)
+      - open item
+    rejected_metaphors:
+      - actively processing (use in-progress)
+      - paused or waiting (use pending)
+      - complete (use check-circle)
+
+  - name: rh-ui-icon-not-started-fill
+    icon: not-started-fill
+    description: "Filled empty circle — not-started state (filled variant)."
+    accepted_metaphors:
+      - not started (filled)
+    rejected_metaphors:
+      - in-progress (use in-progress)
+      - complete (use check-circle)
+
+  - name: rh-ui-icon-off
+    icon: off
+    description: "Power symbol — a system, service, or toggle is turned off."
+    accepted_metaphors:
+      - powered off
+      - disabled or deactivated
+      - toggle off
+      - stopped service
+    rejected_metaphors:
+      - sleep or standby (use asleep)
+      - close a dialog (use close)
+      - in-progress (use in-progress)
+
+  - name: rh-ui-icon-off-fill
+    icon: off-fill
+    description: "Filled power symbol — powered off (filled variant)."
+    accepted_metaphors:
+      - powered off (filled)
+      - disabled
+    rejected_metaphors:
+      - sleep or standby (use asleep)
+
+  - name: rh-ui-icon-pending
+    icon: pending
+    description: "Hourglass or pause indicator — an item is queued or waiting to proceed."
+    accepted_metaphors:
+      - pending or queued
+      - waiting to start
+      - on hold
+      - scheduled for later
+    rejected_metaphors:
+      - not yet scheduled (use not-started)
+      - actively running (use in-progress)
+      - clock or time setting (use clock)
+
+  - name: rh-ui-icon-running
+    icon: running
+    description: "Play-style indicator — a service, job, or process is actively running."
+    accepted_metaphors:
+      - running
+      - active or live
+      - executing
+      - operational
+    rejected_metaphors:
+      - in-progress task (use in-progress)
+      - process with health check (use in-progress-check)
+      - starting or pending (use pending or not-started)
+
+  # — Connectivity ————————————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-connected
+    icon: connected
+    description: "Link or plug icon — a connection is established or a resource is online."
+    accepted_metaphors:
+      - connected
+      - online
+      - linked or paired
+      - network connection active
+    rejected_metaphors:
+      - disconnected (use disconnected)
+      - secured connection (use secured)
+      - wireless specifically (use wifi-connected if available)
+
+  - name: rh-ui-icon-disconnected
+    icon: disconnected
+    description: "Broken link or unplugged icon — a connection is lost or a resource is offline."
+    accepted_metaphors:
+      - disconnected
+      - offline
+      - unlinked or unpaired
+      - connection lost
+    rejected_metaphors:
+      - connected (use connected)
+      - banned or blocked (use ban)
+      - error state (use error)
+
+  - name: rh-ui-icon-secured
+    icon: secured
+    description: "Closed lock — a connection, resource, or credential is protected."
+    accepted_metaphors:
+      - secured or protected
+      - encrypted connection
+      - authenticated
+      - HTTPS or SSL
+      - locked (access restricted)
+    rejected_metaphors:
+      - unsecured (use unsecured)
+      - locked UI element (context-dependent; secured implies a security posture, not just UI state)
+      - ban or block (use ban)
+
+  - name: rh-ui-icon-secured-fill
+    icon: secured-fill
+    description: "Filled closed lock — secured state (filled variant)."
+    accepted_metaphors:
+      - secured (filled)
+      - encrypted
+    rejected_metaphors:
+      - unsecured (use unsecured)
+
+  - name: rh-ui-icon-unsecured
+    icon: unsecured
+    description: "Open lock — a connection or resource is unprotected or unencrypted."
+    accepted_metaphors:
+      - unsecured or unprotected
+      - unencrypted connection
+      - HTTP (no SSL)
+      - vulnerability or exposure
+    rejected_metaphors:
+      - secured (use secured)
+      - banned (use ban)
+      - error or failure (use error)
+
+  - name: rh-ui-icon-unsecured-fill
+    icon: unsecured-fill
+    description: "Filled open lock — unsecured state (filled variant)."
+    accepted_metaphors:
+      - unsecured (filled)
+      - unencrypted
+    rejected_metaphors:
+      - secured (use secured)
+
+  # — Build and process ———————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-build
+    icon: build
+    description: "Wrench or gear — a build, CI/CD pipeline step, or compilation process."
+    accepted_metaphors:
+      - build or compile
+      - CI/CD pipeline
+      - deployment step
+      - automation process
+    rejected_metaphors:
+      - settings (use settings)
+      - new process or workflow redesign (use new-process)
+      - running service (use running)
+
+  - name: rh-ui-icon-build-fill
+    icon: build-fill
+    description: "Filled wrench or gear — build or CI/CD (filled variant)."
+    accepted_metaphors:
+      - build or pipeline (filled)
+    rejected_metaphors:
+      - settings (use settings)
+      - new process (use new-process)
+
+  - name: rh-ui-icon-migrate
+    icon: migrate
+    description: "Arrow between shapes — a migration, data transfer, or workload relocation."
+    accepted_metaphors:
+      - migrate workload or data
+      - cloud migration
+      - transfer between systems
+      - database migration
+      - infrastructure relocation
+    rejected_metaphors:
+      - simple export or import (use export or import actions)
+      - sync (use in-progress or a sync action icon)
+      - deploy (use build)
+
+  - name: rh-ui-icon-new-process
+    icon: new-process
+    description: "Arrows or workflow symbol — introducing a new process, workflow, or operating procedure."
+    accepted_metaphors:
+      - new process or workflow
+      - process redesign
+      - modernization
+      - new standard operating procedure
+    rejected_metaphors:
+      - create a new item (use new)
+      - build or CI/CD (use build)
+      - running a process (use running or in-progress)
+
+  - name: rh-ui-icon-new-process-fill
+    icon: new-process-fill
+    description: "Filled workflow symbol — new process (filled variant)."
+    accepted_metaphors:
+      - new process (filled)
+      - process redesign
+    rejected_metaphors:
+      - create a new item (use new)
+
+  # — Alerts and severity ————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-attention-bell
+    icon: attention-bell
+    description: "Bell with an exclamation — an urgent alert requiring immediate attention."
+    accepted_metaphors:
+      - urgent alert
+      - critical notification
+      - attention required
+      - alarm
+    rejected_metaphors:
+      - standard notification (use notification)
+      - warning triangle (use warning)
+      - error state (use error)
+
+  - name: rh-ui-icon-attention-bell-fill
+    icon: attention-bell-fill
+    description: "Filled bell with an exclamation — urgent alert (filled variant)."
+    accepted_metaphors:
+      - urgent alert (filled)
+      - critical notification
+    rejected_metaphors:
+      - standard notification (use notification)
+
+  - name: rh-ui-icon-ban
+    icon: ban
+    description: "Circle with a diagonal slash — an action or resource is prohibited or blocked."
+    accepted_metaphors:
+      - banned or prohibited
+      - blocked action
+      - restricted access
+      - not allowed
+    rejected_metaphors:
+      - close or dismiss (use close)
+      - error state (use error)
+      - disconnected (use disconnected)
+
+  - name: rh-ui-icon-ban-fill
+    icon: ban-fill
+    description: "Filled circle with a diagonal slash — prohibited (filled variant)."
+    accepted_metaphors:
+      - banned (filled)
+      - blocked
+    rejected_metaphors:
+      - close (use close)
+      - error (use error)
+
+  - name: rh-ui-icon-error
+    icon: error
+    description: "Circle with an X — a critical failure, blocking error, or fatal state."
+    accepted_metaphors:
+      - error or failure
+      - critical or fatal state
+      - blocking issue
+      - invalid or rejected
+    rejected_metaphors:
+      - close button (use close)
+      - warning (non-blocking — use warning)
+      - ban or prohibited (use ban)
+      - bug or defect (use bug)
+
+  - name: rh-ui-icon-error-fill
+    icon: error-fill
+    description: "Filled circle with an X — error state (filled variant)."
+    accepted_metaphors:
+      - error (filled)
+      - critical failure
+    rejected_metaphors:
+      - close button (use close)
+      - warning (use warning)
+
+  - name: rh-ui-icon-information
+    icon: information
+    description: "Circle with an i — an informational notice or contextual tip."
+    accepted_metaphors:
+      - informational notice
+      - info tooltip
+      - contextual note
+      - help hint (inline)
+    rejected_metaphors:
+      - help documentation (use question-mark-circle)
+      - warning (use warning)
+      - error (use error)
+
+  - name: rh-ui-icon-information-fill
+    icon: information-fill
+    description: "Filled circle with an i — informational notice (filled variant)."
+    accepted_metaphors:
+      - informational (filled)
+      - info notice
+    rejected_metaphors:
+      - help documentation (use question-mark-circle)
+      - warning (use warning)
+
+  - name: rh-ui-icon-security-advisory
+    icon: security-advisory
+    description: "Shield or document with an alert — a published security advisory, CVE, or vulnerability notice."
+    accepted_metaphors:
+      - security advisory
+      - CVE or vulnerability notice
+      - security bulletin
+      - patch announcement
+    rejected_metaphors:
+      - general warning (use warning)
+      - secured connection (use secured)
+      - error state (use error)
+
+  - name: rh-ui-icon-security-advisory-fill
+    icon: security-advisory-fill
+    description: "Filled security advisory — CVE or vulnerability notice (filled variant)."
+    accepted_metaphors:
+      - security advisory (filled)
+      - CVE
+    rejected_metaphors:
+      - general warning (use warning)
+
+  - name: rh-ui-icon-severity-critical-fill
+    icon: severity-critical-fill
+    description: "Filled severity indicator — critical severity level; immediate action required."
+    accepted_metaphors:
+      - critical severity
+      - highest priority issue
+      - blocker
+      - P0 or P1 severity
+    rejected_metaphors:
+      - error state (use error)
+      - important severity (use severity-important-fill)
+      - warning (use warning)
+
+  - name: rh-ui-icon-severity-important-fill
+    icon: severity-important-fill
+    description: "Filled severity indicator — important or high severity level."
+    accepted_metaphors:
+      - important severity
+      - high priority
+      - significant issue
+    rejected_metaphors:
+      - critical severity (use severity-critical-fill)
+      - moderate severity (use severity-moderate-fill)
+
+  - name: rh-ui-icon-severity-moderate-fill
+    icon: severity-moderate-fill
+    description: "Filled severity indicator — moderate severity level."
+    accepted_metaphors:
+      - moderate severity
+      - medium priority
+      - caution-level issue
+    rejected_metaphors:
+      - important severity (use severity-important-fill)
+      - minor severity (use severity-minor-fill)
+
+  - name: rh-ui-icon-severity-minor-fill
+    icon: severity-minor-fill
+    description: "Filled severity indicator — minor or low severity level."
+    accepted_metaphors:
+      - minor severity
+      - low priority
+      - advisory-level issue
+    rejected_metaphors:
+      - moderate severity (use severity-moderate-fill)
+      - no severity (use severity-none-fill)
+
+  - name: rh-ui-icon-severity-none-fill
+    icon: severity-none-fill
+    description: "Filled severity indicator — no severity; resolved or not applicable."
+    accepted_metaphors:
+      - no severity
+      - resolved
+      - not applicable
+      - cleared
+    rejected_metaphors:
+      - unknown severity (use severity-undefined-fill)
+      - minor severity (use severity-minor-fill)
+
+  - name: rh-ui-icon-severity-undefined-fill
+    icon: severity-undefined-fill
+    description: "Filled severity indicator — severity is unknown or not yet assigned."
+    accepted_metaphors:
+      - undefined severity
+      - unassigned severity
+      - severity pending triage
+    rejected_metaphors:
+      - no severity (use severity-none-fill)
+      - unknown entity (use unknown)
+
+  - name: rh-ui-icon-warning
+    icon: warning
+    description: "Triangle with an exclamation — a non-blocking warning or caution state."
+    accepted_metaphors:
+      - warning or caution
+      - attention needed (non-blocking)
+      - potential issue
+      - advisory
+    rejected_metaphors:
+      - blocking error (use error)
+      - ban or prohibited (use ban)
+      - urgent alarm (use attention-bell)
+
+  - name: rh-ui-icon-warning-fill
+    icon: warning-fill
+    description: "Filled warning triangle — warning state (filled variant)."
+    accepted_metaphors:
+      - warning (filled)
+      - caution
+    rejected_metaphors:
+      - blocking error (use error)
+
+  # — Success and verification ————————————————————————————————————————————————
+
+  - name: rh-ui-icon-check-circle
+    icon: check-circle
+    description: "Circle with a check — a successful, verified, or completed state."
+    accepted_metaphors:
+      - success
+      - verified or approved
+      - complete or done
+      - passing check
+      - valid
+    rejected_metaphors:
+      - in-progress check (use in-progress-check)
+      - task to-do (use task)
+      - information (use information)
+
+  - name: rh-ui-icon-check-circle-fill
+    icon: check-circle-fill
+    description: "Filled circle with a check — success or completion (filled variant)."
+    accepted_metaphors:
+      - success (filled)
+      - verified
+      - complete
+    rejected_metaphors:
+      - in-progress (use in-progress)
+      - task checkbox (use task)
+
+  # — Trends and metrics ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-decreasing
+    icon: decreasing
+    description: "Downward trend line — a metric, value, or rate is declining."
+    accepted_metaphors:
+      - declining metric
+      - downward trend
+      - value decreasing
+      - negative growth
+    rejected_metaphors:
+      - trend-down chart line (use trend-down)
+      - arrow down for navigation (use arrow-down or caret-down)
+      - error state (use error)
+
+  - name: rh-ui-icon-decreasing-fill
+    icon: decreasing-fill
+    description: "Filled downward trend — declining metric (filled variant)."
+    accepted_metaphors:
+      - declining metric (filled)
+    rejected_metaphors:
+      - trend-down (use trend-down)
+
+  - name: rh-ui-icon-increasing
+    icon: increasing
+    description: "Upward trend line — a metric, value, or rate is growing."
+    accepted_metaphors:
+      - growing metric
+      - upward trend
+      - value increasing
+      - positive growth
+    rejected_metaphors:
+      - trend-up chart line (use trend-up)
+      - arrow up for navigation (use arrow-up or caret-up)
+      - success state (use check-circle)
+
+  - name: rh-ui-icon-increasing-fill
+    icon: increasing-fill
+    description: "Filled upward trend — growing metric (filled variant)."
+    accepted_metaphors:
+      - growing metric (filled)
+    rejected_metaphors:
+      - trend-up (use trend-up)
+
+  - name: rh-ui-icon-trend-down
+    icon: trend-down
+    description: "Chart line going down — a downward trend in data over time."
+    accepted_metaphors:
+      - downward trend line
+      - declining performance
+      - negative chart trend
+    rejected_metaphors:
+      - decreasing value indicator (use decreasing)
+      - navigation arrow (use arrow-down)
+
+  - name: rh-ui-icon-trend-up
+    icon: trend-up
+    description: "Chart line going up — an upward trend in data over time."
+    accepted_metaphors:
+      - upward trend line
+      - improving performance
+      - positive chart trend
+    rejected_metaphors:
+      - increasing value indicator (use increasing)
+      - navigation arrow (use arrow-up)
+
+  - name: rh-ui-icon-scale-balanced
+    icon: scale-balanced
+    description: "Balanced scale — equity, balance, or a fair or neutral comparison."
+    accepted_metaphors:
+      - balanced or neutral
+      - equity or fairness
+      - equal comparison
+      - legal or compliance context
+    rejected_metaphors:
+      - resources at capacity (use resources-full)
+      - metric trend (use trend-up or trend-down)
+
+  # — Health and quality ——————————————————————————————————————————————————————
+
+  - name: rh-ui-icon-checkup
+    icon: checkup
+    description: "Stethoscope or diagnostic symbol — a health check, system audit, or diagnostic scan."
+    accepted_metaphors:
+      - health check
+      - system diagnostic
+      - audit or inspection
+      - performance review
+    rejected_metaphors:
+      - in-progress check (use in-progress-check)
+      - error (use error)
+      - security advisory (use security-advisory)
+
+  - name: rh-ui-icon-checkup-fill
+    icon: checkup-fill
+    description: "Filled diagnostic symbol — health check (filled variant)."
+    accepted_metaphors:
+      - health check (filled)
+      - system diagnostic
+    rejected_metaphors:
+      - in-progress check (use in-progress-check)
+
+  - name: rh-ui-icon-degraded
+    icon: degraded
+    description: "Partial or impaired indicator — a service or resource is operating below expected performance."
+    accepted_metaphors:
+      - degraded performance
+      - partially impaired
+      - throttled or slow service
+      - unstable health
+    rejected_metaphors:
+      - error or failure (use error)
+      - warning (use warning)
+      - disconnected (use disconnected)
+
+  - name: rh-ui-icon-degraded-fill
+    icon: degraded-fill
+    description: "Filled impaired indicator — degraded state (filled variant)."
+    accepted_metaphors:
+      - degraded (filled)
+      - impaired service
+    rejected_metaphors:
+      - error (use error)
+
+  - name: rh-ui-icon-enhancement
+    icon: enhancement
+    description: "Sparkle or improvement symbol — a feature enhancement, optimization, or improvement."
+    accepted_metaphors:
+      - enhancement or improvement
+      - new feature or update
+      - optimization
+      - upgrade
+    rejected_metaphors:
+      - new item or document (use new)
+      - new process (use new-process)
+      - AI enhance (use ai-enhance)
+
+  - name: rh-ui-icon-enhancement-fill
+    icon: enhancement-fill
+    description: "Filled enhancement symbol — improvement or upgrade (filled variant)."
+    accepted_metaphors:
+      - enhancement (filled)
+      - optimization
+    rejected_metaphors:
+      - new item (use new)
+      - AI enhance (use ai-enhance)
+
+  - name: rh-ui-icon-history
+    icon: history
+    description: "Clock with a counter-clockwise arrow — past activity, history log, or undo/rollback."
+    accepted_metaphors:
+      - history or audit log
+      - recent activity
+      - rollback or restore
+      - version history
+      - undo
+    rejected_metaphors:
+      - clock for current time (use clock)
+      - calendar for dates (use calendar)
+      - in-progress spinner (use in-progress)
+
+  - name: rh-ui-icon-resources-empty
+    icon: resources-empty
+    description: "Empty resource indicator — a resource pool, quota, or capacity is completely empty."
+    accepted_metaphors:
+      - empty capacity
+      - no resources available
+      - zero quota
+    rejected_metaphors:
+      - resources almost empty (use resources-almost-empty)
+      - resources full (use resources-full)
+      - error (use error)
+
+  - name: rh-ui-icon-resources-almost-empty
+    icon: resources-almost-empty
+    description: "Nearly empty resource indicator — a resource pool is critically low."
+    accepted_metaphors:
+      - almost out of resources
+      - critically low capacity
+      - near-zero quota
+    rejected_metaphors:
+      - completely empty (use resources-empty)
+      - almost full (use resources-almost-full)
+
+  - name: rh-ui-icon-resources-almost-full
+    icon: resources-almost-full
+    description: "Nearly full resource indicator — a resource pool is approaching capacity."
+    accepted_metaphors:
+      - near capacity
+      - almost full
+      - high utilization
+    rejected_metaphors:
+      - completely full (use resources-full)
+      - almost empty (use resources-almost-empty)
+
+  - name: rh-ui-icon-resources-full
+    icon: resources-full
+    description: "Full resource indicator — a resource pool, quota, or capacity is completely used."
+    accepted_metaphors:
+      - at capacity
+      - full or exhausted quota
+      - maximum utilization
+    rejected_metaphors:
+      - almost full (use resources-almost-full)
+      - empty (use resources-empty)
+      - error due to capacity (use error)
+
+  # — Item and entity status ——————————————————————————————————————————————————
+
+  - name: rh-ui-icon-bug
+    icon: bug
+    description: "Bug or beetle — a software defect, issue ticket, or known error."
+    accepted_metaphors:
+      - software bug
+      - defect or issue
+      - bug report
+      - known problem
+    rejected_metaphors:
+      - general error (use error)
+      - security vulnerability (use security-advisory)
+      - warning (use warning)
+
+  - name: rh-ui-icon-bug-fill
+    icon: bug-fill
+    description: "Filled bug — software defect (filled variant)."
+    accepted_metaphors:
+      - software bug (filled)
+      - defect
+    rejected_metaphors:
+      - general error (use error)
+      - security advisory (use security-advisory)
+
+  - name: rh-ui-icon-new
+    icon: new
+    description: "Document or item with a plus — create a new item, file, or resource."
+    accepted_metaphors:
+      - new item
+      - create
+      - add file or document
+      - blank or fresh item
+    rejected_metaphors:
+      - new process or workflow (use new-process)
+      - enhancement (use enhancement)
+      - add action button (use plus or add icons if available)
+
+  - name: rh-ui-icon-new-fill
+    icon: new-fill
+    description: "Filled new item — create (filled variant)."
+    accepted_metaphors:
+      - create new item (filled)
+    rejected_metaphors:
+      - new process (use new-process)
+
+  - name: rh-ui-icon-unknown
+    icon: unknown
+    description: "Question mark or placeholder — an entity whose type, state, or identity is unrecognized."
+    accepted_metaphors:
+      - unknown type or state
+      - unrecognized resource
+      - placeholder
+      - unverified or undefined entity
+    rejected_metaphors:
+      - help or FAQ (use question-mark-circle)
+      - undefined severity (use severity-undefined-fill)
+      - pending (use pending)
+
+  - name: rh-ui-icon-unknown-fill
+    icon: unknown-fill
+    description: "Filled unknown indicator — unrecognized entity (filled variant)."
+    accepted_metaphors:
+      - unknown (filled)
+      - unrecognized resource
+    rejected_metaphors:
+      - help (use question-mark-circle)
+      - undefined severity (use severity-undefined-fill)
