@@ -1,0 +1,14 @@
+# Standard icon set documentation
+# Descriptions, accepted use cases, and rejected use cases for the Standard set of icons designed by the Brand team.
+# Linked from /icon-sets.yaml.
+#
+# Schema:
+#   name: Icon name (rh-icon-*)
+#   icon: @rhds/icons / <rh-icon> icon id (set="standard")
+#   description: what the icon depicts and when to use it
+#   accepted_metaphors: use cases this icon is appropriate for
+#   rejected_metaphors: use cases this icon should not be used for
+
+set: standard
+
+icons: [] # pending curation
