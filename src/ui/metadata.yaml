@@ -994,3 +994,260 @@ icons:
     rejected_metaphors:
       - external link (use external-link)
       - expand panel (use caret-right)
+
+  # ── View type ──────────────────────────────────────────────────────────────
+  # View type icons toggle between display modes in a UI. Use them on controls
+  # that let users switch how content is rendered — not for layout decisions
+  # made by the system or developer.
+
+  - name: rh-ui-icon-columns
+    icon: columns
+    description: "Two or three vertical columns — switch to a multi-column layout view."
+    accepted_metaphors:
+      - multi-column view
+      - column layout toggle
+      - split into columns
+      - side-by-side layout
+    rejected_metaphors:
+      - tabular data (use table)
+      - sidebar toggle (use sidebar)
+      - grid of cards (use thumbnail-view-large or thumbnail-view-small)
+
+  - name: rh-ui-icon-columns-fill
+    icon: columns-fill
+    description: "Filled two or three vertical columns — emphasized multi-column layout view."
+    accepted_metaphors:
+      - multi-column view (active state)
+      - column layout toggle
+    rejected_metaphors:
+      - tabular data (use table)
+      - sidebar toggle (use sidebar)
+
+  - name: rh-ui-icon-list
+    icon: list
+    description: "Horizontal lines stacked — switch to a list or row-based view."
+    accepted_metaphors:
+      - list view
+      - row view
+      - linear display
+      - feed or queue display
+    rejected_metaphors:
+      - menu (use menu-bars)
+      - table with columns (use table)
+      - card grid (use thumbnail-view-large or thumbnail-view-small)
+
+  - name: rh-ui-icon-sidebar
+    icon: sidebar
+    description: "Panel with a left rail — toggle the navigation sidebar open or closed."
+    accepted_metaphors:
+      - sidebar toggle
+      - show or hide navigation rail
+      - navigation panel
+    rejected_metaphors:
+      - content panel (use panel-open or panel-close)
+      - drawer (use open-drawer-left or open-drawer-right)
+      - columns layout (use columns)
+
+  - name: rh-ui-icon-sidebar-fill
+    icon: sidebar-fill
+    description: "Filled panel with a left rail — emphasized sidebar toggle, typically active state."
+    accepted_metaphors:
+      - sidebar visible (active state)
+      - navigation rail shown
+    rejected_metaphors:
+      - content panel (use panel-open or panel-close)
+      - drawer (use open-drawer-left or open-drawer-right)
+
+  - name: rh-ui-icon-speedometer
+    icon: speedometer
+    description: "Gauge dial — a performance, utilization, or metric indicator."
+    accepted_metaphors:
+      - performance metric
+      - utilization gauge
+      - dashboard KPI
+      - speed or throughput indicator
+      - benchmark or threshold
+    rejected_metaphors:
+      - proportional data (use pie-chart)
+      - trend over time (use trend-up or trend-down)
+      - completion percentage (use harvey-ball-*)
+
+  - name: rh-ui-icon-speedometer-fill
+    icon: speedometer-fill
+    description: "Filled gauge dial — emphasized performance or utilization metric."
+    accepted_metaphors:
+      - performance metric (emphasized)
+      - utilization gauge
+      - dashboard KPI
+    rejected_metaphors:
+      - proportional data (use pie-chart)
+      - trend over time (use trend-up or trend-down)
+
+  - name: rh-ui-icon-table
+    icon: table
+    description: "Grid of rows and columns — switch to or indicate a tabular data view."
+    accepted_metaphors:
+      - table view
+      - tabular data
+      - rows and columns layout
+      - data grid
+      - spreadsheet view
+    rejected_metaphors:
+      - column layout (use columns)
+      - list view (use list)
+      - database schema (use data or storage)
+
+  - name: rh-ui-icon-table-fill
+    icon: table-fill
+    description: "Filled grid of rows and columns — emphasized tabular data view."
+    accepted_metaphors:
+      - table view (active state)
+      - tabular data
+      - data grid
+    rejected_metaphors:
+      - column layout (use columns)
+      - list view (use list)
+
+  - name: rh-ui-icon-thumbnail-view-large
+    icon: thumbnail-view-large
+    description: "Large card grid — switch to a large thumbnail or card view."
+    accepted_metaphors:
+      - large card view
+      - large grid view
+      - expanded thumbnail display
+      - gallery view (large)
+    rejected_metaphors:
+      - small card view (use thumbnail-view-small)
+      - list view (use list)
+      - image preview (use image)
+
+  - name: rh-ui-icon-thumbnail-view-large-fill
+    icon: thumbnail-view-large-fill
+    description: "Filled large card grid — emphasized large thumbnail or card view."
+    accepted_metaphors:
+      - large card view (active state)
+      - large grid view
+    rejected_metaphors:
+      - small card view (use thumbnail-view-small)
+      - list view (use list)
+
+  - name: rh-ui-icon-thumbnail-view-small
+    icon: thumbnail-view-small
+    description: "Small card grid — switch to a compact thumbnail or card view."
+    accepted_metaphors:
+      - small card view
+      - compact grid view
+      - dense thumbnail display
+      - gallery view (compact)
+    rejected_metaphors:
+      - large card view (use thumbnail-view-large)
+      - list view (use list)
+      - image preview (use image)
+
+  - name: rh-ui-icon-thumbnail-view-small-fill
+    icon: thumbnail-view-small-fill
+    description: "Filled small card grid — emphasized compact thumbnail or card view."
+    accepted_metaphors:
+      - small card view (active state)
+      - compact grid view
+    rejected_metaphors:
+      - large card view (use thumbnail-view-large)
+      - list view (use list)
+
+  - name: rh-ui-icon-topology
+    icon: topology
+    description: "Nodes connected by lines — a network or infrastructure topology diagram view."
+    accepted_metaphors:
+      - topology view
+      - network diagram
+      - infrastructure map
+      - node and edge diagram
+      - system architecture view
+    rejected_metaphors:
+      - network concept (use network)
+      - hierarchical tree (use tree-view)
+      - general diagram (use blueprint)
+
+  - name: rh-ui-icon-topology-fill
+    icon: topology-fill
+    description: "Filled nodes connected by lines — emphasized topology or network diagram view."
+    accepted_metaphors:
+      - topology view (active state)
+      - network diagram
+      - infrastructure map
+    rejected_metaphors:
+      - network concept (use network)
+      - hierarchical tree (use tree-view)
+
+  - name: rh-ui-icon-tree-view
+    icon: tree-view
+    description: "Branching hierarchy — switch to or indicate a tree or directory structure view."
+    accepted_metaphors:
+      - tree view
+      - hierarchical view
+      - directory structure
+      - nested list
+      - file system view
+    rejected_metaphors:
+      - mesh topology (use topology)
+      - flat list (use list)
+      - sitemap (use path or route)
+
+  - name: rh-ui-icon-tree-view-fill
+    icon: tree-view-fill
+    description: "Filled branching hierarchy — emphasized tree or directory structure view."
+    accepted_metaphors:
+      - tree view (active state)
+      - hierarchical view
+      - directory structure
+    rejected_metaphors:
+      - mesh topology (use topology)
+      - flat list (use list)
+
+  - name: rh-ui-icon-window
+    icon: window
+    description: "Single application window or frame — a window, panel, or modal context."
+    accepted_metaphors:
+      - single window
+      - application frame
+      - browser window
+      - modal or dialog (as a metaphor)
+      - restore window
+    rejected_metaphors:
+      - multiple windows (use windows)
+      - Microsoft Windows OS (use windows)
+      - sidebar (use sidebar)
+
+  - name: rh-ui-icon-window-fill
+    icon: window-fill
+    description: "Filled single application window — emphasized single window or frame context."
+    accepted_metaphors:
+      - single window (active or filled state)
+      - application frame
+    rejected_metaphors:
+      - multiple windows (use windows)
+
+  - name: rh-ui-icon-windows
+    icon: windows
+    description: "Multiple tiled windows — a multi-window, mosaic, or split-screen view."
+    accepted_metaphors:
+      - multiple windows
+      - tiled layout
+      - split-screen view
+      - mosaic view
+      - multi-pane workspace
+    rejected_metaphors:
+      - single window (use window)
+      - Microsoft Windows OS (context-dependent; prefer a product-specific icon)
+      - column layout (use columns)
+
+  - name: rh-ui-icon-windows-fill
+    icon: windows-fill
+    description: "Filled multiple tiled windows — emphasized multi-window or mosaic view."
+    accepted_metaphors:
+      - multiple windows (active state)
+      - tiled layout
+      - split-screen view
+    rejected_metaphors:
+      - single window (use window)
+      - column layout (use columns)
