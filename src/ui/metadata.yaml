@@ -210,3 +210,225 @@ icons:
       - single cloud service (use cloud)
       - cloud migration (use migrate)
       - general network connection
+
+  # ── AI ─────────────────────────────────────────────────────────────────────
+  - name: rh-ui-icon-ai-chat
+    icon: ai-chat
+    description: "Chat bubble with AI indicator — an AI-powered conversational interface or chat feature."
+    accepted_metaphors:
+      - AI chat
+      - AI-assisted conversation
+      - AI chat interface
+      - AI-powered messaging
+    rejected_metaphors:
+      - general chat (use comment)
+      - non-AI messaging
+      - AI chatbot persona (use ai-chatbot)
+
+  - name: rh-ui-icon-ai-chatbot
+    icon: ai-chatbot
+    description: "Bot head with AI indicator — an AI chatbot, virtual assistant, or AI agent persona."
+    accepted_metaphors:
+      - AI chatbot
+      - virtual assistant
+      - AI agent
+      - conversational AI
+      - AI persona
+    rejected_metaphors:
+      - generic robot (use robot)
+      - AI chat interface (use ai-chat)
+      - non-AI automation
+
+  - name: rh-ui-icon-ai-create
+    icon: ai-create
+    description: "Plus or create icon with AI indicator — AI-assisted content generation or creation."
+    accepted_metaphors:
+      - AI-generated content
+      - AI content creation
+      - generate with AI
+      - AI-assisted authoring
+    rejected_metaphors:
+      - general add or create (use add)
+      - non-AI content creation
+      - AI editing (use ai-edit)
+
+  - name: rh-ui-icon-ai-edit
+    icon: ai-edit
+    description: "Pencil icon with AI indicator — AI-assisted editing, rewriting, or text improvement."
+    accepted_metaphors:
+      - AI-assisted editing
+      - AI rewrite
+      - AI writing improvement
+      - AI grammar or style fix
+    rejected_metaphors:
+      - general edit (use edit)
+      - non-AI editing
+      - AI content creation (use ai-create)
+
+  - name: rh-ui-icon-ai-enhance
+    icon: ai-enhance
+    description: "Enhancement icon with AI indicator — AI-powered improvement of existing content, images, or data."
+    accepted_metaphors:
+      - AI enhancement
+      - AI-powered improvement
+      - AI upscale or refine
+      - AI quality boost
+    rejected_metaphors:
+      - general enhancement or feature badge (use enhancement)
+      - non-AI improvement
+      - AI creation from scratch (use ai-create)
+
+  - name: rh-ui-icon-ai-error
+    icon: ai-error
+    description: "Error icon with AI indicator — an error or failure state specific to an AI operation."
+    accepted_metaphors:
+      - AI error
+      - AI failure
+      - AI operation failed
+      - AI processing error
+    rejected_metaphors:
+      - general error (use error)
+      - non-AI system error
+      - AI warning (use ai-info)
+
+  - name: rh-ui-icon-ai-experience
+    icon: ai-experience
+    description: "Sparkle or star icon — an AI-powered or AI-enhanced experience or feature."
+    accepted_metaphors:
+      - AI-powered feature
+      - AI experience
+      - AI-enhanced capability
+      - AI highlight
+    rejected_metaphors:
+      - general star or favorite (use star)
+      - non-AI feature callout
+      - AI model or infrastructure (use ai-model)
+
+  - name: rh-ui-icon-ai-experience-fill
+    icon: ai-experience-fill
+    description: "Filled sparkle or star icon — emphasized AI-powered experience or feature."
+    accepted_metaphors:
+      - AI-powered feature
+      - AI experience
+      - AI-enhanced capability
+    rejected_metaphors:
+      - general star or favorite (use star)
+      - non-AI feature callout
+
+  - name: rh-ui-icon-ai-filter
+    icon: ai-filter
+    description: "Filter icon with AI indicator — AI-assisted filtering, sorting, or relevance ranking."
+    accepted_metaphors:
+      - AI-powered filter
+      - AI-assisted search refinement
+      - AI relevance ranking
+      - AI-driven recommendations
+    rejected_metaphors:
+      - general filter (use filter)
+      - non-AI filtering
+      - AI search (use ai-search)
+
+  - name: rh-ui-icon-ai-info
+    icon: ai-info
+    description: "Information icon with AI indicator — an AI-generated explanation, summary, or insight."
+    accepted_metaphors:
+      - AI-generated insight
+      - AI explanation
+      - AI summary
+      - AI-provided context
+    rejected_metaphors:
+      - general information (use information)
+      - non-AI help text
+      - AI error state (use ai-error)
+
+  - name: rh-ui-icon-ai-model
+    icon: ai-model
+    description: "Model icon with AI indicator — an AI model, ML model, or trained model artifact."
+    accepted_metaphors:
+      - AI model
+      - machine learning model
+      - trained model
+      - model artifact
+      - foundation model
+    rejected_metaphors:
+      - AI experience or feature (use ai-experience)
+      - AI chatbot (use ai-chatbot)
+      - general data (use data)
+
+  - name: rh-ui-icon-ai-model-fill
+    icon: ai-model-fill
+    description: "Filled model icon with AI indicator — emphasized AI model or trained model artifact."
+    accepted_metaphors:
+      - AI model
+      - machine learning model
+      - trained model
+      - model artifact
+    rejected_metaphors:
+      - AI experience or feature (use ai-experience)
+      - general data (use data)
+
+  - name: rh-ui-icon-ai-search
+    icon: ai-search
+    description: "Magnifying glass with AI indicator — AI-assisted or semantic search."
+    accepted_metaphors:
+      - AI search
+      - semantic search
+      - AI-powered discovery
+      - AI-assisted lookup
+    rejected_metaphors:
+      - general search (use search)
+      - non-AI search
+      - AI filter (use ai-filter)
+
+  - name: rh-ui-icon-ai-troubleshoot
+    icon: ai-troubleshoot
+    description: "Troubleshoot icon with AI indicator — AI-assisted diagnosis or problem resolution."
+    accepted_metaphors:
+      - AI troubleshooting
+      - AI-assisted diagnosis
+      - AI root cause analysis
+      - AI-powered debugging
+    rejected_metaphors:
+      - general bug or error (use bug or error)
+      - non-AI troubleshooting
+      - AI error state (use ai-error)
+
+  - name: rh-ui-icon-develop-and-train
+    icon: develop-and-train
+    description: "Code and model icon — developing and training an AI model."
+    accepted_metaphors:
+      - AI model development
+      - model training
+      - ML training pipeline
+      - develop and train AI
+    rejected_metaphors:
+      - general development (use code or build)
+      - deploying a model (use deploy or publish)
+      - AI model artifact (use ai-model)
+
+  - name: rh-ui-icon-mcp-server
+    icon: mcp-server
+    description: "Server with MCP indicator — a Model Context Protocol server that connects AI models to data sources and tools."
+    accepted_metaphors:
+      - MCP server
+      - Model Context Protocol
+      - AI tool connector
+      - AI data source bridge
+      - AI integration gateway
+    rejected_metaphors:
+      - generic server (use server)
+      - general API or integration (use plug or network)
+      - AI model itself (use ai-model)
+
+  - name: rh-ui-icon-mcp-server-fill
+    icon: mcp-server-fill
+    description: "Filled server with MCP indicator — emphasized MCP server or AI integration gateway."
+    accepted_metaphors:
+      - MCP server
+      - Model Context Protocol
+      - AI tool connector
+      - AI data source bridge
+    rejected_metaphors:
+      - generic server (use server)
+      - general API or integration (use plug or network)
+      - AI model itself (use ai-model)
