@@ -46,7 +46,7 @@ sets:
       General technology and brand concepts for presentations, web content,
       infographics, diagrams, and other marketing materials. Default set
       for <rh-icon>. Prefer illustrations above ~100px.
-    status: pending
+    status: curated
 
   - id: social
     name: Social media
