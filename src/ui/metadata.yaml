@@ -6245,3 +6245,644 @@ icons:
       - liquid (filled)
     rejected_metaphors:
       - network (use network)
+
+# ── July 2026 additions ───────────────────────────────────────────────────────
+
+# Accessibility
+  - name: rh-ui-icon-accessibility
+    icon: accessibility
+    description: "Universal accessibility symbol — represents accessibility features, inclusive design, and ADA/WCAG compliance."
+    accepted_metaphors:
+      - accessibility features or settings
+      - inclusive or accessible design
+      - disability accommodations
+      - WCAG or ADA compliance
+    rejected_metaphors:
+      - generic person or user (use user)
+      - settings (use settings)
+
+  - name: rh-ui-icon-accessibility-fill
+    icon: accessibility-fill
+    description: "Filled accessibility symbol — accessibility features (filled variant)."
+    accepted_metaphors:
+      - accessibility (filled)
+    rejected_metaphors:
+      - generic person (use user-fill)
+
+# Alignment and text formatting
+  - name: rh-ui-icon-align-bottom-vertical
+    icon: align-bottom-vertical
+    description: "Align elements to the bottom edge of their container."
+    accepted_metaphors:
+      - align to bottom
+      - bottom alignment
+      - snap to bottom edge
+    rejected_metaphors:
+      - move down (use arrow-down)
+      - sort descending (use sort icons)
+
+  - name: rh-ui-icon-align-center-horizontal
+    icon: align-center-horizontal
+    description: "Center elements horizontally within their container."
+    accepted_metaphors:
+      - center horizontally
+      - horizontal center alignment
+      - distribute to horizontal midpoint
+    rejected_metaphors:
+      - justify text (use justify-text)
+      - align text center (use align-text-center)
+
+  - name: rh-ui-icon-align-center-vertical
+    icon: align-center-vertical
+    description: "Center elements vertically within their container."
+    accepted_metaphors:
+      - center vertically
+      - vertical center alignment
+      - distribute to vertical midpoint
+    rejected_metaphors:
+      - middle-align text baseline
+      - center horizontally (use align-center-horizontal)
+
+  - name: rh-ui-icon-align-left-horizontal
+    icon: align-left-horizontal
+    description: "Align elements to the left edge of their container."
+    accepted_metaphors:
+      - align left
+      - left alignment
+      - snap to left edge
+    rejected_metaphors:
+      - left-align text (use align-text-left)
+      - indent left
+
+  - name: rh-ui-icon-align-right-horizontal
+    icon: align-right-horizontal
+    description: "Align elements to the right edge of their container."
+    accepted_metaphors:
+      - align right
+      - right alignment
+      - snap to right edge
+    rejected_metaphors:
+      - right-align text (use align-text-right)
+      - indent right
+
+  - name: rh-ui-icon-align-text-center
+    icon: align-text-center
+    description: "Center-align text within its container."
+    accepted_metaphors:
+      - center text
+      - text align center
+      - centered paragraph
+    rejected_metaphors:
+      - center-align objects (use align-center-horizontal)
+      - distribute content
+
+  - name: rh-ui-icon-align-text-left
+    icon: align-text-left
+    description: "Left-align text within its container."
+    accepted_metaphors:
+      - left-align text
+      - text align left
+      - flush left paragraph
+    rejected_metaphors:
+      - align objects left (use align-left-horizontal)
+      - RTL text direction
+
+  - name: rh-ui-icon-align-text-right
+    icon: align-text-right
+    description: "Right-align text within its container."
+    accepted_metaphors:
+      - right-align text
+      - text align right
+      - flush right paragraph
+    rejected_metaphors:
+      - align objects right (use align-right-horizontal)
+      - LTR text direction
+
+  - name: rh-ui-icon-align-top-vertical
+    icon: align-top-vertical
+    description: "Align elements to the top edge of their container."
+    accepted_metaphors:
+      - align to top
+      - top alignment
+      - snap to top edge
+    rejected_metaphors:
+      - move up (use arrow-up)
+      - sort ascending (use sort icons)
+
+  - name: rh-ui-icon-justify-text
+    icon: justify-text
+    description: "Justify text so both edges align to the container margins."
+    accepted_metaphors:
+      - justify text
+      - justified alignment
+      - full-width text
+    rejected_metaphors:
+      - align objects evenly (use align-center-horizontal)
+      - distribute elements
+
+# Typography
+  - name: rh-ui-icon-font
+    icon: font
+    description: "Typography or font identifier — represents typeface selection, font settings, or text styling."
+    accepted_metaphors:
+      - font or typeface selection
+      - typography settings
+      - text style
+      - character formatting
+    rejected_metaphors:
+      - text size (use text-size)
+      - text color (use color picker)
+      - text content or body copy
+
+  - name: rh-ui-icon-text-size
+    icon: text-size
+    description: "Two letters at different scales — represents font size controls."
+    accepted_metaphors:
+      - font size
+      - text size control
+      - increase or decrease text
+      - type scale
+    rejected_metaphors:
+      - font selection (use font)
+      - zoom (use zoom-in or zoom-out)
+
+# Symbols
+  - name: rh-ui-icon-at-sign
+    icon: at-sign
+    description: "The @ symbol — represents email addresses, mentions, and direct messaging."
+    accepted_metaphors:
+      - email address
+      - mention or tag user
+      - at-mention
+      - social handle
+      - direct message
+    rejected_metaphors:
+      - compose or send email (use send)
+      - contact card (use user or contact icon)
+
+  - name: rh-ui-icon-brackets
+    icon: brackets
+    description: "Curly braces — represents code, JSON syntax, objects, and developer interfaces."
+    accepted_metaphors:
+      - code block or snippet
+      - JSON or object notation
+      - programming syntax
+      - developer interface
+      - template literals or scripting
+    rejected_metaphors:
+      - code editor window (use terminal or code)
+      - grouping in math or writing
+
+  - name: rh-ui-icon-hashtag
+    icon: hashtag
+    description: "The # symbol — represents tags, topics, channels, and number fields."
+    accepted_metaphors:
+      - hashtag or tag
+      - topic or channel
+      - number or ID field
+      - social media tagging
+    rejected_metaphors:
+      - numbered list (use a list icon)
+      - settings (use settings)
+
+# Currency
+  - name: rh-ui-icon-british-pound-sign
+    icon: british-pound-sign
+    description: "British pound sterling symbol — represents GBP pricing or UK currency."
+    accepted_metaphors:
+      - British pound
+      - GBP
+      - UK currency
+      - British pricing
+    rejected_metaphors:
+      - generic currency (use dollar-sign)
+      - price without currency context
+
+  - name: rh-ui-icon-dollar-sign
+    icon: dollar-sign
+    description: "Dollar sign — represents USD pricing, cost, or financial values."
+    accepted_metaphors:
+      - US dollar
+      - USD
+      - cost or pricing
+      - billing or financial value
+      - currency
+    rejected_metaphors:
+      - generic money concept (use a wallet or coins icon)
+      - profit or revenue without currency context
+
+  - name: rh-ui-icon-euro-sign
+    icon: euro-sign
+    description: "Euro sign — represents EUR pricing or European currency."
+    accepted_metaphors:
+      - euro
+      - EUR
+      - European currency
+      - EU pricing
+    rejected_metaphors:
+      - generic currency (use dollar-sign)
+
+  - name: rh-ui-icon-percent-sign
+    icon: percent-sign
+    description: "Percent sign — represents percentages, discounts, rates, and proportions."
+    accepted_metaphors:
+      - percentage
+      - discount or sale
+      - completion rate
+      - proportion or ratio
+      - interest rate
+    rejected_metaphors:
+      - Harvey ball progress (use harvey-ball-* icons)
+      - completion status badge (use status icons)
+
+  - name: rh-ui-icon-yen-sign
+    icon: yen-sign
+    description: "Yen/yuan sign — represents JPY or CNY pricing."
+    accepted_metaphors:
+      - Japanese yen
+      - Chinese yuan
+      - JPY or CNY
+      - Asian currency
+    rejected_metaphors:
+      - generic currency (use dollar-sign)
+
+# Objects
+  - name: rh-ui-icon-book-closed
+    icon: book-closed
+    description: "Closed book — represents documentation, guides, manuals, and knowledge bases."
+    accepted_metaphors:
+      - documentation or manual
+      - knowledge base
+      - guide or reference material
+      - learning or courses
+      - reading material
+    rejected_metaphors:
+      - open or active reading (use a document or page icon)
+      - software library or package (use code or package icon)
+
+  - name: rh-ui-icon-book-closed-fill
+    icon: book-closed-fill
+    description: "Filled closed book — documentation or knowledge base (filled variant)."
+    accepted_metaphors:
+      - documentation (filled)
+    rejected_metaphors:
+      - open document (use document icons)
+
+  - name: rh-ui-icon-bullhorn
+    icon: bullhorn
+    description: "Bullhorn or megaphone — represents announcements, broadcasts, and marketing campaigns."
+    accepted_metaphors:
+      - announcement
+      - broadcast message
+      - marketing campaign
+      - alert or public notice
+      - promoting or amplifying
+    rejected_metaphors:
+      - audio volume (use volume icons)
+      - notification bell (use bell)
+      - speaker or audio output (use volume-up)
+
+  - name: rh-ui-icon-bullhorn-fill
+    icon: bullhorn-fill
+    description: "Filled bullhorn — announcement or broadcast (filled variant)."
+    accepted_metaphors:
+      - announcement (filled)
+    rejected_metaphors:
+      - volume or audio (use volume-up-fill)
+
+  - name: rh-ui-icon-leaf
+    icon: leaf
+    description: "Leaf shape — represents sustainability, environmental topics, and eco-friendly attributes."
+    accepted_metaphors:
+      - sustainability
+      - eco-friendly or green
+      - environment or nature
+      - organic or plant-based
+      - growth or renewal
+    rejected_metaphors:
+      - recycling (use recycle)
+      - tree or forest (leaf represents sustainability broadly)
+      - health or wellness (use a health icon)
+
+  - name: rh-ui-icon-leaf-fill
+    icon: leaf-fill
+    description: "Filled leaf — sustainability or eco concept (filled variant)."
+    accepted_metaphors:
+      - sustainability (filled)
+    rejected_metaphors:
+      - recycling (use recycle)
+
+  - name: rh-ui-icon-map
+    icon: map
+    description: "Folded map — represents navigation, location overview, and geographic context."
+    accepted_metaphors:
+      - map or navigation
+      - location overview
+      - geographic context
+      - directions or route
+      - travel or journey
+    rejected_metaphors:
+      - location pin (use map-marker or location icon)
+      - GPS tracking
+      - sitemap or information architecture (use a sitemap icon)
+
+  - name: rh-ui-icon-map-fill
+    icon: map-fill
+    description: "Filled folded map — navigation or geographic context (filled variant)."
+    accepted_metaphors:
+      - map (filled)
+    rejected_metaphors:
+      - location pin (use map-marker)
+
+  - name: rh-ui-icon-mouse
+    icon: mouse
+    description: "Computer mouse — represents pointer devices, click interactions, and cursor control."
+    accepted_metaphors:
+      - computer mouse
+      - pointer or click device
+      - cursor control
+      - computer input hardware
+    rejected_metaphors:
+      - cursor or arrow pointer (use cursor icon)
+      - click action itself (use pointer or click)
+
+  - name: rh-ui-icon-mouse-fill
+    icon: mouse-fill
+    description: "Filled computer mouse — pointer device (filled variant)."
+    accepted_metaphors:
+      - computer mouse (filled)
+    rejected_metaphors:
+      - cursor (use cursor icon)
+
+  - name: rh-ui-icon-shopping-cart
+    icon: shopping-cart
+    description: "Shopping cart — represents e-commerce, purchasing, and checkout flows."
+    accepted_metaphors:
+      - shopping cart
+      - e-commerce or online store
+      - add to cart
+      - purchase or checkout
+      - marketplace
+    rejected_metaphors:
+      - bag or tote (use a bag icon)
+      - subscription or recurring billing (use a subscription icon)
+      - wishlist (use bookmark or heart)
+
+  - name: rh-ui-icon-shopping-cart-fill
+    icon: shopping-cart-fill
+    description: "Filled shopping cart — e-commerce (filled variant)."
+    accepted_metaphors:
+      - shopping cart (filled)
+    rejected_metaphors:
+      - bag (use a bag icon)
+
+  - name: rh-ui-icon-support
+    icon: support
+    description: "Headset support agent — represents customer support, help desks, and technical assistance."
+    accepted_metaphors:
+      - customer support
+      - help desk
+      - technical support
+      - contact support
+      - live chat or call center agent
+    rejected_metaphors:
+      - phone call (use phone)
+      - headphones for audio playback (use headphones)
+      - general help (use question-mark-circle)
+
+  - name: rh-ui-icon-support-fill
+    icon: support-fill
+    description: "Filled support headset — customer support (filled variant)."
+    accepted_metaphors:
+      - support (filled)
+    rejected_metaphors:
+      - audio headphones (use headphones)
+
+  - name: rh-ui-icon-terminal
+    icon: terminal
+    description: "Terminal window with prompt — represents command-line interfaces, shells, and developer consoles."
+    accepted_metaphors:
+      - terminal or command line
+      - CLI or shell
+      - console or scripting environment
+      - developer interface
+    rejected_metaphors:
+      - code editor (use code)
+      - app window or frame (use window icon)
+      - server (use server)
+
+  - name: rh-ui-icon-terminal-fill
+    icon: terminal-fill
+    description: "Filled terminal window — command-line interface (filled variant)."
+    accepted_metaphors:
+      - terminal (filled)
+    rejected_metaphors:
+      - code editor (use code)
+
+  - name: rh-ui-icon-trackpad
+    icon: trackpad
+    description: "Laptop trackpad — represents touchpad input and gesture navigation."
+    accepted_metaphors:
+      - trackpad or touchpad
+      - gesture input
+      - laptop input device
+      - touch navigation
+    rejected_metaphors:
+      - touchscreen gestures (use a touch icon)
+      - computer mouse (use mouse)
+
+  - name: rh-ui-icon-trackpad-fill
+    icon: trackpad-fill
+    description: "Filled trackpad — touchpad input (filled variant)."
+    accepted_metaphors:
+      - trackpad (filled)
+    rejected_metaphors:
+      - touchscreen (use touch icon)
+
+# Actions
+  - name: rh-ui-icon-converge-nodes
+    icon: converge-nodes
+    description: "Multiple paths merging into one — represents workflow convergence, merging, or aggregation."
+    accepted_metaphors:
+      - merge or converge
+      - consolidate workflows or paths
+      - join or aggregate
+      - fan-in pattern
+    rejected_metaphors:
+      - network topology (use network)
+      - diverge or split (use a fork or split icon)
+      - combine files (use merge icon)
+
+  - name: rh-ui-icon-create-new
+    icon: create-new
+    description: "Pencil composing a new item — represents creating, composing, or initiating a new record."
+    accepted_metaphors:
+      - create new
+      - compose or write
+      - add new record or item
+      - initiate or start from scratch
+    rejected_metaphors:
+      - save (use save)
+      - rename (use pencil or edit)
+      - duplicate (use copy or duplicate)
+
+  - name: rh-ui-icon-create-new-fill
+    icon: create-new-fill
+    description: "Filled create-new — create or compose (filled variant)."
+    accepted_metaphors:
+      - create new (filled)
+    rejected_metaphors:
+      - save (use save)
+
+  - name: rh-ui-icon-paint-roller
+    icon: paint-roller
+    description: "Paint roller — represents applying styles, theming, visual customization, and formatting."
+    accepted_metaphors:
+      - apply style or theme
+      - visual customization
+      - formatting or styling
+      - paint or fill
+      - design tool
+    rejected_metaphors:
+      - fine brush or illustration (use a paintbrush icon)
+      - edit text (use pencil or edit)
+      - color picker (use a swatch icon)
+
+  - name: rh-ui-icon-paint-roller-fill
+    icon: paint-roller-fill
+    description: "Filled paint roller — apply style or theme (filled variant)."
+    accepted_metaphors:
+      - apply style (filled)
+    rejected_metaphors:
+      - color picker
+
+  - name: rh-ui-icon-return
+    icon: return
+    description: "Curved return arrow — represents the keyboard return key, line breaks, and submit actions."
+    accepted_metaphors:
+      - keyboard return or enter key
+      - line break or carriage return
+      - submit a line or form
+      - confirm inline input
+    rejected_metaphors:
+      - undo (use undo)
+      - back navigation (use arrow-left or back)
+      - reply to a message (use reply)
+
+  - name: rh-ui-icon-send
+    icon: send
+    description: "Paper plane or send arrow — represents sending messages, submitting content, and transmitting data."
+    accepted_metaphors:
+      - send message
+      - submit or transmit
+      - deliver or dispatch
+      - email send action
+    rejected_metaphors:
+      - share to external service (use share or external-link)
+      - upload (use upload)
+      - forward a message (use forward icon)
+
+  - name: rh-ui-icon-send-fill
+    icon: send-fill
+    description: "Filled send — transmit or send action (filled variant)."
+    accepted_metaphors:
+      - send (filled)
+    rejected_metaphors:
+      - upload (use upload)
+
+  - name: rh-ui-icon-theme
+    icon: theme
+    description: "Color palette or swatch — represents UI theme selection and appearance settings."
+    accepted_metaphors:
+      - theme selection
+      - color scheme or palette
+      - visual style or appearance settings
+      - UI customization
+      - branding or look-and-feel
+    rejected_metaphors:
+      - color picker (use a swatch or color-picker icon)
+      - design mode (use design or edit icon)
+      - paint or format (use paint-roller)
+
+  - name: rh-ui-icon-theme-fill
+    icon: theme-fill
+    description: "Filled palette — theme or appearance settings (filled variant)."
+    accepted_metaphors:
+      - theme (filled)
+    rejected_metaphors:
+      - color picker
+
+# Media
+  - name: rh-ui-icon-play-pause-fill
+    icon: play-pause-fill
+    description: "Combined play and pause symbol — represents a media playback toggle control."
+    accepted_metaphors:
+      - media playback toggle
+      - play or pause control
+      - pause currently playing media
+      - resume paused media
+    rejected_metaphors:
+      - stop (use stop icon)
+      - record (use record icon)
+      - next track (use skip icon)
+      - mute (use volume-off)
+
+# Concepts
+  - name: rh-ui-icon-pod
+    icon: pod
+    description: "Circular pod shape — represents a Kubernetes pod or containerized workload group."
+    accepted_metaphors:
+      - Kubernetes pod
+      - containerized workload
+      - pod deployment
+      - container group
+      - cloud-native workload unit
+    rejected_metaphors:
+      - container (use container icon)
+      - cluster (use cluster icon)
+      - generic blob or shape
+
+  - name: rh-ui-icon-pod-fill
+    icon: pod-fill
+    description: "Filled pod — Kubernetes pod or containerized workload (filled variant)."
+    accepted_metaphors:
+      - Kubernetes pod (filled)
+    rejected_metaphors:
+      - container (use container icon)
+
+# Connectivity
+  - name: rh-ui-icon-wifi-connection
+    icon: wifi-connection
+    description: "Wi-Fi signal arcs — represents wireless network connectivity and internet access."
+    accepted_metaphors:
+      - Wi-Fi or wireless network
+      - internet connection
+      - wireless connectivity
+      - network signal strength
+    rejected_metaphors:
+      - Bluetooth (use a bluetooth icon)
+      - cellular signal (use cellular icon)
+      - wired network (use ethernet or network icon)
+
+# Zoom fills (fill variants of existing zoom-in and zoom-out)
+  - name: rh-ui-icon-zoom-in-fill
+    icon: zoom-in-fill
+    description: "Filled magnifying glass with a plus — zoom in (filled variant)."
+    accepted_metaphors:
+      - zoom in (filled)
+      - enlarge view (filled)
+      - increase magnification (filled)
+    rejected_metaphors:
+      - search (use search)
+      - add (use add or add-circle)
+
+  - name: rh-ui-icon-zoom-out-fill
+    icon: zoom-out-fill
+    description: "Filled magnifying glass with a minus — zoom out (filled variant)."
+    accepted_metaphors:
+      - zoom out (filled)
+      - reduce view (filled)
+      - decrease magnification (filled)
+    rejected_metaphors:
+      - search (use search)
+      - remove (use remove or minus-circle)

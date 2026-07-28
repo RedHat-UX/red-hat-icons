@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RHDS Icon Metadata Sync</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 12px;
+    color: #1e1e1e;
+    background: #fff;
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #1e1e1e;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #666;
+    margin-bottom: 6px;
+  }
+
+  .sets {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 14px;
+  }
+
+  .set-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    border-radius: 4px;
+    background: #f5f5f5;
+  }
+
+  .set-row input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    accent-color: #cc0000;
+  }
+
+  .set-name {
+    font-weight: 500;
+    flex: 1;
+  }
+
+  .set-count {
+    color: #999;
+    font-size: 11px;
+  }
+
+  .field-row {
+    margin-bottom: 14px;
+  }
+
+  .field-row label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .field-row input[type="text"] {
+    width: 100%;
+    padding: 5px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: 'Roboto Mono', 'Menlo', monospace;
+    color: #1e1e1e;
+    background: #fafafa;
+  }
+
+  .field-row input[type="text"]:focus {
+    outline: none;
+    border-color: #cc0000;
+    background: #fff;
+  }
+
+  .actions {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  button {
+    padding: 7px 14px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: opacity 0.1s;
+  }
+
+  button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .btn-primary {
+    background: #cc0000;
+    color: #fff;
+    border-color: #cc0000;
+  }
+
+  .btn-primary:not(:disabled):hover {
+    background: #a80000;
+    border-color: #a80000;
+  }
+
+  .btn-secondary {
+    background: #fff;
+    color: #1e1e1e;
+    border-color: #ccc;
+  }
+
+  .btn-secondary:not(:disabled):hover {
+    border-color: #999;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 14px;
+  }
+
+  #status {
+    min-height: 20px;
+    color: #666;
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  #status.error { color: #cc0000; }
+  #status.success { color: #1a7c3e; }
+
+  .results {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .results.visible { display: flex; }
+
+  .result-row {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+
+  .result-row.updated { background: #e8f5ed; }
+  .result-row.current { background: #f5f5f5; }
+  .result-row.missing { background: #fff4e5; }
+
+  .result-icon { font-size: 13px; flex-shrink: 0; }
+  .result-label { flex: 1; }
+  .result-count { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .result-row.updated .result-count { color: #1a7c3e; }
+  .result-row.current .result-count { color: #666; }
+  .result-row.missing .result-count { color: #c47000; }
+
+  .missing-list {
+    margin-top: 8px;
+    padding: 8px;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: 'Roboto Mono', 'Menlo', monospace;
+    color: #666;
+    max-height: 100px;
+    overflow-y: auto;
+    line-height: 1.6;
+    display: none;
+  }
+
+  .missing-list.visible { display: block; }
+
+  .progress-bar {
+    height: 3px;
+    background: #f0f0f0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    display: none;
+  }
+
+  .progress-bar.visible { display: block; }
+
+  .progress-fill {
+    height: 100%;
+    background: #cc0000;
+    width: 0%;
+    transition: width 0.2s;
+    animation: indeterminate 1.2s ease-in-out infinite;
+  }
+
+  @keyframes indeterminate {
+    0%   { margin-left: -30%; width: 30%; }
+    100% { margin-left: 100%; width: 30%; }
+  }
+
+  .progress-fill.done {
+    animation: none;
+    width: 100%;
+    background: #1a7c3e;
+  }
+</style>
+</head>
+<body>
+<h1>RHDS Icon Metadata Sync</h1>
+
+<div class="section-label">Icon sets</div>
+<div class="sets">
+  <label class="set-row">
+    <input type="checkbox" name="set" value="microns" checked>
+    <span class="set-name">Microns</span>
+    <span class="set-count" id="count-microns">—</span>
+  </label>
+  <label class="set-row">
+    <input type="checkbox" name="set" value="ui" checked>
+    <span class="set-name">UI icons</span>
+    <span class="set-count" id="count-ui">—</span>
+  </label>
+  <label class="set-row">
+    <input type="checkbox" name="set" value="standard" checked>
+    <span class="set-name">Standard icons</span>
+    <span class="set-count" id="count-standard">—</span>
+  </label>
+  <label class="set-row">
+    <input type="checkbox" name="set" value="social" checked>
+    <span class="set-name">Social icons</span>
+    <span class="set-count" id="count-social">—</span>
+  </label>
+</div>
+
+<div class="field-row">
+  <label for="branch">Branch or tag</label>
+  <input type="text" id="branch" value="feat/25-microns-manifest" spellcheck="false">
+</div>
+
+<div class="actions">
+  <button class="btn-secondary" id="btn-load">Load manifests</button>
+  <button class="btn-primary" id="btn-apply" disabled>Apply to file</button>
+</div>
+
+<hr class="divider">
+
+<div class="progress-bar" id="progress"><div class="progress-fill" id="progress-fill"></div></div>
+<div id="status">Open the Red Hat icon library file, then load manifests.</div>
+
+<div class="results" id="results">
+  <div class="result-row updated">
+    <span class="result-icon">✓</span>
+    <span class="result-label">Updated</span>
+    <span class="result-count" id="r-updated">0</span>
+  </div>
+  <div class="result-row current">
+    <span class="result-icon">–</span>
+    <span class="result-label">Already current</span>
+    <span class="result-count" id="r-current">0</span>
+  </div>
+  <div class="result-row missing">
+    <span class="result-icon">⚠</span>
+    <span class="result-label">Not found in file</span>
+    <span class="result-count" id="r-missing">0</span>
+  </div>
+  <div class="missing-list" id="missing-list"></div>
+</div>
+
+<script>
+// ─── YAML parser ──────────────────────────────────────────────────────────────
+// Parses the icon manifest YAML format used in this repo.
+// Extracts only name + accepted_metaphors; ignores all other fields.
+function parseManifest(text) {
+  const icons = [];
+  let current = null;
+  let collectingAccepted = false;
+  let inIcons = false;
+
+  for (const rawLine of text.split('\n')) {
+    // Strip inline comments, preserving # inside quoted strings
+    const stripped = rawLine.replace(/#(?=(?:[^"]*"[^"]*")*[^"]*$).*$/, '').trimEnd();
+    const trimmed = stripped.trimStart();
+    const indent = stripped.length - trimmed.length;
+
+    if (!trimmed) continue;
+
+    if (!inIcons) {
+      if (trimmed === 'icons:') inIcons = true;
+      continue;
+    }
+
+    // New icon entry at indent 2: "  - name: ..."
+    if (indent === 2 && trimmed.startsWith('- name:')) {
+      if (current) icons.push(current);
+      const name = trimmed.slice(7).trim().replace(/^"|"$/g, '');
+      current = { name, accepted_metaphors: [] };
+      collectingAccepted = false;
+      continue;
+    }
+
+    if (!current) continue;
+
+    // Keys at indent 4
+    if (indent === 4 && !trimmed.startsWith('-')) {
+      collectingAccepted = trimmed.startsWith('accepted_metaphors:');
+      continue;
+    }
+
+    // List items at indent 6
+    if (indent === 6 && trimmed.startsWith('- ') && collectingAccepted) {
+      const val = trimmed.slice(2).trim().replace(/^"(.*)"$/, '$1');
+      if (val) current.accepted_metaphors.push(val);
+    }
+  }
+
+  if (current) icons.push(current);
+  return icons;
+}
+
+// ─── State ────────────────────────────────────────────────────────────────────
+let loadedIcons = [];
+
+const BASE = 'https://raw.githubusercontent.com/RedHat-UX/red-hat-icons';
+const SETS = {
+  microns:  'src/microns/metadata.yaml',
+  ui:       'src/ui/metadata.yaml',
+  standard: 'src/standard/metadata.yaml',
+  social:   'src/social/metadata.yaml',
+};
+
+// ─── DOM refs ─────────────────────────────────────────────────────────────────
+const btnLoad      = document.getElementById('btn-load');
+const btnApply     = document.getElementById('btn-apply');
+const statusEl     = document.getElementById('status');
+const resultsEl    = document.getElementById('results');
+const progressEl   = document.getElementById('progress');
+const progressFill = document.getElementById('progress-fill');
+
+function setStatus(msg, type = '') {
+  statusEl.textContent = msg;
+  statusEl.className = type;
+}
+
+function showProgress(done = false) {
+  progressEl.classList.add('visible');
+  if (done) progressFill.classList.add('done');
+  else progressFill.classList.remove('done');
+}
+
+function hideProgress() {
+  progressEl.classList.remove('visible');
+  progressFill.classList.remove('done');
+}
+
+function selectedSets() {
+  return [...document.querySelectorAll('input[name="set"]:checked')].map(el => el.value);
+}
+
+// ─── Load manifests ───────────────────────────────────────────────────────────
+btnLoad.addEventListener('click', async () => {
+  const sets = selectedSets();
+  if (!sets.length) { setStatus('Select at least one icon set.', 'error'); return; }
+
+  btnLoad.disabled = true;
+  btnApply.disabled = true;
+  resultsEl.classList.remove('visible');
+  showProgress();
+  setStatus('Fetching manifests from GitHub…');
+
+  const branch = document.getElementById('branch').value.trim();
+  loadedIcons = [];
+
+  try {
+    for (const set of sets) {
+      setStatus(`Fetching ${set} manifest…`);
+      const url = `${BASE}/${encodeURIComponent(branch)}/${SETS[set]}`;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`${set}: HTTP ${res.status} — check branch name`);
+      const text = await res.text();
+      const icons = parseManifest(text);
+      loadedIcons.push(...icons);
+      const countEl = document.getElementById(`count-${set}`);
+      if (countEl) countEl.textContent = `${icons.length} icons`;
+    }
+
+    const total = loadedIcons.length;
+    const withAccepted = loadedIcons.filter(i => i.accepted_metaphors.length > 0).length;
+    showProgress(true);
+    setStatus(`Loaded ${total} icons (${withAccepted} with accepted metaphors). Ready to apply.`, 'success');
+    btnApply.disabled = false;
+  } catch (err) {
+    hideProgress();
+    setStatus(`Error: ${err.message}`, 'error');
+  } finally {
+    btnLoad.disabled = false;
+  }
+});
+
+// ─── Apply to file ────────────────────────────────────────────────────────────
+btnApply.addEventListener('click', () => {
+  if (!loadedIcons.length) return;
+  btnApply.disabled = true;
+  btnLoad.disabled = true;
+  resultsEl.classList.remove('visible');
+  showProgress();
+  setStatus('Updating component descriptions…');
+
+  parent.postMessage({
+    pluginMessage: { type: 'sync', icons: loadedIcons }
+  }, '*');
+});
+
+// ─── Results from plugin thread ───────────────────────────────────────────────
+window.onmessage = (event) => {
+  const msg = event.data.pluginMessage;
+  if (!msg) return;
+
+  if (msg.type === 'done') {
+    const { updated, alreadyCurrent, notInFile } = msg.results;
+    showProgress(true);
+    setStatus(
+      `Done. ${updated.length} updated, ${alreadyCurrent.length} already current, ${notInFile.length} not found.`,
+      updated.length > 0 ? 'success' : ''
+    );
+
+    document.getElementById('r-updated').textContent = updated.length;
+    document.getElementById('r-current').textContent = alreadyCurrent.length;
+    document.getElementById('r-missing').textContent = notInFile.length;
+
+    const missingList = document.getElementById('missing-list');
+    if (notInFile.length > 0) {
+      missingList.textContent = notInFile.join('\n');
+      missingList.classList.add('visible');
+    } else {
+      missingList.classList.remove('visible');
+    }
+
+    resultsEl.classList.add('visible');
+    btnLoad.disabled = false;
+    btnApply.disabled = loadedIcons.length === 0;
+  }
+};
+</script>
+</body>
+</html>

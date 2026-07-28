@@ -1,0 +1,11 @@
+{
+  "name": "RHDS Icon Metadata Sync",
+  "id": "rhds-icon-metadata-sync",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["https://raw.githubusercontent.com"]
+  }
+}
