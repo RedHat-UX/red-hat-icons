@@ -15,6 +15,14 @@ Official Red Hat Brand Icons
 npm install @rhds/icons
 ```
 
+## Updating and optimizing Icons
+
+When updating icons, run the following command to optimize all SVGs in `src/` using [SVGO](https://github.com/svg/svgo):
+
+```bash
+npm run optimize
+```
+
 ## Contributing
 
 Please read the [contributing guide](./CONTRIBUTING.md) for more information.

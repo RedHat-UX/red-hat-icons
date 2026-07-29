@@ -1,0 +1,66 @@
+---
+"@rhds/icons": minor
+---
+
+### Added 56 new UI icons
+- `accessibility`
+- `accessibility-fill`
+- `align-bottom-vertical`
+- `align-center-horizontal`
+- `align-center-vertical`
+- `align-left-horizontal`
+- `align-right-horizontal`
+- `align-text-center`
+- `align-text-left`
+- `align-text-right`
+- `align-top-vertical`
+- `at-sign`
+- `book-closed`
+- `book-closed-fill`
+- `brackets`
+- `british-pound-sign`
+- `bullhorn`
+- `bullhorn-fill`
+- `converge-nodes`
+- `create-new`
+- `create-new-fill`
+- `dollar-sign`
+- `euro-sign`
+- `font`
+- `hashtag`
+- `justify-text`
+- `leaf`
+- `leaf-fill`
+- `map`
+- `map-fill`
+- `mouse`
+- `mouse-fill`
+- `paint-roller`
+- `paint-roller-fill`
+- `percent-sign`
+- `play-pause-fill`
+- `pod`
+- `pod-fill`
+- `return`
+- `send`
+- `send-fill`
+- `shopping-cart`
+- `shopping-cart-fill`
+- `support`
+- `support-fill`
+- `terminal`
+- `terminal-fill`
+- `text-size`
+- `theme`
+- `theme-fill`
+- `trackpad`
+- `trackpad-fill`
+- `wifi-connection`
+- `yen-sign`
+- `zoom-in-fill`
+- `zoom-out-fill`
+
+### Updated UI icons
+- `code`
+- `play`
+- `play-fill`
