@@ -138,7 +138,7 @@ icons:
 
   - name: rh-icon-oil-and-gas
     icon: oil-and-gas
-    description: "An oil pump jack — represents the oil and gas energy sector, petroleum extraction, and fossil fuel industries."
+    description: "A gas can — represents the oil and gas energy sector, petroleum extraction, and fossil fuel industries."
     accepted_metaphors:
       - oil and gas industry
       - energy sector
