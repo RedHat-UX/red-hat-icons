@@ -3632,15 +3632,16 @@ icons:
 
   - name: rh-icon-brain
     icon: brain
-    description: "A brain — represents intelligence, AI, machine learning, cognitive computing, and knowledge."
+    description: "A brain — represents intelligence and knowledge."
     accepted_metaphors:
-      - artificial intelligence
-      - machine learning
-      - cognitive computing
       - knowledge
+      - learning
       - decision intelligence
     rejected_metaphors:
       - AI model specifically (use ai-model icon)
+      - artificial intelligence (use ai-ml icon)
+      - machine learning (use ai-ml icon)
+      - AI experience (use ai-experience icon)
       - thought (use thought-bubble icon)
 
   - name: rh-icon-butterfly
@@ -3700,7 +3701,7 @@ icons:
 
   - name: rh-icon-heart-monitor
     icon: heart-monitor
-    description: "A heart monitor display — represents health monitoring, vital signs, uptime tracking, and system health."
+    description: "A heart with ECG waves — represents health monitoring, vital signs, uptime tracking, and system health."
     accepted_metaphors:
       - health monitoring
       - vital signs
@@ -3872,7 +3873,7 @@ icons:
 
   - name: rh-icon-sustainable-energy
     icon: sustainable-energy
-    description: "A battery with sustainable symbols — represents sustainable energy storage, green power, and renewable energy systems."
+    description: "A battery with a leaf — represents sustainable energy storage, green power, and renewable energy systems."
     accepted_metaphors:
       - sustainable energy storage
       - green power
@@ -4293,7 +4294,7 @@ icons:
 
   - name: rh-icon-north-star
     icon: north-star
-    description: "A North Star symbol — represents guiding vision, strategic direction, and true north."
+    description: "An abstracted compass star pointing north — represents guiding vision, strategic direction, and true north."
     accepted_metaphors:
       - guiding vision
       - strategic direction
@@ -4343,7 +4344,7 @@ icons:
 
   - name: rh-icon-reminder
     icon: reminder
-    description: "A bell with a reminder indicator — represents reminders, alerts, notifications, and upcoming events."
+    description: "A bell — represents reminders, alerts, notifications, and upcoming events."
     accepted_metaphors:
       - reminder
       - notification bell
@@ -4354,7 +4355,7 @@ icons:
 
   - name: rh-icon-restrooms
     icon: restrooms
-    description: "A restroom symbol — represents bathrooms, WC, and facility amenities."
+    description: "A toilet — represents bathrooms, WC, and facility amenities."
     accepted_metaphors:
       - restroom
       - bathroom
@@ -4402,7 +4403,7 @@ icons:
 
   - name: rh-icon-sustainability
     icon: sustainability
-    description: "Seeds or leaves with sustainability symbolism — represents environmental sustainability and green practices."
+    description: "A tree next to binary code digits — represents environmental sustainability and green practices."
     accepted_metaphors:
       - sustainability
       - environmental responsibility
@@ -4461,7 +4462,7 @@ icons:
   # ── Software and technologies ──────────────────────────────────────────────
   - name: rh-icon-5g
     icon: 5g
-    description: "A 5G symbol — represents fifth-generation wireless networks, high-speed mobile data, and telco infrastructure."
+    description: "Five signal strength bars — represents fifth-generation wireless networks, high-speed mobile data, and telco infrastructure."
     accepted_metaphors:
       - 5G network
       - fifth-generation wireless
@@ -4474,7 +4475,7 @@ icons:
 
   - name: rh-icon-api
     icon: api
-    description: "An API symbol — represents application programming interfaces, integration endpoints, and developer APIs."
+    description: "A central square connected to surrounding circular and square nodes — represents application programming interfaces, integration endpoints, and developer APIs."
     accepted_metaphors:
       - API
       - application programming interface
@@ -4487,7 +4488,7 @@ icons:
 
   - name: rh-icon-app
     icon: app
-    description: "A single application tile — represents an application, software program, or service."
+    description: "A square application window — represents an application, software program, or service."
     accepted_metaphors:
       - application
       - software program
@@ -4499,7 +4500,7 @@ icons:
 
   - name: rh-icon-app-mobile
     icon: app-mobile
-    description: "A mobile phone app tile — represents mobile applications, app store apps, and smartphone software."
+    description: "A mobile phone with overlapping app windows — represents mobile applications, app store apps, and smartphone software."
     accepted_metaphors:
       - mobile app
       - smartphone application
@@ -4510,7 +4511,7 @@ icons:
 
   - name: rh-icon-app-on-server
     icon: app-on-server
-    description: "An app tile on a server — represents an application deployed and running on a server or host."
+    description: "A square app window sitting on a server box — represents an application deployed and running on a server or host."
     accepted_metaphors:
       - deployed application
       - app on server
@@ -4521,7 +4522,7 @@ icons:
 
   - name: rh-icon-app-secured
     icon: app-secured
-    description: "An application tile with a lock — represents a secured application, compliant software, and protected app."
+    description: "An application window with a lock — represents a secured application, compliant software, and protected app."
     accepted_metaphors:
       - secured application
       - compliant software
@@ -4532,7 +4533,7 @@ icons:
 
   - name: rh-icon-app-unsecured
     icon: app-unsecured
-    description: "An application tile with an open lock — represents an unsecured application or software with security gaps."
+    description: "An application window with an open lock — represents an unsecured application or software with security gaps."
     accepted_metaphors:
       - unsecured application
       - app with security vulnerabilities
@@ -4542,7 +4543,7 @@ icons:
 
   - name: rh-icon-app-update
     icon: app-update
-    description: "An application tile with an update arrow — represents an app update, software upgrade, and patching."
+    description: "An application window with an update arrow — represents an app update, software upgrade, and patching."
     accepted_metaphors:
       - app update
       - software upgrade
@@ -4553,7 +4554,7 @@ icons:
 
   - name: rh-icon-apps-multiple
     icon: apps-multiple
-    description: "Multiple application tiles — represents a portfolio of applications, app catalog, or multi-app environment."
+    description: "Multiple layered application windows — represents a portfolio of applications, app catalog, or multi-app environment."
     accepted_metaphors:
       - application portfolio
       - app catalog
@@ -4564,7 +4565,7 @@ icons:
 
   - name: rh-icon-apps-multiple-secured
     icon: apps-multiple-secured
-    description: "Multiple secured application tiles — represents a secured application portfolio and protected software suite."
+    description: "Multiple layered application windows with shield — represents a secured application portfolio and protected software suite."
     accepted_metaphors:
       - secured application portfolio
       - protected software suite
@@ -4574,7 +4575,7 @@ icons:
 
   - name: rh-icon-apps-multiple-unsecured
     icon: apps-multiple-unsecured
-    description: "Multiple unsecured application tiles — represents an application portfolio with security vulnerabilities."
+    description: "Multiple layered application windows with crossed out shield — represents an application portfolio with security vulnerabilities."
     accepted_metaphors:
       - unsecured application portfolio
       - vulnerable software suite
@@ -4584,7 +4585,7 @@ icons:
 
   - name: rh-icon-automation
     icon: automation
-    description: "A gear with automation indicators — represents IT automation, Ansible, and automated workflows."
+    description: "A downward arrow passing through a gear beside three stacked squares — represents IT automation, Ansible, and automated workflows."
     accepted_metaphors:
       - IT automation
       - Ansible
@@ -4620,7 +4621,7 @@ icons:
 
   - name: rh-icon-catalog
     icon: catalog
-    description: "A catalog list — represents product catalogs, software catalogs, and item libraries."
+    description: "A hand pointing to an item — represents product catalogs, software catalogs, and item libraries."
     accepted_metaphors:
       - product catalog
       - software catalog
@@ -4658,7 +4659,7 @@ icons:
 
   - name: rh-icon-cloud-automation
     icon: cloud-automation
-    description: "A cloud with automation indicators — represents cloud automation, automated cloud operations, and cloud management."
+    description: "A cloud with a gear — represents cloud automation, automated cloud operations, and cloud management."
     accepted_metaphors:
       - cloud automation
       - automated cloud operations
@@ -4669,7 +4670,7 @@ icons:
 
   - name: rh-icon-cloud-deploy
     icon: cloud-deploy
-    description: "A cloud with a deploy arrow — represents cloud deployment, deploying to cloud, and cloud release."
+    description: "A cloud with an upward-pointing arrow — represents cloud deployment, deploying to cloud, and cloud release."
     accepted_metaphors:
       - cloud deployment
       - deploying to cloud
@@ -4680,7 +4681,7 @@ icons:
 
   - name: rh-icon-cloud-inspect
     icon: cloud-inspect
-    description: "A cloud with an inspection indicator — represents cloud monitoring, cloud inspection, and cloud auditing."
+    description: "A cloud with a magnifying glass — represents cloud monitoring, cloud inspection, and cloud auditing."
     accepted_metaphors:
       - cloud monitoring
       - cloud inspection
@@ -4691,7 +4692,7 @@ icons:
 
   - name: rh-icon-cloud-migration
     icon: cloud-migration
-    description: "A cloud with a migration arrow — represents moving workloads to cloud, cloud migration projects."
+    description: "A cloud with an upward pointing arrow that overlaps another cloud — represents moving workloads to cloud, cloud migration projects."
     accepted_metaphors:
       - cloud migration
       - workload migration to cloud
@@ -4701,7 +4702,7 @@ icons:
 
   - name: rh-icon-cloud-native-development
     icon: cloud-native-development
-    description: "A cloud with a code indicator — represents cloud-native development, building for cloud, and cloud-first applications."
+    description: "A cloud with a an app window — represents cloud-native development, building for cloud, and cloud-first applications."
     accepted_metaphors:
       - cloud-native development
       - cloud-first application
@@ -4712,7 +4713,7 @@ icons:
 
   - name: rh-icon-cloud-private
     icon: cloud-private
-    description: "A private cloud — represents on-premises cloud, private cloud environments, and dedicated cloud infrastructure."
+    description: "A cloud with a padlock — represents on-premises cloud, private cloud environments, and dedicated cloud infrastructure."
     accepted_metaphors:
       - private cloud
       - on-premises cloud
@@ -4724,7 +4725,7 @@ icons:
 
   - name: rh-icon-cloud-secured
     icon: cloud-secured
-    description: "A cloud with a security lock — represents a secured cloud environment, compliant cloud, and protected cloud services."
+    description: "A cloud with a shield — represents a secured cloud environment, compliant cloud, and protected cloud services."
     accepted_metaphors:
       - secured cloud
       - compliant cloud
@@ -4735,7 +4736,7 @@ icons:
 
   - name: rh-icon-cloud-services
     icon: cloud-services
-    description: "A cloud with a services indicator — represents cloud services, managed services, and cloud offerings."
+    description: "A cloud with upward- and downward-pointing arrows that are connected to nodes — represents cloud services, managed services, and cloud offerings."
     accepted_metaphors:
       - cloud services
       - managed services
@@ -4746,7 +4747,7 @@ icons:
 
   - name: rh-icon-cloud-unsecured
     icon: cloud-unsecured
-    description: "A cloud with an open lock — represents an unsecured cloud environment and cloud with security gaps."
+    description: "A cloud with a crossed out shield — represents an unsecured cloud environment and cloud with security gaps."
     accepted_metaphors:
       - unsecured cloud
       - cloud with security gaps
@@ -4766,7 +4767,7 @@ icons:
 
   - name: rh-icon-cluster
     icon: cluster
-    description: "A cluster of nodes — represents Kubernetes clusters, OpenShift clusters, and grouped compute resources."
+    description: "A cluster of connected nodes — represents Kubernetes clusters, OpenShift clusters, and grouped compute resources."
     accepted_metaphors:
       - Kubernetes cluster
       - OpenShift cluster
@@ -4778,7 +4779,7 @@ icons:
 
   - name: rh-icon-code
     icon: code
-    description: "Angle bracket code syntax — represents source code, software development, and programming."
+    description: "Angle bracket code syntax in a square — represents source code, software development, and programming."
     accepted_metaphors:
       - source code
       - software development
@@ -4814,7 +4815,7 @@ icons:
 
   - name: rh-icon-completed-product
     icon: completed-product
-    description: "An application with a completed check — represents a finished product, shipped software, and released application."
+    description: "A triangle with a checkmark — represents a finished product, shipped software, and released application."
     accepted_metaphors:
       - finished product
       - shipped software
@@ -4825,7 +4826,7 @@ icons:
 
   - name: rh-icon-container
     icon: container
-    description: "A container cube — represents Linux containers, container instances, and containerized workloads."
+    description: "A hexagon — represents Linux containers, container instances, and containerized workloads."
     accepted_metaphors:
       - Linux container
       - container instance
@@ -4837,7 +4838,7 @@ icons:
 
   - name: rh-icon-container-image
     icon: container-image
-    description: "A container with image layers — represents container images, image registries, and layered container builds."
+    description: "A hexagon with a code symbol — represents container images, image registries, and layered container builds."
     accepted_metaphors:
       - container image
       - image layer
@@ -4849,7 +4850,7 @@ icons:
 
   - name: rh-icon-container-microservice
     icon: container-microservice
-    description: "A container as a microservice — represents microservice architecture, containerized services, and cloud-native services."
+    description: "Two small hexagons connected to an app window — represents microservice architecture, containerized services, and cloud-native services."
     accepted_metaphors:
       - microservice
       - containerized service
@@ -4861,7 +4862,7 @@ icons:
 
   - name: rh-icon-container-private
     icon: container-private
-    description: "A private container — represents private container environments, isolated container runtimes."
+    description: "A hexagon with a padlock — represents private container environments, isolated container runtimes."
     accepted_metaphors:
       - private container
       - isolated container
@@ -4871,7 +4872,7 @@ icons:
 
   - name: rh-icon-container-registry
     icon: container-registry
-    description: "A container registry — represents container image registries, Quay.io, and image distribution."
+    description: "Three hexagons grouped in between square brackets — represents container image registries, Quay.io, and image distribution."
     accepted_metaphors:
       - container registry
       - image registry
@@ -4882,7 +4883,7 @@ icons:
 
   - name: rh-icon-container-secured
     icon: container-secured
-    description: "A container with a lock — represents a secured container, hardened container runtime, and container security."
+    description: "A container with a shield — represents a secured container, hardened container runtime, and container security."
     accepted_metaphors:
       - secured container
       - hardened runtime
@@ -4893,7 +4894,7 @@ icons:
 
   - name: rh-icon-container-unsecured
     icon: container-unsecured
-    description: "A container with an open lock — represents an unsecured container and vulnerable container runtime."
+    description: "A container with a crossed out shield — represents an unsecured container and vulnerable container runtime."
     accepted_metaphors:
       - unsecured container
       - vulnerable container
@@ -4903,7 +4904,7 @@ icons:
 
   - name: rh-icon-containerized-app
     icon: containerized-app
-    description: "An application inside a container — represents an application deployed as a container, containerized workload."
+    description: "An app window inside a hexagon — represents an application deployed as a container, containerized workload."
     accepted_metaphors:
       - containerized application
       - app in a container
@@ -4951,7 +4952,7 @@ icons:
 
   - name: rh-icon-data-sovereignty
     icon: data-sovereignty
-    description: "Data with sovereignty indicators — represents data sovereignty, data residency, and data governance within jurisdictions."
+    description: "Binary code in a square — represents data sovereignty, data residency, and data governance within jurisdictions."
     accepted_metaphors:
       - data sovereignty
       - data residency
@@ -4962,7 +4963,7 @@ icons:
 
   - name: rh-icon-deployed-model
     icon: deployed-model
-    description: "An AI model in a deployed state — represents a deployed machine learning model, model serving, and inference in production."
+    description: "An AI model with a checkmark in a circle — represents a deployed machine learning model, model serving, and inference in production."
     accepted_metaphors:
       - deployed ML model
       - model serving
@@ -4974,7 +4975,7 @@ icons:
 
   - name: rh-icon-develop-and-train
     icon: develop-and-train
-    description: "A model development and training flow — represents AI model training, MLOps training pipelines, and model development."
+    description: "An erlenmeyer flask with binary code — represents AI model training, MLOps training pipelines, and model development."
     accepted_metaphors:
       - AI model training
       - MLOps training pipeline
@@ -4985,7 +4986,7 @@ icons:
 
   - name: rh-icon-digital-transformation
     icon: digital-transformation
-    description: "Transformation arrows through a digital lens — represents digital transformation journeys, IT modernization, and organizational change."
+    description: "Binary code encircled by a curved arrow, a dotted curve, and smaller circles — represents digital transformation journeys, IT modernization, and organizational change."
     accepted_metaphors:
       - digital transformation
       - IT modernization journey
@@ -4996,7 +4997,7 @@ icons:
 
   - name: rh-icon-edge
     icon: edge
-    description: "A node at the edge of a network — represents edge computing, edge deployments, and distributed edge nodes."
+    description: "A cloud in a dotted circle — represents edge computing, edge deployments, and distributed edge nodes."
     accepted_metaphors:
       - edge computing
       - edge deployment
@@ -5009,7 +5010,7 @@ icons:
 
   - name: rh-icon-embedded
     icon: embedded
-    description: "An embedded system icon — represents embedded software, firmware, and embedded Linux."
+    description: "Isometric layers surrounded by a dotted container — represents embedded software, firmware, and embedded Linux."
     accepted_metaphors:
       - embedded software
       - firmware
@@ -5021,7 +5022,7 @@ icons:
 
   - name: rh-icon-everything-as-a-service
     icon: everything-as-a-service
-    description: "A service delivery icon — represents everything-as-a-service (EaaS), XaaS, and the shift to service-based consumption."
+    description: "A cloud with a code symbol — represents everything-as-a-service (EaaS), XaaS, and the shift to service-based consumption."
     accepted_metaphors:
       - everything-as-a-service
       - XaaS
@@ -5056,7 +5057,7 @@ icons:
 
   - name: rh-icon-gateway
     icon: gateway
-    description: "A gateway node — represents network gateways, API gateways, and edge network gateways."
+    description: "Diagonal arrows pointing inward and outward inside a square frame — represents network gateways, API gateways, and edge network gateways."
     accepted_metaphors:
       - network gateway
       - API gateway
@@ -5067,7 +5068,7 @@ icons:
 
   - name: rh-icon-hybrid-cloud-infrastructure
     icon: hybrid-cloud-infrastructure
-    description: "A hybrid cloud diagram — represents hybrid cloud architecture, on-premises plus cloud, and multi-environment infrastructure."
+    description: "A cloud with a horizontal line floating below it — represents hybrid cloud architecture, on-premises plus cloud, and multi-environment infrastructure."
     accepted_metaphors:
       - hybrid cloud
       - on-premises plus cloud
@@ -5079,7 +5080,7 @@ icons:
 
   - name: rh-icon-hypervisor
     icon: hypervisor
-    description: "A hypervisor layer — represents virtualization hypervisors, VMware, KVM, and virtual machine managers."
+    description: "A dotted rectangle above a server — represents virtualization hypervisors, VMware, KVM, and virtual machine managers."
     accepted_metaphors:
       - hypervisor
       - VMware
@@ -5091,7 +5092,7 @@ icons:
 
   - name: rh-icon-import
     icon: import
-    description: "An import arrow — represents importing data, bringing in external resources, and onboarding data."
+    description: "An arrow pointing right, into a closing square bracket — represents importing data, bringing in external resources, and onboarding data."
     accepted_metaphors:
       - importing data
       - data ingestion
@@ -5103,7 +5104,7 @@ icons:
 
   - name: rh-icon-it-modernization
     icon: it-modernization
-    description: "A modernization cycle — represents IT modernization, legacy system transformation, and infrastructure evolution."
+    description: "Nodes encircled by a two arrows — represents IT modernization, legacy system transformation, and infrastructure evolution."
     accepted_metaphors:
       - IT modernization
       - legacy system transformation
@@ -5115,7 +5116,7 @@ icons:
 
   - name: rh-icon-kubernetes-pod
     icon: kubernetes-pod
-    description: "A Kubernetes pod — represents Kubernetes pods, workload scheduling, and OpenShift pod management."
+    description: "A hexagon in a circle — represents Kubernetes pods, workload scheduling, and OpenShift pod management."
     accepted_metaphors:
       - Kubernetes pod
       - workload unit
@@ -5160,7 +5161,7 @@ icons:
 
   - name: rh-icon-management-and-automation
     icon: management-and-automation
-    description: "Management combined with automation arrows — represents integrated IT management and automation platforms."
+    description: "Sun encircled by four arrows — represents integrated IT management and automation platforms."
     accepted_metaphors:
       - management and automation
       - integrated IT platform
@@ -5172,7 +5173,7 @@ icons:
 
   - name: rh-icon-mcp-server
     icon: mcp-server
-    description: "An MCP server — represents Model Context Protocol servers, AI tool servers, and LLM integration endpoints."
+    description: "A server with an AI sparkle above it  — represents Model Context Protocol servers, AI tool servers, and LLM integration endpoints."
     accepted_metaphors:
       - MCP server
       - Model Context Protocol server
@@ -5184,7 +5185,7 @@ icons:
 
   - name: rh-icon-microservices
     icon: microservices
-    description: "Interconnected service nodes — represents microservices architecture, distributed services, and service mesh."
+    description: "Two smaller squares connected to an app window — represents microservices architecture, distributed services, and service mesh."
     accepted_metaphors:
       - microservices architecture
       - distributed services
@@ -5195,7 +5196,7 @@ icons:
 
   - name: rh-icon-migration
     icon: migration
-    description: "A migration arrow — represents workload migration, application migration, and moving between environments."
+    description: "Two overlapping squares with an arrow starting from one square's side and flowing into the other — represents workload migration, application migration, and moving between environments."
     accepted_metaphors:
       - workload migration
       - application migration
@@ -5207,7 +5208,7 @@ icons:
 
   - name: rh-icon-minimum-viable-product
     icon: minimum-viable-product
-    description: "An MVP product check — represents minimum viable products, first releases, and initial product launches."
+    description: "A small triangle that's a fraction of a larger dotted triangle — represents minimum viable products, first releases, and initial product launches."
     accepted_metaphors:
       - minimum viable product
       - first release
@@ -5218,7 +5219,7 @@ icons:
 
   - name: rh-icon-model-context-protocol
     icon: model-context-protocol
-    description: "The Model Context Protocol symbol — represents MCP, AI context standardization, and LLM tool communication."
+    description: "A flow chart with an AI sparkle at the top — represents MCP, AI context standardization, and LLM tool communication."
     accepted_metaphors:
       - Model Context Protocol
       - MCP standard
@@ -5334,7 +5335,7 @@ icons:
 
   - name: rh-icon-registered-model
     icon: registered-model
-    description: "A registered AI model — represents models that have been registered in a model registry and are under governance."
+    description: "A neural network with a checkmark between two square brackets — represents models that have been registered in a model registry and are under governance."
     accepted_metaphors:
       - registered ML model
       - model under governance
@@ -5345,19 +5346,18 @@ icons:
 
   - name: rh-icon-robot
     icon: robot
-    description: "A robot character — represents automation, AI bots, robotic process automation, and AI assistants."
+    description: "A robot character — represents automation and robotic process automation."
     accepted_metaphors:
       - automation
-      - AI bot
       - robotic process automation
-      - AI assistant
+      - non-AI chatbot avatar
     rejected_metaphors:
       - robotic arm (use robotic-arm icon)
-      - AI chatbot specifically (use ai-chatbot-* icons)
+      - AI chatbot (use ai-chatbot-happy, ai-chatbot-bewildered, ai-chatbot-sad, ai-chatbot-annoyed icons)
 
   - name: rh-icon-run-pipeline
     icon: run-pipeline
-    description: "A pipeline run indicator — represents running a CI/CD pipeline, executing a workflow, and triggering automation."
+    description: "A winding path with circular nodes and directional arrows — represents running a CI/CD pipeline, executing a workflow, and triggering automation."
     accepted_metaphors:
       - pipeline run
       - CI/CD execution
@@ -5404,7 +5404,7 @@ icons:
 
   - name: rh-icon-serverless
     icon: serverless
-    description: "A serverless architecture icon — represents serverless computing, FaaS, and function-based architectures."
+    description: "Circular nodes flowing out of a cloud — represents serverless computing, FaaS, and function-based architectures."
     accepted_metaphors:
       - serverless
       - FaaS
@@ -5416,7 +5416,7 @@ icons:
 
   - name: rh-icon-single-sign-on
     icon: single-sign-on
-    description: "A person with a key and web portal — represents single sign-on, SSO, and federated identity."
+    description: "A person with a key — represents single sign-on, SSO, and federated identity."
     accepted_metaphors:
       - single sign-on
       - SSO
@@ -5429,7 +5429,7 @@ icons:
 
   - name: rh-icon-skills
     icon: skills
-    description: "A skills or competency icon — represents skill development, learning paths, and competency frameworks."
+    description: "Criss-crossing wrench and pencil — represents skill development, learning paths, and competency frameworks."
     accepted_metaphors:
       - skill development
       - learning path
@@ -5440,7 +5440,7 @@ icons:
 
   - name: rh-icon-storage-classes
     icon: storage-classes
-    description: "Storage with classification tiers — represents Kubernetes storage classes, tiered storage, and storage provisioning."
+    description: "Database cylinder with a solid base and a dashed top layer — represents Kubernetes storage classes, tiered storage, and storage provisioning."
     accepted_metaphors:
       - Kubernetes storage class
       - tiered storage
@@ -5451,7 +5451,7 @@ icons:
 
   - name: rh-icon-subscription
     icon: subscription
-    description: "A subscription indicator — represents software subscriptions, Red Hat subscriptions, and service contracts."
+    description: "A bell with a plus sign in a circle — represents software subscriptions, Red Hat subscriptions, and service contracts."
     accepted_metaphors:
       - software subscription
       - Red Hat subscription
@@ -5462,7 +5462,7 @@ icons:
 
   - name: rh-icon-telco-cloud
     icon: telco-cloud
-    description: "A telecom cloud — represents cloud-based telecom infrastructure, telco cloud deployments, and carrier cloud."
+    description: "A broadcast tower in a cloud — represents cloud-based telecom infrastructure, telco cloud deployments, and carrier cloud."
     accepted_metaphors:
       - telco cloud
       - carrier cloud
@@ -5519,7 +5519,7 @@ icons:
 
   - name: rh-icon-website-system
     icon: website-system
-    description: "A web browser with system elements — represents web-based management systems, portal systems, and system websites."
+    description: "A web browser connected to other smaller web browser symbols — represents web-based management systems, portal systems, and system websites."
     accepted_metaphors:
       - web-based management system
       - portal system
@@ -5530,7 +5530,7 @@ icons:
 
   - name: rh-icon-webhooks
     icon: webhooks
-    description: "A webhook connector — represents webhooks, event-driven callbacks, and HTTP push notifications."
+    description: "hree interconnecting nodes arranged in a triangle — represents webhooks, event-driven callbacks, and HTTP push notifications."
     accepted_metaphors:
       - webhook
       - event-driven callback
@@ -5572,6 +5572,7 @@ icons:
       - business trip
       - conference travel
       - fast delivery
+      - vacation
     rejected_metaphors:
       - fighter jet (use fighter-jet icon)
       - space shuttle (use space-shuttle icon)
@@ -5601,7 +5602,7 @@ icons:
 
   - name: rh-icon-blood-drive
     icon: blood-drive
-    description: "A blood donation van — represents blood drives, community health events, and corporate social responsibility."
+    description: "A blood droplet with a cross symbol — represents blood drives, community health events, and corporate social responsibility."
     accepted_metaphors:
       - blood drive
       - community health event
@@ -5635,19 +5636,19 @@ icons:
 
   - name: rh-icon-car
     icon: car
-    description: "A car — represents personal transportation, automotive industry, and driving."
+    description: "A front-profile of a car — represents personal transportation, automotive industry, and driving."
     accepted_metaphors:
       - personal transportation
       - automotive industry
       - driving
-      - car insurance
     rejected_metaphors:
       - side view car (use car-side-view icon)
       - race car (use racecar icon)
+      - car insurance (use car-insurance icon)
 
   - name: rh-icon-car-insurance
     icon: car-insurance
-    description: "A car with a shield — represents automotive insurance, vehicle protection, and car coverage."
+    description: "A car crashing into another car — represents automotive insurance, vehicle protection, and car coverage."
     accepted_metaphors:
       - car insurance
       - vehicle protection
@@ -5734,7 +5735,7 @@ icons:
 
   - name: rh-icon-rocket
     icon: rocket
-    description: "A small rocket — represents fast launches, innovation, startups, and rapid deployment."
+    description: "A striped rocket — represents fast launches, innovation, startups, and rapid deployment."
     accepted_metaphors:
       - fast launch
       - innovation
@@ -5816,7 +5817,7 @@ icons:
 
   - name: rh-icon-train
     icon: train
-    description: "A train — represents rail transportation, commuting, and mass transit."
+    description: "Front profile of a train driving through tunnel — represents rail transportation, commuting, and mass transit."
     accepted_metaphors:
       - rail transportation
       - commuting
@@ -5828,7 +5829,7 @@ icons:
 
   - name: rh-icon-transportation
     icon: transportation
-    description: "A multi-modal transportation scene — represents logistics, supply chain, and multi-modal transportation."
+    description: "A shipping container on a flatbed trailer — represents logistics, supply chain, and multi-modal transportation."
     accepted_metaphors:
       - logistics
       - supply chain
@@ -5939,7 +5940,7 @@ icons:
 
   - name: rh-icon-ai-model
     icon: ai-model
-    description: "An AI model node — represents machine learning models, AI models, and trained model artifacts."
+    description: "A neural network — represents machine learning models, AI models, and trained model artifacts."
     accepted_metaphors:
       - AI model
       - machine learning model
