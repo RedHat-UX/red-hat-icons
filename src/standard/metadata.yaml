@@ -26,7 +26,7 @@ icons:
   # ── Buildings and industries ───────────────────────────────────────────────
   - name: rh-icon-barn
     icon: barn
-    description: "A red farm barn — represents agriculture, rural industries, and farming contexts."
+    description: "A farm barn — represents agriculture, rural industries, and farming contexts."
     accepted_metaphors:
       - agriculture
       - farming
