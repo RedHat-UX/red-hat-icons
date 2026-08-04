@@ -41,9 +41,11 @@ icons:
     icon: email-square
     description: "Envelope in a square container — badge format for email contact links."
     accepted_metaphors:
-      - email contact badge
-      - mailto link badge
-      - social link button (email)
+      - email contact
+      - send email
+      - mailto link
+      - contact via email
+      - newsletter signup
     rejected_metaphors:
       - internal messaging
       - chat
@@ -68,12 +70,14 @@ icons:
     icon: facebook-square
     description: "Facebook logo in a square container — badge format for Facebook links."
     accepted_metaphors:
-      - Facebook profile badge
-      - share on Facebook button
-      - social link button (Facebook)
+      - Facebook profile link
+      - share on Facebook
+      - follow on Facebook
+      - Facebook social presence
     rejected_metaphors:
       - generic social media
       - other social platforms
+      - messaging (use Messenger icon)
 
   # ── Flickr ─────────────────────────────────────────────────────────────────
   - name: rh-social-flickr
@@ -93,11 +97,14 @@ icons:
     icon: flickr-square
     description: "Flickr logo in a square container — badge format for Flickr links."
     accepted_metaphors:
-      - Flickr profile badge
-      - social link button (Flickr)
+      - Flickr profile link
+      - share on Flickr
+      - follow on Flickr
+      - Flickr social presence
     rejected_metaphors:
       - generic photo sharing
       - other social platforms
+      - image gallery (product feature)
 
   # ── GitHub ─────────────────────────────────────────────────────────────────
   - name: rh-social-github
@@ -118,10 +125,14 @@ icons:
     icon: github-square
     description: "GitHub logo in a square container — badge format for GitHub links."
     accepted_metaphors:
-      - GitHub profile badge
-      - social link button (GitHub)
+      - GitHub profile link
+      - GitHub repository link
+      - view on GitHub
+      - open source contribution
+      - GitHub social presence
     rejected_metaphors:
       - generic code repository
+      - version control (product feature)
       - other code platforms
 
   # ── Google ─────────────────────────────────────────────────────────────────
@@ -141,10 +152,12 @@ icons:
     icon: google-square
     description: "Google logo in a square container — badge format for Google links."
     accepted_metaphors:
-      - Google profile badge
-      - social link button (Google)
+      - Google profile link
+      - Google social presence
+      - sign in with Google
     rejected_metaphors:
       - generic search
+      - other Google products (use product-specific icons)
       - other social platforms
 
   # ── Instagram ──────────────────────────────────────────────────────────────
@@ -159,17 +172,20 @@ icons:
     rejected_metaphors:
       - generic photo sharing
       - other social platforms
-      - camera (use a camera icon)
+      - camera (use a camera icon in standard set)
 
   - name: rh-social-instagram-square
     icon: instagram-square
     description: "Instagram logo in a square container — badge format for Instagram links."
     accepted_metaphors:
-      - Instagram profile badge
-      - social link button (Instagram)
+      - Instagram profile link
+      - share on Instagram
+      - follow on Instagram
+      - Instagram social presence
     rejected_metaphors:
       - generic photo sharing
       - other social platforms
+      - camera (use a camera icon in standard set)
 
   # ── LinkedIn ───────────────────────────────────────────────────────────────
   - name: rh-social-linkedin
@@ -190,11 +206,15 @@ icons:
     icon: linkedin-square
     description: "LinkedIn logo in a square container — badge format for LinkedIn links."
     accepted_metaphors:
-      - LinkedIn profile badge
-      - social link button (LinkedIn)
+       - LinkedIn profile link
+      - share on LinkedIn
+      - follow on LinkedIn
+      - LinkedIn social presence
+      - professional network link
     rejected_metaphors:
       - generic professional networking
       - other social platforms
+      - resume or CV
 
   # ── Messenger ──────────────────────────────────────────────────────────────
   - name: rh-social-messenger
@@ -214,12 +234,14 @@ icons:
     icon: messenger-square
     description: "Facebook Messenger logo in a square container — badge format for Messenger links."
     accepted_metaphors:
-      - Messenger contact badge
-      - social link button (Messenger)
+     - Messenger contact link
+      - message on Messenger
+      - Messenger social presence
     rejected_metaphors:
       - generic messaging
       - chat (product feature)
       - other messaging platforms
+      - Facebook (use Facebook icon)
 
   # ── Microsoft ──────────────────────────────────────────────────────────────
   - name: rh-social-microsoft
@@ -238,10 +260,12 @@ icons:
     icon: microsoft-square
     description: "Microsoft logo in a square container — badge format for Microsoft links."
     accepted_metaphors:
-      - Microsoft profile badge
-      - social link button (Microsoft)
+      - Microsoft profile link
+      - Microsoft social presence
+      - sign in with Microsoft
     rejected_metaphors:
       - generic Windows or Office
+      - other Microsoft products (use product-specific icons)
       - other social platforms
 
   # ── RSS ────────────────────────────────────────────────────────────────────
@@ -264,12 +288,16 @@ icons:
     icon: rss-square
     description: "RSS feed icon in a square container — badge format for feed subscriptions."
     accepted_metaphors:
-      - RSS subscription badge
-      - social link button (RSS)
+      - subscribe to feed
+      - RSS subscription
+      - blog feed
+      - podcast feed
+      - news feed subscription
     rejected_metaphors:
       - social network
       - live updates (product feature)
       - notifications
+      - signal or broadcast (technical)
 
   # ── Stack Overflow ─────────────────────────────────────────────────────────
   - name: rh-social-stackoverflow
@@ -278,7 +306,6 @@ icons:
     accepted_metaphors:
       - Stack Overflow profile link
       - Stack Overflow community link
-      - developer Q&A link
     rejected_metaphors:
       - generic developer community
       - documentation
@@ -288,10 +315,11 @@ icons:
     icon: stackoverflow-square
     description: "Stack Overflow logo in a square container — badge format for Stack Overflow links."
     accepted_metaphors:
-      - Stack Overflow profile badge
-      - social link button (Stack Overflow)
+      - Stack Overflow profile link
+      - Stack Overflow community link
     rejected_metaphors:
       - generic developer community
+      - documentation
       - other code platforms
 
   # ── Threads ────────────────────────────────────────────────────────────────
@@ -312,8 +340,10 @@ icons:
     icon: threads-square
     description: "Threads logo in a square container — badge format for Threads links."
     accepted_metaphors:
-      - Threads profile badge
-      - social link button (Threads)
+      - Threads profile link
+      - share on Threads
+      - follow on Threads
+      - Threads social presence
     rejected_metaphors:
       - generic social media
       - other social platforms
@@ -326,20 +356,21 @@ icons:
       - Twitch channel link
       - follow on Twitch
       - Twitch social presence
-      - live stream link
     rejected_metaphors:
       - generic live streaming
-      - video (use a video icon)
+      - video (use video icon in standard set)
       - other streaming platforms
 
   - name: rh-social-twitch-square
     icon: twitch-square
     description: "Twitch logo in a square container — badge format for Twitch links."
     accepted_metaphors:
-      - Twitch channel badge
-      - social link button (Twitch)
+      - Twitch channel link
+      - follow on Twitch
+      - Twitch social presence
     rejected_metaphors:
       - generic live streaming
+      - video (use a video icon)
       - other streaming platforms
 
   # ── WeChat ─────────────────────────────────────────────────────────────────
@@ -359,11 +390,13 @@ icons:
     icon: wechat-square
     description: "WeChat logo in a square container — badge format for WeChat links."
     accepted_metaphors:
-      - WeChat contact badge
-      - social link button (WeChat)
+      - WeChat contact link
+      - WeChat social presence
+      - message on WeChat
     rejected_metaphors:
       - generic messaging
       - other messaging platforms
+      - chat (product feature)
 
   # ── Weibo ──────────────────────────────────────────────────────────────────
   - name: rh-social-weibo
@@ -382,8 +415,10 @@ icons:
     icon: weibo-square
     description: "Weibo logo in a square container — badge format for Weibo links."
     accepted_metaphors:
-      - Weibo profile badge
-      - social link button (Weibo)
+      - Weibo profile link
+      - share on Weibo
+      - follow on Weibo
+      - Weibo social presence
     rejected_metaphors:
       - generic social media
       - other social platforms
@@ -405,11 +440,13 @@ icons:
     icon: whatsapp-square
     description: "WhatsApp logo in a square container — badge format for WhatsApp links."
     accepted_metaphors:
-      - WhatsApp contact badge
-      - social link button (WhatsApp)
+      - WhatsApp contact link
+      - message on WhatsApp
+      - WhatsApp social presence
     rejected_metaphors:
       - generic messaging
       - other messaging platforms
+      - chat (product feature)
 
   # ── X (formerly Twitter) ───────────────────────────────────────────────────
   - name: rh-social-x
@@ -421,7 +458,7 @@ icons:
       - follow on X
       - X social presence
     rejected_metaphors:
-      - close or dismiss (use close icon)
+      - close or dismiss (use close icon in UI or microns set)
       - error or wrong
       - generic social media
       - other social platforms
@@ -430,11 +467,14 @@ icons:
     icon: x-square
     description: "X (formerly Twitter) logo in a square container — badge format for X links."
     accepted_metaphors:
-      - X profile badge
-      - social link button (X)
+      - X profile link
+      - share on X
+      - follow on X
+      - X social presence
     rejected_metaphors:
-      - close or dismiss
+      - close or dismiss (use close icon in UI or microns set)
       - error or wrong
+      - generic social media
       - other social platforms
 
   # ── YouTube ────────────────────────────────────────────────────────────────
@@ -445,18 +485,19 @@ icons:
       - YouTube channel link
       - follow on YouTube
       - YouTube social presence
-      - video content link
     rejected_metaphors:
       - generic video player
-      - play button (use play icon)
+      - play button (use play icon in UI or microns set)
       - other video platforms
 
   - name: rh-social-youtube-square
     icon: youtube-square
     description: "YouTube logo in a square container — badge format for YouTube links."
     accepted_metaphors:
-      - YouTube channel badge
-      - social link button (YouTube)
+      - YouTube channel link
+      - follow on YouTube
+      - YouTube social presence
     rejected_metaphors:
       - generic video player
+      - play button (use play icon in UI or microns set)
       - other video platforms

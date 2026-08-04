@@ -204,10 +204,9 @@ icons:
 
   - name: rh-micron-question-mark-circle
     icon: question-mark-circle
-    description: "Circle with a question mark — help, unknown state, or guidance."
+    description: "Circle with a question mark — help or guidance."
     accepted_metaphors:
       - help
-      - unknown
       - question
       - FAQ
       - learn more
@@ -220,10 +219,9 @@ icons:
 
   - name: rh-micron-question-mark-circle-fill
     icon: question-mark-circle-fill
-    description: "Filled circle with a question mark — emphasized help or unknown state."
+    description: "Filled circle with a question mark — emphasized help or guidance."
     accepted_metaphors:
       - help
-      - unknown
       - question
       - FAQ
       - learn more
@@ -237,7 +235,7 @@ icons:
 
   - name: rh-micron-caret-down
     icon: caret-down
-    description: "Down chevron — expand a disclosure, open a menu, or show more."
+    description: "Down chevron — expand a component or content area."
     accepted_metaphors:
       - expand
       - open menu
@@ -253,7 +251,7 @@ icons:
 
   - name: rh-micron-caret-down-fill
     icon: caret-down-fill
-    description: "Filled down chevron — expand a disclosure or open a menu."
+    description: "Filled down chevron — expand a component or content area."
     accepted_metaphors:
       - expand
       - open menu
@@ -269,7 +267,7 @@ icons:
 
   - name: rh-micron-caret-up
     icon: caret-up
-    description: "Up chevron — collapse a disclosure, close a menu, or show less."
+    description: "Up chevron — collapse a component or content area."
     accepted_metaphors:
       - collapse
       - close menu
@@ -285,7 +283,7 @@ icons:
 
   - name: rh-micron-caret-up-fill
     icon: caret-up-fill
-    description: "Filled up chevron — collapse a disclosure or close a menu."
+    description: "Filled up chevron — collapse a component or content area."
     accepted_metaphors:
       - collapse
       - close menu
@@ -315,7 +313,7 @@ icons:
 
   - name: rh-micron-caret-left-fill
     icon: caret-left-fill
-    description: "Filled left chevron — collapse a panel or step back in a compact control."
+    description: "Filled left chevron — collapse a panel, hide a sidebar, or step back in a compact control."
     accepted_metaphors:
       - collapse panel
       - hide sidebar
@@ -336,7 +334,7 @@ icons:
       - show sidebar
       - tree expand
       - compact next
-      - overflow
+      - overflow button icon
     rejected_metaphors:
       - call to action
       - external link
@@ -345,13 +343,14 @@ icons:
 
   - name: rh-micron-caret-right-fill
     icon: caret-right-fill
-    description: "Filled right chevron — expand a nested item or advance a compact control."
+    description: "Filled right chevron — expand a nested item, drill in, or advance a compact control."
     accepted_metaphors:
       - expand nested item
       - drill in
       - show sidebar
       - tree expand
       - compact next
+      - overflow button icon
     rejected_metaphors:
       - call to action
       - external link
