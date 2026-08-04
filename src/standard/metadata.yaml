@@ -112,7 +112,7 @@ icons:
 
   - name: rh-icon-lighthouse
     icon: lighthouse
-    description: "A lighthouse on a rocky shore — represents guidance, navigation, visibility, and signaling."
+    description: "A lighthouse with waves below — represents guidance, navigation, visibility, and signaling."
     accepted_metaphors:
       - guidance
       - beacon
