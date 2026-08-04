@@ -56,9 +56,7 @@ icons:
     accepted_metaphors:
       - urban environments
       - enterprise
-      - metropolitan deployments
       - geographic region
-      - city government
     rejected_metaphors:
       - single building (use office or home icon)
 
@@ -83,7 +81,7 @@ icons:
       - residential deployments
       - work-from-home
     rejected_metaphors:
-      - home screen or homepage (use website icon)
+      - home screen or homepage (use home or home-fill icon in UI icon set)
 
   - name: rh-icon-industry
     icon: industry
@@ -100,7 +98,7 @@ icons:
 
   - name: rh-icon-insurance
     icon: insurance
-    description: "A building with a shield — represents insurance services, risk assurance, and coverage."
+    description: "A clipboard with a shield — represents insurance services, risk assurance, and coverage."
     accepted_metaphors:
       - insurance industry
       - financial assurance
@@ -121,7 +119,7 @@ icons:
       - watchtower visibility
       - leading indicator
     rejected_metaphors:
-      - literal maritime only
+      - maritime (use anchor icon)
 
   - name: rh-icon-office
     icon: office
@@ -143,7 +141,6 @@ icons:
       - oil and gas industry
       - energy sector
       - petroleum
-      - fossil fuel extraction
       - energy infrastructure
     rejected_metaphors:
       - renewable energy (use solar-power or wind-power icon)
@@ -170,7 +167,7 @@ icons:
       - factory robotics
     rejected_metaphors:
       - software automation (use automation icon)
-      - AI assistant (use robot icon)
+      - AI assistant (use ai-chatbot-happy icon)
 
   - name: rh-icon-school
     icon: school
@@ -283,7 +280,7 @@ icons:
 
   - name: rh-icon-community-culture
     icon: community-culture
-    description: "Connected nodes in a community pattern — represents open source culture, community collaboration, and contribution networks."
+    description: "Grouped circles of varying sizes — represents open source culture, community collaboration, and contribution networks."
     accepted_metaphors:
       - open source community
       - upstream collaboration
@@ -295,15 +292,15 @@ icons:
 
   - name: rh-icon-crawl-arrow
     icon: crawl-arrow
-    description: "A slow, crawling arrow — represents a crawl phase in a crawl/walk/run maturity progression."
+    description: "A single chevron pointing right — represents a crawl phase in a crawl/walk/run maturity progression."
     accepted_metaphors:
       - crawl phase
       - maturity model beginning
       - slow initial progress
       - phase one of adoption
     rejected_metaphors:
-      - running (use run-arrow icon)
-      - walking (use walk-arrow icon)
+      - run phase (use run-arrow icon)
+      - walk phase (use walk-arrow icon)
 
   - name: rh-icon-development-model
     icon: development-model
@@ -331,7 +328,7 @@ icons:
 
   - name: rh-icon-digital-assessment
     icon: digital-assessment
-    description: "A clipboard with a checkmark — represents digital assessments, evaluations, and readiness reviews."
+    description: "A website with a checkmark — represents digital assessments, evaluations, and readiness reviews."
     accepted_metaphors:
       - digital assessment
       - evaluation
@@ -369,7 +366,7 @@ icons:
 
   - name: rh-icon-game-plan
     icon: game-plan
-    description: "A clipboard with a play diagram — represents strategy, game plans, and structured action plans."
+    description: "A document with a play diagram — represents strategy, game plans, and structured action plans."
     accepted_metaphors:
       - strategy
       - action plan
@@ -465,7 +462,7 @@ icons:
 
   - name: rh-icon-interoperability
     icon: interoperability
-    description: "Overlapping geometric shapes — represents systems working together, cross-platform compatibility, and interoperability."
+    description: "Connected geometric shapes — represents systems working together, cross-platform compatibility, and interoperability."
     accepted_metaphors:
       - interoperability
       - cross-platform compatibility
@@ -515,7 +512,7 @@ icons:
 
   - name: rh-icon-merge
     icon: merge
-    description: "Two paths merging into one — represents merging, combining, and consolidation of streams or branches."
+    description: "Two squares merging into one — represents merging, combining, and consolidation of streams or branches."
     accepted_metaphors:
       - merging
       - consolidation
@@ -540,7 +537,7 @@ icons:
 
   - name: rh-icon-multiply
     icon: multiply
-    description: "Overlapping layered copies — represents duplication, multiplication, scaling, and instance replication."
+    description: "Small circle connecting to diverging arrows — represents duplication, multiplication, scaling, and instance replication."
     accepted_metaphors:
       - duplication
       - scaling
@@ -575,7 +572,7 @@ icons:
 
   - name: rh-icon-planning
     icon: planning
-    description: "A calendar or planning grid — represents project planning, scheduling, and roadmap activities."
+    description: "A planning grid — represents project planning, scheduling, and roadmap activities."
     accepted_metaphors:
       - project planning
       - scheduling
@@ -587,7 +584,7 @@ icons:
 
   - name: rh-icon-progression
     icon: progression
-    description: "A curved arrow moving forward — represents progression, advancement, and moving through a process."
+    description: "A curved arrow moving forward with a checked checkbox at the end — represents progression, advancement, and moving through a process."
     accepted_metaphors:
       - progression
       - advancement
@@ -599,7 +596,7 @@ icons:
 
   - name: rh-icon-progression-linear
     icon: progression-linear
-    description: "A straight arrow moving forward — represents a linear path, step-by-step process, and direct advancement."
+    description: "A small square with an arrow moving toward a checked box — represents a linear path, step-by-step process, and direct advancement."
     accepted_metaphors:
       - linear progression
       - step-by-step process
@@ -610,7 +607,7 @@ icons:
 
   - name: rh-icon-run-arrow
     icon: run-arrow
-    description: "A fast-moving arrow — represents the run phase in a crawl/walk/run maturity progression."
+    description: "Three closely spaced chevrons pointing right — represents the run phase in a crawl/walk/run maturity progression."
     accepted_metaphors:
       - run phase
       - maturity model advanced stage
@@ -623,7 +620,7 @@ icons:
 
   - name: rh-icon-scalable
     icon: scalable
-    description: "Bidirectional scaling arrows — represents systems that can scale up or down depending on demand."
+    description: "Two intersecting bidirectional arrows — represents systems that can scale up or down depending on demand."
     accepted_metaphors:
       - scalability
       - elastic scaling
@@ -635,7 +632,7 @@ icons:
 
   - name: rh-icon-scale-growing
     icon: scale-growing
-    description: "An upward scaling arrow — represents scaling up, growth, and increasing capacity."
+    description: "A small square with a diagonal arrow extending to the top-right corner of a larger square — represents scaling up, growth, and increasing capacity."
     accepted_metaphors:
       - scaling up
       - growth
@@ -648,7 +645,7 @@ icons:
 
   - name: rh-icon-scale-shrinking
     icon: scale-shrinking
-    description: "A downward scaling arrow — represents scaling down, reduction, and decreasing capacity."
+    description: "A small square with a diagonal arrow extending to the bottom-right corner of a larger square — represents scaling down, reduction, and decreasing capacity."
     accepted_metaphors:
       - scaling down
       - reduction
@@ -660,7 +657,7 @@ icons:
 
   - name: rh-icon-simplify
     icon: simplify
-    description: "A streamlined path — represents simplification, reducing complexity, and streamlining operations."
+    description: "Three small circles converging into one arrow — represents simplification, reducing complexity, and streamlining operations."
     accepted_metaphors:
       - simplification
       - reducing complexity
@@ -684,7 +681,7 @@ icons:
 
   - name: rh-icon-survey-rating
     icon: survey-rating
-    description: "A survey form with star ratings — represents customer satisfaction surveys, ratings, and feedback collection."
+    description: "A speech bubble with a star in the center — represents customer satisfaction surveys, ratings, and feedback collection."
     accepted_metaphors:
       - survey
       - customer feedback
@@ -692,7 +689,7 @@ icons:
       - NPS
       - evaluation form
     rejected_metaphors:
-      - star rating only (use star icon)
+      - interactive star icon (use star or star-fill icon from UI icon set)
 
   - name: rh-icon-venn-diagram
     icon: venn-diagram
@@ -709,7 +706,7 @@ icons:
 
   - name: rh-icon-walk-arrow
     icon: walk-arrow
-    description: "A medium-pace arrow — represents the walk phase in a crawl/walk/run maturity progression."
+    description: "Two closely spaced chevrons pointing right — represents the walk phase in a crawl/walk/run maturity progression."
     accepted_metaphors:
       - walk phase
       - intermediate maturity
@@ -1239,7 +1236,7 @@ icons:
 
   - name: rh-icon-laptop-video-call
     icon: laptop-video-call
-    description: "A laptop with a video call interface — represents virtual meetings, video conferencing, and remote collaboration."
+    description: "A laptop with a camcorder image on screen — represents virtual meetings, video conferencing, and remote collaboration."
     accepted_metaphors:
       - video call
       - virtual meeting
@@ -1335,7 +1332,7 @@ icons:
 
   - name: rh-icon-router-load-balancer
     icon: router-load-balancer
-    description: "A router with load-balancing arrows — represents network routing, load balancers, and traffic distribution hardware."
+    description: "A router — represents network routing, load balancers, and traffic distribution hardware."
     accepted_metaphors:
       - load balancer
       - network router
@@ -1346,7 +1343,7 @@ icons:
 
   - name: rh-icon-router-load-balancer-virtual
     icon: router-load-balancer-virtual
-    description: "A virtual router with load-balancing arrows — represents software-defined routing, virtual load balancers, and NFV components."
+    description: "A router with dotted outline — represents software-defined routing, virtual load balancers, and NFV components."
     accepted_metaphors:
       - virtual load balancer
       - software-defined networking
@@ -1370,7 +1367,7 @@ icons:
 
   - name: rh-icon-server-secured
     icon: server-secured
-    description: "A server with a security lock — represents a secured server, compliant compute, or protected backend host."
+    description: "A server with a shield — represents a secured server, compliant compute, or protected backend host."
     accepted_metaphors:
       - secured server
       - compliant compute
@@ -1393,7 +1390,7 @@ icons:
 
   - name: rh-icon-server-stack-secured
     icon: server-stack-secured
-    description: "A secured server rack — represents a hardened infrastructure stack, secured data center, or protected server farm."
+    description: "A server rack with a shield — represents a hardened infrastructure stack, secured data center, or protected server farm."
     accepted_metaphors:
       - secured server rack
       - hardened infrastructure
@@ -1404,7 +1401,7 @@ icons:
 
   - name: rh-icon-server-stack-unsecured
     icon: server-stack-unsecured
-    description: "A server rack with an open lock — represents an unprotected server stack or infrastructure with security gaps."
+    description: "A server rack with a crossed out shield — represents an unprotected server stack or infrastructure with security gaps."
     accepted_metaphors:
       - unsecured server rack
       - vulnerable infrastructure
@@ -1415,7 +1412,7 @@ icons:
 
   - name: rh-icon-server-unsecured
     icon: server-unsecured
-    description: "A server with an open lock — represents an unprotected server, vulnerable host, or non-compliant compute."
+    description: "A server with a crossed out shield — represents an unprotected server, vulnerable host, or non-compliant compute."
     accepted_metaphors:
       - unsecured server
       - vulnerable host
@@ -1486,7 +1483,7 @@ icons:
 
   - name: rh-icon-virtual-server
     icon: virtual-server
-    description: "A server with a virtualization indicator — represents virtual machines, VMs, and virtualized compute instances."
+    description: "A server with a dotted outline — represents virtual machines, VMs, and virtualized compute instances."
     accepted_metaphors:
       - virtual machine
       - VM
@@ -1498,7 +1495,7 @@ icons:
 
   - name: rh-icon-virtual-server-secured
     icon: virtual-server-secured
-    description: "A secured virtual server — represents a hardened VM, secured virtual compute instance."
+    description: "A virtual server with a shield — represents a hardened VM, secured virtual compute instance."
     accepted_metaphors:
       - secured VM
       - hardened virtual machine
@@ -1519,7 +1516,7 @@ icons:
 
   - name: rh-icon-virtual-server-stack-secured
     icon: virtual-server-stack-secured
-    description: "A secured virtual server stack — represents a hardened VM cluster and protected virtualized infrastructure."
+    description: " virtual server stack with a shield — represents a hardened VM cluster and protected virtualized infrastructure."
     accepted_metaphors:
       - secured VM cluster
       - hardened virtual infrastructure
@@ -1529,7 +1526,7 @@ icons:
 
   - name: rh-icon-virtual-server-stack-unsecured
     icon: virtual-server-stack-unsecured
-    description: "An unsecured virtual server stack — represents vulnerable virtual infrastructure with open security gaps."
+    description: "An virtual server stack with a crossed out shield — represents vulnerable virtual infrastructure with open security gaps."
     accepted_metaphors:
       - unsecured VM cluster
       - vulnerable virtual infrastructure
@@ -1539,7 +1536,7 @@ icons:
 
   - name: rh-icon-virtual-server-unsecured
     icon: virtual-server-unsecured
-    description: "A virtual server with an open lock — represents a vulnerable or unprotected VM instance."
+    description: "A virtual server with a crossed out shield — represents a vulnerable or unprotected VM instance."
     accepted_metaphors:
       - unsecured VM
       - vulnerable virtual machine
@@ -1549,7 +1546,7 @@ icons:
 
   - name: rh-icon-virtual-storage
     icon: virtual-storage
-    description: "A disk drive with a virtualization indicator — represents virtual storage volumes and software-defined storage."
+    description: "A disk drive with a dotted outline — represents virtual storage volumes and software-defined storage."
     accepted_metaphors:
       - virtual storage
       - software-defined storage
@@ -1571,7 +1568,7 @@ icons:
   # ── Media and documents ────────────────────────────────────────────────────
   - name: rh-icon-blog
     icon: blog
-    description: "A document with a speech bubble — represents blog posts, written content, and published articles."
+    description: "Pencil editing content on a computer screen — represents blog posts, written content, and published articles."
     accepted_metaphors:
       - blog post
       - written content
@@ -1584,7 +1581,7 @@ icons:
 
   - name: rh-icon-blueprints
     icon: blueprints
-    description: "Rolled architectural blueprints — represents plans, technical drawings, solution blueprints, and design documentation."
+    description: "Architectural blueprints — represents plans, technical drawings, solution blueprints, and design documentation."
     accepted_metaphors:
       - solution blueprint
       - technical plan
@@ -1656,7 +1653,7 @@ icons:
 
   - name: rh-icon-case-study
     icon: case-study
-    description: "A document with a customer story — represents case studies, customer success stories, and reference content."
+    description: "A document with a magnifying glass — represents case studies, customer success stories, and reference content."
     accepted_metaphors:
       - case study
       - customer success story
@@ -1669,7 +1666,7 @@ icons:
 
   - name: rh-icon-certification
     icon: certification
-    description: "A certificate with a badge — represents professional certifications, credentials, training completion, and earned recognition."
+    description: "A certificate with a ribbon — represents professional certifications, credentials, training completion, and earned recognition."
     accepted_metaphors:
       - certification
       - professional credential
@@ -1681,7 +1678,7 @@ icons:
 
   - name: rh-icon-checklist
     icon: checklist
-    description: "A paper with checkboxes — represents checklists, to-do lists, and task tracking."
+    description: "A paper with a checkbox — represents checklists, to-do lists, and task tracking."
     accepted_metaphors:
       - checklist
       - to-do list
@@ -1693,7 +1690,7 @@ icons:
 
   - name: rh-icon-clipboard-checklist
     icon: clipboard-checklist
-    description: "A clipboard with a checklist — represents task tracking, project checklists, and completion verification on a clipboard."
+    description: "A clipboard with a checkmark — represents task tracking, project checklists, and completion verification on a clipboard."
     accepted_metaphors:
       - clipboard checklist
       - task tracking
@@ -1705,7 +1702,7 @@ icons:
 
   - name: rh-icon-confidential
     icon: confidential
-    description: "A document with a lock — represents confidential information, restricted documents, and access-controlled content."
+    description: "An eye with diagonal line through it — represents confidential information, restricted documents, and access-controlled content."
     accepted_metaphors:
       - confidential document
       - restricted access
@@ -1764,7 +1761,7 @@ icons:
 
   - name: rh-icon-envelope
     icon: envelope
-    description: "A white envelope — represents mail, letters, and message sending."
+    description: "An envelope — represents mail, letters, and message sending."
     accepted_metaphors:
       - mail
       - letter
@@ -1776,7 +1773,7 @@ icons:
 
   - name: rh-icon-envelope-manilla
     icon: envelope-manilla
-    description: "A brown manila envelope — represents physical mail, confidential documents, and official correspondence."
+    description: "A manila envelope — represents physical mail, confidential documents, and official correspondence."
     accepted_metaphors:
       - physical mail
       - confidential correspondence
@@ -1848,7 +1845,7 @@ icons:
 
   - name: rh-icon-music-streaming
     icon: music-streaming
-    description: "Musical notes with streaming waves — represents music streaming services, digital audio platforms, and online music."
+    description: "Musical note with streaming waves — represents music streaming services, digital audio platforms, and online music."
     accepted_metaphors:
       - music streaming
       - digital audio platform
@@ -1873,7 +1870,7 @@ icons:
 
   - name: rh-icon-notepad
     icon: notepad
-    description: "A notepad with lines — represents notes, journaling, meeting notes, and planning documents."
+    description: "A notepad and pencil — represents notes, journaling, meeting notes, and planning documents."
     accepted_metaphors:
       - notes
       - meeting notes
@@ -2058,7 +2055,7 @@ icons:
 
   - name: rh-icon-user-story
     icon: user-story
-    description: "A person with a document — represents user stories, requirements documentation, and agile story cards."
+    description: "A blank paper and pencil — represents user stories, requirements documentation, and agile story cards."
     accepted_metaphors:
       - user story
       - agile story card
@@ -2081,7 +2078,7 @@ icons:
 
   - name: rh-icon-video-streaming
     icon: video-streaming
-    description: "A play button with streaming waves — represents video streaming services, on-demand video, and broadcast media."
+    description: "A camcorder with streaming waves — represents video streaming services, on-demand video, and broadcast media."
     accepted_metaphors:
       - video streaming
       - on-demand video
@@ -2104,7 +2101,7 @@ icons:
 
   - name: rh-icon-virtual-collaboration
     icon: virtual-collaboration
-    description: "Two people with a screen — represents virtual collaboration, remote teamwork, and online meetings."
+    description: "Two people connected by dotted, curved lines — represents virtual collaboration, remote teamwork, and online meetings."
     accepted_metaphors:
       - virtual collaboration
       - remote teamwork
@@ -2139,7 +2136,7 @@ icons:
   # ── Objects ────────────────────────────────────────────────────────────────
   - name: rh-icon-amp
     icon: amp
-    description: "A guitar amplifier — represents music, sound amplification, concerts, and audio events."
+    description: "A amplifier — represents music, sound amplification, concerts, and audio events."
     accepted_metaphors:
       - music event
       - sound amplification
@@ -2162,7 +2159,7 @@ icons:
 
   - name: rh-icon-award-ribbon
     icon: award-ribbon
-    description: "A first-place ribbon — represents recognition, awards, top performance, and achievements."
+    description: "An award ribbon — represents recognition, awards, top performance, and achievements."
     accepted_metaphors:
       - award
       - recognition
@@ -2253,7 +2250,6 @@ icons:
       - financial analysis
       - math operations
       - cost computation
-      - TCO calculator
     rejected_metaphors:
       - financial reporting (use report icon)
 
@@ -2265,9 +2261,9 @@ icons:
       - visual capture
       - scanning
       - content creation
-      - security camera (use security-camera icon instead for CCTV)
     rejected_metaphors:
       - video (use video icon)
+      - security camera (use security-camera icon instead for CCTV)
 
   - name: rh-icon-candle
     icon: candle
@@ -2282,7 +2278,7 @@ icons:
 
   - name: rh-icon-celebration
     icon: celebration
-    description: "A megaphone with confetti — represents announcements, celebrations, and major events."
+    description: "A party popper with confetti — represents announcements, celebrations, and major events."
     accepted_metaphors:
       - celebration
       - announcement
@@ -2294,7 +2290,7 @@ icons:
 
   - name: rh-icon-clock
     icon: clock
-    description: "A wall clock — represents time, scheduling, uptime, and time-based events."
+    description: "An analog clock — represents time, scheduling, uptime, and time-based events."
     accepted_metaphors:
       - time
       - scheduling
@@ -2392,7 +2388,7 @@ icons:
 
   - name: rh-icon-farm-tools
     icon: farm-tools
-    description: "Crossed farm tools — represents agriculture, farming, and rural operations."
+    description: "Shovel and pitchfork — represents agriculture, farming, and rural operations."
     accepted_metaphors:
       - agriculture
       - farming
@@ -2473,7 +2469,7 @@ icons:
 
   - name: rh-icon-globe
     icon: globe
-    description: "A globe with grid lines — represents global operations, worldwide reach, and international scale."
+    description: "A tabletop globe — represents global operations, worldwide reach, and international scale."
     accepted_metaphors:
       - global operations
       - worldwide reach
@@ -2486,7 +2482,7 @@ icons:
 
   - name: rh-icon-globe-abstract
     icon: globe-abstract
-    description: "An abstract globe shape — represents global scale, international presence, and worldwide connectivity."
+    description: "An globe with grid lines — represents global scale, international presence, and worldwide connectivity."
     accepted_metaphors:
       - global scale
       - international presence
@@ -2752,7 +2748,7 @@ icons:
 
   - name: rh-icon-money
     icon: money
-    description: "A bill or coin — represents money, financial value, and currency transactions."
+    description: "A bill and coins — represents money, financial value, and currency transactions."
     accepted_metaphors:
       - money
       - financial value
@@ -2775,7 +2771,7 @@ icons:
 
   - name: rh-icon-origami
     icon: origami
-    description: "An origami crane — represents creativity, craftsmanship, precision, and Japanese culture."
+    description: "An origami bird — represents creativity, craftsmanship, precision, and Japanese culture."
     accepted_metaphors:
       - creativity
       - craftsmanship
@@ -2881,7 +2877,7 @@ icons:
 
   - name: rh-icon-podium-presentation
     icon: podium-presentation
-    description: "A person at a podium — represents presentations, keynotes, speaking engagements, and lectures."
+    description: "A podium — represents presentations, keynotes, speaking engagements, and lectures."
     accepted_metaphors:
       - presentation
       - keynote
@@ -3073,7 +3069,7 @@ icons:
   # ── Office and work ────────────────────────────────────────────────────────
   - name: rh-icon-air-filter
     icon: air-filter
-    description: "An air filter unit — represents air quality, HVAC systems, and workplace environment amenities."
+    description: "An air filter with particles passing through — represents air quality, HVAC systems, and workplace environment amenities."
     accepted_metaphors:
       - air quality
       - HVAC
@@ -3084,7 +3080,7 @@ icons:
 
   - name: rh-icon-assigned-desk
     icon: assigned-desk
-    description: "A desk with a personal assignment indicator — represents permanently assigned desk space in office environments."
+    description: "A desk — represents permanently assigned desk space in office environments."
     accepted_metaphors:
       - assigned desk
       - permanent workspace
@@ -3095,7 +3091,7 @@ icons:
 
   - name: rh-icon-cart
     icon: cart
-    description: "A push cart — represents item delivery, transport within facilities, and logistics carts."
+    description: "A push cart with a package — represents item delivery, transport within facilities, and logistics carts."
     accepted_metaphors:
       - delivery cart
       - facility transport
@@ -3159,7 +3155,7 @@ icons:
 
   - name: rh-icon-locker-assigned
     icon: locker-assigned
-    description: "An assigned personal locker — represents permanently assigned personal storage in workplace facilities."
+    description: "A locker with a home symbol on it — represents permanently assigned personal storage in workplace facilities."
     accepted_metaphors:
       - assigned storage
       - permanent personal locker
@@ -3169,7 +3165,7 @@ icons:
 
   - name: rh-icon-locker-day-use
     icon: locker-day-use
-    description: "A day-use locker — represents temporary personal storage for daily use in flexible workplace settings."
+    description: "A locker with a sun symbol — represents temporary personal storage for daily use in flexible workplace settings."
     accepted_metaphors:
       - temporary storage
       - day-use personal space
@@ -3179,7 +3175,7 @@ icons:
 
   - name: rh-icon-mobile-associate
     icon: mobile-associate
-    description: "A person at a mobile desk — represents mobile associates, flexible seating, and agile workspace assignments."
+    description: "An office chair — represents mobile associates, flexible seating, and agile workspace assignments."
     accepted_metaphors:
       - mobile associate
       - flexible seating
@@ -3190,7 +3186,7 @@ icons:
 
   - name: rh-icon-neighborhood
     icon: neighborhood
-    description: "A cluster of workspace zones — represents neighborhood-style workplace areas, team zones, and collaborative spaces."
+    description: "Two couches around a round table — represents neighborhood-style workplace areas, team zones, and collaborative spaces."
     accepted_metaphors:
       - neighborhood workspace
       - team zone
@@ -3223,7 +3219,7 @@ icons:
 
   - name: rh-icon-remote-associate
     icon: remote-associate
-    description: "A person working from home — represents remote work, work-from-home employees, and distributed teams."
+    description: "A laptop with broadcasting waves in a house — represents remote work, work-from-home employees, and distributed teams."
     accepted_metaphors:
       - remote work
       - work from home
@@ -3256,7 +3252,7 @@ icons:
 
   - name: rh-icon-single-use-workspace
     icon: single-use-workspace
-    description: "A private single-use workspace pod — represents phone booths, quiet rooms, and individual focus spaces."
+    description: "One person with a laptop — represents phone booths, quiet rooms, and individual focus spaces."
     accepted_metaphors:
       - phone booth
       - quiet room
@@ -3267,7 +3263,7 @@ icons:
 
   - name: rh-icon-shared-workspace
     icon: shared-workspace
-    description: "A workspace with multiple seats — represents shared collaborative spaces, flex seating, and open offices."
+    description: "Two people connected by angular lines symbolizing a room — represents shared collaborative spaces, flex seating, and open offices."
     accepted_metaphors:
       - shared workspace
       - collaborative space
@@ -3278,7 +3274,7 @@ icons:
 
   - name: rh-icon-touchdown-area
     icon: touchdown-area
-    description: "A temporary touchdown workspace — represents drop-in seating, touchdown stations, and temporary work areas."
+    description: "A chair with a buit-in desk — represents drop-in seating, touchdown stations, and temporary work areas."
     accepted_metaphors:
       - touchdown seat
       - drop-in workspace
@@ -3290,7 +3286,7 @@ icons:
   # ── People and audiences ───────────────────────────────────────────────────
   - name: rh-icon-architect
     icon: architect
-    description: "A person with architectural blueprints — represents solution architects, enterprise architects, and technical planners."
+    description: "A document with a branching diagram — represents solution architects, enterprise architects, and technical planners."
     accepted_metaphors:
       - solution architect
       - enterprise architect
@@ -3301,7 +3297,7 @@ icons:
 
   - name: rh-icon-ceo-businessleader
     icon: ceo-businessleader
-    description: "A business leader with a briefcase — represents CEOs, executive leadership, and C-suite decision makers."
+    description: "A briefcase — represents CEOs, executive leadership, and C-suite decision makers."
     accepted_metaphors:
       - CEO
       - executive leadership
@@ -3314,7 +3310,7 @@ icons:
 
   - name: rh-icon-cio-it-decision-maker
     icon: cio-it-decision-maker
-    description: "An IT decision maker with a monitor — represents CIOs, IT leadership, and technology decision makers."
+    description: "A monitor with bar graph — represents CIOs, IT leadership, and technology decision makers."
     accepted_metaphors:
       - CIO
       - IT leadership
@@ -3326,7 +3322,7 @@ icons:
 
   - name: rh-icon-cio-itdm
     icon: cio-itdm
-    description: "An IT decision maker persona — represents CIO/ITDM audience personas used in marketing and sales materials."
+    description: "A monitor with bar graph — represents CIO/ITDM audience personas used in marketing and sales materials."
     accepted_metaphors:
       - CIO persona
       - ITDM
@@ -3337,7 +3333,7 @@ icons:
 
   - name: rh-icon-collaboration
     icon: collaboration
-    description: "People with shared ideas — represents teamwork, collaborative ideation, and joint problem-solving."
+    description: "People with a shared speech bubble — represents teamwork, collaborative ideation, and joint problem-solving."
     accepted_metaphors:
       - teamwork
       - collaborative ideation
@@ -3361,7 +3357,7 @@ icons:
 
   - name: rh-icon-conversation
     icon: conversation
-    description: "Two people talking — represents conversations, dialogue, customer conversations, and discussions."
+    description: "Two overlapping speech bubbles — represents conversations, dialogue, customer conversations, and discussions."
     accepted_metaphors:
       - conversation
       - dialogue
@@ -3373,7 +3369,7 @@ icons:
 
   - name: rh-icon-cross-functional-collaboration
     icon: cross-functional-collaboration
-    description: "People across departments collaborating — represents cross-functional teams, agile ceremonies, and multi-team collaboration."
+    description: "People beneath a bidirectional horizontal arrow — represents cross-functional teams, agile ceremonies, and multi-team collaboration."
     accepted_metaphors:
       - cross-functional team
       - agile ceremony
@@ -3384,7 +3380,7 @@ icons:
 
   - name: rh-icon-developer
     icon: developer
-    description: "A person at a laptop — represents software developers, engineers, and technical contributors."
+    description: "A laptop screen with a code symbol — represents software developers, engineers, and technical contributors."
     accepted_metaphors:
       - software developer
       - engineer
@@ -3396,7 +3392,7 @@ icons:
 
   - name: rh-icon-digital-standup
     icon: digital-standup
-    description: "A virtual standup meeting — represents daily standups, agile ceremonies, and remote team rituals."
+    description: "A laptop screen showing a person with a speech bubble — represents daily standups, agile ceremonies, and remote team rituals."
     accepted_metaphors:
       - daily standup
       - virtual meeting
@@ -3464,7 +3460,7 @@ icons:
 
   - name: rh-icon-koala-admin
     icon: koala-admin
-    description: "The Koala admin persona — represents Red Hat certification administrators and Koala system administrators."
+    description: "A laptop with a gear icon — represents Red Hat certification administrators and Koala system administrators."
     accepted_metaphors:
       - Koala admin
       - certification administrator
@@ -3474,7 +3470,7 @@ icons:
 
   - name: rh-icon-online-collaboration
     icon: online-collaboration
-    description: "People collaborating online — represents remote collaboration, virtual teamwork, and distributed co-creation."
+    description: "Laptop screen showing two people with a lightbulb in the middle — represents remote collaboration, virtual teamwork, and distributed co-creation."
     accepted_metaphors:
       - online collaboration
       - remote co-creation
@@ -3485,7 +3481,7 @@ icons:
 
   - name: rh-icon-open-source
     icon: open-source
-    description: "People with open connection lines — represents open source communities, collaborative development, and the open source ethos."
+    description: "A group of three dashed and sometimes overlapping circles — represents open source communities, collaborative development, and the open source ethos."
     accepted_metaphors:
       - open source
       - community contribution
@@ -3496,7 +3492,7 @@ icons:
 
   - name: rh-icon-operations
     icon: operations
-    description: "A person managing servers — represents IT operations, ops teams, and infrastructure management roles."
+    description: "A code tag symbol above a server box — represents IT operations, ops teams, and infrastructure management roles."
     accepted_metaphors:
       - IT operations
       - ops team
@@ -3508,7 +3504,7 @@ icons:
 
   - name: rh-icon-rockstar
     icon: rockstar
-    description: "A performer with a microphone — represents top performers, rockstars, and entertainment contexts."
+    description: "A microphone — represents top performers, rockstars, and entertainment contexts."
     accepted_metaphors:
       - top performer
       - rockstar employee
@@ -3519,7 +3515,7 @@ icons:
 
   - name: rh-icon-standup
     icon: standup
-    description: "A team in a standup circle — represents in-person daily standups, agile team meetings, and team rituals."
+    description: "A team with a speech bubble above one person — represents in-person daily standups, agile team meetings, and team rituals."
     accepted_metaphors:
       - daily standup
       - in-person team meeting
@@ -3530,7 +3526,7 @@ icons:
 
   - name: rh-icon-support
     icon: support
-    description: "A person with a headset — represents customer support, technical support, and help desk."
+    description: "A headset — represents customer support, technical support, and help desk."
     accepted_metaphors:
       - customer support
       - technical support
@@ -3541,7 +3537,7 @@ icons:
 
   - name: rh-icon-sys-admin
     icon: sys-admin
-    description: "A person with a server key — represents system administrators, sysadmins, and IT infrastructure managers."
+    description: "A server with a key above it — represents system administrators, sysadmins, and IT infrastructure managers."
     accepted_metaphors:
       - system administrator
       - sysadmin
@@ -3553,7 +3549,7 @@ icons:
 
   - name: rh-icon-talk-bubble
     icon: talk-bubble
-    description: "A speech bubble — represents conversations, quotes, comments, and customer dialogue."
+    description: "A rectangular speech bubble — represents conversations, quotes, comments, and customer dialogue."
     accepted_metaphors:
       - conversation
       - quote
@@ -3565,7 +3561,7 @@ icons:
 
   - name: rh-icon-thought-bubble
     icon: thought-bubble
-    description: "A cloud thought bubble — represents thinking, ideas, imagination, and brainstorming."
+    description: "A round thought bubble — represents thinking, ideas, imagination, and brainstorming."
     accepted_metaphors:
       - thinking
       - ideation
@@ -4087,15 +4083,17 @@ icons:
 
   - name: rh-icon-check
     icon: check
-    description: "A checkmark — represents confirmation, approval, task completion, and verification."
+    description: "A bank check — represents payment by check, financial transactions, and traditional banking."
     accepted_metaphors:
-      - confirmation
-      - approval
-      - task completion
-      - verification
-      - done state
+      - bank check or cheque
+      - payment method
+      - financial transaction
+      - traditional banking
+      - accounts payable or receivable
     rejected_metaphors:
+      - checkmark or confirmation (use yes icon)
       - checkbox (use checkbox-checked icon)
+      - general payment (use credit-card or money icon)
 
   - name: rh-icon-combustible
     icon: combustible
