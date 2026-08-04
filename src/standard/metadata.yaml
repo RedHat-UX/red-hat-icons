@@ -2348,7 +2348,7 @@ icons:
       - athletics
       - team competition
     rejected_metaphors:
-      - baseball (use bat icon)
+      - bat animal (use bat icon)
 
   - name: rh-icon-drone
     icon: drone
@@ -5853,7 +5853,7 @@ icons:
   # ── Miscellaneous / newer additions ───────────────────────────────────────
   - name: rh-icon-agentic
     icon: agentic
-    description: "An AI agent with action indicators — represents agentic AI systems, autonomous AI agents, and multi-agent workflows."
+    description: "A winding process path with flow arrows moving through a center grid between square nodes — represents agentic AI systems, autonomous AI agents, and multi-agent workflows."
     accepted_metaphors:
       - agentic AI
       - autonomous agent
@@ -5887,7 +5887,7 @@ icons:
 
   - name: rh-icon-ai-chatbot-happy
     icon: ai-chatbot-happy
-    description: "An AI chatbot character with a happy expression — represents a successful, positive AI chatbot interaction."
+    description: "An AI chatbot character with a smile — represents a successful, positive AI chatbot interaction."
     accepted_metaphors:
       - happy AI chatbot
       - successful chatbot interaction
@@ -5897,7 +5897,7 @@ icons:
 
   - name: rh-icon-ai-chatbot-sad
     icon: ai-chatbot-sad
-    description: "An AI chatbot character with a sad expression — represents a disappointed or unhelpful AI chatbot state."
+    description: "An AI chatbot character with a frown — represents a disappointed or unhelpful AI chatbot state."
     accepted_metaphors:
       - sad AI chatbot
       - unsuccessful chatbot
@@ -5907,7 +5907,7 @@ icons:
 
   - name: rh-icon-ai-experience
     icon: ai-experience
-    description: "An AI user experience symbol — represents AI-enhanced user experiences, conversational AI, and AI-driven interfaces."
+    description: "A large sparkle next to a smaller sparkle — represents AI-enhanced user experiences, conversational AI, and AI-driven interfaces."
     accepted_metaphors:
       - AI user experience
       - AI-enhanced interface
@@ -5918,7 +5918,7 @@ icons:
 
   - name: rh-icon-ai-inference
     icon: ai-inference
-    description: "An AI inference flow — represents AI model inference, running predictions, and serving model outputs."
+    description: "A central grid surrounded by a hexagonal ring of six connected square nodes — represents AI model inference, running predictions, and serving model outputs."
     accepted_metaphors:
       - AI inference
       - model prediction serving
@@ -5929,7 +5929,7 @@ icons:
 
   - name: rh-icon-ai-ml
     icon: ai-ml
-    description: "An AI/ML combined symbol — represents artificial intelligence and machine learning together, ML platforms, and AI pipelines."
+    description: "A large sparkle next to a smaller sparkle — represents artificial intelligence and machine learning together, ML platforms, and AI pipelines."
     accepted_metaphors:
       - AI and machine learning
       - ML platform
@@ -5952,7 +5952,7 @@ icons:
 
   - name: rh-icon-ai-model-registered
     icon: ai-model-registered
-    description: "An AI model with a registered indicator — represents a model that has been registered in a model registry for governance."
+    description: "An AI model with a checkmark in square brackets — represents a model that has been registered in a model registry for governance."
     accepted_metaphors:
       - registered AI model
       - model under governance
@@ -5963,7 +5963,7 @@ icons:
 
   - name: rh-icon-ai-model-validated
     icon: ai-model-validated
-    description: "An AI model with a validation indicator — represents a validated, verified, or approved ML model."
+    description: "An AI model with a checkmark in a circle — represents a validated, verified, or approved ML model."
     accepted_metaphors:
       - validated AI model
       - verified model
@@ -5974,7 +5974,7 @@ icons:
 
   - name: rh-icon-ai-sovereignty
     icon: ai-sovereignty
-    description: "An AI system with sovereignty indicators — represents AI sovereignty, sovereign AI deployments, and locally controlled AI."
+    description: "A sparkle in a square — represents AI sovereignty, sovereign AI deployments, and locally controlled AI."
     accepted_metaphors:
       - AI sovereignty
       - sovereign AI deployment
@@ -5986,7 +5986,7 @@ icons:
 
   - name: rh-icon-air-pillow-packaging
     icon: air-pillow-packaging
-    description: "Air pillow packaging material — represents protective packaging, e-commerce fulfillment, and sustainable packaging materials."
+    description: "Inflated air pillow — represents protective packaging, e-commerce fulfillment, and sustainable packaging materials."
     accepted_metaphors:
       - protective packaging
       - e-commerce fulfillment
@@ -5996,7 +5996,7 @@ icons:
 
   - name: rh-icon-aluminum-foil-and-plastic-wrap
     icon: aluminum-foil-and-plastic-wrap
-    description: "Foil and plastic wrap rolls — represents food packaging materials, packaging industry, and material classification."
+    description: "Foil or plastic wrap roll — represents food packaging materials, packaging industry, and material classification."
     accepted_metaphors:
       - food packaging
       - packaging industry
@@ -6006,7 +6006,7 @@ icons:
 
   - name: rh-icon-assurance-sovereignty
     icon: assurance-sovereignty
-    description: "An assurance shield with sovereignty indicators — represents sovereign assurance frameworks, trust assurance within jurisdictions."
+    description: "A shield with a checkarmk inside a square — represents sovereign assurance frameworks, trust assurance within jurisdictions."
     accepted_metaphors:
       - sovereign assurance
       - trust assurance
@@ -6029,7 +6029,7 @@ icons:
 
   - name: rh-icon-backup-recovery
     icon: backup-recovery
-    description: "A backup with recovery arrows — represents data backup, disaster recovery, and business continuity."
+    description: "A stack of servers with a circular arrow going counterclockwise — represents data backup, disaster recovery, and business continuity."
     accepted_metaphors:
       - data backup
       - disaster recovery
@@ -6052,18 +6052,20 @@ icons:
 
   - name: rh-icon-bat
     icon: bat
-    description: "A baseball bat — represents baseball, sports, competition, and team events."
+    description: "A bat with outstretched wings — represents nocturnal animals, echolocation, wildlife, and sensing in the dark."
     accepted_metaphors:
-      - baseball
-      - sports
-      - competition
-      - team event
+      - nocturnal animal
+      - echolocation
+      - wildlife
+      - sensing in the dark
+      - cave habitat
     rejected_metaphors:
+      - bird (use bird icon)
       - cricket bat (use cricket-bats icon)
 
   - name: rh-icon-bubble-wrap
     icon: bubble-wrap
-    description: "Bubble wrap — represents protective packaging, delicate shipments, and e-commerce packing materials."
+    description: "A roll of bubble wrap — represents protective packaging, delicate shipments, and e-commerce packing materials."
     accepted_metaphors:
       - protective packaging
       - delicate shipment
@@ -6074,7 +6076,7 @@ icons:
 
   - name: rh-icon-call-to-action
     icon: call-to-action
-    description: "A call-to-action banner — represents marketing CTAs, conversion actions, and engagement prompts."
+    description: "A call-to-action component with a cursor pointing to it — represents marketing CTAs, conversion actions, and engagement prompts."
     accepted_metaphors:
       - call to action
       - marketing CTA
@@ -6085,7 +6087,7 @@ icons:
 
   - name: rh-icon-cardboard-box
     icon: cardboard-box
-    description: "A cardboard shipping box — represents physical packaging, shipping, e-commerce orders, and logistics."
+    description: "A cardboard box — represents physical packaging, shipping, e-commerce orders, and logistics."
     accepted_metaphors:
       - shipping box
       - e-commerce order
@@ -6108,7 +6110,7 @@ icons:
 
   - name: rh-icon-craft-paper
     icon: craft-paper
-    description: "Rolled craft paper — represents sustainable packaging, craft materials, and eco-friendly paper products."
+    description: "Layered squares of craft paper — represents sustainable packaging, craft materials, and eco-friendly paper products."
     accepted_metaphors:
       - sustainable packaging
       - craft materials
@@ -6130,7 +6132,7 @@ icons:
 
   - name: rh-icon-hub
     icon: hub
-    description: "A hub with connected spokes — represents centralized hubs, hub-and-spoke architectures, and central coordination points."
+    description: "Four squares connected by curved lines — represents centralized hubs, hub-and-spoke architectures, and central coordination points."
     accepted_metaphors:
       - hub-and-spoke architecture
       - centralized hub
@@ -6141,7 +6143,7 @@ icons:
 
   - name: rh-icon-operational-sovereignty
     icon: operational-sovereignty
-    description: "Operational controls with sovereignty indicators — represents sovereign operational practices, operationally independent systems."
+    description: "A server with a code symbol inside a square — represents sovereign operational practices, operationally independent systems."
     accepted_metaphors:
       - operational sovereignty
       - sovereign operations
@@ -6207,7 +6209,7 @@ icons:
 
   - name: rh-icon-sovereign-cloud
     icon: sovereign-cloud
-    description: "A cloud with sovereignty indicators — represents sovereign cloud deployments, data residency-compliant clouds."
+    description: "A cloud inside a square with a padlock — represents sovereign cloud deployments, data residency-compliant clouds."
     accepted_metaphors:
       - sovereign cloud
       - data residency-compliant cloud
@@ -6219,7 +6221,7 @@ icons:
 
   - name: rh-icon-styrofoam
     icon: styrofoam
-    description: "A styrofoam cup or container — represents non-recyclable packaging, single-use plastics, and environmental impact."
+    description: "A styrofoam container — represents non-recyclable packaging, single-use plastics, and environmental impact."
     accepted_metaphors:
       - styrofoam
       - non-recyclable packaging
@@ -6242,7 +6244,7 @@ icons:
 
   - name: rh-icon-technical-sovereignty
     icon: technical-sovereignty
-    description: "Technical systems with sovereignty indicators — represents technical sovereignty, sovereign technology control, and independent technical infrastructure."
+    description: "Isometric layers inside a square — represents technical sovereignty, sovereign technology control, and independent technical infrastructure."
     accepted_metaphors:
       - technical sovereignty
       - sovereign technology control
@@ -6278,19 +6280,19 @@ icons:
 
   - name: rh-icon-yoga-mat
     icon: yoga-mat
-    description: "A yoga mat — represents wellness programs, fitness benefits, work-life balance, and employee wellbeing."
+    description: "A half-rolled yoga mat — represents wellness programs, fitness benefits, work-life balance, and employee wellbeing."
     accepted_metaphors:
       - wellness program
       - fitness benefit
       - work-life balance
       - employee wellbeing
     rejected_metaphors:
-      - gym (use safety-goggles icon)
+      - strenuous exercise (use run-shoe icon)
 
   # ── Harvey Balls ───────────────────────────────────────────────────────────
   # Harvey balls are circular percentage-fill indicators used in comparison charts.
   # Use to represent completion percentages, capability ratings, and feature comparisons.
-  # Do not use for progress bars (use a bar chart or progress component instead).
+  # Do not use for progress bars (use a progress component instead).
   - name: rh-icon-harvey-ball-0
     icon: harvey-ball-0
     description: "A Harvey ball showing 0% fill — represents zero completion, no capability, or a completely unfilled indicator."
