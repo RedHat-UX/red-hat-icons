@@ -5335,7 +5335,7 @@ icons:
 
   - name: rh-icon-registered-model
     icon: registered-model
-    description: "A neural network with a checkmark between two square brackets — represents models that have been registered in a model registry and are under governance."
+    description: "A brain with a checkmark between two square brackets — represents models that have been registered in a model registry and are under governance."
     accepted_metaphors:
       - registered ML model
       - model under governance
