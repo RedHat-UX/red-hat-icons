@@ -3621,10 +3621,10 @@ icons:
 
   - name: rh-icon-bird
     icon: bird
-    description: "A bird in flight — represents freedom, speed, migration, and open horizons."
+    description: "A bird in flight — represents freedom, speed, animal migration, and open horizons."
     accepted_metaphors:
       - freedom
-      - migration
+      - animal migration
       - speed
       - open horizons
     rejected_metaphors:
@@ -5173,7 +5173,7 @@ icons:
 
   - name: rh-icon-mcp-server
     icon: mcp-server
-    description: "A server with an AI sparkle above it  — represents Model Context Protocol servers, AI tool servers, and LLM integration endpoints."
+    description: "A server with an AI sparkle above it — represents Model Context Protocol servers, AI tool servers, and LLM integration endpoints."
     accepted_metaphors:
       - MCP server
       - Model Context Protocol server
