@@ -2914,7 +2914,7 @@ icons:
 
   - name: rh-ui-icon-decreasing-fill
     icon: decreasing-fill
-    description: "Filled downward trend line — represents emphasized metric, value, or rate is declining."
+    description: "Downward trend line in filled square — represents emphasized metric, value, or rate is declining."
     accepted_metaphors:
       - declining metric
       - downward trend
@@ -2940,7 +2940,7 @@ icons:
 
   - name: rh-ui-icon-increasing-fill
     icon: increasing-fill
-    description: "Filled upward trend line — represents emphasized metric, value, or rate is growing."
+    description: "Upward trend line in filled square — represents emphasized metric, value, or rate is growing."
     accepted_metaphors:
       - growing metric
       - upward trend
@@ -2989,7 +2989,7 @@ icons:
 
   - name: rh-ui-icon-checkup
     icon: checkup
-    description: "Stethoscope or diagnostic symbol — represents a health check, system audit, or diagnostic scan."
+    description: "Stethoscope — represents a health check, system audit, or diagnostic scan."
     accepted_metaphors:
       - health check
       - system diagnostic
@@ -3002,7 +3002,7 @@ icons:
 
   - name: rh-ui-icon-checkup-fill
     icon: checkup-fill
-    description: "Filled stethoscope or diagnostic symbol — represents emphasized health check, system audit, or diagnostic scan."
+    description: "Filled stethoscope — represents emphasized health check, system audit, or diagnostic scan."
     accepted_metaphors:
       - health check
       - system diagnostic
@@ -3015,7 +3015,7 @@ icons:
 
   - name: rh-ui-icon-degraded
     icon: degraded
-    description: "Partial or impaired indicator — represents a service or resource is operating below expected performance."
+    description: "Stack of storage disks crossed out — represents a service or resource is operating below expected performance."
     accepted_metaphors:
       - degraded performance
       - partially impaired

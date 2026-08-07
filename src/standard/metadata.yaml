@@ -1434,7 +1434,7 @@ icons:
 
   - name: rh-icon-storage
     icon: storage
-    description: "A disk drive — represents storage systems, disk drives, and persistent data storage."
+    description: "A storage disk — represents storage systems, disk drives, and persistent data storage."
     accepted_metaphors:
       - storage
       - disk drive
@@ -1447,7 +1447,7 @@ icons:
 
   - name: rh-icon-storage-stack
     icon: storage-stack
-    description: "A stack of disk drives — represents storage arrays, multiple storage volumes, and storage infrastructure."
+    description: "A stack of storage disks — represents storage arrays, multiple storage volumes, and storage infrastructure."
     accepted_metaphors:
       - storage array
       - multiple storage volumes
@@ -1545,7 +1545,7 @@ icons:
 
   - name: rh-icon-virtual-storage
     icon: virtual-storage
-    description: "A disk drive with a dotted outline — represents virtual storage volumes and software-defined storage."
+    description: "A storage disk with a dotted outline — represents virtual storage volumes and software-defined storage."
     accepted_metaphors:
       - virtual storage
       - software-defined storage
@@ -1720,7 +1720,7 @@ icons:
       - physical media distribution
       - media format
     rejected_metaphors:
-      - disk drive (use storage icon)
+      - storage disk (use storage icon)
 
   - name: rh-icon-download
     icon: download
