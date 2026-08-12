@@ -13,6 +13,8 @@
 #   description: what the icon depicts and when to use it
 #   accepted_metaphors: use cases this icon is appropriate for
 #   rejected_metaphors: use cases this icon should not be used for
+#   deprecated: (optional) true — icon is deprecated, prefer replaced_by
+#   replaced_by: (optional) icon id to use instead (icon: value, not rh-icon-* name); only on deprecated icons
 
 set: standard
 source:
@@ -70,7 +72,7 @@ icons:
       - compliance and regulation
       - public sector IT
     rejected_metaphors:
-      - federal legislation specifically (use capitol-building icon)
+      - federal
 
   - name: rh-icon-home
     icon: home
@@ -212,7 +214,6 @@ icons:
     accepted_metaphors:
       - agile integration platform
       - connected agile workflows
-      - Red Hat Agile Integration
       - integration methodology
     rejected_metaphors:
       - general agile (use agile icon)
@@ -554,8 +555,9 @@ icons:
       - transparency
       - passthrough architecture
       - routing without modification
+      - opacity setting
     rejected_metaphors:
-      - opacity setting (design context)
+      - layered architecture (use layered icon)
 
   - name: rh-icon-path
     icon: path
@@ -2516,14 +2518,15 @@ icons:
 
   - name: rh-icon-hand-open
     icon: hand-open
-    description: "An open palm — represents stopping, openness, and a welcoming gesture."
+    description: "An open palm — represents halting, blocking, or signaling to wait."
     accepted_metaphors:
       - stop
       - open gesture
-      - welcoming
-      - accessibility
+      - wait
+      - block access
     rejected_metaphors:
       - thumbs up (use hand-thumbs-up icon)
+      - welcome (use hand-waving icon)
 
   - name: rh-icon-hand-pointing
     icon: hand-pointing
@@ -3472,10 +3475,11 @@ icons:
     description: "Laptop screen showing two people with a lightbulb in the middle — represents remote collaboration, virtual teamwork, and distributed co-creation."
     accepted_metaphors:
       - online collaboration
-      - remote co-creation
-      - virtual teamwork
-      - digital workspace
+      - remote teamwork
+      - online meeting
+      - digital co-working
     rejected_metaphors:
+      - video call (use laptop-video-call icon)
       - virtual collaboration (use virtual-collaboration icon)
 
   - name: rh-icon-open-source
@@ -4584,10 +4588,9 @@ icons:
 
   - name: rh-icon-automation
     icon: automation
-    description: "A downward arrow passing through a gear beside three stacked squares — represents IT automation, Ansible, and automated workflows."
+    description: "A downward arrow passing through a gear beside three stacked squares — represents IT automation and automated workflows."
     accepted_metaphors:
       - IT automation
-      - Ansible
       - automated workflows
       - infrastructure automation
     rejected_metaphors:
@@ -4841,7 +4844,6 @@ icons:
     accepted_metaphors:
       - container image
       - image layer
-      - Dockerfile build
       - container build artifact
     rejected_metaphors:
       - container instance (use container icon)
@@ -4970,7 +4972,7 @@ icons:
       - production AI model
     rejected_metaphors:
       - AI model in training (use develop-and-train icon)
-      - registered model (use registered-model icon)
+      - registered model (use ai-model-registered icon)
 
   - name: rh-icon-develop-and-train
     icon: develop-and-train
@@ -5229,7 +5231,9 @@ icons:
 
   - name: rh-icon-model-registry
     icon: model-registry
-    description: "A registry for AI models — represents ML model registries, model versioning, and model lifecycle management."
+    deprecated: true
+    replaced_by: ai-model-registered
+    description: "Deprecated — use ai-model-registered. A registry for AI models — represents ML model registries, model versioning, and model lifecycle management."
     accepted_metaphors:
       - ML model registry
       - model versioning
@@ -5334,7 +5338,9 @@ icons:
 
   - name: rh-icon-registered-model
     icon: registered-model
-    description: "A brain with a checkmark between two square brackets — represents models that have been registered in a model registry and are under governance."
+    deprecated: true
+    replaced_by: ai-model-registered
+    description: "Deprecated — use ai-model-registered. A brain with a checkmark between two square brackets — represents models that have been registered in a model registry and are under governance."
     accepted_metaphors:
       - registered ML model
       - model under governance
@@ -5946,7 +5952,7 @@ icons:
       - trained model artifact
       - model in the pipeline
     rejected_metaphors:
-      - registered model (use registered-model icon)
+      - registered model (use ai-model-registered icon)
       - deployed model (use deployed-model icon)
 
   - name: rh-icon-ai-model-registered
@@ -5956,9 +5962,11 @@ icons:
       - registered AI model
       - model under governance
       - formally registered ML model
+      - model registry entry
     rejected_metaphors:
       - validated model (use ai-model-validated icon)
       - deployed model (use deployed-model icon)
+      - container registry (use container-registry icon)
 
   - name: rh-icon-ai-model-validated
     icon: ai-model-validated
