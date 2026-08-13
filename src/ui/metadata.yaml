@@ -4510,7 +4510,7 @@ icons:
       - add file to a message
     rejected_metaphors:
       - link or URL (use external-link or a link icon)
-      - thumbtack pin (use thumbtack)
+      - pin (use thumbtack)
 
   # ── Actions ────────────────────────────────────────────────────────────────
   # Action icons represent things a user can do — create, edit, delete, share,
@@ -4527,8 +4527,6 @@ icons:
       - insert
       - increase count
     rejected_metaphors:
-      - add in a circle (use add-circle)
-      - add in a square (use add-square)
       - expand panel (use expand)
 
   - name: rh-ui-icon-add-circle
@@ -4544,7 +4542,7 @@ icons:
 
   - name: rh-ui-icon-add-circle-fill
     icon: add-circle-fill
-    description: "Filled plus sign in a circle — represents add or create, emphasized with a circular container."
+    description: "Plus sign in a filled circle — represents add or create, emphasized with a circular container."
     accepted_metaphors:
       - add (circular button)
       - create new
@@ -4566,7 +4564,7 @@ icons:
 
   - name: rh-ui-icon-add-square-fill
     icon: add-square-fill
-    description: "Filled plus sign in a square — represents emphasized add or create, in a square container."
+    description: "Plus sign in a filled square — represents emphasized add or create, in a square container."
     accepted_metaphors:
       - add (square button)
       - create new
@@ -4577,7 +4575,7 @@ icons:
 
   - name: rh-ui-icon-duplicate
     icon: duplicate
-    description: "Two overlapping documents — represents duplicate or clone an item."
+    description: "Two overlapping squares — represents duplicate or clone an item."
     accepted_metaphors:
       - duplicate
       - clone
@@ -4590,7 +4588,7 @@ icons:
 
   - name: rh-ui-icon-duplicate-fill
     icon: duplicate-fill
-    description: "Two filled overlapping documents — represents emphasized duplicate or clone an item."
+    description: "Two filled overlapping squares — represents emphasized duplicate or clone an item."
     accepted_metaphors:
       - duplicate
       - clone
@@ -4631,7 +4629,7 @@ icons:
 
   - name: rh-ui-icon-close-circle-fill
     icon: close-circle-fill
-    description: "Filled x in a circle — represents emphasized close or remove, in a circular container."
+    description: "x in a filled circle — represents emphasized close or remove, in a circular container."
     accepted_metaphors:
       - close (circular)
       - remove tag
@@ -4676,7 +4674,6 @@ icons:
     rejected_metaphors:
       - delete to trash (use trash)
       - close (use close)
-      - minus in a circle (use minus-circle)
 
   - name: rh-ui-icon-minus-circle
     icon: minus-circle
@@ -4754,7 +4751,7 @@ icons:
 
   - name: rh-ui-icon-draw
     icon: draw
-    description: "Pen with a stroke — represents freehand drawing, sketching, or vector illustration."
+    description: "Fountain pen — represents freehand drawing, sketching, or vector illustration."
     accepted_metaphors:
       - draw or sketch
       - freehand tool
@@ -4766,7 +4763,7 @@ icons:
 
   - name: rh-ui-icon-draw-fill
     icon: draw-fill
-    description: "Filled pen with a stroke — represents emphasized freehand drawing, sketching, or vector illustration."
+    description: "Filled Fountain pen — represents emphasized freehand drawing, sketching, or vector illustration."
     accepted_metaphors:
       - draw or sketch
       - freehand tool
@@ -4778,7 +4775,7 @@ icons:
 
   - name: rh-ui-icon-optimize
     icon: optimize
-    description: "Pencil with a sparkle — represents optimize, improve, or refine something."
+    description: "Pencil with dots — represents optimize, improve, or refine something."
     accepted_metaphors:
       - optimize
       - improve or refine
@@ -4791,7 +4788,7 @@ icons:
 
   - name: rh-ui-icon-optimize-fill
     icon: optimize-fill
-    description: "Filled pencil with a sparkle — represents emphasized optimize, improve, or refine something."
+    description: "Filled pencil with dots — represents emphasized optimize, improve, or refine something."
     accepted_metaphors:
       - optimize
       - improve or refine
@@ -4839,7 +4836,6 @@ icons:
     rejected_metaphors:
       - check in a circle (use check-circle)
       - clipboard check (use check-clipboard)
-      - success status (use check-circle)
 
   - name: rh-ui-icon-undo
     icon: undo
@@ -4941,7 +4937,7 @@ icons:
 
   - name: rh-ui-icon-export
     icon: export
-    description: "Arrow pointing out of a box — represents export or extract data from the system."
+    description: "Arrow pointing to bottom right of box — represents export or extract data from the system."
     accepted_metaphors:
       - export
       - extract or download file
@@ -4955,7 +4951,7 @@ icons:
 
   - name: rh-ui-icon-export-fill
     icon: export-fill
-    description: "Filled arrow pointing out of a box — represents emphasized export or extract data from the system."
+    description: "Filled arrow pointing to bottom right of box — represents emphasized export or extract data from the system."
     accepted_metaphors:
       - export
       - extract or download file
@@ -4987,7 +4983,6 @@ icons:
       - ingest data
     rejected_metaphors:
       - export (use export)
-      - primary import style (use import)
 
   - name: rh-ui-icon-import-alt-fill
     icon: import-alt-fill
@@ -4997,7 +4992,6 @@ icons:
       - ingest data
     rejected_metaphors:
       - export (use export)
-      - primary import style (use import)
 
   - name: rh-ui-icon-upload
     icon: upload
@@ -5032,13 +5026,13 @@ icons:
       - create a copy for recovery
       - mirror data
     rejected_metaphors:
-      - save in-place (use save)
+      - save (use save)
       - export (use export)
       - history or audit log (use history)
 
   - name: rh-ui-icon-publish
     icon: publish
-    description: "Upload arrow with a broadcast indicator — represents publish or release content publicly."
+    description: "Arrow pointing up toward a sideways bracket — represents publish or release content publicly."
     accepted_metaphors:
       - publish
       - go live
@@ -5098,7 +5092,7 @@ icons:
     rejected_metaphors:
       - export file (use export)
       - share (use share)
-      - forward in history (use forward or caret-right)
+      - forward (use forward or caret-right)
 
   - name: rh-ui-icon-link
     icon: link
@@ -5153,7 +5147,7 @@ icons:
 
   - name: rh-ui-icon-install
     icon: install
-    description: "Arrow or indicator pointing inward — represents install software, a package, or an add-on."
+    description: "Arrow or pointing to server — represents install software, a package, or an add-on."
     accepted_metaphors:
       - install
       - set up or deploy locally
@@ -5165,7 +5159,7 @@ icons:
 
   - name: rh-ui-icon-install-fill
     icon: install-fill
-    description: "Filled arrow or indicator pointing inward — represents emphasized install software, a package, or an add-on."
+    description: "Filled arrow or pointing to server — represents emphasized install software, a package, or an add-on."
     accepted_metaphors:
       - install
       - set up or deploy locally
@@ -5218,7 +5212,7 @@ icons:
 
   - name: rh-ui-icon-analyze
     icon: analyze
-    description: "Chart or scan symbol — represents analyze data, inspect trends, or run a diagnostic."
+    description: "Magnifying glass with bar chart — represents analyze data, inspect trends, or run a diagnostic."
     accepted_metaphors:
       - analyze data
       - inspect or scan
@@ -5231,7 +5225,7 @@ icons:
 
   - name: rh-ui-icon-analyze-fill
     icon: analyze-fill
-    description: "Filled chart or scan symbol — represents emphasized analyze data, inspect trends, or run a diagnostic."
+    description: "Filled magnifying glass with bar chart — represents emphasized analyze data, inspect trends, or run a diagnostic."
     accepted_metaphors:
       - analyze data
       - inspect or scan
@@ -5244,7 +5238,7 @@ icons:
 
   - name: rh-ui-icon-compare
     icon: compare
-    description: "Side-by-side panels — represents compare two items, configurations, or values."
+    description: "Venn diagram — represents compare two items, configurations, or values."
     accepted_metaphors:
       - compare
       - side-by-side comparison
@@ -5257,7 +5251,7 @@ icons:
 
   - name: rh-ui-icon-compare-fill
     icon: compare-fill
-    description: "Filled side-by-side panels — represents emphasized compare two items, configurations, or values."
+    description: "Filled Venn diagram — represents emphasized compare two items, configurations, or values."
     accepted_metaphors:
       - compare
       - side-by-side comparison
@@ -5342,7 +5336,7 @@ icons:
 
   - name: rh-ui-icon-distribute
     icon: distribute
-    description: "Lines spread with equal spacing — represents distribute items evenly or allocate resources across targets."
+    description: "A group of dots aligned against a vertical bar with a right arrow — represents distribute items evenly or allocate resources across targets."
     accepted_metaphors:
       - distribute evenly
       - spread or allocate
@@ -5357,7 +5351,7 @@ icons:
 
   - name: rh-ui-icon-refresh
     icon: refresh
-    description: "Circular arrows — represents reload or refresh the current view or data."
+    description: "One circular arrow — represents reload or refresh the current view or data."
     accepted_metaphors:
       - refresh or reload
       - re-fetch data
@@ -5370,7 +5364,7 @@ icons:
 
   - name: rh-ui-icon-sync
     icon: sync
-    description: "Circular arrows with a checkmark or equal indicator — represents synchronize data between systems."
+    description: "Two circular arrows oriented horizontally — represents synchronize data between systems."
     accepted_metaphors:
       - sync
       - synchronize
@@ -5383,7 +5377,7 @@ icons:
 
   - name: rh-ui-icon-sync-alt
     icon: sync-alt
-    description: "Alternate sync arrows — represents synchronize (alternate visual style)."
+    description: "Two circular arrows oriented vertically— represents synchronize (alternate visual style)."
     accepted_metaphors:
       - sync (alternate)
       - synchronize
@@ -5406,7 +5400,7 @@ icons:
 
   - name: rh-ui-icon-condition-node
     icon: condition-node
-    description: "Diamond or branching node — represents a conditional decision point in a workflow or automation."
+    description: "Line branching into two arrows — represents a conditional decision point in a workflow or automation."
     accepted_metaphors:
       - condition or decision node
       - if/else branch
@@ -5419,7 +5413,7 @@ icons:
 
   - name: rh-ui-icon-merge-nodes
     icon: merge-nodes
-    description: "Converging arrows into a single node — represents merge or join multiple workflow paths."
+    description: "Converging lines into a single arrow — represents merge or join multiple workflow paths."
     accepted_metaphors:
       - merge nodes
       - converge workflow paths
@@ -5431,7 +5425,7 @@ icons:
 
   - name: rh-ui-icon-combine
     icon: combine
-    description: "Two items merging — represents combine, merge, or aggregate content or resources."
+    description: "Two inward-pointing horizontal arrows enclosed within four corner brackets  — represents combine, merge, or aggregate content or resources."
     accepted_metaphors:
       - combine or merge
       - aggregate
@@ -5444,7 +5438,7 @@ icons:
 
   - name: rh-ui-icon-combine-fill
     icon: combine-fill
-    description: "Two filled items merging — represents emphasized combine, merge, or aggregate content or resources."
+    description: "Two filled inward-pointing horizontal arrows enclosed within a filled square  — represents emphasized combine, merge, or aggregate content or resources."
     accepted_metaphors:
       - combine or merge
       - aggregate
@@ -5641,7 +5635,7 @@ icons:
 
   - name: rh-ui-icon-volume-up
     icon: volume-up
-    description: "Speaker with sound waves — represents increase or indicate a high audio volume."
+    description: "Speaker with multiple sound waves — represents increase or indicate a high audio volume."
     accepted_metaphors:
       - volume up
       - increase volume
@@ -5653,7 +5647,7 @@ icons:
 
   - name: rh-ui-icon-volume-up-fill
     icon: volume-up-fill
-    description: "Filled speaker with sound waves — represents emphasized increase or indicate a high audio volume."
+    description: "Filled speaker with multiple sound waves — represents emphasized increase or indicate a high audio volume."
     accepted_metaphors:
       - volume up
       - increase volume
@@ -5665,7 +5659,7 @@ icons:
 
   - name: rh-ui-icon-volume-down
     icon: volume-down
-    description: "Speaker with fewer waves — represents decrease or indicate a low audio volume."
+    description: "Speaker with single sound wave — represents decrease or indicate a low audio volume."
     accepted_metaphors:
       - volume down
       - decrease volume
@@ -5676,7 +5670,7 @@ icons:
 
   - name: rh-ui-icon-volume-down-fill
     icon: volume-down-fill
-    description: "Filled speaker with fewer waves — represents emphasized decrease or indicate a low audio volume."
+    description: "Filled speaker with single sound wave — represents emphasized decrease or indicate a low audio volume."
     accepted_metaphors:
       - volume down
       - decrease volume
@@ -5687,7 +5681,7 @@ icons:
 
   - name: rh-ui-icon-mute
     icon: mute
-    description: "Speaker with an X or slash — represents mute audio or silence notifications."
+    description: "Speaker with an X — represents mute audio or silence notifications."
     accepted_metaphors:
       - mute
       - silence
@@ -5695,11 +5689,11 @@ icons:
       - no sound
     rejected_metaphors:
       - volume down (use volume-down)
-      - notification silence (contextual — pair with a label)
+      - notification silence
 
   - name: rh-ui-icon-mute-fill
     icon: mute-fill
-    description: "Filled speaker with an X or slash — represents emphasized mute audio or silence notifications."
+    description: "Filled speaker with an X — represents emphasized mute audio or silence notifications."
     accepted_metaphors:
       - mute
       - silence
@@ -5707,7 +5701,7 @@ icons:
       - no sound
     rejected_metaphors:
       - volume down (use volume-down)
-      - notification silence (contextual — pair with a label)
+      - notification silence
 
   # — Share and communicate ———————————————————————————————————————————————————
 
