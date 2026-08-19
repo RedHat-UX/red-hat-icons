@@ -4775,7 +4775,6 @@ icons:
       - OpenShift cluster
       - compute cluster
       - grouped resources
-      - Red Hat OpenShift
     rejected_metaphors:
       - container (use container icon)
 
