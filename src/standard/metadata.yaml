@@ -2419,7 +2419,7 @@ icons:
       - national identity
       - priority flag
     rejected_metaphors:
-      - signal or alert (use alert in UI set)
+      - signal or alert (use alert icon)
 
   - name: rh-icon-game-controller
     icon: game-controller
@@ -2920,8 +2920,10 @@ icons:
       - sports
       - team competition
       - athletics
+      - American football
     rejected_metaphors:
-      - football (use the same; context determines sport)
+      - basketball (use basketball icon)
+      - soccer or non-American football
 
   - name: rh-icon-scale-unbalanced
     icon: scale-unbalanced
@@ -3584,7 +3586,7 @@ icons:
       - customer
     rejected_metaphors:
       - multiple users (use community-people icon)
-      - specific role (use developer, sys-admin, etc.)
+      - specific role (use developer icon, sys-admin icon, etc.)
 
   # ── Science and nature ─────────────────────────────────────────────────────
   - name: rh-icon-acorn
