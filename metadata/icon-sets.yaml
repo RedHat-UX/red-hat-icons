@@ -15,7 +15,7 @@
 sets:
   - id: microns
     name: Microns
-    manifest: src/microns/metadata.yaml
+    manifest: metadata/microns.yaml
     size_range:
       min_px: 8
       max_px: 12
@@ -27,7 +27,7 @@ sets:
 
   - id: ui
     name: UI icons
-    manifest: src/ui/metadata.yaml
+    manifest: metadata/ui.yaml
     size_range:
       min_px: 14
       max_px: 24
@@ -39,7 +39,7 @@ sets:
 
   - id: standard
     name: Standard icons
-    manifest: src/standard/metadata.yaml
+    manifest: metadata/standard.yaml
     size_range:
       min_px: 24
       max_px: 128
@@ -51,7 +51,7 @@ sets:
 
   - id: social
     name: Social media
-    manifest: src/social/metadata.yaml
+    manifest: metadata/social.yaml
     size_range:
       min_px: 14
       max_px: 24
