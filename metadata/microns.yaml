@@ -1,0 +1,568 @@
+# Microns icon set documentation
+# Descriptions, accepted use cases, and rejected use cases for the Microns set of icons designed by the Brand team.
+# Linked from @rhds/icons/metadata/icon-sets.yaml
+#
+# Sourced by auditing the Brand team's Figma icon library, curated against industry icon
+# meanings, and RHDS icon guidelines.
+#
+# Schema:
+#   name: Icon name (rh-micron-*)
+#   icon: @rhds/icons / <rh-icon> icon id (set="microns")
+#   description: what the icon depicts and when to use it
+#   accepted_metaphors: use cases this icon is appropriate for
+#   rejected_metaphors: use cases this icon should not be used for
+#   deprecated: (optional) true — icon is deprecated, prefer alias_of
+#   alias_of: (optional) canonical icon name this is an alias for
+
+set: microns
+source:
+  type: figma
+  library: Red Hat Icon Library
+  page: Microns
+  retrieved: 2026-07-06
+  curated: 2026-07-20
+
+icons:
+  - name: rh-micron-close
+    icon: close
+    description: "An X for dismissing or closing UI chrome (dialogs, drawers, banners, chips, etc.)."
+    accepted_metaphors:
+      - close
+      - dismiss
+      - clear field
+      - remove chip
+      - cancel overlay
+    rejected_metaphors:
+      - delete
+      - trash
+      - destroy
+      - error
+      - incomplete
+      - stop
+      - minimize
+
+  - name: rh-micron-checkmark
+    icon: checkmark
+    description: "A standalone checkmark for success or confirmation outside a checkbox."
+    accepted_metaphors:
+      - success
+      - complete
+      - done
+      - confirmed
+      - valid
+      - approved
+    rejected_metaphors:
+      - checkbox selected
+      - add
+      - download
+      - next
+      - save file
+
+  - name: rh-micron-checkbox-complete
+    icon: checkbox-complete
+    description: "Outlined checkbox with a check — selected or completed checkbox state."
+    accepted_metaphors:
+      - checkbox selected
+      - checked
+      - multi-select on
+      - task checked in a list
+    rejected_metaphors:
+      - success badge
+      - form submitted
+      - radio selected
+      - close
+      - delete
+
+  - name: rh-micron-checkbox-complete-fill
+    icon: checkbox-complete-fill
+    description: "Filled checkbox with a check — emphasized selected or completed checkbox state."
+    accepted_metaphors:
+      - checkbox selected
+      - checked
+      - multi-select on
+      - task checked in a list
+      - emphasized checked state
+    rejected_metaphors:
+      - success badge
+      - form submitted
+      - radio selected
+      - close
+      - delete
+
+  - name: rh-micron-checkbox-incomplete
+    icon: checkbox-incomplete
+    description: "Empty outlined checkbox — unselected or incomplete checkbox state."
+    accepted_metaphors:
+      - checkbox unselected
+      - unchecked
+      - multi-select off
+      - task unchecked in a list
+    rejected_metaphors:
+      - error
+      - unavailable
+      - indeterminate
+      - close
+      - success
+
+  - name: rh-micron-search
+    icon: search
+    description: "Magnifying glass for search, find, or lookup."
+    accepted_metaphors:
+      - search
+      - find
+      - lookup
+      - query
+    rejected_metaphors:
+      - zoom
+      - preview
+      - inspect
+      - filter controls
+      - browse
+
+  - name: rh-micron-external-link
+    icon: external-link
+    description: "Box with outbound arrow — leaves the current page or app (opens in new window/tab)."
+    accepted_metaphors:
+      - external link
+      - opens in new window
+      - opens in new tab
+      - outbound URL
+    rejected_metaphors:
+      - download
+      - share
+      - export
+      - internal navigation
+      - open modal
+
+  - name: rh-micron-error
+    icon: error
+    description: "Circle with exclamation mark — error or critical alert status."
+    accepted_metaphors:
+      - error
+      - alert
+      - problem
+      - validation failure
+      - critical status
+    rejected_metaphors:
+      - close
+      - dismiss
+      - delete
+      - help
+      - information
+      - success
+
+  - name: rh-micron-error-fill
+    icon: error-fill
+    description: "Filled circle with exclamation point — emphasized error or critical alert."
+    accepted_metaphors:
+      - error
+      - alert
+      - problem
+      - validation failure
+      - critical status
+      - emphasized error
+    rejected_metaphors:
+      - close
+      - dismiss
+      - delete
+      - help
+      - information
+      - success
+
+  - name: rh-micron-information
+    icon: information
+    description: "Circle with an i — contextual information or inline tip."
+    accepted_metaphors:
+      - information
+      - info
+      - tip
+      - details
+    rejected_metaphors:
+      - error
+      - warning
+      - help
+      - FAQ
+      - question
+      - success
+
+  - name: rh-micron-information-fill
+    icon: information-fill
+    description: "Filled circle with an i — emphasized contextual information."
+    accepted_metaphors:
+      - information
+      - info
+      - tip
+      - details
+      - emphasized info
+    rejected_metaphors:
+      - error
+      - warning
+      - help
+      - FAQ
+      - question
+      - success
+
+  - name: rh-micron-question-mark-circle
+    icon: question-mark-circle
+    description: "Circle with a question mark — help or guidance."
+    accepted_metaphors:
+      - help
+      - question
+      - FAQ
+      - learn more
+    rejected_metaphors:
+      - information
+      - tip
+      - error
+      - warning
+      - support ticket
+
+  - name: rh-micron-question-mark-circle-fill
+    icon: question-mark-circle-fill
+    description: "Filled circle with a question mark — emphasized help or guidance."
+    accepted_metaphors:
+      - help
+      - question
+      - FAQ
+      - learn more
+      - emphasized help
+    rejected_metaphors:
+      - information
+      - tip
+      - error
+      - warning
+      - support ticket
+
+  - name: rh-micron-caret-down
+    icon: caret-down
+    description: "Down chevron — expand a component or content area."
+    accepted_metaphors:
+      - expand
+      - open menu
+      - open dropdown
+      - show more
+      - disclosure closed
+    rejected_metaphors:
+      - next page
+      - scroll down
+      - download
+      - collapse
+      - sort
+
+  - name: rh-micron-caret-down-fill
+    icon: caret-down-fill
+    description: "Filled down chevron — expand a component or content area."
+    accepted_metaphors:
+      - expand
+      - open menu
+      - open dropdown
+      - show more
+      - disclosure closed
+    rejected_metaphors:
+      - next page
+      - scroll down
+      - download
+      - collapse
+      - sort
+
+  - name: rh-micron-caret-up
+    icon: caret-up
+    description: "Up chevron — collapse a component or content area."
+    accepted_metaphors:
+      - collapse
+      - close menu
+      - close dropdown
+      - show less
+      - disclosure open
+    rejected_metaphors:
+      - navigate up
+      - upload
+      - expand
+      - back
+      - sort
+
+  - name: rh-micron-caret-up-fill
+    icon: caret-up-fill
+    description: "Filled up chevron — collapse a component or content area."
+    accepted_metaphors:
+      - collapse
+      - close menu
+      - close dropdown
+      - show less
+      - disclosure open
+    rejected_metaphors:
+      - navigate up
+      - upload
+      - expand
+      - back
+      - sort
+
+  - name: rh-micron-caret-left
+    icon: caret-left
+    description: "Left chevron — collapse a panel, hide a sidebar, or step back in a compact control."
+    accepted_metaphors:
+      - collapse panel
+      - hide sidebar
+      - tree collapse
+      - compact previous
+    rejected_metaphors:
+      - browser back
+      - undo
+      - previous page
+      - decrease
+
+  - name: rh-micron-caret-left-fill
+    icon: caret-left-fill
+    description: "Filled left chevron — collapse a panel, hide a sidebar, or step back in a compact control."
+    accepted_metaphors:
+      - collapse panel
+      - hide sidebar
+      - tree collapse
+      - compact previous
+    rejected_metaphors:
+      - browser back
+      - undo
+      - previous page
+      - decrease
+
+  - name: rh-micron-caret-right
+    icon: caret-right
+    description: "Right chevron — expand a nested item, drill in, or advance a compact control."
+    accepted_metaphors:
+      - expand nested item
+      - drill in
+      - show sidebar
+      - tree expand
+      - compact next
+      - overflow button icon
+    rejected_metaphors:
+      - call to action
+      - external link
+      - submit
+      - next page
+
+  - name: rh-micron-caret-right-fill
+    icon: caret-right-fill
+    description: "Filled right chevron — expand a nested item, drill in, or advance a compact control."
+    accepted_metaphors:
+      - expand nested item
+      - drill in
+      - show sidebar
+      - tree expand
+      - compact next
+      - overflow button icon
+    rejected_metaphors:
+      - call to action
+      - external link
+      - submit
+      - next page
+
+  - name: rh-micron-arrow-right
+    icon: arrow-right
+    description: "Right arrow — forward navigation or continue."
+    accepted_metaphors:
+      - next
+      - forward
+      - continue
+      - proceed
+      - direction right
+    rejected_metaphors:
+      - back
+      - previous
+      - expand
+      - external link
+      - reply
+
+  - name: rh-micron-arrow-left
+    icon: arrow-left
+    description: "Left arrow — back navigation or return."
+    accepted_metaphors:
+      - back
+      - previous
+      - return
+      - direction left
+    rejected_metaphors:
+      - next
+      - forward
+      - undo
+      - reply
+      - collapse
+
+  - name: rh-micron-arrow-up
+    icon: arrow-up
+    description: "Up arrow — move up, ascend, or back to top."
+    accepted_metaphors:
+      - up
+      - ascend
+      - move up
+      - direction up
+      - back to top
+    rejected_metaphors:
+      - upload
+      - expand
+      - sort
+      - increase metric
+
+  - name: rh-micron-arrow-down
+    icon: arrow-down
+    description: "Down arrow — move down or descend."
+    accepted_metaphors:
+      - down
+      - descend
+      - move down
+      - direction down
+    rejected_metaphors:
+      - download
+      - expand
+      - sort
+      - scroll
+
+  - name: rh-micron-double-caret-down
+    icon: double-caret-down
+    description: "Two down chevrons — jump down, expand all, or go to end."
+    accepted_metaphors:
+      - jump down
+      - expand all
+      - page down
+      - go to end
+      - skip forward
+    rejected_metaphors:
+      - single-step next
+      - open dropdown
+      - download
+      - sort
+
+  - name: rh-micron-double-caret-up
+    icon: double-caret-up
+    description: "Two up chevrons — jump up, collapse all, or go to start."
+    accepted_metaphors:
+      - jump up
+      - collapse all
+      - page up
+      - go to start
+      - skip backward
+    rejected_metaphors:
+      - single-step previous
+      - upload
+      - sort
+
+  - name: rh-micron-double-caret-left
+    icon: double-caret-left
+    description: "Two left chevrons — jump back, go to first, or skip a page backward."
+    accepted_metaphors:
+      - jump back
+      - go to first
+      - skip previous page
+      - rewind
+    rejected_metaphors:
+      - single-step back
+      - undo
+      - browser back
+      - collapse panel
+
+  - name: rh-micron-double-caret-right
+    icon: double-caret-right
+    description: "Two right chevrons — jump forward, go to last, or skip a page forward."
+    accepted_metaphors:
+      - jump forward
+      - go to last
+      - skip next page
+      - fast forward
+    rejected_metaphors:
+      - single-step next
+      - external link
+      - submit
+      - call to action
+
+  - name: rh-micron-swap-right-left
+    icon: swap-right-left
+    description: "Opposite horizontal arrows — swap or transfer left to right."
+    accepted_metaphors:
+      - swap horizontally
+      - exchange
+      - transfer left-right
+      - switch places horizontally
+    rejected_metaphors:
+      - refresh
+      - sync
+      - undo
+      - redo
+      - sort
+      - resize
+
+  - name: rh-micron-swap-up-down
+    icon: swap-up-down
+    description: "Opposite vertical arrows — swap or reorder up to down."
+    accepted_metaphors:
+      - swap vertically
+      - exchange
+      - reorder up-down
+      - switch places vertically
+    rejected_metaphors:
+      - refresh
+      - sync
+      - sort
+      - expand
+      - collapse
+
+  # Sort icons: arrow direction + value order. Prefer the pair that matches
+  # the control's arrow affordance; do not pick by ascending/descending alone.
+  - name: rh-micron-sort-up-small-to-large
+    icon: sort-up-small-to-large
+    description: "Sort control with up arrow; order small to large (A to Z, low to high)."
+    accepted_metaphors:
+      - sort ascending with up arrow
+      - A to Z with up arrow
+      - low to high with up arrow
+    rejected_metaphors:
+      - sort-up-large-to-small
+      - sort-down-small-to-large
+      - sort-down-large-to-small
+      - filter
+      - swap
+      - unsorted
+
+  - name: rh-micron-sort-up-large-to-small
+    icon: sort-up-large-to-small
+    description: "Sort control with up arrow; order large to small (Z to A, high to low)."
+    accepted_metaphors:
+      - sort descending with up arrow
+      - Z to A with up arrow
+      - high to low with up arrow
+    rejected_metaphors:
+      - sort-up-small-to-large
+      - sort-down-small-to-large
+      - sort-down-large-to-small
+      - filter
+      - swap
+      - unsorted
+
+  - name: rh-micron-sort-down-small-to-large
+    icon: sort-down-small-to-large
+    description: "Sort control with down arrow; order small to large (A to Z, low to high)."
+    accepted_metaphors:
+      - sort ascending with down arrow
+      - A to Z with down arrow
+      - low to high with down arrow
+    rejected_metaphors:
+      - sort-up-small-to-large
+      - sort-up-large-to-small
+      - sort-down-large-to-small
+      - filter
+      - swap
+      - unsorted
+
+  - name: rh-micron-sort-down-large-to-small
+    icon: sort-down-large-to-small
+    description: "Sort control with down arrow; order large to small (Z to A, high to low)."
+    accepted_metaphors:
+      - sort descending with down arrow
+      - Z to A with down arrow
+      - high to low with down arrow
+    rejected_metaphors:
+      - sort-up-small-to-large
+      - sort-up-large-to-small
+      - sort-down-small-to-large
+      - filter
+      - swap
+      - unsorted

@@ -1,6 +1,7 @@
 # Red Hat Icons — set index
 # Documents each icon set: use case, size range, and path to that set's icon manifest.
-# Set manifests live beside the SVG sources at src/<set>/metadata.yaml.
+# Set manifests live in @rhds/icons/metadata/<set>.yaml
+# Icon sources live in @rhds/icons/<set>/<icon>.svg
 #
 # Size ranges align with RHDS <rh-icon> guidance:
 # https://ux.redhat.com/elements/icon/style/
