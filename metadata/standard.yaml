@@ -967,11 +967,10 @@ icons:
 
   - name: rh-icon-coffee-beans
     icon: coffee-beans
-    description: "Coffee beans and a bag — represents coffee, break room amenities, and office culture."
+    description: "Coffee beans and a bag — represents coffee and break room amenities."
     accepted_metaphors:
       - coffee
       - break room
-      - office culture
       - café environment
     rejected_metaphors:
       - hot drink (use mug icon)
