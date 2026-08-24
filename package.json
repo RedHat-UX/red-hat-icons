@@ -26,6 +26,7 @@
     "./standard/**/*",
     "./social/**/*",
     "./ui/**/*",
+    "./metadata/**/*",
     "icons.js",
     "icons.d.ts",
     "icons.js.map",

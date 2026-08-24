@@ -80,6 +80,7 @@
   - **Standard**: `ai-ml` → `ai-experience`
   - **Standard**: `deployed-model` → `ai-model-validated`
   - **Standard**: `model-registry` → `ai-model-registered`
+  - **Standard**: `registered-model` → `ai-model-registered`
   - **UI**: `ai-chat` → `ai-chatbot`
 
 ## 2.1.0

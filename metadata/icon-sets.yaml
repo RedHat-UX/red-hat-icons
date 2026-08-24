@@ -1,0 +1,61 @@
+# Red Hat Icons — set index
+# Documents each icon set: use case, size range, and path to that set's icon manifest.
+# Set manifests live in @rhds/icons/metadata/<set>.yaml
+# Icon sources live in @rhds/icons/<set>/<icon>.svg
+#
+# Size ranges align with RHDS <rh-icon> guidance:
+# https://ux.redhat.com/elements/icon/style/
+#
+# status — curation stage of the set's metadata.yaml manifest:
+#   curated    — icons reviewed, descriptions and metaphors written and verified
+#   pending    — icons ship in @rhds/icons but metadata has not been curated yet
+#   draft      — metadata is in progress, may be incomplete or inaccurate
+#   deprecated — set is deprecated and should not be used for new work
+
+sets:
+  - id: microns
+    name: Microns
+    manifest: metadata/microns.yaml
+    size_range:
+      min_px: 8
+      max_px: 12
+    use_case: >
+      Extremely small, utilitarian interactive controls (close, expand,
+      search, carets, etc.) in spaces 12px or smaller. Prefer a UI icon when
+      there is enough room; never use microns for decoration or artwork.
+    status: curated
+
+  - id: ui
+    name: UI icons
+    manifest: metadata/ui.yaml
+    size_range:
+      min_px: 14
+      max_px: 24
+    use_case: >
+      Utilitarian icons that convey information and facilitate interaction
+      in product interfaces and web properties. Not for artwork or
+      decorative use; choose standard icons or illustrations instead.
+    status: pending
+
+  - id: standard
+    name: Standard icons
+    manifest: metadata/standard.yaml
+    size_range:
+      min_px: 24
+      max_px: 128
+    use_case: >
+      General technology and brand concepts for presentations, web content,
+      infographics, diagrams, and other marketing materials. Default set
+      for <rh-icon>. Prefer illustrations above ~100px.
+    status: curated
+
+  - id: social
+    name: Social media
+    manifest: metadata/social.yaml
+    size_range:
+      min_px: 14
+      max_px: 24
+    use_case: >
+      Social platform brand marks for linking to or identifying social
+      media destinations. Not a general metaphor set.
+    status: pending
