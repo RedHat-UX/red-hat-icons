@@ -206,7 +206,7 @@ icons:
     icon: linkedin-square
     description: "LinkedIn logo in a square container — badge format for LinkedIn links."
     accepted_metaphors:
-       - LinkedIn profile link
+      - LinkedIn profile link
       - share on LinkedIn
       - follow on LinkedIn
       - LinkedIn social presence
