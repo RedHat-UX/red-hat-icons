@@ -19,7 +19,7 @@
     "build": "wireit",
     "serve": "wireit",
     "optimize": "wireit",
-    "test": "npx test "
+    "test": "node --test test/**/*.test.js"
   },
   "files": [
     "./microns/**/*",
