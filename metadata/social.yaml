@@ -18,7 +18,7 @@ source:
   library: Red Hat Icon Library
   page: Social
   retrieved: 2026-07-06
-  curated: 2026-07-23
+  curated: 2026-08-19
 
 icons:
   # ── Email ──────────────────────────────────────────────────────────────────
@@ -206,7 +206,7 @@ icons:
     icon: linkedin-square
     description: "LinkedIn logo in a square container — badge format for LinkedIn links."
     accepted_metaphors:
-       - LinkedIn profile link
+      - LinkedIn profile link
       - share on LinkedIn
       - follow on LinkedIn
       - LinkedIn social presence

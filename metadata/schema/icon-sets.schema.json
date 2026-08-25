@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "icon-sets.schema.json",
+  "title": "Icon set index",
+  "type": "object",
+  "required": ["sets"],
+  "additionalProperties": false,
+  "properties": {
+    "sets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "manifest", "size_range", "use_case", "status"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "manifest": { "type": "string" },
+          "size_range": {
+            "type": "object",
+            "required": ["min_px", "max_px"],
+            "additionalProperties": false,
+            "properties": {
+              "min_px": { "type": "integer", "minimum": 1 },
+              "max_px": { "type": "integer", "minimum": 1 }
+            }
+          },
+          "use_case": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["curated", "pending", "draft", "deprecated"]
+          }
+        }
+      }
+    }
+  }
+}

@@ -35,7 +35,7 @@ sets:
       Utilitarian icons that convey information and facilitate interaction
       in product interfaces and web properties. Not for artwork or
       decorative use; choose standard icons or illustrations instead.
-    status: pending
+    status: curated
 
   - id: standard
     name: Standard icons
@@ -58,4 +58,4 @@ sets:
     use_case: >
       Social platform brand marks for linking to or identifying social
       media destinations. Not a general metaphor set.
-    status: pending
+    status: curated
