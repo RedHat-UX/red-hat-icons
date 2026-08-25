@@ -1,5 +1,11 @@
 # @rhds/icons
 
+## 2.3.1
+
+### Patch Changes
+
+- 19dcd9b: Fixed indentation error in `social.yaml` that caused YAML parse failures.
+
 ## 2.3.0
 
 ### Minor Changes
