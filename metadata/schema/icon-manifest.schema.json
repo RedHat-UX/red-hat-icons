@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "icon-manifest.schema.json",
+  "title": "Icon set manifest",
+  "type": "object",
+  "required": ["set", "source", "icons"],
+  "additionalProperties": false,
+  "properties": {
+    "set": {
+      "type": "string",
+      "enum": ["microns", "social", "standard", "ui"]
+    },
+    "source": {
+      "type": "object",
+      "required": ["type", "library", "page", "retrieved", "curated"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string" },
+        "library": { "type": "string" },
+        "page": { "type": "string" },
+        "retrieved": { "type": "string", "format": "date" },
+        "curated": { "type": "string", "format": "date" }
+      }
+    },
+    "icons": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "icon", "description", "accepted_metaphors", "rejected_metaphors"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "icon": { "type": "string" },
+          "description": { "type": "string" },
+          "accepted_metaphors": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "rejected_metaphors": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string" }
+          },
+          "deprecated": {
+            "type": "boolean",
+            "const": true
+          },
+          "replaced_by": {
+            "type": "string"
+          },
+          "alias_of": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

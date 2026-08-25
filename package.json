@@ -19,7 +19,7 @@
     "build": "wireit",
     "serve": "wireit",
     "optimize": "wireit",
-    "test": "echo \"no tests yet\""
+    "test": "npx test "
   },
   "files": [
     "./microns/**/*",
